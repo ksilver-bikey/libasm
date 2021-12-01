@@ -76,6 +76,41 @@
                 "right": "5x"
               }
             }
+          },
+{
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Стоп"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Ну типа Стоп",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+              "text": "тут текст",
+              "typeface": "body1",
+              "text_color": "default"
+              }
+              "margins": {
+                "right": "5x"
+              }
+            }
           }
         ]
       }
