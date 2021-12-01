@@ -1,10 +1,62 @@
 {"items": [
+{
+
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "6x",
+          "bottom": "6x",
+          "left": "8x",
+          "right": "8x"
+        },
+        "cells": [
+{
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Дальше"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "icon":{
+                "address":{
+                "type": "local",
+                "identificator": "color_spasibo"
+                },
+              },
+              "texts": {
+                "title": {
+                  "text": "Ну типа Дальше",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            }
+          }
+        ]}},
     {
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "9x",
-          "bottom": "12x",
+          "top": "6x",
+          "bottom": "6x",
           "left": "8x",
           "right": "8x"
         },
