@@ -47,7 +47,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "top": "6x",
-              "bottom": "6x"
+              "bottom": "3x"
             },
             "actions": [
               {
@@ -59,7 +59,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Ну типа Стоп",
+                  "text": "Ну типа Стоп1",
                   "typeface": "footnote2",
                   "text_color": "default",
                   "max_lines": 0
