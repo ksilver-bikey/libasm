@@ -4,7 +4,7 @@
         "type": "list_card",
         "paddings": {
           "top": "9x",
-          "bottom": "12x",
+          "bottom": "0x",
           "left": "8x",
           "right": "8x"
         },
