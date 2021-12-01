@@ -106,7 +106,7 @@
               "text": "тут текст",
               "typeface": "body1",
               "text_color": "default"
-              }
+              },
               "margins": {
                 "right": "5x"
               }
