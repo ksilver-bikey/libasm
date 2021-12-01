@@ -9,45 +9,6 @@
           "right": "8x"
         },
         "cells": [
-{
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Дальше"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Ну типа Дальше",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            },
-            "right": {
-              "type": "detail_right_view",
-              "detail": {
-                "text": "тут текст",
-                "typeface": "body1",
-                "text_color": "default"
-              }
-              "margins": {
-                "left": "3x"
-              }
-            }
-          },
           {
             "type": "left_right_cell_view",
             "paddings": {
