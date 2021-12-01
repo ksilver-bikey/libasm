@@ -131,8 +131,8 @@
               }
             },
            "right": {
-              "type": "detail_right_view",
-              "detail": {  "icon":{
+              "type": "icon_view",
+              "icon":{
                 "address":{
                 "type": "local",
                 "identificator": "color_spasibo"
@@ -142,7 +142,6 @@
                     "height": "medium"
                 },
                 "tint_color": "solid_brand"
-              }
               },
               "margins": {
                 "right": "5x"
