@@ -40,6 +40,14 @@
                   "typeface": "footnote2",
                   "text_color": "default",
                   "max_lines": 0
+                },
+                "subtitle" :
+                {
+                    "text" : "мелкий текст",
+                    "typeface" : "footnote1",
+                    "margins" : { 
+                        "top" : "1x"
+                    }
                 }
               }
             },
