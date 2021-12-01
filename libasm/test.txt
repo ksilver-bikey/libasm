@@ -4,8 +4,8 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "6x",
-          "bottom": "6x",
+          "top": "2x",
+          "bottom": "2x",
           "left": "8x",
           "right": "8x"
         },
@@ -13,8 +13,8 @@
 {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "2x",
+              "bottom": "2x"
             },
             "actions": [
               {
