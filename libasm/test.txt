@@ -32,7 +32,7 @@
                 "address":{
                 "type": "local",
                 "identificator": "color_spasibo"
-                },
+                }
               },
               "texts": {
                 "title": {
