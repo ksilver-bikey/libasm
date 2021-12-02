@@ -361,7 +361,7 @@
                             "height" : 
                             {
                                 "type" : "aspect_ratio",
-                                "value" : 2.75
+                                "value" : 1.75
                             },
                             "cells" : 
                             {
@@ -587,7 +587,7 @@
                             "height" : 
                             {
                                 "type" : "aspect_ratio",
-                                "value" : 2.75
+                                "value" : 1.75
                             },
                             "cells" : 
                             {
