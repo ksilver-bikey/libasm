@@ -365,6 +365,7 @@
                                 "type" : "fixed",
                                 "value" : 3
                             },
+                            "aspect_ratio" : "2:3",
                             "cells" : 
                             {
                                 "top_cell":
@@ -384,7 +385,7 @@
                                       "type": "simple_left_view",
                                       "texts": {
                                         "title": {
-                                          "text": "Ну, сапасибо",
+                                          "text": "Ну, спасибо",
                                           "typeface": "footnote2",
                                           "text_color": "default",
                                           "max_lines": 0
@@ -441,8 +442,9 @@
                             "height" : 
                             {
                                 "type" : "fixed",
-                                "value" : 1
+                                "value" : 2
                             },
+                            "aspect_ratio" : "1:1",
                             "background_color" : "#6ab000",
                             "has_fade" : "true",
                             "cells" : 
@@ -527,8 +529,9 @@
                             "height" : 
                             {
                                 "type" : "fixed",
-                                "value" : 1
+                                "value" : 2
                             },
+                            "aspect_ratio" : "1:1",
                             "background_color" : "#fe0002",
                             "has_fade" : "true",
                             "cells" : 
@@ -611,6 +614,7 @@
                                 "type" : "fixed",
                                 "value" : 3
                             },
+                            "aspect_ratio" : "2:3",
                             "cells" : 
                             {
                                 "top_cell":
