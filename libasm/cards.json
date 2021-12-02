@@ -358,6 +358,7 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
+                            "aspect_ratio": "2:3",
                             "height" : 
                             {
                                 "type" : "aspect_ratio",
@@ -584,6 +585,7 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
+                            "aspect_ratio": "2:3",
                             "height" : 
                             {
                                 "type" : "aspect_ratio",
