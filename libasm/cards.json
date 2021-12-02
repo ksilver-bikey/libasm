@@ -179,6 +179,10 @@
                   "text_color": "default"
                   },
                   "icon":{
+                    "size": {
+                        "width": "small",
+                        "height": "small"
+                    },
                     "address":{
                     "type": "local",
                     "identificator": "color_spasibo"
