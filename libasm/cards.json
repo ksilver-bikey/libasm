@@ -359,6 +359,7 @@
                             "type" : "discovery_card",
                             "width_columns" : 2,
                             "background_color" : "#b100b1",
+                            "has_fade" : "true",
                             "height" : 
                             {
                                 "type" : "fixed",
@@ -406,7 +407,7 @@
                                       }
                                     }
                                   },
-                                "bottom_cell" :
+                                "middle_cell" :
                                 {
                                     "type" : "text_cell_view",
                                     "content" :
@@ -430,6 +431,7 @@
                                 "value" : 1
                             },
                             "background_color" : "#6ab000",
+                            "has_fade" : "true",
                             "cells" : 
                             {
                                 "top_cell":
@@ -472,7 +474,7 @@
                                       }
                                     }
                                   },
-                                "bottom_cell" :
+                                "middle_cell" :
                                 {
                                     "type" : "text_cell_view",
                                     "content" :
@@ -502,6 +504,7 @@
                                 "value" : 1
                             },
                             "background_color" : "#fe0002",
+                            "has_fade" : "true",
                             "cells" : 
                             {
                                 "top_cell":
@@ -544,7 +547,7 @@
                                       }
                                     }
                                   },
-                                "bottom_cell" :
+                                "middle_cell" :
                                 {
                                     "type" : "text_cell_view",
                                     "content" :
@@ -562,6 +565,7 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
+                            "has_fade" : "true",
                             "background_color" : "#00c785",
                             "height" : 
                             {
@@ -610,7 +614,7 @@
                                       }
                                     }
                                   },
-                                "bottom_cell" :
+                                "middle_cell" :
                                 {
                                     "type" : "text_cell_view",
                                     "content" :
