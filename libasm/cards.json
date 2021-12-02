@@ -358,7 +358,6 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
-                            "aspect_ratio": "2:3",
                             "height" : 
                             {
                                 "type" : "fixed",
@@ -585,7 +584,12 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
-                            "aspect_ratio": "2:3",
+                            "has_fade" : "true",
+                            "background_image" : 
+                            {
+                                "url" : "https://ohcat.ru/assets/images/img_gallery/227.jpg",
+                                "scale_mode" : "scale_aspect_fill"
+                            },
                             "height" : 
                             {
                                 "type" : "fixed",
@@ -633,20 +637,12 @@
                                       }
                                     }
                                   },
-                                "middle_cell" : 
-                                {
-                                    "type" : "image_cell_view",
-                                    "content" : {
-                                        "url" : "https://kot-pes.com/wp-content/uploads/2019/02/post_5c6c163c578fc.jpg",
-                                        "scale_mode" : "scale_aspect_fill"
-                                    }
-                                },
                                 "bottom_cell" :
                                 {
                                     "type" : "text_cell_view",
                                     "content" :
                                  {
-                                                  "text": "авыываыа",
+                                                  "text": "немного текста",
                                                   "typeface": "footnote2",
                                                   "text_color": "default",
                                                   "max_lines": 0
