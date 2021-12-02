@@ -359,6 +359,7 @@
                             "type" : "discovery_card",
                             "width_columns" : 2,
                             "background_color" : "#b100b1",
+                            "has_fade" : "true",
                             "height" : 
                             {
                                 "type" : "fixed",
@@ -430,6 +431,7 @@
                                 "value" : 1
                             },
                             "background_color" : "#6ab000",
+                            "has_fade" : "true",
                             "cells" : 
                             {
                                 "top_cell":
@@ -502,6 +504,7 @@
                                 "value" : 1
                             },
                             "background_color" : "#fe0002",
+                            "has_fade" : "true",
                             "cells" : 
                             {
                                 "top_cell":
