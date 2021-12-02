@@ -386,7 +386,7 @@
                                       "texts": {
                                         "title": {
                                           "text": "Ну, спасибо",
-                                          "typeface": "footnote2",
+                                          "typeface": "body1",
                                           "text_color": "default",
                                           "max_lines": 0
                                         }
@@ -399,7 +399,7 @@
                                         "info" :
                                         {
                                             "text": "уровень",
-                                            "typeface": "body1",
+                                            "typeface": "footnote2",
                                             "text_color": "default"
                                         }
                                     },
@@ -467,7 +467,7 @@
                                       "texts": {
                                         "title": {
                                           "text": "Нет, спасибо",
-                                          "typeface": "footnote2",
+                                          "typeface": "body1",
                                           "text_color": "default",
                                           "max_lines": 0
                                         }
@@ -480,7 +480,7 @@
                                         "info" :
                                         {
                                             "text": "уровень",
-                                            "typeface": "body1",
+                                            "typeface": "footnote2",
                                             "text_color": "default"
                                         }
                                     },
@@ -554,7 +554,7 @@
                                       "texts": {
                                         "title": {
                                           "text": "И где спасибо?",
-                                          "typeface": "footnote2",
+                                          "typeface": "body1",
                                           "text_color": "default",
                                           "max_lines": 0
                                         }
@@ -567,7 +567,7 @@
                                         "info" :
                                         {
                                             "text": "уровень",
-                                            "typeface": "body1",
+                                            "typeface": "footnote2",
                                             "text_color": "default"
                                         }
                                     },
@@ -635,7 +635,7 @@
                                       "texts": {
                                         "title": {
                                           "text": "Да пожалуйста",
-                                          "typeface": "footnote2",
+                                          "typeface": "body1",
                                           "text_color": "default",
                                           "max_lines": 0
                                         }
@@ -648,7 +648,7 @@
                                         "info" :
                                         {
                                             "text": "уровень",
-                                            "typeface": "body1",
+                                            "typeface": "footnote2",
                                             "text_color": "default"
                                         }
                                     },
