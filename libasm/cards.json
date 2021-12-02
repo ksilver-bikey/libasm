@@ -585,11 +585,7 @@
                             "type" : "discovery_card",
                             "width_columns" : 2,
                             "has_fade" : "true",
-                            "background_image" : 
-                            {
-                                "url" : "https://ohcat.ru/assets/images/img_gallery/227.jpg",
-                                "scale_mode" : "scale_aspect_fill"
-                            },
+                            "background_color" : "#b8b799",
                             "height" : 
                             {
                                 "type" : "fixed",
