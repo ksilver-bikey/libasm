@@ -361,8 +361,8 @@
                             "aspect_ratio": "2:3",
                             "height" : 
                             {
-                                "type" : "aspect_ratio",
-                                "value" : 1.75
+                                "type" : "fixed",
+                                "value" : 3
                             },
                             "cells" : 
                             {
@@ -588,8 +588,8 @@
                             "aspect_ratio": "2:3",
                             "height" : 
                             {
-                                "type" : "aspect_ratio",
-                                "value" : 1.75
+                                "type" : "fixed",
+                                "value" : 3
                             },
                             "cells" : 
                             {
