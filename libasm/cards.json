@@ -173,21 +173,28 @@
                 },
                 "right": {
                   "type": "detail_right_view",
-                  "detail": {
-                  "text": "12345a",
-                  "typeface": "body1",
-                  "text_color": "default"
-                  },
-                  "icon":{
-                    "size": {
-                        "width": "small",
-                        "height": "small"
+                  "info_and_icon": 
+                  {
+                    "info" :
+                    {
+                        "text": "12345a",
+                        "typeface": "body1",
+                        "text_color": "default"
                     },
-                    "address":{
-                    "type": "local",
-                    "identificator": "color_spasibo"
-                    }
-                 },
+                    "icon":
+                    {
+                        "size": 
+                        {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "address":
+                        {
+                            "type": "local",
+                            "identificator": "color_spasibo"
+                        }
+                 }
+                },
                   "margins": {
                     "right": "5x"
                   }
