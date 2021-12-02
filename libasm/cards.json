@@ -285,7 +285,7 @@
                               {
                                 "info" :
                                 {
-                                    "text": "и тут тексТ",
+                                    "text": "и тут тексt",
                                     "typeface": "body1",
                                     "text_color": "default"
                                 }
@@ -310,23 +310,21 @@
                                 {
                                     "type" : "vertical_center_view",
                                     "texts": {
-                                        "title": {
                                           "text": "тут может ыть стена теста",
                                           "typeface": "footnote2",
                                           "text_color": "default",
                                           "max_lines": 0
-                                        }
+                                        
                                       }
                                 },
                                 {
                                     "type" : "vertical_center_view",
                                     "texts": {
-                                        "title": {
                                           "text": "продолжение стены",
                                           "typeface": "body1",
                                           "text_color": "default",
                                           "max_lines": 0
-                                        }
+                                        
                                       }
                                 }  
                             ]
