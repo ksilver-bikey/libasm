@@ -288,20 +288,7 @@
                                     "text": "и тут тексТ",
                                     "typeface": "body1",
                                     "text_color": "default"
-                                },
-                                "icon":
-                                {
-                                    "size": 
-                                    {
-                                        "width": "medium",
-                                        "height": "medium"
-                                    },
-                                    "address":
-                                    {
-                                        "type": "local",
-                                        "identificator": "color_spasibo"
-                                    }
-                             }
+                                }
                             },
                               "margins": {
                                 "right": "5x"
@@ -318,7 +305,7 @@
                         "bottom_cell" :
                         {
                             "type" : "horizontal_cells_view",
-                            "cells" :
+                            "items" :
                             [
                                 {
                                     "type" : "vertical_center_view",
