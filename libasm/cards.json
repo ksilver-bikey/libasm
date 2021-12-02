@@ -384,7 +384,7 @@
                                       "type": "simple_left_view",
                                       "texts": {
                                         "title": {
-                                          "text": "Тут текст",
+                                          "text": "Ну, сапасибо",
                                           "typeface": "footnote2",
                                           "text_color": "default",
                                           "max_lines": 0
@@ -397,7 +397,7 @@
                                       {
                                         "info" :
                                         {
-                                            "text": "и тут тексt",
+                                            "text": "уровень",
                                             "typeface": "body1",
                                             "text_color": "default"
                                         }
@@ -412,7 +412,20 @@
                                     "type" : "text_cell_view",
                                     "content" :
                                  {
-                                                  "text": "тут может быть стена текст, кстати картинка стоит не в виждете, а только в центральной ячейки виджета, поэтому она так выглядит",
+                                                  "text": "центральный блок",
+                                                  "typeface": "footnote2",
+                                                  "text_color": "default",
+                                                  "max_lines": 0
+                                                
+                                              }
+                                               
+                                },
+                                "bottom_cell" :
+                                {
+                                    "type" : "text_cell_view",
+                                    "content" :
+                                 {
+                                                  "text": "нижний текст",
                                                   "typeface": "footnote2",
                                                   "text_color": "default",
                                                   "max_lines": 0
@@ -451,7 +464,7 @@
                                       "type": "simple_left_view",
                                       "texts": {
                                         "title": {
-                                          "text": "Тут текст",
+                                          "text": "Нет, спасибо",
                                           "typeface": "footnote2",
                                           "text_color": "default",
                                           "max_lines": 0
@@ -464,7 +477,7 @@
                                       {
                                         "info" :
                                         {
-                                            "text": "----",
+                                            "text": "уровень",
                                             "typeface": "body1",
                                             "text_color": "default"
                                         }
@@ -479,7 +492,20 @@
                                     "type" : "text_cell_view",
                                     "content" :
                                  {
-                                                  "text": "мало текста",
+                                                  "text": "середина",
+                                                  "typeface": "footnote2",
+                                                  "text_color": "default",
+                                                  "max_lines": 0
+                                                
+                                              }
+                                               
+                                },
+                                "bottom_cell" :
+                                {
+                                    "type" : "text_cell_view",
+                                    "content" :
+                                 {
+                                                  "text": "нижний текст",
                                                   "typeface": "footnote2",
                                                   "text_color": "default",
                                                   "max_lines": 0
@@ -524,7 +550,7 @@
                                       "type": "simple_left_view",
                                       "texts": {
                                         "title": {
-                                          "text": "Тут текст",
+                                          "text": "И где спасибо?",
                                           "typeface": "footnote2",
                                           "text_color": "default",
                                           "max_lines": 0
@@ -537,7 +563,7 @@
                                       {
                                         "info" :
                                         {
-                                            "text": "тут зря",
+                                            "text": "уровень",
                                             "typeface": "body1",
                                             "text_color": "default"
                                         }
@@ -552,7 +578,20 @@
                                     "type" : "text_cell_view",
                                     "content" :
                                  {
-                                                  "text": "тут мало теста",
+                                                  "text": "середина",
+                                                  "typeface": "footnote2",
+                                                  "text_color": "default",
+                                                  "max_lines": 0
+                                                
+                                              }
+                                               
+                                },
+                                "bottom_cell" :
+                                {
+                                    "type" : "text_cell_view",
+                                    "content" :
+                                 {
+                                                  "text": "нижний текст",
                                                   "typeface": "footnote2",
                                                   "text_color": "default",
                                                   "max_lines": 0
@@ -591,7 +630,7 @@
                                       "type": "simple_left_view",
                                       "texts": {
                                         "title": {
-                                          "text": "Тут текст",
+                                          "text": "Да пожалуйста",
                                           "typeface": "footnote2",
                                           "text_color": "default",
                                           "max_lines": 0
@@ -604,7 +643,7 @@
                                       {
                                         "info" :
                                         {
-                                            "text": "---",
+                                            "text": "уровень",
                                             "typeface": "body1",
                                             "text_color": "default"
                                         }
@@ -619,7 +658,20 @@
                                     "type" : "text_cell_view",
                                     "content" :
                                  {
-                                                  "text": "немного текста",
+                                                  "text": "середина",
+                                                  "typeface": "footnote2",
+                                                  "text_color": "default",
+                                                  "max_lines": 0
+                                                
+                                              }
+                                               
+                                },
+                                "bottom_cell" :
+                                {
+                                    "type" : "text_cell_view",
+                                    "content" :
+                                 {
+                                                  "text": "нижний текст",
                                                   "typeface": "footnote2",
                                                   "text_color": "default",
                                                   "max_lines": 0
