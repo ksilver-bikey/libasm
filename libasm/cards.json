@@ -1,7 +1,195 @@
-{
-    "one": "two",
-    "three": "four",
-    "five" : [
-        "sdf", "sfg"
-        ]
-}
+{"items": [
+    {
+          "card": {
+            "type": "list_card",
+            "paddings": {
+              "top": "2x",
+              "bottom": "2x",
+              "left": "8x",
+              "right": "8x"
+            },
+            "cells": [
+    {
+                "type": "left_right_cell_view",
+                "paddings": {
+                  "top": "2x",
+                  "bottom": "2x"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Дальше"
+                  }
+                ],
+                "left": {
+                  "type": "simple_left_view",
+                  "icon":{
+                    "address":{
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                    },
+                    "size": {
+                        "width": "medium",
+                        "height": "medium"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "texts": {
+                    "title": {
+                      "text": "Ну типа Дальше",
+                      "typeface": "footnote2",
+                      "text_color": "default",
+                      "max_lines": 0
+                    },
+                    "subtitle" :
+                    {
+                        "text" : "мелкий текст",
+                        "typeface" : "footnote1",
+                        "margins" : { 
+                            "top" : "1x"
+                        }
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              }
+            ]}},
+        {
+          "card": {
+            "type": "list_card",
+            "paddings": {
+              "top": "2x",
+              "bottom": "2x",
+              "left": "8x",
+              "right": "8x"
+            },
+            "cells": [
+              {
+                "type": "left_right_cell_view",
+                "paddings": {
+                  "top": "6x",
+                  "bottom": "6x"
+                },
+                "divider": {
+                  "style": "default",
+                  "size": "d1"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Дальше"
+                  }
+                ],
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Ну типа Дальше",
+                      "typeface": "footnote2",
+                      "text_color": "default",
+                      "max_lines": 0
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              },
+              {
+                "type": "left_right_cell_view",
+                "paddings": {
+                  "top": "6x",
+                  "bottom": "6x"
+                },
+                "divider": {
+                  "style": "default",
+                  "size": "d1"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Стоп"
+                  }
+                ],
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Ну типа Стоп",
+                      "typeface": "footnote2",
+                      "text_color": "default",
+                      "max_lines": 0
+                    }
+                  }
+                },
+               "right": {
+                  "type": "icon_view",
+                  "icon":{
+                    "address":{
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                    },
+                    "size": {
+                        "width": "medium",
+                        "height": "medium"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                  "top": "6x",
+                  "bottom": "6x"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Стоп"
+                  }
+                ],
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Ну типа ещё",
+                      "typeface": "footnote2",
+                      "text_color": "default",
+                      "max_lines": 0
+                    }
+                  }
+                },
+                "right": {
+                  "type": "detail_right_view",
+                  "detail": {
+                  "text": "123456",
+                  "typeface": "body1",
+                  "text_color": "default"
+                  },
+                  "icon":{
+                    "address":{
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                    }
+                 },
+                  "margins": {
+                    "right": "5x"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]}
