@@ -210,7 +210,6 @@
                 "item" : 
                 {
                     "type" : "discovery_card",
-                    "width_columns" : 2,
                     "cells" : 
                     {
                         "top_cell":
@@ -359,6 +358,11 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
+                            "height" : 
+                            {
+                                "type" : "aspect_ratio",
+                                "value" : 2.75
+                            },
                             "cells" : 
                             {
                                 "top_cell":
@@ -423,16 +427,16 @@
                                                
                                 }
                             }
-                        }
-                    ]
-                },
-                "right" : 
-                {
-                    "cards" :
-                    [
+                        },
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
+                            "height" : 
+                            {
+                                "type" : "aspect_ratio",
+                                "value" : 1.25
+                            },
+                            
                             "cells" : 
                             {
                                 "top_cell":
@@ -465,7 +469,7 @@
                                       {
                                         "info" :
                                         {
-                                            "text": "и тут тексt",
+                                            "text": "----",
                                             "typeface": "body1",
                                             "text_color": "default"
                                         }
@@ -479,7 +483,7 @@
                                 {
                                     "type" : "image_cell_view",
                                     "content" : {
-                                        "url" : "https://natalyland.ru/wp-content/uploads/d/0/5/d057eb0bde6f4930dae542ed2c07b2f5.jpg",
+                                        "url" : "https://avatars.mds.yandex.net/get-zen_doc/751940/pub_5bf0eb7c23d44a00ac675ddd_5bf0edc47c401c00aa5149dc/scale_1200",
                                         "scale_mode" : "scale_aspect_fill"
                                     }
                                 },
@@ -488,7 +492,159 @@
                                     "type" : "text_cell_view",
                                     "content" :
                                  {
-                                                  "text": "тут может быть стена текст, кстати картинка стоит не в виждете, а только в центральной ячейки виджета, поэтому она так выглядит",
+                                                  "text": "мало текста",
+                                                  "typeface": "footnote2",
+                                                  "text_color": "default",
+                                                  "max_lines": 0
+                                                
+                                              }
+                                               
+                                }
+                            }
+                        }
+                    ]
+                },
+                "right" : 
+                {
+                    "cards" :
+                    [
+                        {
+                            "type" : "discovery_card",
+                            "width_columns" : 2,
+                            "height" : 
+                            {
+                                "type" : "aspect_ratio",
+                                "value" : 1.25
+                            },
+                            "cells" : 
+                            {
+                                "top_cell":
+                                {
+                                    "type": "left_right_cell_view",
+                                    "paddings": {
+                                      "top": "6x",
+                                      "bottom": "6x"
+                                    },
+                                    "actions": [
+                                      {
+                                        "type": "text",
+                                        "text": "Стоп"
+                                      }
+                                    ],
+                                    "left": {
+                                      "type": "simple_left_view",
+                                      "texts": {
+                                        "title": {
+                                          "text": "Тут текст",
+                                          "typeface": "footnote2",
+                                          "text_color": "default",
+                                          "max_lines": 0
+                                        }
+                                      }
+                                    },
+                                    "right": {
+                                      "type": "detail_right_view",
+                                      "info_and_icon": 
+                                      {
+                                        "info" :
+                                        {
+                                            "text": "тут зря",
+                                            "typeface": "body1",
+                                            "text_color": "default"
+                                        }
+                                    },
+                                      "margins": {
+                                        "right": "5x"
+                                      }
+                                    }
+                                  },
+                                "middle_cell" : 
+                                {
+                                    "type" : "image_cell_view",
+                                    "content" : {
+                                        "url" : "https://avatars.mds.yandex.net/i?id=b64718c2f78908d13f637c8f2fbdf3d8-5849895-images-thumbs&n=13&exp=1",
+                                        "scale_mode" : "scale_aspect_fill"
+                                    }
+                                },
+                                "bottom_cell" :
+                                {
+                                    "type" : "text_cell_view",
+                                    "content" :
+                                 {
+                                                  "text": "тут мало теста",
+                                                  "typeface": "footnote2",
+                                                  "text_color": "default",
+                                                  "max_lines": 0
+                                                
+                                              }
+                                               
+                                }
+                            }
+                        },
+                        {
+                            "type" : "discovery_card",
+                            "width_columns" : 2,
+                            "height" : 
+                            {
+                                "type" : "aspect_ratio",
+                                "value" : 2.75
+                            },
+                            "cells" : 
+                            {
+                                "top_cell":
+                                {
+                                    "type": "left_right_cell_view",
+                                    "paddings": {
+                                      "top": "6x",
+                                      "bottom": "6x"
+                                    },
+                                    "actions": [
+                                      {
+                                        "type": "text",
+                                        "text": "Стоп"
+                                      }
+                                    ],
+                                    "left": {
+                                      "type": "simple_left_view",
+                                      "texts": {
+                                        "title": {
+                                          "text": "Тут текст",
+                                          "typeface": "footnote2",
+                                          "text_color": "default",
+                                          "max_lines": 0
+                                        }
+                                      }
+                                    },
+                                    "right": {
+                                      "type": "detail_right_view",
+                                      "info_and_icon": 
+                                      {
+                                        "info" :
+                                        {
+                                            "text": "---",
+                                            "typeface": "body1",
+                                            "text_color": "default"
+                                        }
+                                    },
+                                      "margins": {
+                                        "right": "5x"
+                                      }
+                                    }
+                                  },
+                                "middle_cell" : 
+                                {
+                                    "type" : "image_cell_view",
+                                    "content" : {
+                                        "url" : "https://kot-pes.com/wp-content/uploads/2019/02/post_5c6c163c578fc.jpg",
+                                        "scale_mode" : "scale_aspect_fill"
+                                    }
+                                },
+                                "bottom_cell" :
+                                {
+                                    "type" : "text_cell_view",
+                                    "content" :
+                                 {
+                                                  "text": "авыываыа",
                                                   "typeface": "footnote2",
                                                   "text_color": "default",
                                                   "max_lines": 0
