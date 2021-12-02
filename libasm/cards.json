@@ -358,6 +358,7 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
+                            "background_color" : "#b100b1",
                             "height" : 
                             {
                                 "type" : "fixed",
@@ -405,14 +406,6 @@
                                       }
                                     }
                                   },
-                                "middle_cell" : 
-                                {
-                                    "type" : "image_cell_view",
-                                    "content" : {
-                                        "url" : "https://natalyland.ru/wp-content/uploads/d/0/5/d057eb0bde6f4930dae542ed2c07b2f5.jpg",
-                                        "scale_mode" : "scale_aspect_fill"
-                                    }
-                                },
                                 "bottom_cell" :
                                 {
                                     "type" : "text_cell_view",
@@ -431,12 +424,7 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
-                            "height" : 
-                            {
-                                "type" : "aspect_ratio",
-                                "value" : 1.25
-                            },
-                            
+                            "background_color" : "#6ab000",
                             "cells" : 
                             {
                                 "top_cell":
@@ -479,14 +467,6 @@
                                       }
                                     }
                                   },
-                                "middle_cell" : 
-                                {
-                                    "type" : "image_cell_view",
-                                    "content" : {
-                                        "url" : "https://avatars.mds.yandex.net/get-zen_doc/751940/pub_5bf0eb7c23d44a00ac675ddd_5bf0edc47c401c00aa5149dc/scale_1200",
-                                        "scale_mode" : "scale_aspect_fill"
-                                    }
-                                },
                                 "bottom_cell" :
                                 {
                                     "type" : "text_cell_view",
@@ -511,11 +491,7 @@
                         {
                             "type" : "discovery_card",
                             "width_columns" : 2,
-                            "height" : 
-                            {
-                                "type" : "aspect_ratio",
-                                "value" : 1.25
-                            },
+                            "background_color" : "#fe0002",
                             "cells" : 
                             {
                                 "top_cell":
@@ -558,14 +534,6 @@
                                       }
                                     }
                                   },
-                                "middle_cell" : 
-                                {
-                                    "type" : "image_cell_view",
-                                    "content" : {
-                                        "url" : "https://avatars.mds.yandex.net/i?id=b64718c2f78908d13f637c8f2fbdf3d8-5849895-images-thumbs&n=13&exp=1",
-                                        "scale_mode" : "scale_aspect_fill"
-                                    }
-                                },
                                 "bottom_cell" :
                                 {
                                     "type" : "text_cell_view",
@@ -585,7 +553,7 @@
                             "type" : "discovery_card",
                             "width_columns" : 2,
                             "has_fade" : "true",
-                            "background_color" : "#b8b799",
+                            "background_color" : "#00c785",
                             "height" : 
                             {
                                 "type" : "fixed",
