@@ -727,6 +727,37 @@
               {
                 "type": "media_gallery_item",
                 "image": {
+                  "url": "https://avatars.mds.yandex.net/i?id=9df77e2fb22ce223ea6ca6c9379ff1d3-4377652-images-thumbs&n=13&exp=1",
+                  "size": {
+                    "width": "small",
+                    "aspect_ratio": 1.42
+                  }
+                },
+                "margins": {
+                  "top": "4x",
+                  "left": "6x",
+                  "right": "6x",
+                  "bottom": "5x"
+                },
+                "bottom_text": {
+                  "text": "два",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "2x"
+                  }
+                },
+                "top_text": {
+                  "text": "средняя со средней",
+                  "typeface": "footnote1",
+                  "text_color": "default",
+                  "max_lines": 2
+                }
+              },
+              {
+                "type": "media_gallery_item",
+                "image": {
                   "url": "https://s00.yaplakal.com/pics/pics_original/6/2/0/16200026.jpg",
                   "size": {
                     "width": "small",
@@ -740,7 +771,7 @@
                   "bottom": "5x"
                 },
                 "bottom_text": {
-                  "text": "два",
+                  "text": "три",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "max_lines": 1,
@@ -767,7 +798,7 @@
                 "image": {
                   "url": "https://s00.yaplakal.com/pics/pics_original/7/1/5/16203517.jpg",
                   "size": {
-                    "width": "small",
+                    "width": "medium",
                     "aspect_ratio": 1.42
                   }
                 },
@@ -778,7 +809,7 @@
                   "bottom": "5x"
                 },
                 "bottom_text": {
-                  "text": "раз (мелкая)",
+                  "text": "раз (средняя)",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "max_lines": 1,
@@ -787,7 +818,38 @@
                   }
                 },
                 "top_text": {
-                  "text": "мелкая со средней",
+                  "text": "средняя со средней",
+                  "typeface": "footnote1",
+                  "text_color": "default",
+                  "max_lines": 2
+                }
+              },
+              {
+                "type": "media_gallery_item",
+                "image": {
+                  "url": "https://avatars.mds.yandex.net/i?id=9df77e2fb22ce223ea6ca6c9379ff1d3-4377652-images-thumbs&n=13&exp=1",
+                  "size": {
+                    "width": "medium",
+                    "aspect_ratio": 1.42
+                  }
+                },
+                "margins": {
+                  "top": "4x",
+                  "left": "6x",
+                  "right": "6x",
+                  "bottom": "5x"
+                },
+                "bottom_text": {
+                  "text": "два (средняя)",
+                  "typeface": "caption",
+                  "text_color": "secondary",
+                  "max_lines": 1,
+                  "margins": {
+                    "top": "2x"
+                  }
+                },
+                "top_text": {
+                  "text": "средняя со средней",
                   "typeface": "footnote1",
                   "text_color": "default",
                   "max_lines": 2
@@ -809,7 +871,7 @@
                   "bottom": "5x"
                 },
                 "bottom_text": {
-                  "text": "два средняя",
+                  "text": "три средняя",
                   "typeface": "caption",
                   "text_color": "secondary",
                   "max_lines": 1,
@@ -818,7 +880,7 @@
                   }
                 },
                 "top_text": {
-                  "text": "мелкая со средней",
+                  "text": "средняя со средней",
                   "typeface": "footnote1",
                   "text_color": "default",
                   "max_lines": 2
