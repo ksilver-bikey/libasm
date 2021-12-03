@@ -859,7 +859,13 @@
                   "typeface": "footnote1",
                   "text_color": "default",
                   "max_lines": 2
-                }
+                },
+                "actions" : [
+                  {
+                    "type" : "deep_link",
+                    "deep_link" : "https://yandex.ru/images/search?from=tabbar&text=wlop%20art"
+                  }
+                ]
               },
               {
                 "type": "media_gallery_item",
