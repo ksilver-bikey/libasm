@@ -665,11 +665,12 @@
             "card" : {
                 "type": "gallery_card",
                 "items" : [{
+                    "width_columns" : 3,
                     "type": "media_gallery_item",
                     "image": {
                         "url": "https://s00.yaplakal.com/pics/pics_original/7/1/5/16203517.jpg",
                         "size": {
-                            "width_columns": 3,
+                            "width": "small",
                             "aspect_ratio": 1.20
                         }
                     },
