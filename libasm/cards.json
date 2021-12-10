@@ -670,7 +670,7 @@
                     "image": {
                         "url": "https://s00.yaplakal.com/pics/pics_original/7/1/5/16203517.jpg",
                         "size": {
-                            "width": "small",
+                            "width": "medium",
                             "aspect_ratio": 1.20
                         }
                     },
@@ -690,7 +690,7 @@
                         }
                     },
                     "top_text": {
-                        "text": "small-small",
+                        "text": "medium-medium",
                         "typeface": "footnote1",
                         "text_color": "default",
                         "max_lines": 2
@@ -701,7 +701,7 @@
                         "image": {
                             "url": "https://avatars.mds.yandex.net/i?id=9df77e2fb22ce223ea6ca6c9379ff1d3-4377652-images-thumbs&n=13&exp=1",
                             "size": {
-                                "width": "small",
+                                "width": "medium",
                                 "aspect_ratio": 1.42
                             }
                         },
@@ -736,7 +736,7 @@
                         "image": {
                             "url": "https://s00.yaplakal.com/pics/pics_original/6/2/0/16200026.jpg",
                             "size": {
-                                "width": "small",
+                                "width": "medium",
                                 "aspect_ratio": 1.20
                             }
                         },
@@ -756,7 +756,7 @@
                             }
                         },
                         "top_text": {
-                            "text": "small small",
+                            "text": "medium medium",
                             "typeface": "footnote1",
                             "text_color": "default",
                             "max_lines": 2
