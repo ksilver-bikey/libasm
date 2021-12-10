@@ -772,7 +772,7 @@
                     "image": {
                         "url": "https://s00.yaplakal.com/pics/pics_original/7/1/5/16203517.jpg",
                         "size": {
-                            "width": "3",
+                            "width": "medium",
                             "aspect_ratio": 1.42
                         }
                     },
@@ -803,7 +803,7 @@
                         "image": {
                             "url": "https://avatars.mds.yandex.net/i?id=9df77e2fb22ce223ea6ca6c9379ff1d3-4377652-images-thumbs&n=13&exp=1",
                             "size": {
-                                "width": "3",
+                                "width": "medium",
                                 "aspect_ratio": 1.42
                             }
                         },
@@ -838,7 +838,7 @@
                         "image": {
                             "url": "https://s00.yaplakal.com/pics/pics_original/6/2/0/16200026.jpg",
                             "size": {
-                                "width": "3",
+                                "width": "medium",
                                 "aspect_ratio": 1.42
                             }
                         },
@@ -869,7 +869,7 @@
                         "image": {
                             "url": "https://avatars.mds.yandex.net/i?id=21366d20fa15eda7cd84e49a258c5c92-4079166-images-thumbs&n=13&exp=1",
                             "size": {
-                                "width": "3",
+                                "width": "medium",
                                 "aspect_ratio": 1.42
                             }
                         },
@@ -904,7 +904,7 @@
                         "image": {
                             "url": "https://img5.goodfon.ru/wallpaper/nbig/d/96/wlop-ghostblade-princess-elf-castle-balcony-birds-girl-blue.jpg",
                             "size": {
-                                "width": "3",
+                                "width": "medium",
                                 "aspect_ratio": 1.42
                             }
                         },
@@ -974,7 +974,7 @@
                         "image": {
                             "url": "https://pbs.twimg.com/media/EdLNlbOVAAAmGqc.jpg",
                             "size": {
-                                "width": "3",
+                                "width": "medium",
                                 "aspect_ratio": 1.42
                             }
                         },
