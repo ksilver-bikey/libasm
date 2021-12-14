@@ -1,60 +1,5 @@
 {
-    "items": [{
-        "card": {
-            "type": "list_card",
-            "paddings": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "8x",
-                "right": "8x"
-            },
-            "cells": [{
-                "type": "left_right_cell_view",
-                "paddings": {
-                    "top": "2x",
-                    "bottom": "2x"
-                },
-                "actions": [{
-                    "type": "text",
-                    "text": "Дальше"
-                }],
-                "left": {
-                    "type": "simple_left_view",
-                    "icon": {
-                        "address": {
-                            "type": "local",
-                            "identificator": "color_spasibo"
-                        },
-                        "size": {
-                            "width": "medium",
-                            "height": "medium"
-                        },
-                        "tint_color": "solid_brand"
-                    },
-                    "texts": {
-                        "title": {
-                            "text": "Ну типа Дальше",
-                            "typeface": "footnote2",
-                            "text_color": "default",
-                            "max_lines": 0
-                        },
-                        "subtitle" :
-                        {
-                            "text" : "мелкий текст",
-                            "typeface" : "footnote1",
-                            "margins" : {
-                                "top" : "1x"
-                            }
-                        }
-                    }
-                },
-                "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "right": "5x"
-                    }
-                }
-            }]}},
+    "items": [
         {
             "card": {
                 "type": "list_card",
@@ -64,7 +9,34 @@
                     "left": "8x",
                     "right": "8x"
                 },
-                "cells": [{
+                "cells": [
+             {
+                "type": "text_cell_view",
+                "paddings": {
+                    "top": "2x",
+                    "bottom": "2x"
+                }, 
+                "content" :
+                {
+                    "text" : "text_cell_view",
+                    "typeface": "title1",
+                    "text_color" : "default"
+                }
+                },
+     {
+                "type": "text_cell_view",
+                "paddings": {
+                    "top": "2x",
+                    "bottom": "2x"
+                }, 
+                "content" :
+                {
+                    "text" : "text_cell_view",
+                    "typeface": "footnote2",
+                    "text_color" : "secondary"
+                }
+                },
+                    {
                     "type": "left_right_cell_view",
                     "paddings": {
                         "top": "6x",
