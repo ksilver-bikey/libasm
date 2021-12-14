@@ -1,42 +1,79 @@
 {
-    "items": [
-        {
-            "card": {
-                "type": "list_card",
-                "paddings": {
-                    "top": "2x",
-                    "bottom": "2x",
-                    "left": "8x",
-                    "right": "8x"
-                },
-                "cells": [
-             {
+    "items": [{
+        "card": {
+            "type": "list_card",
+            "paddings": {
+                "top": "2x",
+                "bottom": "2x",
+                "left": "8x",
+                "right": "8x"
+            },
+            "cells": [{
                 "type": "text_cell_view",
                 "paddings": {
                     "top": "2x",
                     "bottom": "2x"
-                }, 
+                },
                 "content" :
                 {
-                    "text" : "text_cell_view",
-                    "typeface": "title1",
+                    "text" : "head1 default",
+                    "typeface": "headline1",
                     "text_color" : "default"
                 }
-                },
-     {
-                "type": "text_cell_view",
-                "paddings": {
-                    "top": "2x",
-                    "bottom": "2x"
-                }, 
-                "content" :
+            },
                 {
-                    "text" : "text_cell_view",
-                    "typeface": "footnote2",
-                    "text_color" : "secondary"
-                }
-                },
+                    "type": "text_cell_view",
+                    "paddings": {
+                        "top": "2x",
+                        "bottom": "2x"
+                    },
+                    "content" :
                     {
+                        "text" : "head2 secondary",
+                        "typeface": "headline2",
+                        "text_color" : "secondary"
+                    }
+                },
+                {
+                    "type": "text_cell_view",
+                    "paddings": {
+                        "top": "2x",
+                        "bottom": "2x"
+                    },
+                    "content" :
+                    {
+                        "text" : "head3 tertiary",
+                        "typeface": "headline3",
+                        "text_color" : "tertiary"
+                    }
+                },
+                {
+                    "type": "text_cell_view",
+                    "paddings": {
+                        "top": "2x",
+                        "bottom": "2x"
+                    },
+                    "content" :
+                    {
+                        "text" : "title1 inverse",
+                        "typeface": "title1",
+                        "text_color" : "inverse"
+                    }
+                },
+ {
+                    "type": "text_cell_view",
+                    "paddings": {
+                        "top": "2x",
+                        "bottom": "2x"
+                    },
+                    "content" :
+                    {
+                        "text" : "title2 brand",
+                        "typeface": "title2",
+                        "text_color" : "brand"
+                    }
+                },
+                {
                     "type": "left_right_cell_view",
                     "paddings": {
                         "top": "6x",
@@ -54,8 +91,8 @@
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "Ну типа Дальше",
-                                "typeface": "footnote2",
+                                "text": "left part",
+                                "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 0
                             }
@@ -68,101 +105,58 @@
                         }
                     }
                 },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "6x",
-                            "bottom": "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d1"
-                        },
-                        "actions": [{
-                            "type": "text",
-                            "text": "Стоп"
-                        }],
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Ну типа Стоп",
-                                    "typeface": "footnote2",
-                                    "text_color": "default",
-                                    "max_lines": 0
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "icon_view",
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "color_spasibo"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "tint_color": "solid_brand"
-                            },
-                            "margins": {
-                                "right": "5x"
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "6x",
+                        "bottom": "6x"
+                    },
+                    "actions": [{
+                        "type": "text",
+                        "text": "Стоп"
+                    }],
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Баланс",
+                                "typeface": "footnote2",
+                                "text_color": "default",
+                                "max_lines": 0
                             }
                         }
                     },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "6x",
-                            "bottom": "6x"
-                        },
-                        "actions": [{
-                            "type": "text",
-                            "text": "Стоп"
-                        }],
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Баланс",
-                                    "typeface": "footnote2",
-                                    "text_color": "default",
-                                    "max_lines": 0
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "detail_right_view",
-                            "info_and_icon":
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon":
+                        {
+                            "info" :
                             {
-                                "info" :
-                                {
-                                    "text": "123458",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                },
-                                "icon":
-                                {
-                                    "size":
-                                    {
-                                        "width": "medium",
-                                        "height": "medium"
-                                    },
-                                    "address":
-                                    {
-                                        "type": "local",
-                                        "identificator": "color_spasibo"
-                                    }
-                                }
+                                "text": "123458",
+                                "typeface": "body1",
+                                "text_color": "default"
                             },
-                            "margins": {
-                                "right": "5x"
+                            "icon":
+                            {
+                                "size":
+                                {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "address":
+                                {
+                                    "type": "local",
+                                    "identificator": "color_spasibo"
+                                }
                             }
+                        },
+                        "margins": {
+                            "right": "5x"
                         }
-                    }]
-            }
-        },
+                    }
+                }]
+        }
+    },
         {
             "card" :
             {
