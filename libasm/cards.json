@@ -28,7 +28,7 @@
                         "type": "simple_left_view",
                         "title": {
                             "text": "Спасибо",
-                            "typeface": "body1",
+                            "typeface": "text1",
                             "text_color": "default",
                             "max_lines": 0,
                             "margins": {
@@ -44,7 +44,7 @@
                         "info_and_icon": {
                             "info": {
                                 "text": "1 бонус = 0,5 ₽",
-                                "typeface": "body1",
+                                "typeface": "text1",
                                 "text_color": "default"
                             }
                         },
@@ -64,7 +64,7 @@
                         "type": "simple_left_view",
                         "title": {
                             "text": "Большое Спасибо",
-                            "typeface": "body1",
+                            "typeface": "text1",
                             "text_color": "default",
                             "max_lines": 0,
                             "margins": {
@@ -80,7 +80,7 @@
                         "info_and_icon": {
                             "info": {
                                 "text": "1 бонус = 0,55 ₽",
-                                "typeface": "body1",
+                                "typeface": "text1",
                                 "text_color": "default"
                             }
                         },
@@ -100,7 +100,7 @@
                         "type": "simple_left_view",
                         "title": {
                             "text": "Огромное Спасибо",
-                            "typeface": "body1",
+                            "typeface": "text1",
                             "text_color": "default",
                             "max_lines": 0,
                             "margins": {
@@ -116,7 +116,7 @@
                         "info_and_icon": {
                             "info": {
                                 "text": "1 бонус = 0,6 ₽",
-                                "typeface": "body1",
+                                "typeface": "text1",
                                 "text_color": "default"
                             }
                         },
@@ -136,7 +136,7 @@
                         "type": "simple_left_view",
                         "title": {
                             "text": "Больше, чем Спасибо",
-                            "typeface": "body1",
+                            "typeface": "text1",
                             "text_color": "default",
                             "max_lines": 0,
                             "margins": {
@@ -152,7 +152,7 @@
                         "info_and_icon": {
                             "info": {
                                 "text": "1 бонус = 0,75 ₽",
-                                "typeface": "body1",
+                                "typeface": "text1",
                                 "text_color": "default"
                             }
                         },
