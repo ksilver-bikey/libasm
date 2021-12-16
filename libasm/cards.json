@@ -9,10 +9,7 @@
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 0,
-                    "alignment": "left",
-                    "margins": {
-                        "bottom": "16x"
-                    }
+                    "alignment": "left"
                 },
                 "paddings": {
                     "left": "8x",
