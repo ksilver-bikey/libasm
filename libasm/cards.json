@@ -1,301 +1,169 @@
 {
     "items": [{
-        "card":{
+        "card": {
   "type": "list_card",
-  "paddings": {
-    "top": "2x",
-    "bottom": "2x",
-    "left": "8x",
-    "right": "8x"
-  },
   "cells": [
     {
       "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
       "content": {
-        "text": "head1 default",
-        "typeface": "headline1",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "head2 secondary",
-        "typeface": "headline2",
-        "text_color": "secondary"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "head3 tertiary",
-        "typeface": "headline3",
-        "text_color": "tertiary"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "title1 inverse",
-        "typeface": "title1",
-        "text_color": "inverse"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "title2 brand",
-        "typeface": "title2",
-        "text_color": "brand"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "body1 warning",
+        "text": "Курс обмена зависит от уровня в программе «СберСпасибо»",
         "typeface": "body1",
-        "text_color": "warning"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
+        "text_color": "default",
+        "actions": []
       },
-      "content": {
-        "text": "body2 critical",
-        "typeface": "body2",
-        "text_color": "critical"
-      }
-    },
-    {
-      "type": "text_cell_view",
       "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "body3 link",
-        "typeface": "body3",
-        "text_color": "link"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "body_ai default",
-        "typeface": "body_ai",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "text1 default",
-        "typeface": "text1",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "paragraphText1 default",
-        "typeface": "paragraphText1",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "paragraphText2 default",
-        "typeface": "paragraphText2",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "footnote1 default",
-        "typeface": "footnote1",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "footnote2 default",
-        "typeface": "footnote2",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "button1 default",
-        "typeface": "button1",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "button2 default",
-        "typeface": "button2",
-        "text_color": "default"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "paddings": {
-        "top": "2x",
-        "bottom": "2x"
-      },
-      "content": {
-        "text": "caption default",
-        "typeface": "caption",
-        "text_color": "default"
+        "left": "8x",
+        "top": "4x",
+        "right": "8x"
       }
     },
     {
       "type": "left_right_cell_view",
-      "paddings": {
-        "top": "6x",
-        "bottom": "6x"
-      },
       "divider": {
         "style": "default",
-        "size": "d1"
+        "size": "d5"
       },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Дальше"
-        }
-      ],
       "left": {
         "type": "simple_left_view",
-        "texts": {
-          "title": {
-            "text": "left part",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0
+        "title": {
+          "text": "Спасибо",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 0,
+          "margins": {
+            "top": "8x",
+            "bottom": "8x",
+            "left": "8x",
+            "right": "8x"
           }
         }
       },
       "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "right": "5x"
-        }
+       "type": "detail_right_view",
+"info_and_icon": {
+  "info": {
+      "text": "1 бонус = 0,5 ₽",
+      "typeface": "body1",
+      "text_color": "default"
+  }
+},
+"margins": {
+  "right": "5x"
+}
+
       }
     },
-    {
+     {
       "type": "left_right_cell_view",
-      "paddings": {
-        "top": "6x",
-        "bottom": "6x"
+      "divider": {
+        "style": "default",
+        "size": "d5"
       },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Стоп"
-        }
-      ],
       "left": {
         "type": "simple_left_view",
-        "texts": {
-          "title": {
-            "text": "Баланс",
-            "typeface": "footnote2",
-            "text_color": "default",
-            "max_lines": 0
+        "title": {
+          "text": "Большое Спасибо",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 0,
+          "margins": {
+            "top": "8x",
+            "bottom": "8x",
+            "left": "8x",
+            "right": "8x"
           }
         }
       },
       "right": {
-        "type": "detail_right_view",
-        "info_and_icon": {
-          "info": {
-            "text": "123458",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "icon": {
-            "size": {
-              "width": "small",
-              "height": "small"
-            },
-            "address": {
-              "type": "local",
-              "identificator": "color_spasibo"
-            }
+       "type": "detail_right_view",
+"info_and_icon": {
+  "info": {
+      "text": "1 бонус = 0,55 ₽",
+      "typeface": "body1",
+      "text_color": "default"
+  }
+},
+"margins": {
+  "right": "5x"
+}
+
+      }
+    },
+     {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Огромное Спасибо",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 0,
+          "margins": {
+            "top": "8x",
+            "bottom": "8x",
+            "left": "8x",
+            "right": "8x"
           }
-        },
-        "margins": {
-          "right": "5x"
         }
+      },
+      "right": {
+       "type": "detail_right_view",
+"info_and_icon": {
+  "info": {
+      "text": "1 бонус = 0,6 ₽",
+      "typeface": "body1",
+      "text_color": "default"
+  }
+},
+"margins": {
+  "right": "5x"
+}
+
+      }
+    },
+     {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Больше, чем Спасибо",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 0,
+          "margins": {
+            "top": "8x",
+            "bottom": "8x",
+            "left": "8x",
+            "right": "8x"
+          }
+        }
+      },
+      "right": {
+       "type": "detail_right_view",
+"info_and_icon": {
+  "info": {
+      "text": "1 бонус = 0,75 ₽",
+      "typeface": "body1",
+      "text_color": "default"
+  }
+},
+"margins": {
+  "right": "5x"
+}
+
       }
     }
   ]
 }
+
     },
         {
             "card" :
