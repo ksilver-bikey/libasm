@@ -11,14 +11,14 @@
                     "max_lines": 0,
                     "alignment": "left",
                     "margins": {
-                        "bottom": "36x"
+                        "bottom": "16x"
                     }
                 },
                 "paddings": {
                     "left": "8x",
                     "top": "4x",
                     "right": "8x",
-                    "bottom": "60x"
+                    "bottom": "16x"
                 }
             },
                 {
