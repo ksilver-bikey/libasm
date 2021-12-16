@@ -1,168 +1,167 @@
 {
     "items": [{
         "card": {
-  "type": "list_card",
-  "cells": [
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Курс обмена зависит от уровня в программе «СберСпасибо»",
-        "typeface": "body1",
-        "text_color": "default",
-        "actions": []
-      },
-      "paddings": {
-        "left": "8x",
-        "top": "4x",
-        "right": "8x"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "title": {
-          "text": "Спасибо",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 0,
-          "margins": {
-            "top": "8x",
-            "bottom": "8x",
-            "left": "8x",
-            "right": "8x"
-          }
-        }
-      },
-      "right": {
-       "type": "detail_right_view",
-"info_and_icon": {
-  "info": {
-      "text": "1 бонус = 0,5 ₽",
-      "typeface": "body1",
-      "text_color": "default"
-  }
-},
-"margins": {
-  "right": "5x"
-}
+            "type": "list_card",
+            "cells": [{
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Курс обмена зависит от уровня в программе «СберСпасибо»",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "left"
+                },
+                "paddings": {
+                    "left": "8x",
+                    "top": "4x",
+                    "right": "8x"
+                }
+            },
+                {
+                    "type": "left_right_cell_view",
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "title": {
+                            "text": "Спасибо",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "8x",
+                                "bottom": "8x",
+                                "left": "8x",
+                                "right": "8x"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "1 бонус = 0,5 ₽",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        },
+                        "margins": {
+                            "right": "5x"
+                        }
 
-      }
-    },
-     {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "title": {
-          "text": "Большое Спасибо",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 0,
-          "margins": {
-            "top": "8x",
-            "bottom": "8x",
-            "left": "8x",
-            "right": "8x"
-          }
-        }
-      },
-      "right": {
-       "type": "detail_right_view",
-"info_and_icon": {
-  "info": {
-      "text": "1 бонус = 0,55 ₽",
-      "typeface": "body1",
-      "text_color": "default"
-  }
-},
-"margins": {
-  "right": "5x"
-}
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "title": {
+                            "text": "Большое Спасибо",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "8x",
+                                "bottom": "8x",
+                                "left": "8x",
+                                "right": "8x"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "1 бонус = 0,55 ₽",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        },
+                        "margins": {
+                            "right": "5x"
+                        }
 
-      }
-    },
-     {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "title": {
-          "text": "Огромное Спасибо",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 0,
-          "margins": {
-            "top": "8x",
-            "bottom": "8x",
-            "left": "8x",
-            "right": "8x"
-          }
-        }
-      },
-      "right": {
-       "type": "detail_right_view",
-"info_and_icon": {
-  "info": {
-      "text": "1 бонус = 0,6 ₽",
-      "typeface": "body1",
-      "text_color": "default"
-  }
-},
-"margins": {
-  "right": "5x"
-}
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "title": {
+                            "text": "Огромное Спасибо",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "8x",
+                                "bottom": "8x",
+                                "left": "8x",
+                                "right": "8x"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "1 бонус = 0,6 ₽",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        },
+                        "margins": {
+                            "right": "5x"
+                        }
 
-      }
-    },
-     {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "title": {
-          "text": "Больше, чем Спасибо",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 0,
-          "margins": {
-            "top": "8x",
-            "bottom": "8x",
-            "left": "8x",
-            "right": "8x"
-          }
-        }
-      },
-      "right": {
-       "type": "detail_right_view",
-"info_and_icon": {
-  "info": {
-      "text": "1 бонус = 0,75 ₽",
-      "typeface": "body1",
-      "text_color": "default"
-  }
-},
-"margins": {
-  "right": "5x"
-}
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "title": {
+                            "text": "Больше, чем Спасибо",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "8x",
+                                "bottom": "8x",
+                                "left": "8x",
+                                "right": "8x"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "1 бонус = 0,75 ₽",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        },
+                        "margins": {
+                            "right": "5x"
+                        }
 
-      }
-    }
-  ]
-}
+                    }
+                }]
+        }
 
     },
         {
