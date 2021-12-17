@@ -1,5 +1,6 @@
 {
-    "items": [{
+    "items": [
+        {
         "card": {
             "type" : "list_card",
             "cells" :
@@ -68,5 +69,65 @@
                         "bottom": "4x"
                     }
                 }]
-        }}]
+        }
+        },
+    {
+        "card": {
+            "type" : "list_card",
+            "cells" :
+            [{
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Остальные карты",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "left"
+                },
+                "paddings": {
+                    "left": "8x",
+                    "top": "4x",
+                    "right": "8x",
+                    "bottom": "8x"
+                }
+            },
+            
+
+                {
+                    "type": "text_cell_view",
+                    "content": {
+                        "text": "1 миля = 1,5 бонуса",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "alignment": "left"
+                    },
+                    "paddings": {
+                        "left": "8x",
+                        "top": "8x",
+                        "right": "8x",
+                        "bottom": "2x"
+                    }
+                },
+                {
+                    "type": "text_cell_view",
+                    "content": {
+                        "text": "Минимальный обмен от 750 бонусов",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 0,
+                        "alignment": "left"
+                    },
+                    "paddings": {
+                        "left": "8x",
+                        "top": "2x",
+                        "right": "8x",
+                        "bottom": "4x"
+                    }
+                }]
+        }
+        
+        
+    }
+    ]
 }
