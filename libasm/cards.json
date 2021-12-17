@@ -7,7 +7,7 @@
                 "type": "text_cell_view",
                 "content": {
                     "text": "Премиальная карта",
-                    "typeface": "body3",
+                    "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
                     "alignment": "left"
@@ -57,7 +57,7 @@
                     "content": {
                         "text": "Минимальный обмен от 650 бонусов",
                         "typeface": "footnote1",
-                        "text_color": "tertiary",
+                        "text_color": "secondary",
                         "max_lines": 0,
                         "alignment": "left"
                     },
