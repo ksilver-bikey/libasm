@@ -1,6 +1,5 @@
 {
-    "items": [
-        {
+    "items": [{
         "card": {
             "type" : "list_card",
             "cells" :
@@ -33,7 +32,7 @@
                         "left": "8x",
                         "top": "2x",
                         "right": "8x",
-                        "bottom": "8x"
+                        "bottom": "4x"
                     }
                 },
 
@@ -48,7 +47,7 @@
                     },
                     "paddings": {
                         "left": "8x",
-                        "top": "8x",
+                        "top": "4x",
                         "right": "8x",
                         "bottom": "2x"
                     }
@@ -70,64 +69,63 @@
                     }
                 }]
         }
-        },
-    {
-        "card": {
-            "type" : "list_card",
-            "cells" :
-            [{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "Остальные карты",
-                    "typeface": "title1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "4x",
-                    "right": "8x",
-                    "bottom": "8x"
-                }
-            },
-            
-
-                {
+    },
+        {
+            "card": {
+                "type" : "list_card",
+                "cells" :
+                [{
                     "type": "text_cell_view",
                     "content": {
-                        "text": "1 миля = 1,5 бонуса",
-                        "typeface": "body1",
+                        "text": "Остальные карты",
+                        "typeface": "title1",
                         "text_color": "default",
                         "max_lines": 0,
                         "alignment": "left"
                     },
                     "paddings": {
                         "left": "8x",
-                        "top": "8x",
+                        "top": "4x",
                         "right": "8x",
-                        "bottom": "2x"
+                        "bottom": "6x"
                     }
                 },
-                {
-                    "type": "text_cell_view",
-                    "content": {
-                        "text": "Минимальный обмен от 750 бонусов",
-                        "typeface": "footnote1",
-                        "text_color": "secondary",
-                        "max_lines": 0,
-                        "alignment": "left"
+
+
+                    {
+                        "type": "text_cell_view",
+                        "content": {
+                            "text": "1 миля = 1,5 бонуса",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "alignment": "left"
+                        },
+                        "paddings": {
+                            "left": "8x",
+                            "top": "4x",
+                            "right": "8x",
+                            "bottom": "2x"
+                        }
                     },
-                    "paddings": {
-                        "left": "8x",
-                        "top": "2x",
-                        "right": "8x",
-                        "bottom": "4x"
-                    }
-                }]
-        }
-        
-        
-    }
-    ]
+                    {
+                        "type": "text_cell_view",
+                        "content": {
+                            "text": "Минимальный обмен от 750 бонусов",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0,
+                            "alignment": "left"
+                        },
+                        "paddings": {
+                            "left": "8x",
+                            "top": "2x",
+                            "right": "8x",
+                            "bottom": "4x"
+                        }
+                    }]
+            }
+
+
+        }]
 }
