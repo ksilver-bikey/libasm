@@ -1,66 +1,73 @@
 {
-    "items" : [{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "Премиальная карта",
-                    "typeface": "head3",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "4x",
-                    "right": "8x",
-                    "bottom": "4x"
-                }
+"items" : [{
+"card" : {
+    "type" : "list_card",
+    "cells" : 
+    [
+        {
+        "type": "text_cell_view",
+        "content": {
+            "text": "Премиальная карта",
+            "typeface": "head3",
+            "text_color": "default",
+            "max_lines": 0,
+            "alignment": "left"
+        },
+        "paddings": {
+            "left": "8x",
+            "top": "4x",
+            "right": "8x",
+            "bottom": "4x"
+        }
+    },
+        {
+            "type": "text_cell_view",
+            "content": {
+                "text": "в пакете услуг СберПервый или Сбер Прайват Банкинг",
+                "typeface": "footnote1",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
             },
-{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "в пакете услуг СберПервый или Сбер Прайват Банкинг",
-                    "typeface": "footnote1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "4x",
-                    "right": "8x",
-                    "bottom": "4x"
-                }
-            },
-{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "Минимальный обмен от 650 бонусов",
-                    "typeface": "footnote1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "4x",
-                    "right": "8x",
-                    "bottom": "4x"
-                }
-            },
-{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "Премиальная карта",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "4x",
-                    "right": "8x",
-                    "bottom": "4x"
-                }
+            "paddings": {
+                "left": "8x",
+                "top": "4x",
+                "right": "8x",
+                "bottom": "4x"
             }
-        ]}
+        },
+        {
+            "type": "text_cell_view",
+            "content": {
+                "text": "Минимальный обмен от 650 бонусов",
+                "typeface": "footnote1",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+            },
+            "paddings": {
+                "left": "8x",
+                "top": "4x",
+                "right": "8x",
+                "bottom": "4x"
+            }
+        },
+        {
+            "type": "text_cell_view",
+            "content": {
+                "text": "Премиальная карта",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+            },
+            "paddings": {
+                "left": "8x",
+                "top": "4x",
+                "right": "8x",
+                "bottom": "4x"
+            }
+        }
+    ]
+   }}]
+}
