@@ -16,7 +16,7 @@
                     "left": "8x",
                     "top": "4x",
                     "right": "8x",
-                    "bottom": "4x"
+                    "bottom": "2x"
                 }
             },
                 {
@@ -30,7 +30,7 @@
                     },
                     "paddings": {
                         "left": "8x",
-                        "top": "4x",
+                        "top": "2x",
                         "right": "8x",
                         "bottom": "8x"
                     }
@@ -49,7 +49,7 @@
                         "left": "8x",
                         "top": "8x",
                         "right": "8x",
-                        "bottom": "4x"
+                        "bottom": "2x"
                     }
                 },
                 {
@@ -63,7 +63,7 @@
                     },
                     "paddings": {
                         "left": "8x",
-                        "top": "4x",
+                        "top": "2x",
                         "right": "8x",
                         "bottom": "4x"
                     }
