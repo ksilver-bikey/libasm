@@ -47,7 +47,7 @@
                     },
                     "paddings": {
                         "left": "8x",
-                        "top": "6x",
+                        "top": "8x",
                         "right": "8x",
                         "bottom": "2x"
                     }
