@@ -32,7 +32,7 @@
                         "left": "8x",
                         "top": "2x",
                         "right": "8x",
-                        "bottom": "6x"
+                        "bottom": "7x"
                     }
                 },
 
@@ -47,7 +47,7 @@
                     },
                     "paddings": {
                         "left": "8x",
-                        "top": "6x",
+                        "top": "7x",
                         "right": "8x",
                         "bottom": "2x"
                     }
