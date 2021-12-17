@@ -7,7 +7,7 @@
                 "type": "text_cell_view",
                 "content": {
                     "text": "Премиальная карта",
-                    "typeface": "head3",
+                    "typeface": "head2",
                     "text_color": "default",
                     "max_lines": 0,
                     "alignment": "left"
@@ -24,7 +24,7 @@
                     "content": {
                         "text": "в пакете услуг СберПервый или Сбер Прайват Банкинг",
                         "typeface": "footnote1",
-                        "text_color": "tertiary",
+                        "text_color": "secondary",
                         "max_lines": 0,
                         "alignment": "left"
                     },
@@ -67,7 +67,6 @@
                         "right": "8x",
                         "bottom": "4x"
                     }
-                }
-                ]
+                }]
         }}]
 }
