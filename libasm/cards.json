@@ -7,13 +7,14 @@
             "paddings" : {
                 "bottom" : "4x"
             },
-            "height" : {
-                "type" : "aspect_ratio",
-                "value" : "3:2"
-            },
+       
             "items" :[{
                 "type" : "discovery_card",
                 "width_columns" : 3,
+                 "height" : {
+                   "type" : "aspect_ratio",
+                    "value" : "3:2"
+                 },
                 "cells" :
                 {
                     "top_cell":
