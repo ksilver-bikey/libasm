@@ -8,31 +8,31 @@
                 "type": "left_right_cell_view",
                 "left": {
                     "type": "simple_left_view",
-                    "texts" :{
-                    "title": {
-                        "text": "Баланс2",
-                        "typeface": "headline1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                            "top": "8x",
-                            "bottom": "1x",
-                            "left": "8x",
-                            "right": "8x"
+                    "texts" : {
+                        "title": {
+                            "text": "Баланс2",
+                            "typeface": "headline1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "8x",
+                                "bottom": "1x",
+                                "left": "8x",
+                                "right": "8x"
+                            }
+                        },
+                        "subtitle": {
+                            "text": "ваш уровень до 99 месяц",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "1x",
+                                "bottom": "8x",
+                                "left": "8x",
+                                "right": "2x"
+                            }
                         }
-                    },
-                    "subtitle": {
-                        "text": "ваш уровень до 99 месяц",
-                        "typeface": "footnote1",
-                        "text_color": "secondary",
-                        "max_lines": 0,
-                        "margins": {
-                            "top": "1x",
-                            "bottom": "8x",
-                            "left": "8x",
-                            "right": "2x"
-                        }
-                    }
                     }
 
                 },
