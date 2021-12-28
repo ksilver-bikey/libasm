@@ -1,4 +1,11 @@
 {
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [{
+        "card" : 
+        
+        
+     {
     "type": "widget_single_card",
     "item": [
     
@@ -78,3 +85,9 @@
 
     ]
   }
+
+        
+        
+        
+    }]
+}
