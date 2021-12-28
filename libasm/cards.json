@@ -6,6 +6,62 @@
   "card": {
     "type": "list_card",
     "cells": [
+
+      {
+        "type": "left_right_cell_view",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "title": {
+            "text": "Баланс",
+            "typeface": "headline1",
+            "text_color": "default",
+            "max_lines": 0,
+            "margins": {
+              "top": "8x",
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x"
+            }
+          },
+
+        "right": {
+          "type": "detail_right_view",
+          "info_and_icon_view" : {
+              "icon" : {
+                  "address" : {
+                      "type" : "local",
+                      "identificator" : "color_spasibo"
+                  },
+               "size" : {
+                   "width" : "large",
+                   "height" : "large"
+               }
+              }
+          },
+          "margins": {
+            "top": "2x",
+            "right": "4x",
+            "bottom": "8x"
+          }
+        },
+          "subtitle": {
+            "text": "ваш уровень до 99 месяц",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 0,
+            "margins": {
+              "top": "8x",
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x"
+            }
+          }
+        }
+      },
       {
         "type": "left_right_cell_view",
         "divider": {
@@ -39,66 +95,10 @@
             }
           }
         },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
-          }
-        },
         "actions": [
           {
             "type": "text",
             "text": "Посмотреть мои бонусы"
-          }
-        ]
-      },
-      {
-        "type": "left_right_cell_view",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "title": {
-            "text": "Как они начисляются?",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0,
-            "margins": {
-              "top": "8x",
-              "bottom": "8x",
-              "left": "8x",
-              "right": "8x"
-            }
-          },
-          "subtitle": {
-            "text": "",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 0,
-            "margins": {
-              "top": "8x",
-              "bottom": "8x",
-              "left": "8x",
-              "right": "8x"
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
-          }
-        },
-        "actions": [
-          {
-            "type": "text",
-            "text": "Как они начисляются?"
           }
         ]
       }
