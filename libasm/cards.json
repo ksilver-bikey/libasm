@@ -1,4 +1,8 @@
 {
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [{
+        "card" : {
     "type": "list_card",
     "paddings": {
       "bottom": "2x",
@@ -45,3 +49,5 @@
       }
     ]
   }
+    }]
+}
