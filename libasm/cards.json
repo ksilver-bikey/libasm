@@ -1,53 +1,49 @@
 {
-    "items": [
+    "items": [{
+        "card" :
         {
-            "card" :
-            {
-                "type" : "widget_gallery",
-                "items" :[
+            "type" : "widget_gallery",
+            "items" :[{
+                "type" : "discovery_card",
+                "width_columns" : 3,
+                "cells" :
                 {
-                    "type" : "discovery_card",
-                    "cells" :
+                    "top_cell":
                     {
-                        "top_cell":
-                        {
-                            "type": "details_cell_view",
-                            "paddings": {
-                                "top": "2x"
-                            },
-                            "details": [{
-                                "type": "detail_right_view",
-                                "info_and_icon": {
-                                    "info": {
-                                        "text": "Баланс",
-                                        "typeface": "headline1",
-                                        "text_color": "default",
-                                        "max_lines": 1
+                        "type": "details_cell_view",
+                        "paddings": {
+                            "top": "2x"
+                        },
+                        "details": [{
+                            "type": "detail_right_view",
+                            "info_and_icon": {
+                                "info": {
+                                    "text": "Баланс",
+                                    "typeface": "headline1",
+                                    "text_color": "default",
+                                    "max_lines": 1
+                                },
+                                "icon": {
+                                    "address": {
+                                        "type": "local",
+                                        "identificator": "color_spasibo"
                                     },
-                                    "icon": {
-                                        "address": {
-                                            "type": "local",
-                                            "identificator": "color_spasibo"
-                                        },
-                                        "size": {
-                                            "width": "medium",
-                                            "height": "medium"
-                                        },
-                                        "margins": {
-                                            "top": "5x",
-                                            "right": "6x",
-                                            "bottom": "2x",
-                                            "left": "8x"
-                                        },
-                                        "tint_color": "solid_brand"
-                                    }
+                                    "size": {
+                                        "width": "medium",
+                                        "height": "medium"
+                                    },
+                                    "margins": {
+                                        "top": "5x",
+                                        "right": "6x",
+                                        "bottom": "2x",
+                                        "left": "8x"
+                                    },
+                                    "tint_color": "solid_brand"
                                 }
-                            }]
-                        }
+                            }
+                        }]
                     }
                 }
-                    ]
-            }
+            }]
         }
-        
-        ]}
+    }]}
