@@ -10,8 +10,7 @@
                 "left": "8x",
                 "right": "8x"
             },
-            "cells": [
-                {
+            "cells": [{
                 "type": "details_cell_view",
                 "paddings": {
                     "top": "2x"
@@ -20,11 +19,12 @@
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "Баланс",
+                            "text": "12345",
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1
                         },
+                        "icon_vertical_gravity" : "center",
                         "icon": {
                             "address": {
                                 "type": "local",
@@ -45,32 +45,31 @@
                     }
                 }]
             },
-{
-        "type": "left_right_cell_view",
-        "paddings": {
-          "top": "1x",
-          "bottom": "1x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "texts": {
-            "title": {
-              "text": "Ваш уровень до 99 января",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "subtitle": {
-              "text": "Огромное спасибо",
-              "typeface": "title1",
-              "text_color": "default",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        }
-      }
-            ]
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "1x",
+                        "bottom": "1x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Ваш уровень до 99 января",
+                                "typeface": "footnote1",
+                                "text_color": "secondary"
+                            },
+                            "subtitle": {
+                                "text": "Огромное спасибо",
+                                "typeface": "title1",
+                                "text_color": "default",
+                                "margins": {
+                                    "top": "1x"
+                                }
+                            }
+                        }
+                    }
+                }]
         }
     }]
 }
