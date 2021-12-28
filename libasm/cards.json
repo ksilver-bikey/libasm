@@ -9,7 +9,7 @@
                 "left": {
                     "type": "simple_left_view",
                     "title": {
-                        "text": "Баланс",
+                        "text": "Баланс1",
                         "typeface": "headline1",
                         "text_color": "default",
                         "max_lines": 0,
