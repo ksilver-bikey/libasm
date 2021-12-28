@@ -23,13 +23,13 @@
                         "paddings": {
                             "top": "4x",
                             "left" : "8x",
-                            "bottom" : "0x"
+                            "bottom" : "1x"
                         },
                         "details": [{
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "777778",
+                                    "text": "555558",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
@@ -46,7 +46,7 @@
                                     "margins": {
                                         "top": "5x",
                                         "right": "6x",
-                                        "bottom": "4x",
+                                        "bottom": "1x",
                                         "left": "8x"
                                     },
                                     "tint_color": "solid_brand"
@@ -65,7 +65,7 @@
                         "left": {
                             "type": "simple_left_view",
                             "texts": {
-                                "title": {
+                                "subtitle": {
                                     "text": "Ваш уровень до 99 января",
                                     "typeface": "footnote1",
                                     "text_color": "secondary"
@@ -85,7 +85,7 @@
                         "left": {
                             "type": "simple_left_view",
                             "texts": {
-                                "title": {
+                                "subtitle": {
                                     "text": "Большое спасибо",
                                     "typeface": "body1",
                                     "text_color": "default"
