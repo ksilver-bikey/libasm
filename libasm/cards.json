@@ -49,8 +49,8 @@
                             }
                         }]
                     },
-                    "bottom_cell" :
-                    {
+                    "middle_cell" :
+       {
                         "type": "left_right_cell_view",
                         "paddings": {
                             "top": "2x",
@@ -64,14 +64,26 @@
                                     "text": "Ваш уровень до 99 января",
                                     "typeface": "footnote1",
                                     "text_color": "secondary"
-                                },
-                                "subtitle": {
-                                    "text": "Огромное спасибо",
-                                    "typeface": "title1",
-                                    "text_color": "default",
-                                    "margins": {
-                                        "top": "1x"
-                                    }
+                                }
+                         
+                            }
+                        }
+                    },
+                    "bottom_cell" :
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "2x",
+                            "bottom": "1x",
+                            "left" : "8x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Большое спасибо",
+                                    "typeface": "body1",
+                                    "text_color": "secondary"
                                 }
                             }
                         }
