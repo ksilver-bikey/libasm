@@ -1,71 +1,47 @@
 {
-    "auto_listening": true,
-    "type": "sdk_answer",
-    "items": [{
-        "card": {
-            "type": "list_card",
-            "cells": [
-                {
-                "type": "detail_cell_view",
-                "details" : [   {      
-                    "type" : "detail_right_view",
-                    "info_and_icon" : {
-                    "info" : {
-                        "text" : "баланс",
-                        "typeface" : "headline1",
-                        "text_color" : "default",
-                        "max_lines" : 1
-                    },
-                    "icon" : {
-                        "address" : {
-                            "type" : "local",
-                            "identificator" : "color_spasibo"
-                        },
-                        "size" : {
-                            "width" : "medium",
-                            "height" : "medium"
-                        },
-                        "margins" : {
-                            "left" : "4x"
-                        }
-                    }
-                }
-               } ]
-            },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "title": {
-                            "text": "Сам уровень",
-                            "typeface": "body1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "2x",
-                                "bottom": "8x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        },
-                        "subtitle": {
-                            "text": "",
-                            "typeface": "footnote1",
-                            "text_color": "secondary",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "8x",
-                                "bottom": "8x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        }
-                    },
-                    "actions": [{
-                        "type": "text",
-                        "text": "Посмотреть мои бонусы"
-                    }]
-                }]
-        }
-    }]
-}
+    "type": "list_card",
+    "paddings": {
+      "bottom": "2x",
+      "top": "2x",
+      "left": "8x",
+      "right": "8x"
+    },
+    "cells": [
+      {
+        "type": "details_cell_view",
+        "paddings": {
+          "top": "2x"
+        },
+        "details": [
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "info": {
+                "text": "Баланс",
+                "typeface": "headline1",
+                "text_color": "default",
+                "max_lines": 1
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "5x",
+                  "right": "6x",
+                  "bottom": "2x",
+                  "left": "8x"
+                },
+                "tint_color": "solid_brand"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
