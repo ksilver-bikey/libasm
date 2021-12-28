@@ -5,57 +5,28 @@
         "card": {
             "type": "list_card",
             "cells": [{
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "texts" : {
-                        "title": {
-                            "text": "Баланс2",
-                            "typeface": "headline1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "8x",
-                                "bottom": "1x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        },
-                        "subtitle": {
-                            "text": "ваш уровень до 99 месяц",
-                            "typeface": "footnote1",
-                            "text_color": "secondary",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "1x",
-                                "bottom": "8x",
-                                "left": "8x",
-                                "right": "2x"
-                            }
-                        }
-                    }
-
-                },
-                "right": {
-                    "type": "detail_right_view",
-                    "info_and_icon" : {
-                        "icon" : {
-                            "address" : {
-                                "type" : "local",
-                                "identificator" : "color_spasibo"
-                            },
-                            "size" : {
-                                "width" : "large",
-                                "height" : "large"
-                            }
-                        }
-                    },
-                    "margins": {
-                        "top": "2x",
-                        "right": "4x",
-                        "bottom": "8x"
-                    }
-                }
+                "type": "detail_right_view",
+              "info_and_icon" : {
+                  "info" : {
+                      "text" : "баланс",
+                      "typeface" : "headline1",
+                      "text_color" : "default",
+                      "max_lines" : 1
+                  },
+                  "icon" : {
+                      "address" : {
+                          "type" : "local",
+                          "identificator" : "color_spasibo"
+                      },
+                      "size" : {
+                          "width" : "medium",
+                          "height" : "medium"
+                      },
+                      "margins" : {
+                          "left" : "4x"
+                      }
+                  }
+              }
             },
                 {
                     "type": "left_right_cell_view",
