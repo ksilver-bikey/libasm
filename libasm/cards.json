@@ -11,62 +11,38 @@
                     {
                         "top_cell":
                         {
-                            "type": "left_right_cell_view",
+                            "type": "details_cell_view",
                             "paddings": {
-                                "top": "6x",
-                                "bottom": "6x"
+                                "top": "2x"
                             },
-                            "actions": [{
-                                "type": "text",
-                                "text": "Стоп"
-                            }],
-                            "left": {
-                                "type": "simple_left_view",
-                                "texts": {
-                                    "title": {
-                                        "text": "Тут текст",
-                                        "typeface": "footnote2",
-                                        "text_color": "default",
-                                        "max_lines": 0
-                                    }
-                                }
-                            },
-                            "right": {
+                            "details": [{
                                 "type": "detail_right_view",
-                                "info_and_icon":
-                                {
-                                    "info" :
-                                    {
-                                        "text": "и тут тексt",
-                                        "typeface": "body1",
-                                        "text_color": "default"
+                                "info_and_icon": {
+                                    "info": {
+                                        "text": "Баланс",
+                                        "typeface": "headline1",
+                                        "text_color": "default",
+                                        "max_lines": 1
+                                    },
+                                    "icon": {
+                                        "address": {
+                                            "type": "local",
+                                            "identificator": "color_spasibo"
+                                        },
+                                        "size": {
+                                            "width": "medium",
+                                            "height": "medium"
+                                        },
+                                        "margins": {
+                                            "top": "5x",
+                                            "right": "6x",
+                                            "bottom": "2x",
+                                            "left": "8x"
+                                        },
+                                        "tint_color": "solid_brand"
                                     }
-                                },
-                                "margins": {
-                                    "right": "5x"
                                 }
-                            }
-                        },
-                        "middle_cell" :
-                        {
-                            "type" : "image_cell_view",
-                            "content" : {
-                                "url" : "https://cdn.pixabay.com/photo/2017/02/15/12/12/cat-2068462_1280.jpg",
-                                "scale_mode" : "scale_aspect_fill"
-                            }
-                        },
-                        "bottom_cell" :
-                        {
-                            "type" : "text_cell_view",
-                            "content" :
-                            {
-                                "text": "тут может быть стена текст, кстати картинка стоит не в виждете, а только в центральной ячейки виджета, поэтому она так выглядит",
-                                "typeface": "footnote2",
-                                "text_color": "default",
-                                "max_lines": 0
-  
-                            }
-  
+                            }]
                         }
                     }
                 }
