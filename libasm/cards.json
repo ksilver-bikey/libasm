@@ -51,7 +51,7 @@
                             }
                         }]
                     },
-                    "bottom_cell" :
+                    "middle_cell" :
                     {
                         "type": "left_right_cell_view",
                         "paddings": {
@@ -74,7 +74,27 @@
                                 }
                             }
                         }
+                    },
+  "bottom_cell" :
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "2x",
+                            "bottom": "1x",
+                            "left" : "8x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Кстати, бонусы копятся на бонусный счёт -тедины для всех ваших карт",
+                                    "typeface": "body1",
+                                    "text_color": "secondary"
+                                }
+                            }
+                        }
                     }
+                   
 
                 }
             }]
