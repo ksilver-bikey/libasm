@@ -8,14 +8,15 @@
                 "type": "left_right_cell_view",
                 "left": {
                     "type": "simple_left_view",
+                    "texts" :{
                     "title": {
-                        "text": "Баланс1",
+                        "text": "Баланс2",
                         "typeface": "headline1",
                         "text_color": "default",
                         "max_lines": 0,
                         "margins": {
                             "top": "8x",
-                            "bottom": "2x",
+                            "bottom": "1x",
                             "left": "8x",
                             "right": "8x"
                         }
@@ -26,11 +27,12 @@
                         "text_color": "secondary",
                         "max_lines": 0,
                         "margins": {
-                            "top": "2x",
+                            "top": "1x",
                             "bottom": "8x",
                             "left": "8x",
                             "right": "2x"
                         }
+                    }
                     }
 
                 },
