@@ -20,7 +20,21 @@
                             "right": "8x"
                         }
                     },
-                    "right": {
+                 
+                    "subtitle": {
+                        "text": "ваш уровень до 99 месяц",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 0,
+                        "margins": {
+                            "top": "2x",
+                            "bottom": "8x",
+                            "left": "8x",
+                            "right": "2x"
+                        }
+                    }
+                },
+                "right": {
                         "type": "detail_right_view",
                         "info_and_icon" : {
                             "icon" : {
@@ -40,19 +54,6 @@
                             "bottom": "8x"
                         }
                     },
-                    "subtitle": {
-                        "text": "ваш уровень до 99 месяц",
-                        "typeface": "footnote1",
-                        "text_color": "secondary",
-                        "max_lines": 0,
-                        "margins": {
-                            "top": "8x",
-                            "bottom": "8x",
-                            "left": "8x",
-                            "right": "8x"
-                        }
-                    }
-                }
             },
                 {
                     "type": "left_right_cell_view",
