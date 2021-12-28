@@ -13,7 +13,7 @@
                 "width_columns" : 3,
                 "height" : {
                     "type" : "fixed",
-                    "value" : 128
+                    "value" : 600
                 },
                 "cells" :
                 {
@@ -29,7 +29,7 @@
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "444478",
+                                    "text": "777778",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
