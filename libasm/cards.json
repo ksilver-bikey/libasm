@@ -12,8 +12,8 @@
                 "type" : "discovery_card",
                 "width_columns" : 3,
                 "height" : {
-                    "type" : "aspect_ratio",
-                    "value" : "3:2"
+                    "type" : "fixed",
+                    "value" : 128
                 },
                 "cells" :
                 {
@@ -29,7 +29,7 @@
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "555278",
+                                    "text": "444478",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
