@@ -62,7 +62,7 @@
                         "left": {
                             "type": "simple_left_view",
                             "texts": {
-                                "subtitle": {
+                                "title": {
                                     "text": "Ваш уровень до 99 января",
                                     "typeface": "footnote1",
                                     "text_color": "secondary"
@@ -82,8 +82,8 @@
                         "left": {
                             "type": "simple_left_view",
                             "texts": {
-                                "subtitle": {
-                                    "text": "Большое спасибо",
+                                "title": {
+                                    "text": "Огромаднейшееое спасибо",
                                     "typeface": "body1",
                                     "text_color": "default"
                                 }
