@@ -6,7 +6,7 @@
             "spacing" : "1x",
             "items" :[{
                 "type" : "discovery_card",
-                "width_columns" : 2,
+                "width_columns" : 3,
                 "cells" :
                 {
                     "top_cell":
@@ -14,7 +14,8 @@
                         "type": "details_cell_view",
                         "paddings": {
                             "top": "4x",
-                            "left" : "8x"
+                            "left" : "8x",
+                            "bottom" : "4x"
                         },
                         "details": [{
                             "type": "detail_right_view",
