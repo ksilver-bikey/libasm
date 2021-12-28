@@ -18,7 +18,7 @@
                         "paddings": {
                             "top": "4x",
                             "left" : "8x",
-                            "bottom" : "4x"
+                            "bottom" : "0x"
                         },
                         "details": [{
                             "type": "detail_right_view",
@@ -50,7 +50,7 @@
                         }]
                     },
                     "middle_cell" :
-       {
+                    {
                         "type": "left_right_cell_view",
                         "paddings": {
                             "top": "2x",
@@ -65,7 +65,7 @@
                                     "typeface": "footnote1",
                                     "text_color": "secondary"
                                 }
-                         
+
                             }
                         }
                     },
@@ -83,7 +83,7 @@
                                 "title": {
                                     "text": "Большое спасибо",
                                     "typeface": "body1",
-                                    "text_color": "secondary"
+                                    "text_color": "default"
                                 }
                             }
                         }
