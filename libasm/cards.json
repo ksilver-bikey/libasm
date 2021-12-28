@@ -46,11 +46,11 @@
                             }
                         }]
                     },
-                    "middle_cell" :
+                    "bottom_cell" :
                     {
                         "type": "left_right_cell_view",
                         "paddings": {
-                            "top": "4x",
+                            "top": "2x",
                             "bottom": "1x",
                             "left" : "8x"
                         },
