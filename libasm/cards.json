@@ -7,14 +7,14 @@
             "paddings" : {
                 "bottom" : "4x"
             },
-       
+
             "items" :[{
                 "type" : "discovery_card",
                 "width_columns" : 3,
-                 "height" : {
-                   "type" : "aspect_ratio",
+                "height" : {
+                    "type" : "aspect_ratio",
                     "value" : "3:2"
-                 },
+                },
                 "cells" :
                 {
                     "top_cell":
@@ -29,7 +29,7 @@
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "123278",
+                                    "text": "555278",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
