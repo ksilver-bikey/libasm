@@ -11,10 +11,7 @@
             "items" :[{
                 "type" : "discovery_card",
                 "width_columns" : 3,
-                "height" : {
-                    "type" : "fixed",
-                    "value" : 600
-                },
+                "height" : 600,
                 "cells" :
                 {
                     "top_cell":
