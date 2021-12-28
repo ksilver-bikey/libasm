@@ -4,6 +4,9 @@
         {
             "type" : "widget_gallery",
             "spacing" : "1x",
+            "paddings" : {
+                "bottom" : "4x"
+            },
             "items" :[{
                 "type" : "discovery_card",
                 "width_columns" : 3,
@@ -21,7 +24,7 @@
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "2223222",
+                                    "text": "223228",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
