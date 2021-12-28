@@ -56,19 +56,15 @@
             },
                 {
                     "type": "left_right_cell_view",
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
                     "left": {
                         "type": "simple_left_view",
                         "title": {
-                            "text": "Посмотреть мои бонусы",
+                            "text": "Сам уровень",
                             "typeface": "body1",
                             "text_color": "default",
                             "max_lines": 0,
                             "margins": {
-                                "top": "8x",
+                                "top": "2x",
                                 "bottom": "8x",
                                 "left": "8x",
                                 "right": "8x"
