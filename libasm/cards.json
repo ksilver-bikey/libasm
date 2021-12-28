@@ -3,6 +3,7 @@
         "card" :
         {
             "type" : "widget_gallery",
+            "spacing" : "1x",
             "items" :[{
                 "type" : "discovery_card",
                 "width_columns" : 2,
@@ -12,13 +13,14 @@
                     {
                         "type": "details_cell_view",
                         "paddings": {
-                            "top": "2x"
+                            "top": "4x",
+                            "left" : "8x"
                         },
                         "details": [{
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "123456",
+                                    "text": "777777",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
@@ -35,7 +37,7 @@
                                     "margins": {
                                         "top": "5x",
                                         "right": "6x",
-                                        "bottom": "2x",
+                                        "bottom": "4x",
                                         "left": "8x"
                                     },
                                     "tint_color": "solid_brand"
@@ -47,8 +49,9 @@
                     {
                         "type": "left_right_cell_view",
                         "paddings": {
-                            "top": "1x",
-                            "bottom": "1x"
+                            "top": "4x",
+                            "bottom": "1x",
+                            "left" : "8x"
                         },
                         "left": {
                             "type": "simple_left_view",
