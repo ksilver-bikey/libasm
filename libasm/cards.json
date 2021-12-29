@@ -5,7 +5,7 @@
             "type" : "widget_gallery",
             "items" :[{
                 "type" : "discovery_card",
-                "width_columns" : 2,
+                "width_columns" : 3,
                 "cells" :
                 {
                     "top_cell":
