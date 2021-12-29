@@ -270,8 +270,7 @@
                     "bottom": "4x",
                     "top": "4x"
                 },
-                "cells": [
-                    {
+                "cells": [{
                     "type": "left_right_cell_view",
                     "paddings": {
                         "top": "4x",
@@ -471,7 +470,7 @@
                             "icon": {
                                 "address": {
                                     "type": "local",
-                                    "identificator": "ruble_plus"
+                                    "identificator": "tota"
                                 },
                                 "size": {
                                     "width": "medium",
