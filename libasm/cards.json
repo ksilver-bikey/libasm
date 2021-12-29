@@ -1,585 +1,559 @@
 {
-  "items": [
-      {
-          "card" :
-          {
-              "type": "list_card",
-              "cells": [{
-                  "type": "details_cell_view",
-                  "width_columns": 3,
-                  "paddings": {
-                      "top": "2x",
-                      "bottom": "1x",
-                      "left" : "4x"
-                  },
-                  "details": [{
-                      "type": "detail_right_view",
-                      "info_and_icon": {
-                          "info": {
-                              "text": "24 542",
-                              "typeface": "headline1",
-                              "text_color": "default",
-                              "max_lines": 1
-                          },
-                          "icon": {
-                              "address": {
-                                  "type": "local",
-                                  "identificator": "color_spasibo"
-                              },
-                              "size": {
-                                  "width": "medium",
-                                  "height": "medium"
-                              },
-                              "margins": {
-                                  "top": "3x",
-                                  "right": "6x",
-                                  "bottom": "2x",
-                                  "left": "8x"
-                              },
-                              "tint_color": "solid_brand"
-                          }
-                      }
-                  }]
-              },
-                  {
-                      "type": "left_right_cell_view",
-                      "paddings": {
-                          "top": "1x",
-                          "bottom": "4x",
-                          "left" : "4x"
-                      },
-                      "left": {
-                          "type": "simple_left_view",
-                          "texts": {
-                              "title": {
-                                  "text": "Ваш уровень до 99 января",
-                                  "typeface": "footnote1",
-                                  "text_color": "secondary"
-                              },
-                              "subtitle": {
-                                  "text": "Огромное спасибо",
-                                  "typeface": "title1",
-                                  "text_color": "default",
-                                  "margins": {
-                                      "top": "1x"
-                                  }
-                              }
-                          }
-                      }
-                  }]
-          }
-      },
-      {
+    "items": [{
         "card" :
         {
-          "type": "list_card",
-          "paddings": {
-            "bottom": "4x",
-            "top": "4x"
-          },
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "circle_plus"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
+            "type": "list_card",
+            "cells": [{
+                "type": "details_cell_view",
+                "width_columns": 3,
+                "paddings": {
+                    "top": "2x",
+                    "bottom": "1x",
+                    "left" : "4x"
                 },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Хочу подключиться",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Хочу подключиться"
-                }
-              ]
+                "details": [{
+                    "type": "detail_right_view",
+                    "info_and_icon": {
+                        "info": {
+                            "text": "24 542",
+                            "typeface": "headline1",
+                            "text_color": "default",
+                            "max_lines": 1
+                        },
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "color_spasibo"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "3x",
+                                "right": "6x",
+                                "bottom": "2x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        }
+                    }
+                }]
             },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "spasibo"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Узнать о программе",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
                 {
-                  "type": "text",
-                  "text": "Узнать о программе"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "card"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Куда потратить бонусы",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Куда потратить бонусы"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "apple_wallet"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Как они начисляются",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как они начисляются"
-                }
-              ]
-            }
-          ]
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "1x",
+                        "bottom": "4x",
+                        "left" : "4x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Ваш уровень до 99 января",
+                                "typeface": "footnote1",
+                                "text_color": "secondary"
+                            },
+                            "subtitle": {
+                                "text": "Огромное спасибо",
+                                "typeface": "title1",
+                                "text_color": "default",
+                                "margins": {
+                                    "top": "1x"
+                                }
+                            }
+                        }
+                    }
+                }]
         }
-      },
-      {
-        "card" :
+    },
         {
-          "type": "list_card",
-          "paddings": {
-            "bottom": "4x",
-            "top": "4x"
-          },
-          "cells": [
+            "card" :
             {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "card"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
+                "type": "list_card",
+                "paddings": {
+                    "bottom": "4x",
+                    "top": "4x"
                 },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Куда потратить бонусы",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Куда потратить бонусы"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "apple_wallet"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
+                "cells": [{
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "circle_plus"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "7x",
+                                "left": "7x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "Хочу подключиться",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "actions": [{
+                        "type": "text",
+                        "text": "Хочу подключиться"
+                    }]
                 },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Как они начисляются",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как они начисляются"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "falling_coin"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Как обменять на рубли",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как перевести в рубли"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "arrow_right_trace_line"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Как перевести другу",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как подарить другу"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "ruble_plus"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Всего средств",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Всего средств"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "spasibo"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Больше о бонусах",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  },
-                  "subtitle": {
-                    "text": "в разделе «СберСпасибо»",
-                    "typeface": "footnote1",
-                    "text_color": "secondary"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Всего средств"
-                }
-              ]
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "spasibo"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Узнать о программе",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "divider": {
+                            "style": "default",
+                            "size": "d5"
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Узнать о программе"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "card"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Куда потратить бонусы",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "divider": {
+                            "style": "default",
+                            "size": "d5"
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Куда потратить бонусы"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "apple_wallet"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Как они начисляются",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Как они начисляются"
+                        }]
+                    }]
             }
-            
-          ]
-        }
-      }
-      
-      ]}
+        },
+        {
+            "card" :
+            {
+                "type": "list_card",
+                "paddings": {
+                    "bottom": "4x",
+                    "top": "4x"
+                },
+                "cells": [
+                    {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "card"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "7x",
+                                "left": "7x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "Куда потратить бонусы",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "actions": [{
+                        "type": "text",
+                        "text": "Куда потратить бонусы"
+                    }]
+                },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+
+                        "divider": {
+                            "style": "default",
+                            "size": "d5"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "apple_wallet"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Как они начисляются",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Как они начисляются"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "falling_coin"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Как обменять на рубли",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "divider": {
+                            "style": "default",
+                            "size": "d5"
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Как перевести в рубли"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "arrow_right_trace_line"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Как перевести другу",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "divider": {
+                            "style": "default",
+                            "size": "d5"
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Как подарить другу"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "ruble_plus"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Всего средств",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "divider": {
+                            "style": "default",
+                            "size": "d5"
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Всего средств"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "spasibo"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "7x",
+                                    "left": "7x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Больше о бонусах",
+                                    "typeface": "body1",
+                                    "text_color": "default"
+                                },
+                                "subtitle": {
+                                    "text": "в разделе «СберСпасибо»",
+                                    "typeface": "footnote1",
+                                    "text_color": "secondary"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Всего средств"
+                        }]
+                    }]
+            }
+        }]}
