@@ -12,13 +12,14 @@
                     {
                         "type": "details_cell_view",
                         "paddings": {
-                            "top": "2x"
+                            "top": "2x",
+                            "left" : "4x"
                         },
                         "details": [{
                             "type": "detail_right_view",
                             "info_and_icon": {
                                 "info": {
-                                    "text": "Баланс",
+                                    "text": "Баланс1",
                                     "typeface": "headline1",
                                     "text_color": "default",
                                     "max_lines": 1
@@ -48,7 +49,8 @@
                         "type": "left_right_cell_view",
                         "paddings": {
                             "top": "1x",
-                            "bottom": "1x"
+                            "bottom": "4x",
+                            "left" : "4x"
                         },
                         "left": {
                             "type": "simple_left_view",
