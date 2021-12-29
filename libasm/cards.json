@@ -132,7 +132,7 @@
                         "type": "detail_right_view",
                         "info_and_icon": {
                             "info": {
-                                "text": "14 542",
+                                "text": "24 542",
                                 "typeface": "headline1",
                                 "text_color": "default",
                                 "max_lines": 1
@@ -147,9 +147,9 @@
                                     "height": "medium"
                                 },
                                 "margins": {
-                                    "top": "1x",
+                                    "top": "3x",
                                     "right": "6x",
-                                    "bottom": "3x",
+                                    "bottom": "2x",
                                     "left": "8x"
                                 },
                                 "tint_color": "solid_brand"
