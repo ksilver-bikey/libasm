@@ -1,256 +1,242 @@
 {
-    "items": [
+    "items": [{
+        "card" :
+        {
+            "type" : "widget_gallery",
+            "items" :[{
+                "type" : "discovery_card",
+                "width_columns" : 2,
+                "cells" :
+                {
+                    "top_cell":
+                    {
+                        "type": "details_cell_view",
+                        "paddings": {
+                            "top": "2x"
+                        },
+                        "details": [{
+                            "type": "detail_right_view",
+                            "info_and_icon": {
+                                "info": {
+                                    "text": "Баланс",
+                                    "typeface": "headline1",
+                                    "text_color": "default",
+                                    "max_lines": 1
+                                },
+                                "icon": {
+                                    "address": {
+                                        "type": "local",
+                                        "identificator": "color_spasibo"
+                                    },
+                                    "size": {
+                                        "width": "medium",
+                                        "height": "medium"
+                                    },
+                                    "margins": {
+                                        "top": "5x",
+                                        "right": "6x",
+                                        "bottom": "2x",
+                                        "left": "8x"
+                                    },
+                                    "tint_color": "solid_brand"
+                                }
+                            }
+                        }]
+                    },
+                    "bottom_cell" :
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "1x",
+                            "bottom": "1x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Ваш уровень до 99 января",
+                                    "typeface": "footnote1",
+                                    "text_color": "secondary"
+                                },
+                                "subtitle": {
+                                    "text": "Огромное спасибо",
+                                    "typeface": "title1",
+                                    "text_color": "default",
+                                    "margins": {
+                                        "top": "1x"
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }]
+        }
+    },
+        {
+            "card":
+            {
+                "type": "gallery_card",
+                "items": [{
+                    "type": "gallery_search_content_item",
+                    "width": "small",
+                    "title_text": {
+                        "text": "123456 спасибо",
+                        "typeface": "body2",
+                        "text_color": "default"
+                    },
+                    "link_text": {
+                        "text": "ваш уровень до 9 января",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 2,
+                        "margins": {
+                            "top": "2x",
+                            "bottom": "2x"
+                        }
+                    },
+                    "description_text": {
+                        "text": "Больше чем спасибо",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                            "top": "2x"
+                        }
+                    },
+                    "paddings": {
+                        "top": "10x",
+                        "left": "8x",
+                        "right": "8x",
+                        "bottom": "10x"
+                    }
+                }]
+            }
+        },
         {
             "card" :
             {
-                "type" : "widget_gallery",
-                "items" :[
-                {
-                    "type" : "discovery_card",
-                    "width_columns" : 2,
-                    "cells" :
-                    {
-                        "top_cell":
-                        {
-                            "type": "details_cell_view",
-                            "paddings": {
-                                "top": "2x"
-                            },
-                            "details": [
-                                {
-                                "type": "detail_right_view",
-                                "info_and_icon": {
-                                    "info": {
-                                        "text": "Баланс",
-                                        "typeface": "headline1",
-                                        "text_color": "default",
-                                        "max_lines": 1
-                                    },
-                                    "icon": {
-                                        "address": {
-                                            "type": "local",
-                                            "identificator": "color_spasibo"
-                                        },
-                                        "size": {
-                                            "width": "medium",
-                                            "height": "medium"
-                                        },
-                                        "margins": {
-                                            "top": "5x",
-                                            "right": "6x",
-                                            "bottom": "2x",
-                                            "left": "8x"
-                                        },
-                                        "tint_color": "solid_brand"
-                                    }
-                                }
-                            }
-                        ]
-                        },
-                        "bottom_cell" :
-                        {
-                            "type": "left_right_cell_view",
-                            "paddings": {
-                                "top": "1x",
-                                "bottom": "1x"
-                            },
-                            "left": {
-                                "type": "simple_left_view",
-                                "texts": {
-                                    "title": {
-                                        "text": "Ваш уровень до 99 января",
-                                        "typeface": "footnote1",
-                                        "text_color": "secondary"
-                                    },
-                                    "subtitle": {
-                                        "text": "Огромное спасибо",
-                                        "typeface": "title1",
-                                        "text_color": "default",
-                                        "margins": {
-                                            "top": "1x"
-                                        }
-                                    }
-                                }
-                            }
-                        }
-    
-                    }
-                }
-                    ]
-            }
-        },
-        {"card" : 
-        {
-            "type": "gallery_card",
-            "items": [
-              {
-                "type": "gallery_search_content_item",
-                "width": "small",
-                "title_text": {
-                  "text": "123456 спасибо",
-                  "typeface": "body2",
-                  "text_color": "default"
-                },
-                "link_text": {
-                  "text": "ваш уровень до 9 января",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 2,
-                  "margins": {
-                    "top": "2x",
-                    "bottom": "2x"
-                  }
-                },
-                "description_text": {
-                  "text": "Больше чем спасибо",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x"
-                  }
-                },
-                "paddings": {
-                  "top": "10x",
-                  "left": "8x",
-                  "right": "8x",
-                  "bottom": "10x"
-                }
-              }
-            ]
-          }
-        },
-        {
-            "card" : 
-            {
                 "type": "list_card",
-                "cells": [
-                  {
+                "cells": [{
                     "type": "details_cell_view",
                     "width_columns": 3,
                     "paddings": {
-                      "top": "2x",
-                      "bottom": "1x",
-              "left" : "4x"
+                        "top": "2x",
+                        "bottom": "1x",
+                        "left" : "4x"
                     },
-                    "details": [
-                      {
+                    "details": [{
                         "type": "detail_right_view",
                         "info_and_icon": {
-                          "info": {
-                            "text": "Баланс",
-                            "typeface": "headline1",
-                            "text_color": "default",
-                            "max_lines": 1
-                          },
-                          "icon": {
-                            "address": {
-                              "type": "local",
-                              "identificator": "color_spasibo"
+                            "info": {
+                                "text": "Баланс",
+                                "typeface": "headline1",
+                                "text_color": "default",
+                                "max_lines": 1
                             },
-                            "size": {
-                              "width": "medium",
-                              "height": "medium"
-                            },
-                            "margins": {
-                              "top": "1x",
-                              "right": "6x",
-                              "bottom": "4x",
-                              "left": "8x"
-                            },
-                            "tint_color": "solid_brand"
-                          }
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "color_spasibo"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "top": "1x",
+                                    "right": "6x",
+                                    "bottom": "4x",
+                                    "left": "8x"
+                                },
+                                "tint_color": "solid_brand"
+                            }
                         }
-                      }
-                    ]
-                  },
-                  {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                      "top": "1x",
-                      "bottom": "4x",
-              "left" : "4x"
-                    },
-                    "left": {
-                      "type": "simple_left_view",
-                      "texts": {
-                        "title": {
-                          "text": "Ваш уровень до 99 января",
-                          "typeface": "footnote1",
-                          "text_color": "secondary"
+                    }]
+                },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "1x",
+                            "bottom": "4x",
+                            "left" : "4x"
                         },
-                        "subtitle": {
-                          "text": "Огромное спасибо",
-                          "typeface": "title1",
-                          "text_color": "default",
-                          "margins": {
-                            "top": "1x"
-                          }
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Ваш уровень до 99 января",
+                                    "typeface": "footnote1",
+                                    "text_color": "secondary"
+                                },
+                                "subtitle": {
+                                    "text": "Огромное спасибо",
+                                    "typeface": "title1",
+                                    "text_color": "default",
+                                    "margins": {
+                                        "top": "1x"
+                                    }
+                                }
+                            }
                         }
-                      }
-                    }
-                  }
-                ]
-              }
+                    }]
+            }
         },
         {
             "type": "list_card",
-            "cells": [
-              {
+            "cells": [{
                 "type": "left_right_cell_view",
                 "paddings": {
-                  "top": "1x",
-                  "bottom": "4x",
-                  "left": "4x"
+                    "top": "1x",
+                    "bottom": "4x",
+                    "left": "4x"
                 },
                 "left": {
-                  "type": "simple_left_view",
-                  "texts": {
-                    "title": {
-                      "text": "Ваш уровень до 99 января",
-                      "typeface": "footnote1",
-                      "text_color": "secondary"
-                    },
-                    "subtitle": {
-                      "text": "Огромное спасибо",
-                      "typeface": "title1",
-                      "text_color": "default",
-                      "margins": {
-                        "top": "1x"
-                      }
+                    "type": "simple_left_view",
+                    "texts": {
+                        "title": {
+                            "text": "Ваш уровень до 99 января",
+                            "typeface": "footnote1",
+                            "text_color": "secondary"
+                        },
+                        "subtitle": {
+                            "text": "Огромное спасибо",
+                            "typeface": "title1",
+                            "text_color": "default",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        }
                     }
-                  }
                 },
                 "right": {
-                  "type": "detail_right_view",
-                  "info_and_icon": {
-                    "info": {
-                      "text": "123456",
-                      "typeface": "headline1",
-                      "text_color": "default",
-                      "max_lines": 1
-                    },
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "color_spasibo"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "margins": {
-                        "top": "1x",
-                        "right": "6x",
-                        "bottom": "4x",
-                        "left": "8x"
-                      },
-                      "tint_color": "solid_brand"
+                    "type": "detail_right_view",
+                    "info_and_icon": {
+                        "info": {
+                            "text": "123456",
+                            "typeface": "headline1",
+                            "text_color": "default",
+                            "max_lines": 1
+                        },
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "color_spasibo"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "1x",
+                                "right": "6x",
+                                "bottom": "4x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        }
                     }
-                  }
                 }
-              }
-            ]
-          }
-
-        ]}
+            }]
+        }]}
