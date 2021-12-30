@@ -9,13 +9,13 @@
                 "paddings": {
                     "top": "2x",
                     "bottom": "1x",
-                    "left" : "12x"
+                    "left" : "10x"
                 },
                 "details": [{
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "24 542",
+                            "text": "25 542",
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1
@@ -45,7 +45,7 @@
                     "paddings": {
                         "top": "1x",
                         "bottom": "4x",
-                        "left" : "4x"
+                        "left" : "10x"
                     },
                     "left": {
                         "type": "simple_left_view",
