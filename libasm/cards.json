@@ -9,7 +9,7 @@
                 "paddings": {
                     "top": "2x",
                     "bottom": "1x",
-                    "left" : "4x"
+                    "left" : "12x"
                 },
                 "details": [{
                     "type": "detail_right_view",
