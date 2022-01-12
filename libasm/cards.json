@@ -20,6 +20,10 @@
                             "right": "8x"
                         }
                     },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
                     "subtitle": {
                         "text": "в разделе «СберСпасибо»",
                         "typeface": "footnote1",
@@ -34,12 +38,7 @@
                     }
                 },
                 "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x"
-                    }
+                    "type": "disclosure_right_view"
                 },
 
                 "actions": [{
