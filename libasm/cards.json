@@ -9,7 +9,7 @@
                     "type": "simple_left_view",
 
                     "title": {
-                        "text": "Список партнёров",
+                        "text": "1Список партнёров",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 0,
