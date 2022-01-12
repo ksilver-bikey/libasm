@@ -1,72 +1,52 @@
 {
-  "items": [
-      {
+    "items": [{
         "card" :
         {
             "type": "list_card",
-            "cells": [
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                      "type": "simple_left_view",
-                      "icon": {
-                        "address": {
-                          "type": "local",
-                          "identificator": "color_spasibo"
-                        },
-                        "size": {
-                          "width": "medium",
-                          "height": "medium"
-                        },
-                        "margins": {
-                          "top": "5x",
-                          "right": "6x",
-                          "bottom": "5x",
-                          "left": "8x"
-                        },
-                        "tint_color": "solid_brand"
-                      },
-                      "title": {
+            "cells": [{
+                "type": "left_right_cell_view",
+                "left": {
+                    "type": "simple_left_view",
+
+                    "title": {
                         "text": "Список партнёров",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 0,
                         "margins": {
-                          "top": "8x",
-                          "bottom": "4x",
-                          "left": "8x",
-                          "right": "8x"
+                            "top": "8x",
+                            "bottom": "4x",
+                            "left": "8x",
+                            "right": "8x"
                         }
-                      },
-                      "subtitle": {
+                    },
+                    "subtitle": {
                         "text": "в разделе «СберСпасибо»",
                         "typeface": "footnote1",
                         "text_color": "secondary",
                         "max_lines": 0,
                         "margins": {
-                          "top": "4x",
-                          "bottom": "8x",
-                          "left": "8x",
-                          "right": "8x"
+                            "top": "4x",
+                            "bottom": "8x",
+                            "left": "8x",
+                            "right": "8x"
                         }
-                      }
-                    },
-                    "right": {
-                      "type": "disclosure_right_view",
-                      "margins": {
+                    }
+                },
+                "right": {
+                    "type": "disclosure_right_view",
+                    "margins": {
                         "top": "8x",
                         "right": "4x",
                         "bottom": "8x"
-                      }
-                    },
-                    
-                    "actions": [
-                      {
-                        "type": "deep_link",
-                        "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/partners?internal_source=audiohelper505{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty/partners?internal_source=audiohelper505{% endif %}"
-                      }
-                    ]
-                  },
+                    }
+                },
+
+                "actions": [{
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/partners?internal_source=audiohelper505{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty/partners?internal_source=audiohelper505{% endif %}"
+                }]
+            },
                 {
                     "type": "left_right_cell_view",
                     "paddings": {
@@ -85,135 +65,126 @@
                         }
                     },
                     "divider": {
-                      "style": "default",
-                      "size": "d5"
+                        "style": "default",
+                        "size": "d5"
                     },
-                    
+
                     "right": {
-                      "type": "disclosure_right_view"
+                        "type": "disclosure_right_view"
                     },
-                    "actions": [
+                    "actions": [{
+                        "type": "set_variable",
+                        "key": "move_to",
+                        "value": "1.4"
+                    },
                         {
-                          "type": "set_variable",
-                          "key": "move_to",
-                          "value": "1.4"
-                        },
+                            "type": "text",
+                            "text": "Обменять бонусы на рубли"
+                        }]
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "actions": [{
+                        "type": "set_variable",
+                        "key": "move_to",
+                        "value": "1.4"
+                    },
                         {
-                          "type": "text",
-                          "text": "Обменять бонусы на рубли"
-                        }
-                      ]
-                },
-                {
-                  "type": "left_right_cell_view",
-                  "actions": [
-                    {
-                      "type": "set_variable",
-                      "key": "move_to",
-                      "value": "1.4"
+                            "type": "text",
+                            "text": "Подарить другу"
+                        }],
+                    "paddings": {
+                        "top": "4x",
+                        "bottom": "4x",
+                        "left" : "6x"
                     },
-                    {
-                      "type": "text",
-                      "text": "Подарить другу"
-                    }
-                  ],
-                  "paddings": {
-                      "top": "4x",
-                      "bottom": "4x",
-                      "left" : "6x"
-                  },
-                  "divider": {
-                    "style": "default",
-                    "size": "d5"
-                  },
-                  "left": {
-                      "type": "simple_left_view",
-                      "texts": {
-                          "title": {
-                              "text": "Подарить другу",
-                              "typeface": "body1",
-                              "text_color": "default"
-                          }
-                      }
-                  },
-                  "right": {
-                    "type": "disclosure_right_view"
-                  }
-              },
-              {
-                "type": "left_right_cell_view",
-                "actions": [
-                    {
-                      "type": "set_variable",
-                      "key": "move_to",
-                      "value": "1.4"
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
                     },
-                    {
-                      "type": "text",
-                      "text": "Получить скидочный купон"
-                    }
-                  ],
-                "paddings": {
-                    "top": "4x",
-                    "bottom": "4x",
-                    "left" : "6x"
-                },
-                "divider": {
-                  "style": "default",
-                  "size": "d5"
-                },
-                "left": {
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "Получить скидочный купон",
-                            "typeface": "body1",
-                            "text_color": "default"
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Подарить другу",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
                         }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view"
                     }
                 },
-                "right": {
-                  "type": "disclosure_right_view"
-                }
-            },
-            {
-              "type": "left_right_cell_view",
-              "actions": [
                 {
-                  "type": "set_variable",
-                  "key": "move_to",
-                  "value": "1.4"
+                    "type": "left_right_cell_view",
+                    "actions": [{
+                        "type": "set_variable",
+                        "key": "move_to",
+                        "value": "1.4"
+                    },
+                        {
+                            "type": "text",
+                            "text": "Получить скидочный купон"
+                        }],
+                    "paddings": {
+                        "top": "4x",
+                        "bottom": "4x",
+                        "left" : "6x"
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Получить скидочный купон",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view"
+                    }
                 },
                 {
-                  "type": "text",
-                  "text": "очу больше бонусов"
-                }
-              ],
-              "paddings": {
-                  "top": "4x",
-                  "bottom": "4x",
-                  "left" : "6x"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "left": {
-                  "type": "simple_left_view",
-                  "texts": {
-                      "title": {
-                          "text": "Хочу больше бонусов",
-                          "typeface": "body1",
-                          "text_color": "default"
-                      }
-                  }
-              },
-              "right": {
-                "type": "disclosure_right_view"
-              }
-          } ]
+                    "type": "left_right_cell_view",
+                    "actions": [{
+                        "type": "set_variable",
+                        "key": "move_to",
+                        "value": "1.4"
+                    },
+                        {
+                            "type": "text",
+                            "text": "очу больше бонусов"
+                        }],
+                    "paddings": {
+                        "top": "4x",
+                        "bottom": "4x",
+                        "left" : "6x"
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Хочу больше бонусов",
+                                "typeface": "body1",
+                                "text_color": "default"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view"
+                    }
+                }]
         }
-    }
-      ]
-    
-    }
+    }]
+
+}
