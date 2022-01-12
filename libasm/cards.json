@@ -8,7 +8,7 @@
                 "left": {
                     "type": "simple_left_view",
                     "title": {
-                        "text": "1Список партнёров",
+                        "text": "Список партнёров",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 0,
@@ -32,10 +32,10 @@
                         }
                     }
                 },
-                  "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
+                "divider": {
+                    "style": "default",
+                    "size": "d5"
+                },
                 "right": {
                     "type": "disclosure_right_view"
                 },
