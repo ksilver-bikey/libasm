@@ -1,174 +1,73 @@
 {
-    "items": [{
+  "items": [
+      {
         "card" :
         {
             "type": "list_card",
-            "cells": [{
-                "type": "left_right_cell_view",
-                "paddings": {
-                    "top": "1x",
-                    "bottom": "4x",
-                    "left" : "10x"
-                },
-                "left": {
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "Обменять на рубли",
-                            "typeface": "body1",
-                            "text_color": "default"
+            "cells": [
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                      "type": "simple_left_view",
+                      "icon": {
+                        "address": {
+                          "type": "local",
+                          "identificator": "color_spasibo"
+                        },
+                        "size": {
+                          "width": "medium",
+                          "height": "medium"
+                        },
+                        "margins": {
+                          "top": "5x",
+                          "right": "6x",
+                          "bottom": "5x",
+                          "left": "8x"
+                        },
+                        "tint_color": "solid_brand"
+                      },
+                      "title": {
+                        "text": "Список партнёров",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                          "top": "8x",
+                          "bottom": "4x",
+                          "left": "8x",
+                          "right": "8x"
                         }
-                    }
-                },
-                "actions": [
-                    {
-                        "type": "set_variable",
-                        "key": "move",
-                        "value": "11"
+                      },
+                      "subtitle": {
+                        "text": "в разделе «СберСпасибо»",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 0,
+                        "margins": {
+                          "top": "4x",
+                          "bottom": "8x",
+                          "left": "8x",
+                          "right": "8x"
+                        }
+                      }
+                    },
+                    "right": {
+                      "type": "disclosure_right_view",
+                      "margins": {
+                        "top": "8x",
+                        "right": "4x",
+                        "bottom": "8x"
+                      }
                     },
                     
-                    {
-                        "type": "text",
-                        "text": "hiho"
-                    }
-                    ],
-                "right": {
-                    "type": "disclosure_right_view"
-                }
-            },
+                    "actions": [
+                      {
+                        "type": "deep_link",
+                        "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/partners?internal_source=audiohelper505{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty/partners?internal_source=audiohelper505{% endif %}"
+                      }
+                    ]
+                  },
                 {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "1x",
-                        "bottom": "4x",
-                        "left" : "10x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Обменять на мили «Аэрофлота»",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "1x",
-                        "bottom": "4x",
-                        "left" : "10x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Обменять на баллы «РЖД»",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "1x",
-                        "bottom": "4x",
-                        "left" : "10x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Подарить друг",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "1x",
-                        "bottom": "4x",
-                        "left" : "10x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Получить скидку у партнёра",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "1x",
-                        "bottom": "4x",
-                        "left" : "10x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Поменять на скидочный купон",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "1x",
-                        "bottom": "4x",
-                        "left" : "10x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Получить скидку на ж/д или авиабилет",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
-                    }
-                }]
-        }
-    },
-        {
-            "card" :
-            {
-                "type": "list_card",
-                "cells": [{
                     "type": "left_right_cell_view",
                     "paddings": {
                         "top": "4x",
@@ -179,171 +78,142 @@
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "Обменять на рубли",
+                                "text": "Обменять бонусы на рубли",
                                 "typeface": "body1",
                                 "text_color": "default"
                             }
                         }
                     },
                     "divider": {
-                        "style": "default",
-                        "size": "d5"
+                      "style": "default",
+                      "size": "d5"
                     },
+                    
                     "right": {
-                        "type": "disclosure_right_view"
+                      "type": "disclosure_right_view"
+                    },
+                    "actions": [
+                        {
+                          "type": "set_variable",
+                          "key": "move_to",
+                          "value": "1.4"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Обменять бонусы на рубли"
+                        }
+                      ]
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "actions": [
+                    {
+                      "type": "set_variable",
+                      "key": "move_to",
+                      "value": "1.4"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Подарить другу"
+                    }
+                  ],
+                  "paddings": {
+                      "top": "4x",
+                      "bottom": "4x",
+                      "left" : "6x"
+                  },
+                  "divider": {
+                    "style": "default",
+                    "size": "d5"
+                  },
+                  "left": {
+                      "type": "simple_left_view",
+                      "texts": {
+                          "title": {
+                              "text": "Подарить другу",
+                              "typeface": "body1",
+                              "text_color": "default"
+                          }
+                      }
+                  },
+                  "right": {
+                    "type": "disclosure_right_view"
+                  }
+              },
+              {
+                "type": "left_right_cell_view",
+                "actions": [
+                    {
+                      "type": "set_variable",
+                      "key": "move_to",
+                      "value": "1.4"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Получить скидочный купон"
+                    }
+                  ],
+                "paddings": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left" : "6x"
+                },
+                "divider": {
+                  "style": "default",
+                  "size": "d5"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                        "title": {
+                            "text": "Получить скидочный купон",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        }
                     }
                 },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left" : "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d5"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Обменять на мили «Аэрофлота»",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view"
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left" : "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d5"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Обменять на баллы «РЖД»",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view"
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left" : "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d5"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Подарить друг",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view"
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left" : "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d5"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Получить скидку у партнёра",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view"
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left" : "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d5"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Поменять на скидочный купон",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view"
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "paddings": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left" : "6x"
-                        },
-                        "divider": {
-                            "style": "default",
-                            "size": "d5"
-                        },
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "Получить скидку на ж/д или авиабилет",
-                                    "typeface": "body1",
-                                    "text_color": "default"
-                                }
-                            }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view"
-                        }
-                    }]
-            }
-        }]
-
-}
+                "right": {
+                  "type": "disclosure_right_view"
+                }
+            },
+            {
+              "type": "left_right_cell_view",
+              "actions": [
+                {
+                  "type": "set_variable",
+                  "key": "move_to",
+                  "value": "1.4"
+                },
+                {
+                  "type": "text",
+                  "text": "очу больше бонусов"
+                }
+              ],
+              "paddings": {
+                  "top": "4x",
+                  "bottom": "4x",
+                  "left" : "6x"
+              },
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              },
+              "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                      "title": {
+                          "text": "Хочу больше бонусов",
+                          "typeface": "body1",
+                          "text_color": "default"
+                      }
+                  }
+              },
+              "right": {
+                "type": "disclosure_right_view"
+              }
+          } ]
+        }
+    }
+      ]
+    
+    }
