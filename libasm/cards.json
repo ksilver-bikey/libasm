@@ -9,13 +9,13 @@
                     "type": "simple_left_view",
                     "texts": {
                         "title": {
-                            "text": "С2писок партнёров",
+                            "text": "Список партнёров",
                             "typeface": "body1",
                             "text_color": "default",
                             "max_lines": 0,
                             "margins": {
                                 "top": "8x",
-                                "bottom": "8x",
+                                "bottom": "3x",
                                 "left": "8x",
                                 "right": "8x"
                             }
@@ -26,7 +26,7 @@
                             "text_color": "secondary",
                             "max_lines": 0,
                             "margins": {
-                                "top": "8x",
+                                "top": "3x",
                                 "bottom": "8x",
                                 "left": "8x",
                                 "right": "8x"
