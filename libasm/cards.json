@@ -1,189 +1,252 @@
 {
-    "items": [{
-        "card" :
+    "items": [
         {
+          "card": {
             "type": "list_card",
-            "cells": [{
+            "cells": [
+              {
                 "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "Список партнёров",
-                            "typeface": "body1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "8x",
-                                "bottom": "3x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        },
-                        "subtitle": {
-                            "text": "в разделе «СберСпасибо»",
-                            "typeface": "footnote1",
-                            "text_color": "secondary",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "3x",
-                                "bottom": "8x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        }}
-                },
                 "divider": {
-                    "style": "default",
-                    "size": "d5"
+                  "style": "default",
+                  "size": "d5"
+                },
+                "left": {
+                  "type": "simple_left_view",
+                  "texts" : {
+                    "title": {
+                      "text": "Посмотреть бонусы",
+                      "typeface": "body1",
+                      "text_color": "default",
+                      "max_lines": 0,
+                      "margins": {
+                        "top": "8x",
+                        "bottom": "3x",
+                        "left": "8x",
+                        "right": "8x"
+                      }
+                    },
+                    "subtitle": {
+                      "text": "В разделе «СберСпасибо»",
+                      "typeface": "footnote1",
+                      "text_color": "secondary",
+                      "max_lines": 0,
+                      "margins": {
+                        "top": "3x",
+                        "bottom": "8x",
+                        "left": "8x",
+                        "right": "8x"
+                      }
+                    }
+                  } },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper708{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper708{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "divider": {
+                  "style": "default",
+                  "size": "d5"
+                },
+                "left": {
+                  "type": "simple_left_view",
+                  "title": {
+                    "text": "Про уровни привилегий",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
+                    }
+                  },
+                  "subtitle": {
+                    "text": "",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
+                    }
+                  }
                 },
                 "right": {
-                    "type": "disclosure_right_view"
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
                 },
-
-                "actions": [{
-                    "type": "deep_link",
-                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/partners?internal_source=audiohelper505{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty/partners?internal_source=audiohelper505{% endif %}"
-                }]
-            },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x",
-                        "left" : "6x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Обменять бонусы на рубли",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-
-                    "right": {
-                        "type": "disclosure_right_view"
-                    },
-                    "actions": [{
-                        "type": "set_variable",
-                        "key": "move_to",
-                        "value": "1.4"
-                    },
-                        {
-                            "type": "text",
-                            "text": "Обменять бонусы на рубли"
-                        }]
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Про уровни привилегий"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "divider": {
+                  "style": "default",
+                  "size": "d5"
                 },
-                {
-                    "type": "left_right_cell_view",
-                    "actions": [{
-                        "type": "set_variable",
-                        "key": "move_to",
-                        "value": "1.4"
-                    },
-                        {
-                            "type": "text",
-                            "text": "Подарить другу"
-                        }],
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x",
-                        "left" : "6x"
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Подарить другу",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
+                "left": {
+                  "type": "simple_left_view",
+                  "title": {
+                    "text": "Как начисляются бонусы",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
                     }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "actions": [{
-                        "type": "set_variable",
-                        "key": "move_to",
-                        "value": "1.4"
-                    },
-                        {
-                            "type": "text",
-                            "text": "Получить скидочный купон"
-                        }],
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x",
-                        "left" : "6x"
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Получить скидочный купон",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
+                  },
+                  "subtitle": {
+                    "text": "",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
                     }
+                  }
                 },
-                {
-                    "type": "left_right_cell_view",
-                    "actions": [{
-                        "type": "set_variable",
-                        "key": "move_to",
-                        "value": "1.4"
-                    },
-                        {
-                            "type": "text",
-                            "text": "Хочу больше бонусов"
-                        }],
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x",
-                        "left" : "6x"
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Хочу больше бонусов",
-                                "typeface": "body1",
-                                "text_color": "default"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view"
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Как начисляются бонусы"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "divider": {
+                  "style": "default",
+                  "size": "d5"
+                },
+                "left": {
+                  "type": "simple_left_view",
+                  "title": {
+                    "text": "Куда их потратить",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
                     }
-                }]
+                  },
+                  "subtitle": {
+                    "text": "",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Куда их потратить"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "divider": {
+                  "style": "default",
+                  "size": "d5"
+                },
+                "left": {
+                  "type": "simple_left_view",
+                  "title": {
+                    "text": "Хочу больше бонусов",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
+                    }
+                  },
+                  "subtitle": {
+                    "text": "",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "top": "8x",
+                      "bottom": "8x",
+                      "left": "8x",
+                      "right": "8x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Хочу больше бонусов"
+                  }
+                ]
+              }
+            ]
+          }
         }
-    }]
-
+      ]
 }
