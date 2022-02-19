@@ -190,10 +190,7 @@
                 },
                 {
                     "type": "left_right_cell_view",
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
+
                     "left": {
                         "type": "simple_left_view",
                         "title": {
