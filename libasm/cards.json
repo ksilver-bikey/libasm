@@ -414,7 +414,7 @@
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "Первая строка",
+                                "text": "Это первая строка",
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "margins": {
@@ -435,7 +435,7 @@
                             "type": "simple_left_view",
                             "texts": {
                                 "title": {
-                                    "text": "Вторая строка",
+                                    "text": "Это вторая строка",
                                     "typeface": "body1",
                                     "text_color": "default",
                                     "margins": {
