@@ -397,57 +397,56 @@
                     }]
             }
         },
-{
-    "card": {
-      "type": "list_card",
-      "cells": [
         {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Первая строка",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": {
-                    "left": "8x",
-                    "right": "8x"
-                  }
-              }
+            "card": {
+                "type": "list_card",
+                "cells": [{
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "4x",
+                        "bottom": "2x"
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Первая строка",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "left": "8x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    }
+                },
+                    {
+                        "type": "left_right_cell_view",
+                        "paddings": {
+                            "top": "2x",
+                            "bottom": "4x"
+                        },
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Вторая строка",
+                                    "typeface": "body1",
+                                    "text_color": "default",
+                                    "margins": {
+                                        "left": "8x",
+                                        "right": "8x"
+                                    }
+                                }
+                            }
+                        }
+                    }]
             }
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Вторая строка",
-                "typeface": "body1",
-                "text_color": "default",
-                 "margins": {
-                    "left": "8x",
-                    "right": "8x"
-                  }
-              }
-            }
-          }
-        }
-      ]
-    }
-  }
-
-        
-        ]
+        }]
 
 }
