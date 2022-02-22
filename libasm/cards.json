@@ -9,14 +9,14 @@
           "type": "text_cell_view",
           "content": {
             "text": "Текст,\nможно в несколько строк",
-            "typeface": "body1",
+            "typeface": "body2",
             "text_color": "default",
             "max_lines": 0,
             "alignment": "left"
           },
           "paddings": {
             "left": "8x",
-            "top": "4x",
+            "top": "8x",
             "right": "8x",
             "bottom": "5x"
           }
@@ -112,8 +112,8 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "7x",
-                "left": "7x"
+                "right": "4x",
+                "left": "4x"
               },
               "tint_color": "solid_brand"
             },
@@ -381,7 +381,6 @@
                   },
                   "margins": {
                     "right": "6x",
-                    "bottom": "4x",
                     "left": "4x"
                   },
                   "tint_color": "solid_brand"
