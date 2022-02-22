@@ -1,5 +1,6 @@
 {
-    "items":[
+    "items":
+[
 {
     "card": {
       "type": "list_card",
@@ -17,7 +18,7 @@
             "left": "8x",
             "top": "4x",
             "right": "8x",
-            "bottom": "10x"
+            "bottom": "5x"
           }
         },
         {
@@ -34,8 +35,8 @@
               "text_color": "default",
               "max_lines": 0,
               "margins": {
-                "top": "8x",
-                "bottom": "8x",
+                "top": "4x",
+                "bottom": "4x",
                 "left": "8x",
                 "right": "8x"
               }
@@ -65,7 +66,7 @@
               "text_color": "default",
               "max_lines": 0,
               "margins": {
-                "top": "8x",
+                "top": "4x",
                 "bottom": "8x",
                 "left": "8x",
                 "right": "8x"
@@ -160,8 +161,8 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "7x",
-                "left": "7x"
+                "right": "4x",
+                "left": "4x"
               },
               "tint_color": "solid_brand"
             },
@@ -213,8 +214,6 @@
                 "typeface": "body1",
                 "text_color": "default",
                 "margins": {
-                    "top": "4x",
-                    "bottom": "4x",
                     "left": "8x",
                     "right": "8x"
                   }
@@ -252,8 +251,6 @@
                 "typeface": "body1",
                 "text_color": "default",
                  "margins": {
-                    "top": "4x",
-                    "bottom": "2x",
                     "left": "8x",
                     "right": "8x"
                   }
@@ -263,8 +260,6 @@
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "margins": {
-                    "top": "2x",
-                    "bottom": "4x",
                     "left": "8x",
                     "right": "8x"
                   }
@@ -303,8 +298,7 @@
           "paddings": {
             "left": "8x",
             "top": "4x",
-            "right": "8x",
-            "bottom": "2x"
+            "right": "8x"
           }
         },
         {
@@ -318,9 +312,8 @@
           },
           "paddings": {
             "left": "8x",
-            "top": "2x",
             "right": "8x",
-            "bottom": "8x"
+            "bottom": "4x"
           }
         },
         {
@@ -335,8 +328,7 @@
           "paddings": {
             "left": "8x",
             "top": "4x",
-            "right": "8x",
-            "bottom": "2x"
+            "right": "8x"
           }
         },
         {
@@ -350,7 +342,6 @@
           },
           "paddings": {
             "left": "8x",
-            "top": "2x",
             "right": "8x",
             "bottom": "4x"
           }
@@ -374,7 +365,7 @@
               "type": "detail_right_view",
               "info_and_icon": {
                 "info": {
-                  "text": "{{ variables.spasiboClientInfo.bonusBalance | numeric_grouping() }}",
+                  "text": "12 345",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 1
@@ -410,12 +401,12 @@
             "type": "simple_left_view",
             "texts": {
               "title": {
-                "text": "Ваш уровень до 9 {{ get_text_months_of_season()[3] }}",
+                "text": "Ваш уровень до 9 месяца",
                 "typeface": "footnote1",
                 "text_color": "secondary"
               },
               "subtitle": {
-                "text": "{{ variables.spasiboClientInfo.level_name }}",
+                "text": "Уровень спасиба",
                 "typeface": "title1",
                 "text_color": "default",
                 "margins": {
