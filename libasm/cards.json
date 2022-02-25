@@ -241,21 +241,19 @@
                         "type": "left_right_cell_view",
                         "left": {
                             "type": "simple_left_view",
-                            "texts": {
+                  "texts": {
                                 "title": {
-                                    "text": "Куда потратить бонусы",
+                                    "text": "ещё пара строк",
                                     "typeface": "body1",
                                     "text_color": "default",
                                     "max_lines": 0,
                                     "margins": {
-                                        "top": "4x",
-                                        "bottom": "4x",
                                         "left": "8x",
                                         "right": "8x"
                                     }
                                 },
                                 "subtitle": {
-                                    "text": "сюда",
+                                    "text": "тута",
                                     "typeface": "footnote1",
                                     "text_color": "secondary",
                                     "max_lines": 0,
@@ -266,6 +264,7 @@
                                     }
                                 }
                             }
+              
                         },
                         "right": {
                             "type": "disclosure_right_view",
