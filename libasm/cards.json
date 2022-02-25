@@ -559,58 +559,55 @@
                             "text": "Куда потратить бонусы"
                         }]
                     },
-{
-  "type": "left_right_cell_view",
-  "left": {
-    "type": "simple_left_view",
-    "icon": {
-      "address": {
-        "type": "local",
-        "identificator": "color_spasibo"
-      },
-      "size": {
-        "width": "medium",
-        "height": "medium"
-      },
-      "margins": {
-        "top": "5x",
-        "right": "6x",
-        "bottom": "5x",
-        "left": "8x"
-      },
-      "tint_color": "solid_brand"
-    },
-    "title": {
-      "text": "Перейти на сайт СберСпасибо",
-      "typeface": "body1",
-      "text_color": "default",
-      "max_lines": 0,
-      "margins": {
-        "top": "4x",
-        "bottom": "4x",
-        "left": "8x",
-        "right": "8x"
-      }
-    }
-  },
-  "right": {
-    "type": "disclosure_right_view",
-    "margins": {
-      "right": "5x"
-    }
-  },
-  "actions": [
-    {
-      "type": "deep_link",
-      "deep_link": "https://sberbank.ru/v/r/?p=s36Cq"
-    }
-  ],
-  "paddings": {
-    "top": "4x",
-    "bottom": "4x"
-  }
-}
-                    ]
+                    {
+                        "type": "left_right_cell_view",
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "color_spasibo"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "top": "5x",
+                                    "right": "6x",
+                                    "bottom": "5x",
+                                    "left": "8x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "title": {
+                                "text": "Перейти на сайт СберСпасибо",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "4x",
+                                    "bottom": "4x",
+                                    "left": "8x",
+                                    "right": "8x"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "actions": [{
+                            "type": "deep_link",
+                            "deep_link": "https://sberbank.ru/v/r/?p=s36Cq"
+                        }],
+                        "paddings": {
+                            "top": "4x",
+                            "bottom": "4x"
+                        }
+                    }]
             }
         }]
 }
