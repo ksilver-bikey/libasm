@@ -170,7 +170,8 @@
                                     "max_lines": 0,
                                     "margins": {
                                         "left": "8x",
-                                        "right": "8x"
+                                        "right": "8x",
+                                        "top": "4x"
                                     }
                                 },
                                 "subtitle": {
@@ -241,7 +242,7 @@
                         "type": "left_right_cell_view",
                         "left": {
                             "type": "simple_left_view",
-                  "texts": {
+                            "texts": {
                                 "title": {
                                     "text": "ещё пара строк",
                                     "typeface": "body1",
@@ -260,11 +261,11 @@
                                     "margins": {
                                         "left": "8x",
                                         "right": "8x",
-                                        "bottom": "4x"
+                                        "bottom": "3x"
                                     }
                                 }
                             }
-              
+
                         },
                         "right": {
                             "type": "disclosure_right_view",
