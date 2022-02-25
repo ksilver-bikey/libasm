@@ -1,7 +1,6 @@
 {
     "items":
-    [
-    {
+    [{
         "card": {
             "type": "list_card",
             "cells": [{
@@ -90,67 +89,17 @@
     },
 
 
-    {
-        "card": {
-            "type": "list_card",
-            "cells": [{
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "icon": {
-                        "address": {
-                            "type": "local",
-                            "identificator": "card"
-                        },
-                        "size": {
-                            "width": "medium",
-                            "height": "medium"
-                        },
-                        "margins": {
-                            "right": "4x",
-                            "left": "4x"
-                        },
-                        "tint_color": "solid_brand"
-                    },
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                        "title": {
-                            "text": "Куда потратить бонусы",
-                            "typeface": "body1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "4x",
-                                "bottom": "4x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        }
-                    }
-                },
-                "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "right": "5x"
-                    }
-                },
-                "divider": {
-                    "style": "default",
-                    "size": "d1"
-                },
-                "actions": [{
-                    "type": "text",
-                    "text": "Куда потратить бонусы"
-                }]
-            },
-                {
+        {
+            "card": {
+                "type": "list_card",
+                "cells": [{
                     "type": "left_right_cell_view",
                     "left": {
                         "type": "simple_left_view",
                         "icon": {
                             "address": {
                                 "type": "local",
-                                "identificator": "color_spasibo"
+                                "identificator": "card"
                             },
                             "size": {
                                 "width": "medium",
@@ -165,85 +114,6 @@
                         "icon_vertical_gravity": "center",
                         "texts": {
                             "title": {
-                                "text": "Больше о бонусах",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x"
-                                }
-                            },
-                            "subtitle": {
-                                "text": "в разделе «СберСпасибо»",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "bottom": "4x"
-                                }
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "5x"
-                        }
-                    },
-                    "actions": [{
-                        "type": "deep_link",
-                        "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
-                    }]
-                }]
-        }
-    },
-
-    {
-        "card": {
-            "type": "list_card",
-            "cells": [{
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "Куда потратить бонусы",
-                            "typeface": "body1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "top": "4x",
-                                "bottom": "4x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        }
-                    }
-                },
-                "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "right": "5x"
-                    }
-                },
-                "divider": {
-                    "style": "default",
-                    "size": "d1"
-                },
-                "actions": [{
-                    "type": "text",
-                    "text": "Куда потратить бонусы"
-                }]
-            },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
                                 "text": "Куда потратить бонусы",
                                 "typeface": "body1",
                                 "text_color": "default",
@@ -253,17 +123,6 @@
                                     "bottom": "4x",
                                     "left": "8x",
                                     "right": "8x"
-                                }
-                            },
-                            "subtitle": {
-                                "text": "сюда",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "bottom": "4x"
                                 }
                             }
                         }
@@ -283,30 +142,82 @@
                         "text": "Куда потратить бонусы"
                     }]
                 },
-                {
+                    {
+                        "type": "left_right_cell_view",
+                        "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                                "address": {
+                                    "type": "local",
+                                    "identificator": "color_spasibo"
+                                },
+                                "size": {
+                                    "width": "medium",
+                                    "height": "medium"
+                                },
+                                "margins": {
+                                    "right": "4x",
+                                    "left": "4x"
+                                },
+                                "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                                "title": {
+                                    "text": "Больше о бонусах",
+                                    "typeface": "body1",
+                                    "text_color": "default",
+                                    "max_lines": 0,
+                                    "margins": {
+                                        "left": "8x",
+                                        "right": "8x"
+                                    }
+                                },
+                                "subtitle": {
+                                    "text": "в разделе «СберСпасибо»",
+                                    "typeface": "footnote1",
+                                    "text_color": "secondary",
+                                    "max_lines": 0,
+                                    "margins": {
+                                        "left": "8x",
+                                        "right": "8x",
+                                        "bottom": "4x"
+                                    }
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "actions": [{
+                            "type": "deep_link",
+                            "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
+                        }]
+                    }]
+            }
+        },
+
+        {
+            "card": {
+                "type": "list_card",
+                "cells": [{
                     "type": "left_right_cell_view",
                     "left": {
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "Больше о бонусах",
+                                "text": "Куда потратить бонусы",
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 0,
                                 "margins": {
+                                    "top": "4x",
+                                    "bottom": "4x",
                                     "left": "8x",
                                     "right": "8x"
-                                }
-                            },
-                            "subtitle": {
-                                "text": "в разделе «СберСпасибо»",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "bottom": "4x"
                                 }
                             }
                         }
@@ -317,12 +228,100 @@
                             "right": "5x"
                         }
                     },
+                    "divider": {
+                        "style": "default",
+                        "size": "d1"
+                    },
                     "actions": [{
-                        "type": "deep_link",
-                        "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
+                        "type": "text",
+                        "text": "Куда потратить бонусы"
                     }]
-                }]
-        }
-    }]
+                },
+                    {
+                        "type": "left_right_cell_view",
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Куда потратить бонусы",
+                                    "typeface": "body1",
+                                    "text_color": "default",
+                                    "max_lines": 0,
+                                    "margins": {
+                                        "top": "4x",
+                                        "bottom": "4x",
+                                        "left": "8x",
+                                        "right": "8x"
+                                    }
+                                },
+                                "subtitle": {
+                                    "text": "сюда",
+                                    "typeface": "footnote1",
+                                    "text_color": "secondary",
+                                    "max_lines": 0,
+                                    "margins": {
+                                        "left": "8x",
+                                        "right": "8x",
+                                        "bottom": "4x"
+                                    }
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "divider": {
+                            "style": "default",
+                            "size": "d1"
+                        },
+                        "actions": [{
+                            "type": "text",
+                            "text": "Куда потратить бонусы"
+                        }]
+                    },
+                    {
+                        "type": "left_right_cell_view",
+                        "left": {
+                            "type": "simple_left_view",
+                            "texts": {
+                                "title": {
+                                    "text": "Больше о бонусах",
+                                    "typeface": "body1",
+                                    "text_color": "default",
+                                    "max_lines": 0,
+                                    "margins": {
+                                        "left": "8x",
+                                        "right": "8x"
+                                    }
+                                },
+                                "subtitle": {
+                                    "text": "в разделе «СберСпасибо»",
+                                    "typeface": "footnote1",
+                                    "text_color": "secondary",
+                                    "max_lines": 0,
+                                    "margins": {
+                                        "left": "8x",
+                                        "right": "8x",
+                                        "bottom": "4x"
+                                    }
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                                "right": "5x"
+                            }
+                        },
+                        "actions": [{
+                            "type": "deep_link",
+                            "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
+                        }]
+                    }]
+            }
+        }]
 
 }
