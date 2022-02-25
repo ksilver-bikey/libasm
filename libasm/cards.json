@@ -171,7 +171,7 @@
                                     "margins": {
                                         "left": "8x",
                                         "right": "8x",
-                                        "top": "4x"
+                                        "top": "2x"
                                     }
                                 },
                                 "subtitle": {
@@ -182,7 +182,7 @@
                                     "margins": {
                                         "left": "8x",
                                         "right": "8x",
-                                        "bottom": "4x"
+                                        "bottom": "2x"
                                     }
                                 }
                             }
