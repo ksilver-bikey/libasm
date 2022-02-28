@@ -1,158 +1,157 @@
 {
     "items":
-    [
-        
-        {
-            "card": {
-              "type": "list_card",
-              "cells": [
-                {
-                  "type": "text_cell_view",
-                  "content": {
+    [{
+        "card": {
+            "type": "list_card",
+            "cells": [{
+                "type": "text_cell_view",
+                "content": {
                     "text": "Текст,\nможно в несколько строк",
                     "typeface": "body2",
                     "text_color": "default",
                     "max_lines": 0,
                     "alignment": "left"
-                  },
-                  "paddings": {
+                },
+                "paddings": {
                     "left": "8x",
                     "right": "8x",
                     "bottom": "5x",
                     "top": "3x"
-                  }
+                }
+            },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "card"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "6x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "Куда потратить бонусы",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "4x",
+                                    "bottom": "4x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    },
+"right": {
+          "type": "detail_right_view",
+          "info_and_icon": {
+            "info": {
+              "text": "1 бонус = 0,5 ₽",
+              "typeface": "text1",
+              "text_color": "default"
+            }
+          },
+          "margins": {
+            "right": "5x"
+          }
+        }
+                     "actions": [{
+                        "type": "text",
+                        "text": "Куда потратить бонусы"
+                    }]
                 },
                 {
                     "type": "left_right_cell_view",
                     "left": {
-                      "type": "simple_left_view",
-                      "icon": {
-                        "address": {
-                          "type": "local",
-                          "identificator": "card"
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "color_spasibo"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "6x"
+                            },
+                            "tint_color": "solid_brand"
                         },
-                        "size": {
-                          "width": "medium",
-                          "height": "medium"
-                        },
-                        "margins": {
-                          "right": "0x",
-                          "left": "4x"
-                        },
-                        "tint_color": "solid_brand"
-                      },
-                      "icon_vertical_gravity": "center",
-                      "texts": {
-                        "title": {
-                          "text": "Куда потратить бонусы",
-                          "typeface": "body1",
-                          "text_color": "default",
-                          "max_lines": 0,
-                          "margins": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left": "4x",
-                            "right": "8x"
-                          }
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "Больше о бонусах",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "4x",
+                                    "right": "8x",
+                                    "top": "2x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "в разделе «СберСпасибо»",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "4x",
+                                    "right": "8x",
+                                    "bottom": "2x"
+                                }
+                            }
                         }
-                      }
                     },
-                    "right": {
-                      "type": "disclosure_right_view",
-                      "margins": {
-                        "right": "5x"
-                      }
-                    },
-                    "divider": {
-                      "style": "default",
-                      "size": "d1"
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Куда потратить бонусы"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "left_right_cell_view",
-                    "left": {
-                      "type": "simple_left_view",
-                      "icon": {
-                        "address": {
-                          "type": "local",
-                          "identificator": "color_spasibo"
-                        },
-                        "size": {
-                          "width": "medium",
-                          "height": "medium"
-                        },
-                        "margins": {
-                          "right": "0x",
-                          "left": "4x"
-                        },
-                        "tint_color": "solid_brand"
-                      },
-                      "icon_vertical_gravity": "center",
-                      "texts": {
-                        "title": {
-                          "text": "Больше о бонусах",
-                          "typeface": "body1",
-                          "text_color": "default",
-                          "max_lines": 0,
-                          "margins": {
-                            "left": "4x",
-                            "right": "8x",
-                            "top": "2x"
-                          }
-                        },
-                        "subtitle": {
-                          "text": "в разделе «СберСпасибо»",
-                          "typeface": "footnote1",
-                          "text_color": "secondary",
-                          "max_lines": 0,
-                          "margins": {
-                            "left": "4x",
-                            "right": "8x",
-                            "bottom": "2x"
-                          }
-                        }
-                      }
-                    },
-                    "right": {
-                      "type": "disclosure_right_view",
-                      "margins": {
-                        "right": "5x"
-                      }
-                    },
-                    "actions": [
-                      {
+"right": {
+          "type": "detail_right_view",
+          "info_and_icon": {
+            "info": {
+              "text": "1 бонус = 0,5 ₽",
+              "typeface": "text1",
+              "text_color": "default"
+            }
+          },
+          "margins": {
+            "right": "5x"
+          }
+        }
+                    "actions": [{
                         "type": "deep_link",
                         "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
-                      }
-                    ]
-                  },
-                  {
+                    }]
+                },
+                {
                     "type": "text_cell_view",
                     "content": {
-                      "text": "Текст,\nможно в несколько строк",
-                      "typeface": "footnote1",
-                      "text_color": "secondary",
-                      "max_lines": 0,
-                      "alignment": "left"
+                        "text": "Текст,\nможно в несколько строк",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 0,
+                        "alignment": "left"
                     },
                     "paddings": {
-                      "left": "8x",
-                      "right": "8x",
-                      "bottom": "5x",
-                      "top": "3x"
+                        "left": "8x",
+                        "right": "8x",
+                        "bottom": "5x",
+                        "top": "3x"
                     }
-                  }
-              ]
-            }
-          }
-    
-    
-    ]
+                }]
+        }
+    }]
 
 }
