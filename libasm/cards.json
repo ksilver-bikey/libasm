@@ -54,20 +54,20 @@
                             }
                         }
                     },
-"right": {
-          "type": "detail_right_view",
-          "info_and_icon": {
-            "info": {
-              "text": "1 бонус = 0,5 ₽",
-              "typeface": "text1",
-              "text_color": "default"
-            }
-          },
-          "margins": {
-            "right": "5x"
-          }
-        }
-                     "actions": [{
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "1%",
+                                "typeface": "text1",
+                                "text_color": "default"
+                            }
+                        },
+                        "margins": {
+                            "right": "5x"
+                        }
+                    }
+                    "actions": [{
                         "type": "text",
                         "text": "Куда потратить бонусы"
                     }]
@@ -117,19 +117,19 @@
                             }
                         }
                     },
-"right": {
-          "type": "detail_right_view",
-          "info_and_icon": {
-            "info": {
-              "text": "1 бонус = 0,5 ₽",
-              "typeface": "text1",
-              "text_color": "default"
-            }
-          },
-          "margins": {
-            "right": "5x"
-          }
-        }
+                    "right": {
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "1%",
+                                "typeface": "text1",
+                                "text_color": "default"
+                            }
+                        },
+                        "margins": {
+                            "right": "5x"
+                        }
+                    }
                     "actions": [{
                         "type": "deep_link",
                         "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
