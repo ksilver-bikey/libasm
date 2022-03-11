@@ -4,10 +4,13 @@
         "bubble": {
             "text": "11111ex",
             "markdown": false,
-                "expand_policy": "force_expand"
-        }
-
-
+            "expand_policy": "force_expand"
+        },
+{
+    "type": "text",
+    "text": "Подтверждаю",
+    "should_send_to_backend": false
+}
     },
 
         {
