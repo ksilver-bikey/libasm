@@ -6,11 +6,14 @@
             "markdown": false,
             "expand_policy": "force_expand"
         },
-{
-    "type": "text",
-    "text": "Подтверждаю",
-    "should_send_to_backend": false
-}
+        {
+            "command":
+
+            {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+            }}
     },
 
         {
