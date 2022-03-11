@@ -6,8 +6,6 @@
             "markdown": false,
             "expand_policy": "force_expand"
         },
-      
-
         {
             "card": {
                 "type": "list_card",
@@ -492,7 +490,8 @@
                     },
                     "actions": [{
                         "type": "text",
-                        "text": "Куда потратить бонусы"
+                        "text": "Куда потратить бонусы",
+ "should_send_to_backend": false
                     }]
                 },
                     {
