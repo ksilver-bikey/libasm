@@ -6,15 +6,7 @@
             "markdown": false,
             "expand_policy": "force_expand"
         },
-        {
-            "command":
-
-            {
-                "type": "text",
-                "text": "Подтверждаю",
-                "should_send_to_backend": false
-            }
-    },
+      
 
         {
             "card": {
@@ -839,4 +831,4 @@
                 }
             }]
         }]
-}
+    }
