@@ -2,9 +2,17 @@
     "items": [
         {
         "bubble": {
-            "text": "11111ex",
+            "text": "11w221ex",
             "markdown": false,
             "expand_policy": "force_expand"
+        }
+    },
+    {
+        "command":
+        "type": "action",
+        "action": {
+            "type": "text",
+            "text": "abc"
         }
     }
     ]
