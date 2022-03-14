@@ -491,7 +491,7 @@
                     "actions": [{
                         "type": "text",
                         "text": "Куда потратить бонусы",
- "should_send_to_backend": false
+                        "should_send_to_backend": false
                     }]
                 },
                     {
