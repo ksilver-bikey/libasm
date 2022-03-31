@@ -1,9 +1,356 @@
-{
-    "items": [{
-        "bubble": {
-            "text": "1888881ex",
-            "markdown": false,
-            "expand_policy": "force_expand"
+{"items": [
+  {
+    "card": {
+      "type": "list_card",
+      "cells": [
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Карты банка с категориями",
+            "typeface": "body2",
+            "text_color": "default",
+            "max_lines": 0,
+            "alignment": "left"
+          },
+          "paddings": {
+            "left": "8x",
+            "right": "8x",
+            "bottom": "5x",
+            "top": "3x"
+          }
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "card"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "0x",
+                "left": "4x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "title": {
+                "text": "Сберкарта",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "top": "2x"
+                }
+              },
+              "subtitle": {
+                "text": "до 3 категорий",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "bottom": "2x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": " тут нету экшена"
+            }
+          ]
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "card"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "0x",
+                "left": "4x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "title": {
+                "text": "Карта для пособий и пенсий",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "top": "2x"
+                }
+              },
+              "subtitle": {
+                "text": "1 категория",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "bottom": "2x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": " тут нету экшена"
+            }
+          ]
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "0x",
+                "left": "4x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "title": {
+                "text": "Молодёжная карта",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "top": "2x"
+                }
+              },
+              "subtitle": {
+                "text": "1 категория",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "bottom": "2x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": " тут нету экшена"
+            }
+          ]
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "0x",
+                "left": "4x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "title": {
+                "text": "Золотая карта",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "top": "2x"
+                }
+              },
+              "subtitle": {
+                "text": "2 категории",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "bottom": "2x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": " тут нету экшена"
+            }
+          ]
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": " ",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              },
+              "subtitle": {
+                "text": "c 01.09.2020 новые карты не выпускаются",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x",
+                  "bottom": "4x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": " тут нету экшена"
+            }
+          ]
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "0x",
+                "left": "4x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "title": {
+                "text": "Карта с большими бонусами",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "top": "2x"
+                }
+              },
+              "subtitle": {
+                "text": "4 категории",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "bottom": "2x"
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": " тут нету экшена"
+            }
+          ]
         }
-    }]
-}
+      ]
+    }
+  }
+]}
