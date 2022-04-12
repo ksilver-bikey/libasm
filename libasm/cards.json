@@ -49,7 +49,8 @@
                   "max_lines": 0,
                   "margins": {
                     "left": "8x",
-                    "right": "8x"
+                    "right": "8x",
+                    "top":"4x"
                   }
                 },
                 "subtitle": {
@@ -60,7 +61,7 @@
                   "margins": {
                     "left": "8x",
                     "right": "8x",
-                    "bottom": "2x"
+                    "bottom": "4x"
                   }
                 }
               }
@@ -94,11 +95,844 @@
                   "max_lines": 0,
                   "margins": {
                     "left": "8x",
-                    "right": "8x"
+                    "right": "8x",
+                    "top":"4x"
                   }
                 },
                 "subtitle": {
                   "text": "подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=N6N6w"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "card"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Карточные",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Есть на некоторых картах",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Карточные"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "bar_graph"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Уровневые",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Зависят от уровня в СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Уровневые"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "gift"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Призовые",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подарки в акциях Спасибомании",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Призовые"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Если же хранить на карте от 150 000 ₽ или потратить от 75 000 ₽, в следующем будут категории:",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_gas_station_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Автозаправки",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "6x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "info": {
+                  "text": "10%",
+                  "typeface": "text1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "right": "5x"
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_car_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Такси",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "6x",
+                    "bottom": "6x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "info": {
+                  "text": "5%",
+                  "typeface": "text1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "right": "5x"
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_cutlery_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Кафе и рестораны",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "6x",
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "info": {
+                  "text": "5%",
+                  "typeface": "text1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "right": "5x"
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Поменять категорию нельзя",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Если в этом месяце потратить от 15 000 ₽, в следующем будут категории:",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_cutlery_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Кафе и рестораны",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "6x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "info": {
+                  "text": "5%",
+                  "typeface": "text1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "right": "5x"
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_car_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Супермаркеты",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "6x",
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "info": {
+                  "text": "1%",
+                  "typeface": "text1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "right": "5x"
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Они могут отличаться, если вы их поменяли",
+              "typeface": "default",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Повышенных бонусов не будет, если:",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Покупка оплачена другой картой",
+              "typeface": "footnote2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Продавец не относится к категории",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Превышен лимит начисления бонусов",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=N6N6w"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Повышенных бонусов не будет, если:",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Продавец не относится к категории",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Превышен лимит начисления бонусов",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=N6N6w"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Повышенных бонусов не будет, если:",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "В этом сезоне вам уже начислено {{ variables.bonus_limit }} бонусов",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Продавец не относится к категории",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подробнее на сайте СберСпасибо",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -119,7 +953,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "https://sberbank.ru/v/r/?p=N6N6w"
+                "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
               }
             ]
           }
