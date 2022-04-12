@@ -1,5 +1,6 @@
 {
-  "items": [
+  "items": 
+  [
     {
       "card": {
         "type": "list_card",
@@ -7,8 +8,24 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Карты банка с категориями",
-              "typeface": "title1",
+              "text": "Повышенных бонусов не будет, если:",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Покупка оплачена другой картой",
+              "typeface": "footnote2",
               "text_color": "default",
               "max_lines": 0,
               "alignment": "left"
@@ -24,185 +41,10 @@
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Сберкарта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "до 3 категорий",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "bottom": "2x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": " тут нету экшена"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Карта для пособий и пенсий",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "1 категория",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "bottom": "2x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": " тут нету экшена"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Молодёжная карта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "1 категория",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "bottom": "2x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": " тут нету экшена"
-              }
-            ]
-          },
-          
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": " ",
-                  "typeface": "body1",
+                  "text": "Продавец не относится к категории",
+                  "typeface": "footnote2",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
@@ -211,58 +53,12 @@
                   }
                 },
                 "subtitle": {
-                  "text": "Карты, выпуск которых прекращён:",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Золотая карта",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "2 категории",
+                  "text": "Подробнее на сайте СберСпасибо",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "8x",
                     "right": "8x",
                     "bottom": "2x"
                   }
@@ -275,10 +71,14 @@
                 "right": "5x"
               }
             },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
             "actions": [
               {
-                "type": "text",
-                "text": " тут нету экшена"
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
               }
             ]
           },
@@ -286,41 +86,24 @@
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Карта с большими бонусами",
-                  "typeface": "body1",
+                  "text": "Превышен лимит начисления бонусов",
+                  "typeface": "footnote2",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
+                    "left": "8x",
+                    "right": "8x"
                   }
                 },
                 "subtitle": {
-                  "text": "4 категории",
+                  "text": "подробнее на сайте СберСпасибо",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "8x",
                     "right": "8x",
                     "bottom": "2x"
                   }
@@ -335,8 +118,8 @@
             },
             "actions": [
               {
-                "type": "text",
-                "text": " тут нету экшена"
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=N6N6w"
               }
             ]
           }
