@@ -1,260 +1,105 @@
 {
   "items": [
-  {
-    "card": {
-      "type": "list_card",
-      "cells": [
-        {
-          "type": "left_right_cell_view",
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "В этом сезоне вам уже начислено {{ variables.bonus_limit }} бонусов",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x"
+    {
+      "bubble": {
+        "text": [
+          "Повышенных бонусов не будет, если:"
+        ],
+        "markdown": false
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Продавец не относится к категории",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
                 }
               }
-            }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
+              }
+            ]
           },
-          "divider": {
-            "style": "default",
-            "size": "d1"
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Превышен лимит начисления бонусов",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://sberbank.ru/v/r/?p=N6N6w"
+              }
+            ]
           }
-        },
-        {
-          "type": "left_right_cell_view",
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Продавец не относится к категории",
-                "typeface": "footnote2",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x"
-                }
-              },
-              "subtitle": {
-                "text": "Подробнее на сайте СберСпасибо",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x",
-                  "bottom": "4x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "disclosure_right_view",
-            "margins": {
-              "right": "5x"
-            }
-          },
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
-            }
-          ]
-        }
-      ]
+        ]
+      }
     }
-  },
-  {
-    "card": {
-      "type": "list_card",
-      "cells": [
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "В этом сезоне вам уже начислено",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0,
-            "alignment": "left"
-          },
-          "paddings": {
-            "left": "8x",
-            "right": "8x",
-            "bottom": "0x",
-            "top": "4x"
-          },
-          "divider": {
-            "style": "default",
-            "size": "d1"
-          }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": " · 30 000 бонусов на уровне Огромное Спасибо",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0,
-            "alignment": "left"
-          },
-          "paddings": {
-            "left": "8x",
-            "right": "8x",
-            "bottom": "0x",
-            "top": "0x"
-          },
-          "divider": {
-            "style": "default",
-            "size": "d1"
-          }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": " · 45 000 бонусов на уровне Больше, чем Спасибо",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 0,
-            "alignment": "left"
-          },
-          "paddings": {
-            "left": "8x",
-            "right": "8x",
-            "bottom": "5x",
-            "top": "0x"
-          },
-          "divider": {
-            "style": "default",
-            "size": "d1"
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Продавец не относится к категории",
-                "typeface": "footnote2",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x"
-                }
-              },
-              "subtitle": {
-                "text": "Подробнее на сайте СберСпасибо",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x",
-                  "bottom": "2x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "disclosure_right_view",
-            "margins": {
-              "right": "5x"
-            }
-          },
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "card": {
-      "type": "list_card",
-      "cells": [
-        {
-          "type": "left_right_cell_view",
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "В этом сезоне вам уже начислено {{ variables.bonus_limit }} бонусов",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x"
-                }
-              }
-            }
-          },
-          "divider": {
-            "style": "default",
-            "size": "d1"
-          },
-          "paddings": {
-            "bottom": "4x",
-            "top": "4x"
-          }
-        },
-        {
-          "type": "left_right_cell_view",
-          "paddings": {
-            "bottom": "4x",
-            "top": "4x"
-          },
-          "left": {
-            "type": "simple_left_view",
-            "texts": {
-              "title": {
-                "text": "Продавец не относится к категории",
-                "typeface": "footnote2",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x"
-                }
-              },
-              "subtitle": {
-                "text": "Подробнее на сайте СберСпасибо",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
-                  "left": "8x",
-                  "right": "8x",
-                  "bottom": "4x"
-                }
-              }
-            }
-          },
-          "right": {
-            "type": "disclosure_right_view",
-            "margins": {
-              "right": "5x"
-            }
-          },
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "https://sberbank.ru/v/r/?p=R57RF"
-            }
-          ]
-        }
-      ]
-    }
-  }
-]
+  ]
 }
