@@ -34,7 +34,7 @@
                 }],
                 "divider": {
                     "style": "default",
-                    "size": "d5"
+                    "size": "d1"
                 }
             },
                 {
@@ -57,9 +57,7 @@
                     "right": {
                         "type": "disclosure_right_view",
                         "margins": {
-                
-                            "right": "4x",
-                        
+                            "right": "4x"
                         }
                     },
                     "actions": [{
@@ -68,7 +66,7 @@
                     }],
                     "divider": {
                         "style": "default",
-                        "size": "d5"
+                        "size": "d2"
                     }
                 },
                 {
@@ -102,7 +100,7 @@
                     },
                     "divider": {
                         "style": "default",
-                        "size": "d5"
+                        "size": "d3"
                     },
                     "actions": [{
                         "type": "text",
@@ -139,7 +137,7 @@
                     },
                     "divider": {
                         "style": "default",
-                        "size": "d5"
+                        "size": "d4"
                     },
                     "actions": [{
                         "type": "text",
