@@ -1,182 +1,203 @@
 {
-    "items":
-    [{
-        "card": {
-            "type": "list_card",
-            "cells": [{
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "title": {
-                        "text": "Изменения условий начисления",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 1,
-                        "margins": {
-                            "top": "4x",
-                            "bottom": "4x",
-                            "left": "8x",
-                            "right": "8x"
-                        }
-                    }
-                },
-                "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x"
-                    }
-                },
-                "actions": [{
-                    "type": "text",
-                    "text": "Изменения условий начисления"
-                }],
-                "divider": {
-                    "style": "default",
-                    "size": "d1"
+  "items": 
+  [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Изменения условий начисления",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "4x",
+                  "bottom": "4x",
+                  "left": "8x",
+                  "right": "8x"
                 }
+              }
             },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "title": {
-                            "text": "Посмотреть партнёров",
-                            "typeface": "body1",
-                            "text_color": "default",
-                            "max_lines": 1,
-                            "margins": {
-                                "top": "4x",
-                                "bottom": "4x",
-                                "left": "8x",
-                                "right": "8x"
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "4x"
-                        }
-                    },
-                    "actions": [{
-                        "type": "deep_link",
-                        "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/partners?internal_source=audiohelper709{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/loyalty/partners?internal_source=audiohelper709{% endif %}"
-                    }],
-                    "divider": {
-                        "style": "default",
-                        "size": "d2"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Повышенные бонусы в категориях",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "top": "4x",
-                                    "bottom": "4x",
-                                    "left": "8x",
-                                    "right": "8x"
-                                },
-                                "max_lines": 0
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "5x"
-                        }
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d3"
-                    },
-                    "actions": [{
-                        "type": "text",
-                        "text": "Повышенные бонусы в категориях"
-                    }]
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Когда придут бонусы",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "top": "4x",
-                                    "bottom": "4x",
-                                    "left": "8x",
-                                    "right": "8x"
-                                }
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "5x"
-                        }
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d4"
-                    },
-                    "actions": [{
-                        "type": "text",
-                        "text": "Когда придут бонусы"
-                    }]
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "4x",
-                        "bottom": "4x"
-                    },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Куда потратить бонусы",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "top": "4x",
-                                    "bottom": "4x",
-                                    "left": "8x",
-                                    "right": "8x"
-                                }
-                            }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "5x"
-                        }
-                    },
-                    "actions": [{
-                        "type": "text",
-                        "text": "Куда потратить бонусы"
-                    }]
-                }]
-        }
-    }]
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Изменения условий начисления"
+              }
+            ],
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Посмотреть партнёров",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "4x",
+                  "bottom": "4x",
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "4x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/partners?internal_source=audiohelper709{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty/partners?internal_source=audiohelper709{% endif %}"
+              }
+            ],
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Повышенные бонусы в категориях",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "8x",
+                    "right": "8x"
+                  },
+                  "max_lines": 0
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Повышенные бонусы в категориях"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Когда придут бонусы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Когда придут бонусы"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Куда потратить бонусы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Куда потратить бонусы"
+              }
+            ]
+          }
+        ]
+      }
+    }
+
+  ]
 }
