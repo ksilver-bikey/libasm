@@ -17,15 +17,15 @@
                             "height": "medium"
                         },
                         "margins": {
-
+                            
                             "right": "6x",
-
+                          
                             "left": "8x"
                         },
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "Перейти на сайт1",
+                        "text": "Перейти на сайт2",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -46,7 +46,11 @@
                 "actions": [{
                     "type": "deep_link",
                     "deep_link": "https://sberbank.ru/v/r/?p=72BvW"
-                }]
+                }],
+                "paddings": {
+                    "top": "4x",
+                    "bottom": "4x"
+                }
             }]
         }
     },
