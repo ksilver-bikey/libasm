@@ -41,10 +41,10 @@
                         "left": "8x"
                     },
 
-                        "actions":[{
-                            "type": "deep_link",
-                            "deep_link": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
-                        }],
+                    "actions":[{
+                        "type": "deep_link",
+                        "deep_link": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
+                    }],
                     "left": {
                         "type": "simple_left_view",
                         "texts": {
