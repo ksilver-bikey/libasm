@@ -14,7 +14,7 @@
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "4 234",
+                            "text": "5 234",
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1
@@ -40,12 +40,12 @@
                         "bottom": "10x",
                         "left": "8x"
                     },
+
+                        "actions":[{
+                            "type": "deep_link",
+                            "deep_link": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
+                        }],
                     "left": {
-                        "actions":[
-                            {
-                                "type": "deep_link",
-                                "deep_link": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
-                            }],
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
