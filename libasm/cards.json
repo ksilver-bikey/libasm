@@ -7,14 +7,14 @@
                 "type": "details_cell_view",
                 "paddings": {
                     "top": "8x",
-                    "bottom": "8x",
+                    "bottom": "5x",
                     "left": "8x"
                 },
                 "details": [{
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "2 234",
+                            "text": "3 234",
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1
