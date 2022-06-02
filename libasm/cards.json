@@ -1,5 +1,4 @@
 
-
 {
   "items":
   [{
@@ -62,5 +61,10 @@
                   }
               }]
       }
+  },
+  {
+    "loader": "json",
+    "type": "unified_template",
+    "template": "{\"bubble\": {\"text\": [\"123\"]}}"
   }]
 }
