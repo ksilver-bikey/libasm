@@ -40,7 +40,7 @@
                       "value": "false",
                       "type": "checkbox",
                       "referenceId": "agreement",
-                      "title": "Я согласен с <a>правилами</a>",
+                      "title": "Я согласен с всеми <a>правилами</a>",
                       "validators": [
                           {
                               "type": "required",
@@ -70,55 +70,14 @@
           "requireVisitAll": true
       },
       "items": [
-        {
-          "title": "test1",
-          "value": "id-card-1",
-          "properties": {
-              "title": "Visa Classic RK1",
-              "type": "card",
-              "name": "Visa Classic",
-              "maskedNumber": "•••• 4545",
-              "currency": "RUB",
-              "balance": "1000000",
-              "additionalInfo": "инфо",
-              "style": "mc_36_visa_gold"
+          {
+              "title": "Документ в формате PDF 1",
+              "value": "agreement-pdf-1",
+              "properties": {
+                  "format": "pdf",
+                  "src": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
+              }
           }
-      },
-      {
-          "title": "test2",
-          "value": "id-card-2",
-          "properties": {
-              "title": "Visa Classic RK2",
-              "type": "card",
-              "paymentSystem": "visa",
-              "name": "Visa Classic",
-              "maskedNumber": "•••• 4545",
-              "currency": "USD",
-              "balance": "15000",
-              "state": "warning4",
-              "additionalInfo": "Дополнительная информация",
-              "unavailable": "false",
-              "style": "mc_36_visa"
-          }
-      },
-      {
-          "title": "test3",
-          "value": "id-card-3",
-          "properties": {
-              "title": "Visa Classic RK3",
-              "type": "card",
-              "isCredit": false,
-              "paymentSystem": "visa",
-              "name": "Visa Classic",
-              "maskedNumber": "•••• 4545",
-              "currency": "EUR",
-              "balance": "10000",
-              "state": "warning4",
-              "additionalInfo": "Дополнительная информация",
-              "unavailable": "true",
-              "style": "card"
-          }
-      }
       ]
   }
 }
