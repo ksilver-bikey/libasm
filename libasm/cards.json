@@ -1,98 +1,72 @@
 {
-  "type": "sdk_answer",
-  "items": [
-    {
-      "card": {
-        "type": "workflow",
-        "payload": {
-"success": true,
-"body": {
-"result": "SUCCESS",
-"pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-"flow": "DemoCoreAgreement",
-"state": "state0",
-"output": {
-"screens": [
-  {
-      "title": "CoreAgreement",
-      "header": [
-          {
-              "type": "CoreNavBar",
-              "title": "CoreAgreement",
-              "events": [
-                  {
-                      "cmd": "EXIT"
-                  }
-              ]
-          }
-      ],
-      "widgets": [
-      ],
-      "footer": [
-          {
-              "type": "CoreAgreement",
-              "title": "Несколько документов",
-              "description": "pdf, md и требуется просмотр всех документов",
-              "properties": {},
-              "fields": [
-                  {
-                      "id": "agreement",
-                      "value": "false",
-                      "type": "checkbox",
-                      "referenceId": "agreement",
-                      "title": "Я согласен с <a>условиями предоставления услуги</a>",
-                      "validators": [
-                          {
-                              "type": "required",
-                              "value": "true",
-                              "message": "Вы не согласились с лицензионным соглашением"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "type": "CoreButtons",
-              "events": [
-                  {
-                      "uri": "",
-                      "title": "Продолжить",
-                      "description": "Переход на следующий экран"
-                  }
-              ]
-          }
-      ]
-  }
-],
-"references": {
-  "agreement": {
-      "properties": {
-          "requireVisitAll": true
-      },
-      "items": [
-          {
-              "title": "Документ в формате PDF 1",
-              "value": "agreement-pdf-1",
-              "properties": {
-                  "format": "pdf",
-                  "src": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
-              }
-          },
-          {
-              "title": "Документ в формате PDF 2",
-              "value": "agreement-pdf-2",
-              "properties": {
-                  "format": "pdf",
-                  "src": "http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
-              }
-          }
-      ]
-  }
-}
-}
-}
-}
-      }
-    }
-  ]
+    "type": "sdk_answer",
+    "items": [{
+        "card": {
+            "type": "workflow",
+            "payload": {
+                "success": true,
+                "body": {
+                    "result": "SUCCESS",
+                    "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                    "flow": "DemoCoreAgreement",
+                    "state": "state0",
+                    "output": {
+                        "screens": [{
+                            "title": "CoreAgreement",
+                            "header": [{
+                                "type": "CoreNavBar",
+                                "title": "CoreAgreement",
+                                "events": [{
+                                    "cmd": "EXIT"
+                                }]
+                            }],
+                            "widgets": [
+                            ],
+                            "footer": [{
+                                "type": "CoreAgreement",
+                                "title": "Документ",
+                                "description": "pdf, md и требуется просмотр всех документов",
+                                "properties": {},
+                                "fields": [{
+                                    "id": "agreement",
+                                    "value": "false",
+                                    "type": "checkbox",
+                                    "referenceId": "agreement",
+                                    "title": "Я согласен с <a>условиями предоставления услуги</a>",
+                                    "validators": [{
+                                        "type": "required",
+                                        "value": "true",
+                                        "message": "Вы не согласились с лицензионным соглашением"
+                                    }]
+                                }]
+                            },
+                                {
+                                    "type": "CoreButtons",
+                                    "events": [{
+                                        "uri": "",
+                                        "title": "Продолжить",
+                                        "description": "Переход на следующий экран"
+                                    }]
+                                }]
+                        }],
+                        "references": {
+                            "agreement": {
+                                "properties": {
+                                    "requireVisitAll": true
+                                },
+                                "items": [{
+                                    "title": "Документ в формате PDF 1",
+                                    "value": "agreement-pdf-1",
+                                    "properties": {
+                                        "format": "pdf",
+                                        "src": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
+                                    }
+                                }]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }]
 }
