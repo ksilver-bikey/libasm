@@ -1,49 +1,66 @@
-{
-  "items": [
-    {
-      "card": {
-        "type": "workflow",
-        "payload": {
-         
-    "success": true,
-    "body": {
-        "result": "SUCCESS",
-        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-        "flow": "DemoCoreMoney",
-        "state": "state0",
-        "output": {
-            "screens": [{
-                "title": "CoreFieldSet: chechbox",
-                "header": [{
-                    "type": "CoreNavBar",
-                    "title": "CoreFieldSet: chechbox",
-                    "events": [{
-                        "cmd": "EXIT"
-                    }]
-                }],
-                "widgets": [{
-                    "type": "CoreFieldSet",
-                    
-                    "fields": [{
-                        "id": "fieldSet:switch",
-                        "type": "checkbox",
-                        "format": "checkbox",
-                        "readonly": false,
-                        "description": "Description",
-                        "title": "checkbox"
-                    }
-                  ]
-                }]
-            }]
-        }
-    }
-}
 
-              }
-            
-          }
-        
-      
-    
-  ]
+
+{
+  "items":
+  [{
+      "card": {
+          "type": "list_card",
+          "cells": [{
+              "type": "details_cell_view",
+              "paddings": {
+                  "top": "8x",
+                  "bottom": "5x",
+                  "left": "8x"
+              },
+              "details": [{
+                  "type": "detail_right_view",
+                  "info_and_icon": {
+                      "info": {
+                          "text": "3 234",
+                          "typeface": "headline1",
+                          "text_color": "default",
+                          "max_lines": 1
+                      },
+                      "icon": {
+                          "address": {
+                              "type": "local",
+                              "identificator": "color_spasibo"
+                          },
+                          "size": {
+                              "width": "medium",
+                              "height": "medium"
+                          },
+                          "tint_color": "solid_brand"
+                      }
+                  }
+              }]
+          },
+              {
+                  "type": "left_right_cell_view",
+                  "paddings": {
+                      "top": "1x",
+                      "bottom": "10x",
+                      "left": "8x"
+                  },
+                  "left": {
+                      "type": "simple_left_view",
+                      "texts": {
+                          "title": {
+                              "text": "Ваш уровень до 9 июня",
+                              "typeface": "footnote1",
+                              "text_color": "secondary"
+                          },
+                          "subtitle": {
+                              "text": "Больше чем спасибо",
+                              "typeface": "title1",
+                              "text_color": "default",
+                              "margins": {
+                                  "top": "1x"
+                              }
+                          }
+                      }
+                  }
+              }]
+      }
+  }]
 }
