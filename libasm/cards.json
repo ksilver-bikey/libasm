@@ -36,7 +36,7 @@
                 {
                     "type": "left_right_cell_view",
                     "paddings": {
-                        "left": "16x"
+                        "left": "17x"
                     },
                     "left": {
                         "type": "simple_left_view",
@@ -48,7 +48,7 @@
                                 "max_lines": 0,
                                 "margins": {
                                     "top": "8x",
-                                    "bottom": "2x",
+                     
                                     "left": "16x"
                                 }
                             }
@@ -88,7 +88,7 @@
                                 "left": "6x"
                             }
                         },
-                        "icon_vertical_gravity": "center",
+                        "icon_vertical_gravity": "top",
                         "texts": {
                             "title": {
                                 "text": "fdwfwfwf",
@@ -96,8 +96,8 @@
                                 "text_color": "default",
                                 "max_lines": 0,
                                 "margins": {
-                                    "top": "2x",
-                                    "bottom": "2x",
+                                
+                                   
                                     "left": "4x",
                                     "right": "8x"
                                 }
@@ -108,7 +108,7 @@
                                 "text_color": "secondary",
                                 "max_lines": 0,
                                 "margins": {
-                                    "top": "2x",
+                                   
                                     "bottom": "8x",
                                     "left": "4x",
                                     "right": "8x"
