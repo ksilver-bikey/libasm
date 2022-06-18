@@ -38,7 +38,7 @@
                 {
                     "type": "left_right_cell_view",
                     "paddings": {
-                        "left": "14x"
+                        "left": "8x"
                     },
                     "left": {
                         "type": "simple_left_view",
@@ -51,7 +51,7 @@
                                 "margins": {
                                     "top": "4x",
                                     "bottom": "2x",
-                                    "left": "14x"
+                                    "left": "8x"
                                 }
                             }
                         }
