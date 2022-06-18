@@ -22,7 +22,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "Ваш баланс 1 200",
+                "text": "Ваш баланс 1 223",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0,
@@ -36,6 +36,9 @@
             },
             {
               "type": "left_right_cell_view",
+              "paddings": {
+                "left": "4x"
+              },
               "left": {
                 "type": "simple_left_view",
                 "texts": {
@@ -47,7 +50,7 @@
                     "margins": {
                       "top": "8x",
                       "bottom": "2x",
-                      "left": "18x"
+                      "left": "16x"
                     }
                   }
                 }
@@ -78,20 +81,20 @@
                     "type": "local",
                     "identificator": "handset"
                   },
+                  "tint_color": "solid_white",
                   "size": {
-                    "width": "medium",
-                    "height": "medium"
+                    "width": "large",
+                    "height": "large"
                   },
                   "margins": {
                     "right": "0x",
                     "left": "6x"
-                  },
-                  "tint_color": "solid_brand"
+                  }
                 },
                 "icon_vertical_gravity": "center",
                 "texts": {
                   "title": {
-                    "text": "John",
+                    "text": "fdwfwfwf",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 0,
@@ -103,7 +106,7 @@
                     }
                   },
                   "subtitle": {
-                    "text": "8 910 538 67 91",
+                    "text": "1238988292",
                     "typeface": "body1",
                     "text_color": "secondary",
                     "max_lines": 0,
@@ -162,7 +165,7 @@
                 "icon_vertical_gravity": "center",
                 "texts": {
                   "title": {
-                    "text": "120",
+                    "text": "123",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 0,
@@ -174,7 +177,7 @@
                     }
                   },
                   "subtitle": {
-                    "text": "Курс перевода 1 = 0.8",
+                    "text": "Курс перевода 1 = 11",
                     "typeface": "body1",
                     "text_color": "secondary",
                     "max_lines": 0,
@@ -222,7 +225,7 @@
                     }
                   },
                   "subtitle": {
-                    "text": "100",
+                    "text": "§00",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 0,
