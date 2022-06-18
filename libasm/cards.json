@@ -5,7 +5,7 @@
             "cells": [{
                 "type": "text_cell_view",
                 "content": {
-                    "text": "Перевод бонусов14",
+                    "text": "Перевод бонусов145",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
@@ -30,7 +30,9 @@
                     "paddings": {
                         "left": "8x",
                         "right": "8x",
-                        "top": "2x"
+                       
+                        "bottom": "4x"
+
                     }
                 },
                 {
@@ -47,9 +49,9 @@
                                 "text_color": "secondary",
                                 "max_lines": 0,
                                 "margins": {
-                                    "top": "8x",
-
-                                    "left": "16x"
+                                    "top": "4x",
+"bottom": "2x",
+                                    "left": "15x"
                                 }
                             }
                         }
@@ -84,6 +86,7 @@
                                 "height": "large"
                             },
                             "margins": {
+"bottom": "2x",
                                 "right": "0x",
                                 "left": "3x"
                             }
@@ -97,7 +100,7 @@
                                 "max_lines": 0,
                                 "margins": {
 
-
+"bottom": "2x",
                                     "left": "4x",
                                     "right": "8x"
                                 }
