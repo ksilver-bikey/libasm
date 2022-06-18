@@ -1,245 +1,241 @@
-{"items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Перевод бонусов",
-              "typeface": "title1",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "4x",
-              "right": "8x",
-              "bottom": "2x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Ваш баланс 1200"
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "top": "2x"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Получатель",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "2x",
-                    "left": "16x",
-                    "right": "8x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Изменить получателя"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "handset"
+{
+    "items": [{
+        "card": {
+            "type": "list_card",
+            "cells": [
+                {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Перевод бонусов",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "left"
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Вася",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x",
-                    "bottom": "2x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "+7(910)-538-67-91",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x",
-                    "bottom": "8x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Сумма списания",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "2x",
-                    "left": "20x",
-                    "right": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "falling_coin"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "120",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x",
-                    "bottom": "2x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Курс перевода 1 = 0,8",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x",
-                    "bottom": "4x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Сумма перевода",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
+                "paddings": {
+                    "left": "8x",
                     "top": "4x",
-                    "bottom": "2x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "100",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "2x",
-                    "bottom": "2x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
+                    "right": "8x",
+                    "bottom": "2x"
                 }
-              }
-            }
-          }
-        ]
-      }
-    }
-  ]
+            },
+                {
+                    "type": "text_cell_view",
+                    "content": {
+                        "text": "Ваш баланс 1200",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 0,
+                        "alignment": "left"
+                    },
+                    "paddings": {
+                        "left": "8x",
+                        "right": "8x",
+                        "top": "2x"
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Получатель",
+                                "typeface": "body1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "8x",
+                                    "bottom": "2x",
+                                    "left": "16x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
+                    },
+                    "actions": [{
+                        "type": "text",
+                        "text": "Изменить получателя"
+                    }]
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "handset"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "6x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "Вася",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "2x",
+                                    "bottom": "2x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "+7(910)-538-67-91",
+                                "typeface": "body1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "2x",
+                                    "bottom": "8x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "Сумма списания",
+                                "typeface": "body1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "8x",
+                                    "bottom": "2x",
+                                    "left": "20x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "falling_coin"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "6x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "120",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "2x",
+                                    "bottom": "2x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "Курс перевода 1 = 0,8",
+                                "typeface": "body1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "2x",
+                                    "bottom": "4x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "wallet"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "6x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "Сумма перевода",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "4x",
+                                    "bottom": "2x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "100",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "2x",
+                                    "bottom": "2x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    }
+                }]
+        }
+    }]
 }
