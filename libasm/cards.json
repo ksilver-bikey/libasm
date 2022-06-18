@@ -5,7 +5,7 @@
             "cells": [{
                 "type": "text_cell_view",
                 "content": {
-                    "text": "Перевод бонусов8",
+                    "text": "Перевод бонусо7в8",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
@@ -43,7 +43,7 @@
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "     Получатель",
+                                "text": "          Получатель",
                                 "typeface": "body1",
                                 "text_color": "secondary",
                                 "max_lines": 0,
