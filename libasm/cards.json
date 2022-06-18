@@ -5,7 +5,7 @@
             "cells": [{
                 "type": "text_cell_view",
                 "content": {
-                    "text": "Перевод бонусов1",
+                    "text": "Перевод бонусов12",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
@@ -48,7 +48,7 @@
                                 "max_lines": 0,
                                 "margins": {
                                     "top": "8x",
-                     
+
                                     "left": "16x"
                                 }
                             }
@@ -96,8 +96,8 @@
                                 "text_color": "default",
                                 "max_lines": 0,
                                 "margins": {
-                                
-                                   
+
+
                                     "left": "4x",
                                     "right": "8x"
                                 }
@@ -108,7 +108,7 @@
                                 "text_color": "secondary",
                                 "max_lines": 0,
                                 "margins": {
-                                   
+
                                     "bottom": "8x",
                                     "left": "4x",
                                     "right": "8x"
