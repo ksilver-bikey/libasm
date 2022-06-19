@@ -5,8 +5,7 @@
             "background_image": {
                 "url": "https://sun9-45.userapi.com/s/v1/if1/QR0GD6ALp3qaAiK7vMvWfAfK1ETd1Vc5qkMYlLG3SoM-Kc3E54DxEkad9gp_vfep3Ev6z4Ft.jpg?size=604x453&quality=96&type=album"
             },
-            "cells": [
-                {
+            "cells": [{
                 "type": "left_right_cell_view",
                 "left": {
                     "type": "simple_left_view",
@@ -26,38 +25,46 @@
                     }
                 }
             },
-{
-                "type": "left_right_cell_view",
-                "left": {
-"icon": {
-  "address": {
-    "type": "local",
-    "identificator": "color_spasibo"
-  },
-  "size": {
-    "width": "small",
-    "height": "small"
-  },
-  "tint_color": "solid_brand"
-},
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "150",
-                            "typeface": "headline1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "left": "8x",
-                                "right": "8x",
-                                "bottom": "4x",
-                                "top": "4x"
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "color_spasibo"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+  "margins": {
+                                    "left": "8x",
+                                   
+                                    "bottom": "4x",
+                                    "top": "4x"
 
+                                },
+                          
+                            "tint_color": "solid_white"
+                        },
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "150",
+                                "typeface": "headline1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "2x",
+                                    "right": "8x",
+                                    "bottom": "4x",
+                                    "top": "4x"
+
+                                }
                             }
                         }
                     }
-                }
-            },
+                },
                 {
                     "type": "left_right_cell_view",
                     "left": {
