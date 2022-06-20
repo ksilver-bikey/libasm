@@ -34,8 +34,8 @@
                                 "identificator": "color_spasibo"
                             },
                             "size": {
-                                "width": "medium",
-                                "height": "medium"
+                                "width": "xsmall",
+                                "height": "xsmall"
                             },
                             "margins": {
                                 "left": "8x",
@@ -51,7 +51,7 @@
                         "texts": {
                             "title": {
                                 "text": "150",
-                                "typeface": "headline1",
+                                "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 0,
                                 "margins": {
