@@ -175,7 +175,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "Курс перевода 1 = {% if variables.spasiboClientInfo.level == 2 %}0.8{% elif variables.spasiboClientInfo.level == 3 %}0.9{% else %}0.95{% endif %}",
+                  "text": "Курс перевода 1 =  0.8",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
