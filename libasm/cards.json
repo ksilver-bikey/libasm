@@ -1,20 +1,28 @@
 {
-  "auto_listening": false,
-  "type": "sdk_answer",
-  "items": [
-      {
-          "card": {
-              "type": "p2p_contact_selection",
-              "title": "Контакты",
-              "contacts": {
+    "auto_listening": false,
+    "type": "sdk_answer",
+    "items": [{
+        "card": {
+            "type": "p2p_contact_selection",
+            "title": "Контакты",
+            "contacts": [
+                {
                 "id": 1005,
                 "action": {
                     "type": "send_contact_phone",
                     "send_contact_phone": 1005,
-                    "template": "[[placeholder]]"
+                    "template": "имя тут [[placeholder]]"
+                }
+            },
+     {
+                "id": 1004,
+                "action": {
+                    "type": "send_contact_phone",
+                    "send_contact_phone": 1004,
+                    "template": "имя тут [[placeholder]]"
                 }
             }
-          }
-      }
-  ]
+            ]
+        }
+    }]
 }
