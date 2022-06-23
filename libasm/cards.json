@@ -1,28 +1,64 @@
 {
-    "auto_listening": false,
+    "auto_listening": true,
     "type": "sdk_answer",
-    "items": [{
-        "card": {
-            "type": "p2p_contact_selection",
-            "title": "Контакты",
-            "contacts": [
-                {
-                "id": 1005,
-                "action": {
-                    "type": "send_contact_phone",
-                    "send_contact_phone": 1005,
-                    "template": "имя тут [[placeholder]]"
-                }
-            },
-     {
-                "id": 1004,
-                "action": {
-                    "type": "send_contact_phone",
-                    "send_contact_phone": 1004,
-                    "template": "имя тут [[placeholder]]"
-                }
-            }
-            ]
+    "activate_assistant_items": "true",
+    "assistant_items": [
+      {
+        "bubble": {
+          "text": [
+            "answr_adress_book1"
+          ],
+          "markdown": false,
+          "expand_policy": "force_expand"
         }
-    }]
-}
+      }
+    ],
+    "suggestions": {
+      "buttons": [
+        {
+          "title": [
+            "правила"
+          ],
+          "actions": [
+            {
+              "type": "text",
+              "text": "правила"
+            }
+          ]
+        },
+        {
+          "title": [
+            "влезть в контакты"
+          ],
+          "actions": [
+            {
+              "type": "text",
+              "text": "влезть в контакты"
+            }
+          ]
+        },
+        {
+          "title": [
+            "телефонный номер"
+          ],
+          "actions": [
+            {
+              "type": "text",
+              "text": "телефонный номер"
+            }
+          ]
+        },
+        {
+          "title": [
+            "проверка генератора"
+          ],
+          "actions": [
+            {
+              "type": "text",
+              "text": "проверка генератора"
+            }
+          ]
+        }
+      ]
+    }
+  }
