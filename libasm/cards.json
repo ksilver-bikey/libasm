@@ -1,4 +1,5 @@
 {
+  "auto_listening": true,
   "type": "sdk_answer",
   "items": [
     {
@@ -8,53 +9,18 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Перевод бонусов",
-              "typeface": "title1",
+              "text": "Получатель",
+              "typeface": "body2",
               "text_color": "default",
               "max_lines": 0,
               "alignment": "left"
             },
             "paddings": {
               "left": "8x",
-              "top": "4x",
               "right": "8x",
-              "bottom": "2x"
+              "bottom": "5x",
+              "top": "3x"
             }
-          },
-          {
-            "type": "details_cell_view",
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "4x"
-            },
-            "details": [
-              {
-                "type": "detail_right_view",
-                "info_and_icon": {
-                  "info": {
-                    "text": "Ваш баланс 0 000",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                  },
-                  "icon": {
-                    "address": {
-                      "type": "local",
-                      "identificator": "color_spasibo"
-                    },
-                    "size": {
-                      "width": "xsmall",
-                      "height": "xsmall"
-                    },
-                    "margins": {
-                      "right": "6x"
-                    },
-                    "tint_color": "solid_white"
-                  }
-                }
-              }
-            ]
           },
           {
             "type": "left_right_cell_view",
@@ -62,214 +28,44 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "           Получатель",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "4x",
-                    "bottom": "2x",
-                    "left": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "handset"
-                },
-                "tint_color": "solid_white",
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "right": "0x",
-                  "left": "6x"
-                }
-              },
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "Mike Down",
+                  "text": "{{ variables.ab_name }}",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "bottom": "2x",
                     "left": "4x",
-                    "right": "8x"
+                    "right": "8x",
+                    "top": "2x"
                   }
                 },
                 "subtitle": {
-                  "text": "0 000 000 00 00",
-                  "typeface": "body1",
+                  "text": "{{ variables.phone }}",
+                  "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
-                    "bottom": "8x",
                     "left": "4x",
-                    "right": "8x"
+                    "right": "8x",
+                    "bottom": "2x"
                   }
                 }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Изменить получателя"
-              }
-            ]
-          },
-          {
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
+              },
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "falling_coin"
+                  "identificator": "persone"
                 },
                 "size": {
-                  "width": "large",
-                  "height": "large"
+                  "width": "medium",
+                  "height": "medium"
                 },
-                "margins": {
-                  "bottom": "2x",
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_white"
-              },
-              "icon_vertical_gravity": "bottom",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Изменить сумму"
-                }
-              ],
-              "texts": {
-                "title": {
-                  "text": "Сумма списания",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "2x",
-                    "left": "4x"
-                  }
-                },
-                "subtitle": {
-                  "text": "0 000",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "8x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "wallet"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_white"
-              },
-              "icon_vertical_gravity": "bottom",
-              "texts": {
-                "title": {
-                  "text": "Сумма перевода",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "2x",
-                    "left": "4x"
-                  }
-                },
-                "subtitle": {
-                  "text": "0 000",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "top",
-              "texts": {
-                "title": {
-                  "text": "             Курс перевода 1 = 0.0",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "8x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
+                "tint_color": "solid_brand"
               }
             }
           }
         ]
       }
     }
-  ]
+  ],
+  "CSI_content": "1"
 }
