@@ -33,7 +33,7 @@
                 "type": "detail_right_view",
                 "info_and_icon": {
                   "info": {
-                    "text": "Ваш баланс {{ variables.spasiboClientInfo.bonusBalance | numeric_grouping }}",
+                    "text": "Ваш баланс 0 000",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "max_lines": 0
@@ -102,7 +102,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "{{ variables.ab_name }}",
+                  "text": "Mike Down",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -113,7 +113,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "{{ variables.phone | phone_number_ru }}",
+                  "text": "0 000 000 00 00",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -188,7 +188,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "{{ variables.amount }}",
+                  "text": "0 000",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -235,7 +235,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "text": "0 000",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -255,7 +255,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "             Курс перевода 1 = {% if variables.spasiboClientInfo.level == 2 %}0.8{% elif variables.spasiboClientInfo.level == 3 %}0.9{% else %}0.95{% endif %}",
+                  "text": "             Курс перевода 1 = 0.0",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
