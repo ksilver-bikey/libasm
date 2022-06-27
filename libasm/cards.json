@@ -26,7 +26,7 @@
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "{{ variables.ab_name1 }}",
+                                "text": "{{ variables.ab_name2 }}",
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 0,
@@ -51,7 +51,7 @@
                         "icon": {
                             "address": {
                                 "type": "local",
-                                "identificator": "persone"
+                                "identificator": "user"
                             },
                             "size": {
                                 "width": "medium",
