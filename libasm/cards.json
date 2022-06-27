@@ -139,25 +139,6 @@
             }
           },
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "           Сумма списания",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "2x",
-                    "left": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
             "divider": {
               "style": "default",
               "size": "d5"
@@ -183,7 +164,18 @@
               },
               "icon_vertical_gravity": "top",
               "texts": {
-                "title": {
+                 "title": {
+                  "text": "Сумма списания",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "8x",
+                    "bottom": "2x",
+                    "left": "8x"
+                  }
+                },
+                "subtitle": {
                   "text": "0 000",
                   "typeface": "body1",
                   "text_color": "default",
@@ -255,7 +247,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Курс перевода 1 = 0.0",
+                  "text": "           Курс перевода 1 = 0.0",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
