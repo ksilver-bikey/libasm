@@ -114,7 +114,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "John Smith",
+                  "text": "Mike Smith",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -162,7 +162,7 @@
                 },
                 "tint_color": "solid_white"
               },
-              "icon_vertical_gravity": "top",
+              "icon_vertical_gravity": "bottom",
               "texts": {
                  "title": {
                   "text": "Сумма списания",
@@ -172,7 +172,7 @@
                   "margins": {
                     "top": "8x",
                     "bottom": "2x",
-                    "left": "8x"
+                    "left": "4x"
                   }
                 },
                 "subtitle": {
@@ -247,7 +247,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "           Курс перевода 1 = 0.0",
+                  "text": "             Курс перевода 1 = 0.0",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
