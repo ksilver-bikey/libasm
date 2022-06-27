@@ -33,7 +33,7 @@
                 "type": "detail_right_view",
                 "info_and_icon": {
                   "info": {
-                    "text": "Ваш баланс 0 000",
+                    "text": "Ваш баланс {{ variables.spasiboClientInfo.bonusBalance | numeric_grouping }}",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "max_lines": 0
@@ -73,19 +73,7 @@
                   }
                 }
               }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Изменить получателя"
-              }
-            ]
+            }
           },
           {
             "type": "left_right_cell_view",
@@ -114,7 +102,7 @@
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "Mike Smith",
+                  "text": "{{ variables.ab_name }}",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -125,7 +113,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "0 000 000 00 00",
+                  "text": "{{ variables.phone | phone_number_ru }}",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -136,7 +124,19 @@
                   }
                 }
               }
-            }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Изменить получателя"
+              }
+            ]
           },
           {
             "divider": {
@@ -144,6 +144,12 @@
               "size": "d5"
             },
             "type": "left_right_cell_view",
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
             "left": {
               "type": "simple_left_view",
               "icon": {
@@ -163,8 +169,14 @@
                 "tint_color": "solid_white"
               },
               "icon_vertical_gravity": "bottom",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Изменить сумму"
+                }
+              ],
               "texts": {
-                 "title": {
+                "title": {
                   "text": "Сумма списания",
                   "typeface": "body1",
                   "text_color": "secondary",
@@ -176,12 +188,12 @@
                   }
                 },
                 "subtitle": {
-                  "text": "0 000",
+                  "text": "{{ variables.amount }}",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "bottom": "2x",
+                    "bottom": "8x",
                     "left": "4x",
                     "right": "8x"
                   }
@@ -223,7 +235,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "0 000",
+                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -237,17 +249,13 @@
             }
           },
           {
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
               "icon_vertical_gravity": "top",
               "texts": {
                 "title": {
-                  "text": "             Курс перевода 1 = 0.0",
+                  "text": "             Курс перевода 1 = {% if variables.spasiboClientInfo.level == 2 %}0.8{% elif variables.spasiboClientInfo.level == 3 %}0.9{% else %}0.95{% endif %}",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 0,
