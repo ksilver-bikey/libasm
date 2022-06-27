@@ -1,71 +1,67 @@
 {
-  "auto_listening": true,
-  "type": "sdk_answer",
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Получатель",
-              "typeface": "body2",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "5x",
-              "top": "3x"
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "{{ variables.ab_name }}",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [{
+        "card": {
+            "type": "list_card",
+            "cells": [{
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Получатель",
+                    "typeface": "body2",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "left"
                 },
-                "subtitle": {
-                  "text": "{{ variables.phone }}",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
+                "paddings": {
+                    "left": "8x",
                     "right": "8x",
-                    "bottom": "2x"
-                  }
+                    "bottom": "5x",
+                    "top": "3x"
                 }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "persone"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand"
-              }
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "CSI_content": "1"
+            },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "title": {
+                                "text": "{{ variables.ab_name1 }}",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "4x",
+                                    "right": "8x",
+                                    "top": "2x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "{{ variables.phone }}",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "4x",
+                                    "right": "8x",
+                                    "bottom": "2x"
+                                }
+                            }
+                        },
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "persone"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "tint_color": "solid_brand"
+                        }
+                    }
+                }]
+        }
+    }],
+    "CSI_content": "1"
 }
