@@ -3,278 +3,272 @@
   "items": [
     {
       "card": {
-        "type": "workflow",
-        "payload": {
-          "success": true,
-          "body": {
-            "result": "SUCCESS",
-            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-            "flow": "CreateOpenEndFundAccount",
-            "state": "agreement",
-            "output": {
-              "screens": [
-                {
-                  "title": "Николай Олегович, согласитесь с условиями",
-                  "properties": {
-                    "eventForAnalytic": "Согласие с условиями",
-                    "paramsForAnalytic": [
-                      "productCode:fund_debt_market"
-                    ]
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Перевод бонусов",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "4x",
+              "right": "8x",
+              "bottom": "2x"
+            }
+          },
+          {
+            "type": "details_cell_view",
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "details": [
+              {
+                "type": "detail_right_view",
+                "info_and_icon": {
+                  "info": {
+                    "text": "Ваш баланс {{ variables.spasiboClientInfo.bonusBalance | numeric_grouping }}",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0
                   },
-                  "header": [
-                    {
-                      "type": "CoreNavBar",
-                      "title": "Покупка паёв Фонд Природные ресурсы"
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "color_spasibo"
                     },
-                    {
-                      "type": "WebSummary",
-                      "title": "Сумма покупки",
-                      "properties": {
-                        "collapsed": true,
-                        "event": "rollback",
-                        "stepId": "dd707268-97cb-11e9-93fc-2bf39ece3fb0"
-                      },
-                      "fields": [
-                        {
-                          "id": "WebSummary:paymentSum",
-                          "type": "text",
-                          "value": "50 000 ₽",
-                          "title": "Сумма покупки",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:resourceList",
-                          "type": "text",
-                          "value": "Mastercard •• 4276",
-                          "title": "Карта списания",
-                          "readonly": true
-                        }
-                      ]
+                    "size": {
+                      "width": "xsmall",
+                      "height": "xsmall"
                     },
-                    {
-                      "type": "WebSummary",
-                      "title": "Персональные данные",
-                      "properties": {
-                        "stepId": "cc707268-97cb-11e9-93fc-2bf39ece3fb0",
-                        "event": "rollback",
-                        "collapsed": true
-                      },
-                      "fields": [
-                        {
-                          "id": "WebSummary:phone",
-                          "type": "text",
-                          "value": "+7 901 123-22-44",
-                          "title": "Мобильный телефон",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:emailSelect",
-                          "type": "text",
-                          "title": "Электронная почта",
-                          "value": "TEST@TEST.RU",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:name",
-                          "type": "text",
-                          "value": "Олег Викторович А.",
-                          "title": "ФИО",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:passport",
-                          "type": "text",
-                          "value": "1234 111190",
-                          "title": "Серия и номер паспорта",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:innPif",
-                          "type": "text",
-                          "title": "ИНН",
-                          "value": "123456789012",
-                          "readonly": true
-                        }
-                      ]
+                    "margins": {
+                      "right": "6x"
                     },
-                    {
-                      "type": "WebSummary",
-                      "title": "Налоговая информация",
-                      "properties": {
-                        "collapsed": true,
-                        "event": "rollback",
-                        "stepId": "dd707268-97cb-11e9-93fc-2bf39ece3fb0"
-                      },
-                      "fields": [
-                        {
-                          "id": "WebSummary:isNotTaxResident",
-                          "type": "text",
-                          "title": "Не являюсь налоговым резидентом РФ",
-                          "value": "Нет",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:taxResidenceCountry",
-                          "type": "text",
-                          "value": "США",
-                          "title": "Страна налогового резидентства",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:residentDocumentNumber",
-                          "type": "text",
-                          "title": "Номер подтверждающего документа",
-                          "value": "9123456789",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:hasSecondCitizenship",
-                          "type": "text",
-                          "title": "Есть второе гражданство или вид на жительство",
-                          "value": "Нет",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:secondCitizenshipCountry",
-                          "value": "США",
-                          "type": "text",
-                          "title": "Страна второго гражданства или вида на жительство",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:secondCitizenshipDocumentType",
-                          "type": "text",
-                          "title": "Тип документа",
-                          "value": "Паспорт",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:secondCitizenshipDocumentNumber",
-                          "type": "text",
-                          "title": "Номер документа",
-                          "value": "00000000",
-                          "readonly": true
-                        },
-                        {
-                          "id": "WebSummary:secondCitizenshipDocumentExpirationDate",
-                          "type": "text",
-                          "title": "Срок действия",
-                          "value": "31.12.2022",
-                          "readonly": true
-                        }
-                      ]
-                    }
-                  ],
-                  "widgets": [
-                    {
-                      "type": "ConfirmationSummaryPdfDocuments",
-                      "properties": {},
-                      "title": "Ознакомление с документами",
-                      "description": "Подтверждая, Вы соглашаетесь с документами",
-                      "fields": [
-                        {
-                          "id": "agreement",
-                          "value": "false",
-                          "type": "checkbox",
-                          "referenceId": "",
-                          "title": "Я соглашаюсь с условиями и подписываю документ по операции",
-                          "readonly": false,
-                          "validators": [
-                            {
-                              "type": "required",
-                              "value": "true",
-                              "message": "Пожалуйста, подтвердите условия по операции"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "e456689db3d1474bb27c0575166e272e",
-                          "title": "Заявка на получение кредита",
-                          "type": "text",
-                          "value": "/confirmation/ib/v1/documents",
-                          "referenceId": "e456689db3d1474bb27c0575166e272e",
-                          "readonly": true,
-                          "validators": []
-                        }
-                      ]
-                    },
-                    {
-                      "type": "CoreButtons",
-                      "events": [
-                        {
-                          "cmd": "EVENT",
-                          "name": "next",
-                          "title": "Продолжить"
-                        }
-                      ]
-                    }
-                  ]
+                    "tint_color": "solid_white"
+                  }
                 }
-              ],
-              "references": {
-                "eDocAgreement": {
-                  "items": [
-                    {
-                      "title": "",
-                      "value": "https://test.stat.online.sberbank.ru/EFS/insurance/transfer-agreement.pdf"
-                    }
-                  ]
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "           Получатель",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "2x",
+                    "left": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "handset"
                 },
-                "transferPersonalData": {
-                  "items": [
-                    {
-                      "title": "",
-                      "value": "https://test.stat.online.sberbank.ru/EFS/insurance/transfer-agreement.pdf"
-                    }
-                  ]
+                "tint_color": "solid_white",
+                "size": {
+                  "width": "large",
+                  "height": "large"
                 },
-                "rulesAgreement": {
-                  "items": [
-                    {
-                      "title": "",
-                      "value": "https://test.stat.online.sberbank.ru/EFS/insurance/transfer-agreement.pdf"
-                    }
-                  ]
+                "margins": {
+                  "bottom": "2x",
+                  "right": "0x",
+                  "left": "6x"
+                }
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "{{ variables.ab_name }}",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
                 },
-                "memo": {
-                  "items": [
-                    {
-                      "title": "",
-                      "value": "https://test.stat.online.sberbank.ru/EFS/insurance/transfer-agreement.pdf"
-                    }
-                  ]
+                "subtitle": {
+                  "text": "{{ variables.phone | phone_number_ru }}",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "8x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
                 }
               }
             },
-            "history": [
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
               {
-                "id": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-                "flow": "CreateOpenEndFundAccount",
-                "state": "paymentInfo",
-                "title": "paymentInfo",
-                "status": "ACTIVE",
-                "flowId": 1
-              },
-              {
-                "id": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-                "flow": "CreateOpenEndFundAccount",
-                "state": "personalInfo",
-                "title": "personalInfo",
-                "status": "ACTIVE",
-                "flowId": 1
-              },
-              {
-                "id": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-                "flow": "CreateOpenEndFundAccount",
-                "state": "taxInfo",
-                "title": "taxInfo",
-                "status": "ACTIVE",
-                "flowId": 1
+                "type": "text",
+                "text": "Изменить получателя"
               }
             ]
+          },
+          {
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "type": "left_right_cell_view",
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Изменить сумму"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "falling_coin"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_white"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Сумма списания",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "8x",
+                    "bottom": "2x",
+                    "left": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "{{ variables.amount }}",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "8x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "wallet"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "tint_color": "solid_white"
+              },
+              "icon_vertical_gravity": "bottom",
+              "texts": {
+                "title": {
+                  "text": "Сумма перевода",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "8x",
+                    "bottom": "2x",
+                    "left": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "             Курс перевода 1 = {% if variables.spasiboClientInfo.level == 2 %}0.8{% elif variables.spasiboClientInfo.level == 3 %}0.9{% else %}0.95{% endif %}",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "8x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            }
           }
-        }
-
+        ]
       }
     }
   ]
