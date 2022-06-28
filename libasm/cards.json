@@ -1,67 +1,90 @@
 {
-    "auto_listening": true,
-    "type": "sdk_answer",
-    "items": [{
-        "card": {
-            "type": "list_card",
-            "cells": [{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "Получатель",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "5x",
-                    "top": "3x"
-                }
-            },
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+            "flow": "DemoCoreAgreement",
+            "state": "state0",
+            "output": {
+              "screens": [
                 {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "{{ variables.ab_name2 }}",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "4x",
-                                    "right": "8x",
-                                    "top": "2x"
-                                }
-                            },
-                            "subtitle": {
-                                "text": "{{ variables.phone }}",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "4x",
-                                    "right": "8x",
-                                    "bottom": "2x"
-                                }
-                            }
-                        },
-                        "icon": {
-                            "address": {
-                                "type": "local",
-                                "identificator": "user"
-                            },
-                            "size": {
-                                "width": "medium",
-                                "height": "medium"
-                            },
-                            "tint_color": "solid_brand"
+                  "title": "CoreAgreement",
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "CoreAgreement",
+                      "events": [
+                        {
+                          "cmd": "EXIT"
                         }
+                      ]
                     }
-                }]
+                  ],
+                  "widgets": [
+                  ],
+                  "footer": [
+                    {
+                      "type": "CoreAgreement",
+                      "title": "Правила",
+                      "description": "pdf, md и требуется просмотр всех документов",
+                      "properties": {},
+                      "fields": [
+                        {
+                          "id": "agreement",
+                          "value": "false",
+                          "type": "checkbox",
+                          "referenceId": "agreement",
+                          "title": "Я соглашаюсь с <a>Правилами акции</a>",
+                          "validators": [
+                            {
+                              "type": "required",
+                              "value": "true",
+                              "message": "Вы не согласились с правилами"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "uri": "",
+                          "title": "Продолжить",
+                          "description": "Переход на следующий экран"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "references": {
+                "agreement": {
+                  "properties": {
+                    "requireVisitAll": true
+                  },
+                  "items": [
+                    {
+                      "title": "Документ в формате PDF 1",
+                      "value": "agreement-pdf-1",
+                      "properties": {
+                        "format": "pdf",
+                        "src": "http://www.kremlin.ru/static/pdf/constitution.pdf?35fe7246ee"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
         }
-    }],
-    "CSI_content": "1"
+      }
+    }
+  ]
 }
