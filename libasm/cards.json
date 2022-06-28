@@ -168,16 +168,15 @@
                   "widgets": [
                     {
                       "type": "ConfirmationSummaryPdfDocuments",
-                      "properties": {
-                        "widgetAlone": "true",
-                        "titleWithLink": "Я соглашаюсь с <a>правилами ПИФ, условиями обработки персональных данных и использования электронной подписи</a>"
-                      },
-                      "description": "Подтверждая, вы соглашаетесь с документами",
+                      "properties": {},
+                      "title": "Ознакомление с документами",
+                      "description": "Подтверждая, Вы соглашаетесь с документами",
                       "fields": [
                         {
-                          "id": "ConfirmationSummaryPdfDocuments:checkbox",
+                          "id": "agreement",
                           "value": "false",
                           "type": "checkbox",
+                          "referenceId": "",
                           "title": "Я соглашаюсь с условиями и подписываю документ по операции",
                           "readonly": false,
                           "validators": [
@@ -189,32 +188,13 @@
                           ]
                         },
                         {
-                          "id": "ConfirmationSummaryPdfDocuments:rulesAgreement",
-                          "title": "Правила доверительного управления",
+                          "id": "e456689db3d1474bb27c0575166e272e",
+                          "title": "Заявка на получение кредита",
                           "type": "text",
-                          "referenceId": "rulesAgreement",
-                          "readonly": true
-                        },
-                        {
-                          "id": "ConfirmationSummaryPdfDocuments:eDocAgreement",
-                          "title": "Соглашение об использовании электронной подписи",
-                          "type": "text",
-                          "referenceId": "eDocAgreement",
-                          "readonly": true
-                        },
-                        {
-                          "id": "ConfirmationSummaryPdfDocuments:transferPersonalData",
-                          "title": "Условия обработки персональных данных",
-                          "type": "text",
-                          "referenceId": "transferPersonalData",
-                          "readonly": true
-                        },
-                        {
-                          "id": "ConfirmationSummaryPdfDocuments:memo",
-                          "title": "Памятка об условиях инвестирования",
-                          "type": "text",
-                          "referenceId": "memo",
-                          "readonly": true
+                          "value": "/confirmation/ib/v1/documents",
+                          "referenceId": "e456689db3d1474bb27c0575166e272e",
+                          "readonly": true,
+                          "validators": []
                         }
                       ]
                     },
