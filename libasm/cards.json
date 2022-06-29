@@ -5,7 +5,7 @@
     {
       "card": {
         "type": "list_card",
-        "background_color": "#737373",
+        "background_color": "solid_secondary",
         "cells": [
           {
             "type": "left_right_cell_view",
