@@ -5,7 +5,225 @@
     {
       "card": {
         "type": "list_card",
+        "background_color": "transparent_primary",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "{{ variables.ab_name }}",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "{{ variables.phone }}",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано {{ variables.amount }}",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
         "background_color": "solid_secondary",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "{{ variables.ab_name }}",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "{{ variables.phone }}",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано {{ variables.amount }}",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "background_color": "solid_tertiary",
         "cells": [
           {
             "type": "left_right_cell_view",
