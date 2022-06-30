@@ -1,338 +1,393 @@
 {
-    "auto_listening": true,
-    "type": "sdk_answer",
-    "items": [{
-        "card": {
-            "type": "list_card",
-            "background_image":
-            {
-                "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
-                "hash": "58787a869f3542e96d21419bb3f697e8",
-                "placeholder_color": "solid_primary"
-            },
-            "cells": [{
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "Перевод выполнен",
-                            "typeface": "title1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "left": "8x",
-                                "right": "8x",
-                                "top": "8x"
-                            }
-                        }
-                    }
-                }
-            },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "icon": {
-                            "address": {
-                                "type": "local",
-                                "identificator": "color_spasibo"
-                            },
-                            "size": {
-                                "width": "medium",
-                                "height": "medium"
-                            },
-                            "margins": {
-                                "left": "8x",
-                                "bottom": "4x",
-                                "top": "4x"
-                            },
-                            "tint_color": "solid_white"
-                        },
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "1100000",
-                                "typeface": "headline1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "2x",
-                                    "right": "8x",
-                                    "bottom": "4x",
-                                    "top": "4x"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "AAAAAAAA",
-                                "typeface": "footnote",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "top": "4x"
-                                }
-                            },
-                            "subtitle": {
-                                "text": "00000000000",
-                                "typeface": "footnote",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "bottom": "4x"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "type": "text_cell_view",
-                    "content": {
-                        "text": "Списано 000000",
-                        "typeface": "footnote",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "alignment": "left"
-                    },
-                    "paddings": {
-                        "left": "8x",
-                        "right": "8x",
-                        "bottom": "5x",
-                        "top": "4x"
-                    }
-                }]
-        }
-    },
+  "auto_listening": true,
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "backhround_image": 
         {
-            "card": {
-                "type": "list_card",
-                "background_image":
-                {
-                    "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
-                    "hash": "58787A869F3542E96D21419BB3F697E8"
-                },
-                "cells": [{
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Перевод выполнен",
-                                "typeface": "title1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "top": "8x"
-                                }
-                            }
-                        }
-                    }
-                },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "color_spasibo"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "margins": {
-                                    "left": "8x",
-                                    "bottom": "4x",
-                                    "top": "4x"
-                                },
-                                "tint_color": "solid_white"
-                            },
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "000000",
-                                    "typeface": "headline1",
-                                    "text_color": "default",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "2x",
-                                        "right": "8x",
-                                        "bottom": "4x",
-                                        "top": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "AAAAAAAA",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "top": "4x"
-                                    }
-                                },
-                                "subtitle": {
-                                    "text": "00000000000",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "bottom": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "text_cell_view",
-                        "content": {
-                            "text": "Списано 000000",
-                            "typeface": "footnote",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "alignment": "left"
-                        },
-                        "paddings": {
-                            "left": "8x",
-                            "right": "8x",
-                            "bottom": "5x",
-                            "top": "4x"
-                        }
-                    }]
-            }
+          "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
+          "hash": "58787a869f3542e96d21419bb3f697e8"
         },
-        {
-            "card": {
-                "type": "list_card",
-                "background_image":
-                {
-                    "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
-                    "hash": "WHh6hp81QultIUGbs/aX6A=="
-                },
-                "cells": [{
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Перевод выполнен",
-                                "typeface": "title1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "top": "8x"
-                                }
-                            }
-                        }
-                    }
-                },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "color_spasibo"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "margins": {
-                                    "left": "8x",
-                                    "bottom": "4x",
-                                    "top": "4x"
-                                },
-                                "tint_color": "solid_white"
-                            },
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "000000",
-                                    "typeface": "headline1",
-                                    "text_color": "default",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "2x",
-                                        "right": "8x",
-                                        "bottom": "4x",
-                                        "top": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "AAAAAAAA",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "top": "4x"
-                                    }
-                                },
-                                "subtitle": {
-                                    "text": "00000000000",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "bottom": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "text_cell_view",
-                        "content": {
-                            "text": "Списано 000000",
-                            "typeface": "footnote",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "alignment": "left"
-                        },
-                        "paddings": {
-                            "left": "8x",
-                            "right": "8x",
-                            "bottom": "5x",
-                            "top": "4x"
-                        }
-                    }]
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
             }
-        }]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "000000",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "AAAAAAAA",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "00000000000",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано 000000",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "backhround_image": 
+        {
+          "type": "url",
+          "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
+          "hash": "58787A869F3542E96D21419BB3F697E8"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "000000",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "AAAAAAAA",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "00000000000",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано 000000",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "backhround_image": 
+        {
+          "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
+          "hash": "WHh6hp81QultIUGbs/aX6A=="
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "000000",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "AAAAAAAA",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "00000000000",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано 000000",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "can_be_disabled": true,
+        "paddings": {
+          "bottom": "16x",
+          "top": "8x",
+          "left": "8x",
+          "right": "8x"
+        },
+        "background_image": {
+          "type": "url",
+          "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg",
+          "hash": "B09D4A7192D10861DB363232FC45F689"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Вопросы обо всем",
+              "typeface": "footnote1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Мурчат ли крокодильчики?",
+              "typeface": "body1",
+              "text_color": "default",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Конечно!"
+                }
+              ]
+            },
+            "paddings": {
+              "bottom": "16x"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
