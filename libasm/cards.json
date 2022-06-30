@@ -1,382 +1,91 @@
 {
-    "auto_listening": true,
-    "type": "sdk_answer",
-    "items": [{
-        "card": {
-            "type": "list_card",
-            "background_image":
-            {
-                "type": "url",
-                "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg",
-                "hash": "B09D4A7192D10861DB363232FC45F689"
-            },
-            "cells": [{
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "texts": {
-                        "title": {
-                            "text": "Перевод выполнен",
-                            "typeface": "title1",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "margins": {
-                                "left": "8x",
-                                "right": "8x",
-                                "top": "8x"
-                            }
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+            "flow": "CoreAgreement",
+            "state": "state0",
+            "output": {
+              "screens": [
+                {
+                  "title": "CoreAgreement",
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "CoreAgreement",
+                      "events": [
+                        {
+                          "cmd": "EXIT"
                         }
+                      ]
                     }
+                  ],
+                  "widgets": [
+                  ],
+                  "footer": [
+                    {
+                      "type": "ConfirmationSummaryPdfDocuments",
+                      "title": "Правила",
+                      "description": "pdf, md и требуется просмотр всех документов",
+                      "properties": {},
+                      "fields": [
+                        {
+                          "id": "agreement",
+                          "value": "false",
+                          "type": "checkbox",
+                          "referenceId": "agreement",
+                          "title": "Я соглашаюсь с <a>Правилами акции</a>",
+                          "validators": [
+                            {
+                              "type": "required",
+                              "value": "true",
+                              "message": "Вы не согласились с правилами"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "cmd": "next",
+                          "title": "Перевести",
+                          "name": "next",
+                          "description": "Переход на следующий экран"
+                        }
+                      ]
+                    }
+                  ]
                 }
-            },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "icon": {
-                            "address": {
-                                "type": "local",
-                                "identificator": "color_spasibo"
-                            },
-                            "size": {
-                                "width": "medium",
-                                "height": "medium"
-                            },
-                            "margins": {
-                                "left": "8x",
-                                "bottom": "4x",
-                                "top": "4x"
-                            },
-                            "tint_color": "solid_white"
-                        },
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "0010000",
-                                "typeface": "headline1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "2x",
-                                    "right": "8x",
-                                    "bottom": "4x",
-                                    "top": "4x"
-                                }
-                            }
-                        }
+              ],
+              "references": {
+                "agreement": {
+                  "properties": {
+                    "requireVisitAll": true
+                  },
+                  "items": [
+                    {
+                      "title": "Документ в формате PDF 1",
+                      "value": "agreement-pdf-1",
+                      "properties": {
+                        "format": "pdf",
+                        "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
+                      }
                     }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "AAAAAAAA",
-                                "typeface": "footnote",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "top": "4x"
-                                }
-                            },
-                            "subtitle": {
-                                "text": "00000000000",
-                                "typeface": "footnote",
-                                "text_color": "secondary",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "bottom": "4x"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "type": "text_cell_view",
-                    "content": {
-                        "text": "Списано 000000",
-                        "typeface": "footnote",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "alignment": "left"
-                    },
-                    "paddings": {
-                        "left": "8x",
-                        "right": "8x",
-                        "bottom": "5x",
-                        "top": "4x"
-                    }
-                }]
+                  ]
+                }
+              }
+            }
+          }
         }
-    },
-        {
-            "card": {
-                "type": "list_card",
-                "background_image":
-                {
-                    "type": "url",
-                    "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg"
-
-                },
-                "cells": [{
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Перевод выполнен",
-                                "typeface": "title1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "top": "8x"
-                                }
-                            }
-                        }
-                    }
-                },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "color_spasibo"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "margins": {
-                                    "left": "8x",
-                                    "bottom": "4x",
-                                    "top": "4x"
-                                },
-                                "tint_color": "solid_white"
-                            },
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "000000",
-                                    "typeface": "headline1",
-                                    "text_color": "default",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "2x",
-                                        "right": "8x",
-                                        "bottom": "4x",
-                                        "top": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "AAAAAAAA",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "top": "4x"
-                                    }
-                                },
-                                "subtitle": {
-                                    "text": "00000000000",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "bottom": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "text_cell_view",
-                        "content": {
-                            "text": "Списано 000000",
-                            "typeface": "footnote",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "alignment": "left"
-                        },
-                        "paddings": {
-                            "left": "8x",
-                            "right": "8x",
-                            "bottom": "5x",
-                            "top": "4x"
-                        }
-                    }]
-            }
-        },
-        {
-            "card": {
-                "type": "list_card",
-                "background_image":
-                {
-                    "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
-                    "hash": "WHh6hp81QultIUGbs/aX6A=="
-                },
-                "cells": [{
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "title": {
-                                "text": "Перевод выполнен",
-                                "typeface": "title1",
-                                "text_color": "default",
-                                "max_lines": 0,
-                                "margins": {
-                                    "left": "8x",
-                                    "right": "8x",
-                                    "top": "8x"
-                                }
-                            }
-                        }
-                    }
-                },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "color_spasibo"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "margins": {
-                                    "left": "8x",
-                                    "bottom": "4x",
-                                    "top": "4x"
-                                },
-                                "tint_color": "solid_white"
-                            },
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "000000",
-                                    "typeface": "headline1",
-                                    "text_color": "default",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "2x",
-                                        "right": "8x",
-                                        "bottom": "4x",
-                                        "top": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "type": "simple_left_view",
-                            "texts": {
-                                "title": {
-                                    "text": "AAAAAAAA",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "top": "4x"
-                                    }
-                                },
-                                "subtitle": {
-                                    "text": "00000000000",
-                                    "typeface": "footnote",
-                                    "text_color": "secondary",
-                                    "max_lines": 0,
-                                    "margins": {
-                                        "left": "8x",
-                                        "right": "8x",
-                                        "bottom": "4x"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "type": "text_cell_view",
-                        "content": {
-                            "text": "Списано 000000",
-                            "typeface": "footnote",
-                            "text_color": "default",
-                            "max_lines": 0,
-                            "alignment": "left"
-                        },
-                        "paddings": {
-                            "left": "8x",
-                            "right": "8x",
-                            "bottom": "5x",
-                            "top": "4x"
-                        }
-                    }]
-            }
-        },
-        {
-            "card": {
-                "type": "list_card",
-                "can_be_disabled": true,
-                "paddings": {
-                    "bottom": "16x",
-                    "top": "8x",
-                    "left": "8x",
-                    "right": "8x"
-                },
-                "background_image": {
-                    "type": "url",
-                    "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg",
-                    "hash": "B09D4A7192D10861DB363232FC45F689"
-                },
-                "cells": [{
-                    "type": "text_cell_view",
-                    "content": {
-                        "text": "Вопросы обо всем",
-                        "typeface": "footnote1",
-                        "text_color": "default"
-                    },
-                    "paddings": {
-                        "bottom": "16x"
-                    }
-                },
-                    {
-                        "type": "text_cell_view",
-                        "content": {
-                            "text": "Мурчат ли крокодильчики?",
-                            "typeface": "body1",
-                            "text_color": "default",
-                            "actions": [{
-                                "type": "text",
-                                "text": "Конечно!"
-                            }]
-                        },
-                        "paddings": {
-                            "bottom": "16x"
-                        }
-                    }]
-            }
-        }]
+      }
+    }
+  ]
 }
