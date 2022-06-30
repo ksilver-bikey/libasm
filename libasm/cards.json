@@ -7,8 +7,8 @@
             "background_image":
             {
                 "type": "url",
-                    "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg",
-                    "hash": "B09D4A7192D10861DB363232FC45F689"
+                "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg",
+                "hash": "B09D4A7192D10861DB363232FC45F689"
             },
             "cells": [{
                 "type": "left_right_cell_view",
@@ -51,7 +51,7 @@
                         "type": "simple_left_view",
                         "texts": {
                             "title": {
-                                "text": "000000",
+                                "text": "0010000",
                                 "typeface": "headline1",
                                 "text_color": "default",
                                 "max_lines": 0,
@@ -120,7 +120,7 @@
                 {
                     "type": "url",
                     "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg"
-                    
+
                 },
                 "cells": [{
                     "type": "left_right_cell_view",
