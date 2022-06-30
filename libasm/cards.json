@@ -5,7 +5,11 @@
     {
       "card": {
         "type": "list_card",
-        "background_color": "solid_primary",
+        "backhround_image": 
+        {
+          "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
+          "hash": "58787a869f3542e96d21419bb3f697e8"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -48,7 +52,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "text": "000000",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -68,7 +72,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "{{ variables.ab_name }}",
+                  "text": "AAAAAAAA",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -79,7 +83,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "{{ variables.phone }}",
+                  "text": "00000000000",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -95,7 +99,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Списано {{ variables.amount }}",
+              "text": "Списано 000000",
               "typeface": "footnote",
               "text_color": "default",
               "max_lines": 0,
@@ -114,7 +118,11 @@
     {
       "card": {
         "type": "list_card",
-        "background_color": "solid_secondary",
+        "backhround_image": 
+        {
+          "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
+          "hash": "58787A869F3542E96D21419BB3F697E8"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -157,7 +165,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "text": "000000",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -177,7 +185,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "{{ variables.ab_name }}",
+                  "text": "AAAAAAAA",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -188,7 +196,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "{{ variables.phone }}",
+                  "text": "00000000000",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -204,7 +212,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Списано {{ variables.amount }}",
+              "text": "Списано 000000",
               "typeface": "footnote",
               "text_color": "default",
               "max_lines": 0,
@@ -223,7 +231,11 @@
     {
       "card": {
         "type": "list_card",
-        "background_color": "solid_tertiary",
+        "backhround_image": 
+        {
+          "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
+          "hash": "WHh6hp81QultIUGbs/aX6A=="
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
@@ -266,7 +278,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "{% if variables.spasiboClientInfo.level == 2 %}{{ variables.amount * 0.8 }}{% elif variables.spasiboClientInfo.level == 3 %}{{ variables.amount * 0.9 }}{% else %}{{ variables.amount * 0.95 }}{% endif %}",
+                  "text": "000000",
                   "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -286,7 +298,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "{{ variables.ab_name }}",
+                  "text": "AAAAAAAA",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -297,7 +309,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "{{ variables.phone }}",
+                  "text": "00000000000",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -313,7 +325,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Списано {{ variables.amount }}",
+              "text": "Списано 000000",
               "typeface": "footnote",
               "text_color": "default",
               "max_lines": 0,
