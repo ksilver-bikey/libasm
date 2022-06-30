@@ -5,7 +5,7 @@
     {
       "card": {
         "type": "list_card",
-        "backhround_image": 
+        "background_image": 
         {
           "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
           "hash": "58787a869f3542e96d21419bb3f697e8"
@@ -118,7 +118,7 @@
     {
       "card": {
         "type": "list_card",
-        "backhround_image": 
+        "background_image": 
         {
           "type": "url",
           "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
@@ -232,7 +232,7 @@
     {
       "card": {
         "type": "list_card",
-        "backhround_image": 
+        "background_image": 
         {
           "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612461035_6-p-fon-serii-asfalt-14.jpg",
           "hash": "WHh6hp81QultIUGbs/aX6A=="
