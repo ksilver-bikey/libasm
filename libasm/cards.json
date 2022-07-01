@@ -7,84 +7,62 @@
         "payload": {
           "success": true,
           "body": {
-            "result": "SUCCESS",
-            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-            "flow": "CoreAgreement",
-            "state": "state0",
-            "output": {
-              "screens": [
-                {
-                  "title": "CoreAgreement",
-                  "header": [
-                    {
-                      "type": "CoreNavBar",
-                      "title": "CoreAgreement",
-                      "events": [
-                        {
-                          "cmd": "EXIT"
-                        }
+              "result": "SUCCESS",
+              "flow": "pensionTransfer",
+              "state": "userInfo",
+              "pid": "pid",
+              "output": {
+                  "screens": [{
+                      "header": [{
+                          "type": "CoreNavBar",
+                          "title": "coreFieldSet: select",
+                          "description": "coreFieldSet: select",
+                          "properties": {
+                              "icon": "cancel"
+                          },
+                          "events": [{
+                              "cmd": "EXIT"
+                          }]
+                      }],
+                      "widgets": [
+                          {
+                              "type": "CoreFieldSet",
+                              "description": "",
+                              "fields": [{
+                                  "id": "fieldSet:select",
+                                  "type": "select",
+                                  "readonly": false,
+                                  "title": "select",
+                                  "description": "Курсы перевода",
+                                  "referenceId": "phoneList"
+                              }, {
+                                  "id": "fieldSet:select:new",
+                                  "type": "select",
+                                  "readonly": false,
+                                  "format": "radio",
+                                  "title": "select",
+                                  "referenceId": "phoneList"
+                              } ]
+                          }
+                      ],
+                      "footer": [
                       ]
-                    }
-                  ],
-                  "widgets": [
-                  ],
-                  "footer": [
-                    {
-                      "type": "ConfirmationSummaryPdfDocuments",
-                      "title": "Правила",
-                      "description": "pdf, md и требуется просмотр всех документов",
-                      "properties": {},
-                      "fields": [
-                        {
-                          "id": "agreement",
-                          "value": "false",
-                          "type": "checkbox",
-                          "referenceId": "agreement",
-                          "title": "Я соглашаюсь с <a>Правилами акции</a>",
-                          "validators": [
-                            {
-                              "type": "required",
-                              "value": "true",
-                              "message": "Вы не согласились с правилами"
-                            }
-                          ]
-                        }
+                  }],
+                  "references": {"phoneList":{
+                      "properties":{
+                         "description": "Выберите вариант"
+                      },
+                      "items":[
+                         {
+                            "title":"+7 905 776-69-33",
+                            "value": "Курс перевода зависит от вашего уровня в СберСпасибо: чем выше уровень, тем выгоднее курс\nСпасибо: перевод бонусов недоступен\nВаш уровень (выставляется над той строкой, которая соответствует уровню клиента)\nБольше Спасибо: 1 Б = 0,8 Б\nОгромное Спасибо: 1 Б = 0,9 Б\nБольше, чем Спасибо: 1 Б = 0,95 Б"
+                         }
                       ]
-                    },
-                    {
-                      "type": "CoreButtons",
-                      "events": [
-                        {
-                          "cmd": "next",
-                          "title": "Перевести",
-                          "name": "next",
-                          "description": "Переход на следующий экран"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "references": {
-                "agreement": {
-                  "properties": {
-                    "requireVisitAll": true
-                  },
-                  "items": [
-                    {
-                      "title": "Документ в формате PDF 1",
-                      "value": "agreement-pdf-1",
-                      "properties": {
-                        "format": "pdf",
-                        "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
-                      }
-                    }
-                  ]
-                }
+                   }}
               }
-            }
           }
-        }
+      }
+      
       }
     }
   ]
