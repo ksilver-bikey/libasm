@@ -15,14 +15,14 @@
                 "paddings": {
                     "left": "8x",
                     "right": "8x",
-            
+
                     "top": "3x"
                 }
             },
                 {
                     "type": "details_cell_view",
                     "paddings": {
-         
+
                         "bottom": "1x",
                         "left": "8x"
                     },
@@ -47,7 +47,7 @@
                                 "margins": {
                                     "right": "6x",
 
-                                    "left": "4x"
+                                    "left": "1x"
                                 },
                                 "tint_color": "solid_brand"
                             }
