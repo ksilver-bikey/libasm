@@ -75,9 +75,9 @@
                             "footer": [{
                             "type": "CoreButtons",
                             "events": [{
-                                "name": "Main",
-                                "title": "Вернуться на главный",
-                                "uri": "app:mainScreen"
+                                "type": "dialog",
+                                "code": "id:CoreDialog",
+                                "title":""
                             }]
                         }]
                         }
@@ -85,11 +85,7 @@
                 }
             },
             "messages": [
-                {
-                    "type": "dialog",
-                    "code": "id:CoreDialog",
-                    "title":""
-                }
+                
             ]
         }
         }
