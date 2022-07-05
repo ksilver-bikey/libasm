@@ -13,7 +13,57 @@
                 "flow": "Payments",
                 "state": "state2",
                 "output": {
-                    "screens": [
+                    "screens": [{
+                        "title": "CoreAgreement",
+                        "header": [
+                          {
+                            "type": "CoreNavBar",
+                            "title": "CoreAgreement",
+                            "events": [
+                              {
+                                "cmd": "EXIT"
+                              }
+                            ]
+                          }
+                        ],
+                        "widgets": [
+                        ],
+                        "footer": [
+                          {
+                            "type": "CoreAgreement",
+                            "title": "Правила",
+                            "description": "pdf, md и требуется просмотр всех документов",
+                            "properties": {},
+                            "fields": [
+                              {
+                                "id": "agreement",
+                                "value": "false",
+                                "type": "checkbox",
+                                "referenceId": "agreement",
+                                "title": "Я соглашаюсь с <a>Правилами акции</a>",
+                                "validators": [
+                                  {
+                                    "type": "required",
+                                    "value": "true",
+                                    "message": "Вы не согласились с правилами"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "CoreButtons",
+                            "events": [
+                              {
+                                "cmd": "next",
+                                "title": "Перевести",
+                                "name": "next",
+                                "description": "Переход на следующий экран"
+                              }
+                            ]
+                          }
+                        ]
+                      },
                         {
                             "type": "DSNScreen",
                             "title": "Подтверждение перевода",
@@ -75,17 +125,38 @@
                             "footer": [{
                             "type": "CoreButtons",
                             "events": [{
-                                "type": "dialog",
-                                "code": "id:CoreDialog",
-                                "title":""
+                                "name": "Main",
+                                "title": "Вернуться на главный",
+                                "uri": "app:mainScreen"
                             }]
                         }]
                         }
-                    ]
+                    ],
+                    "references": {
+                        "agreement": {
+                          "properties": {
+                            "requireVisitAll": true
+                          },
+                          "items": [
+                            {
+                              "title": "Документ в формате PDF 1",
+                              "value": "agreement-pdf-1",
+                              "properties": {
+                                "format": "pdf",
+                                "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
+                              }
+                            }
+                          ]
+                        }
+                      }
                 }
             },
             "messages": [
-                
+                {
+                    "type": "dialog",
+                    "code": "id:CoreDialog",
+                    "title":""
+                }
             ]
         }
         }
