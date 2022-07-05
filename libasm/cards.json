@@ -31,7 +31,7 @@
                                 "type": "CoreCollapse",
                                 "fields": [
                                     {
-                                        "id": "WelfareAdditionalInfo:curses",
+                                        "id": "fieldSet:switch",
                                         "type": "checkbox ",
                                         "title": "Курсы чего-то там",
                                         "value": "false",
@@ -41,29 +41,17 @@
                                 ]
                             },
                             {
-                                "type": "CoreDialog",
+                                "type": "CoreFormattedText",
                                 "visible":{
-                                    "id":"WelfareAdditionalInfo:curses",
+                                    "id":"fieldSet:switch",
                                     "regexp":"true"
                                  },
-                                "properties": {
-                                    "next": "accept"
-                                },
-                                "events": [
-                                    {
-                                        "name": "next",
-                                        "uri": "nav:cancel",
-                                        "title": "Подтверждаю",
-                                        "description": ""
-                                    }
-                                ],
                                 "fields": [
                                     {
-                                        "id": "id:CoreDialog",
+                                        "id": "text",
                                         "type": "text",
-                                        "style": "",
-                                        "title": "Заголовок",
-                                        "description": "Описание"
+                                        "readonly": true,
+                                        "value": "# Заголовок 1 \n\n ## Заголовок 2 \n\n ### Заголовок 3 \n\n #### Заголовок 4 \n\n ##### Заголовок 5 \n\n Параграф со [ссылкой на google](https://google.com). \n\n - неупорядоченный \n\n - список  \n\n - сущностей \n\n 1. упорядоченный \n\n 1. список \n\n 1. с нумерацией"
                                     }
                                 ]
                             }
