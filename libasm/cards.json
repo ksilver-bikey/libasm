@@ -2,68 +2,64 @@
   "type": "sdk_answer",
   "items": [
     {
-      "card": {
-        "type": "workflow",
-        "payload": {
-          "success": true,
-          "body": {
-              "result": "SUCCESS",
-              "flow": "pensionTransfer",
-              "state": "userInfo",
-              "pid": "pid",
-              "output": {
-                  "screens": [{
-                      "header": [{
-                          "type": "CoreNavBar",
-                          "title": "coreFieldSet: select",
-                          "description": "coreFieldSet: select",
-                          "properties": {
-                              "icon": "cancel"
-                          },
-                          "events": [{
-                              "cmd": "EXIT"
-                          }]
-                      }],
-                      "widgets": [
-                          {
-                              "type": "CoreFieldSet",
-                              "description": "",
-                              "fields": [{
-                                  "id": "fieldSet:select",
-                                  "type": "select",
-                                  "readonly": false,
-                                  "title": "select",
-                                  "description": "Курсы перевода",
-                                  "referenceId": "phoneList"
-                              }, {
-                                  "id": "fieldSet:select:new",
-                                  "type": "select",
-                                  "readonly": false,
-                                  "format": "radio",
-                                  "title": "select",
-                                  "referenceId": "phoneList"
-                              } ]
-                          }
-                      ],
-                      "footer": [
-                      ]
-                  }],
-                  "references": {"phoneList":{
-                      "properties":{
-                         "description": "Выберите вариант"
-                      },
-                      "items":[
-                         {
-                            "title":"Курс перевода зависит от вашего уровня в СберСпасибо: чем выше уровень, тем выгоднее курс\nСпасибо: перевод бонусов недоступен\nВаш уровень (выставляется над той строкой, которая соответствует уровню клиента)\nБольше Спасибо: 1 Б = 0,8 Б\nОгромное Спасибо: 1 Б = 0,9 Б\nБольше, чем Спасибо: 1 Б = 0,95 Б",
-                            "value": "123"
-                         }
-                      ]
-                   }}
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "Баланс",
+                "typeface": "body2",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "1x",
+                "top": "3x"
               }
-          }
+            },
+            {
+              "type": "details_cell_view",
+              "paddings": {
+                "top": "2x",
+                "bottom": "1x",
+                "left": "10x"
+              },
+              "details": [
+                {
+                  "type": "detail_right_view",
+                  "info_and_icon": {
+                    "info": {
+                      "text": "{{ variables.spasiboClientInfo.bonusBalance | numeric_grouping() }}",
+                      "typeface": "body1",
+                      "text_color": "default",
+                      "max_lines": 1
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "color_spasibo"
+                      },
+                      "size": {
+                        "width": "small",
+                        "height": "small"
+                      },
+                      "margins": {
+                        "right": "6x",
+                        "bottom": "4x",
+                        "left": "4x"
+                      },
+                      "tint_color": "solid_brand"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
       }
-      
-      }
-    }
   ]
 }
