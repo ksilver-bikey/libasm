@@ -1,59 +1,98 @@
 {
-    "type": "sdk_answer",
-    "items": [{
+  "type": "sdk_answer",
+  "items": [
+    {
         "card": {
-            "type": "list_card",
-            "cells": [{
-                "type": "text_cell_view",
-                "content": {
-                    "text": "Баланс",
-                    "typeface": "body2",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "alignment": "left"
-                },
-                "paddings": {
-                    "left": "8x",
-                    "right": "8x",
-
-                    "top": "3x"
+          "type": "workflow",
+          "payload": 
+          {
+            "success": true,
+            "body": {
+                "result": "SUCCESS",
+                "pid": "40fb88f5-7e15-11e9-bde0-2f990274dd54",
+                "flow": "Payments",
+                "state": "state2",
+                "output": {
+                    "screens": [
+                        {
+                            "type": "DSNScreen",
+                            "title": "Подтверждение перевода",
+                            "header": [
+                                {
+                                    "type": "CoreNavBar",
+                                    "title": "Примеры CoreDialog",
+                                    "events": [
+                                        {
+                                            "name": "next",
+                                            "type": "next",
+                                            "title": "Продолжить",
+                                            "cmd": "exit"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "widgets": [
+                                {
+                                    "type": "CoreFieldSet",
+                                    "description": "",
+                                    "fields": [
+                                        {
+                                            "id": "fieldSet:surname",
+                                            "type": "text",
+                                            "style": "hiddenIcon",
+                                            "readonly": true,
+                                            "format": "string",
+                                            "title": "Движок",
+                                            "value": "workflow 2.0 richAlert"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "CoreDialog",
+                                    "properties": {
+                                        "next": "accept"
+        
+                                    },
+                                    "events": [
+                                        {
+                                            "name": "next",
+                                            "uri": "nav:cancel",
+                                            "title": "Подтверждаю",
+                                            "description": ""
+                                        }
+                                    ],
+                                    "fields": [
+                                        {
+                                            "id": "id:CoreDialog",
+                                            "type": "text",
+                                            "style": "",
+                                            "title": "Заголовок",
+                                            "description": "Описание"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "footer": [{
+                            "type": "CoreButtons",
+                            "events": [{
+                                "name": "Main",
+                                "title": "Вернуться на главный",
+                                "uri": "app:mainScreen"
+                            }]
+                        }]
+                        }
+                    ]
                 }
             },
+            "messages": [
                 {
-                    "type": "details_cell_view",
-                    "paddings": {
-
-                        "bottom": "1x",
-                        "left": "8x"
-                    },
-                    "details": [{
-                        "type": "detail_right_view",
-                        "info_and_icon": {
-                            "info": {
-                                "text": "1 243",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "max_lines": 1
-                            },
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "color_spasibo"
-                                },
-                                "size": {
-                                    "width": "xsmall",
-                                    "height": "xsmall"
-                                },
-                                "margins": {
-                                    "right": "6x",
-
-                                    "left": "1x"
-                                },
-                                "tint_color": "solid_brand"
-                            }
-                        }
-                    }]
-                }]
+                    "type": "dialog",
+                    "code": "id:CoreDialog",
+                    "title":""
+                }
+            ]
         }
-    }]
+        }
+      }
+  ]
 }
