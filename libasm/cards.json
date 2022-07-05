@@ -1,165 +1,129 @@
 {
-  "type": "sdk_answer",
-  "items": [
-    {
+    "type": "sdk_answer",
+    "items": [{
         "card": {
-          "type": "workflow",
-          "payload": 
-          {
-            "success": true,
-            "body": {
-                "result": "SUCCESS",
-                "pid": "40fb88f5-7e15-11e9-bde0-2f990274dd54",
-                "flow": "Payments",
-                "state": "state2",
-                "output": {
-                    "screens": [{
-                        "title": "CoreAgreement",
-                        "header": [
-                          {
-                            "type": "CoreNavBar",
+            "type": "workflow",
+            "payload":
+            {
+                "success": true,
+                "body": {
+                    "result": "SUCCESS",
+                    "pid": "40fb88f5-7e15-11e9-bde0-2f990274dd54",
+                    "flow": "Payments",
+                    "state": "state2",
+                    "output": {
+                        "screens": [{
                             "title": "CoreAgreement",
-                            "events": [
-                              {
-                                "cmd": "EXIT"
-                              }
-                            ]
-                          }
-                        ],
-                        "widgets": [
-                        ],
-                        "footer": [
-                          {
-                            "type": "CoreAgreement",
-                            "title": "Правила",
-                            "description": "pdf, md и требуется просмотр всех документов",
-                            "properties": {},
-                            "fields": [
-                              {
-                                "id": "agreement",
-                                "value": "false",
-                                "type": "checkbox",
-                                "referenceId": "agreement",
-                                "title": "Я соглашаюсь с <a>Правилами акции</a>",
-                                "validators": [
-                                  {
-                                    "type": "required",
-                                    "value": "true",
-                                    "message": "Вы не согласились с правилами"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "CoreButtons",
-                            "events": [
-                              {
-                                "cmd": "next",
-                                "title": "Перевести",
-                                "name": "next",
-                                "description": "Переход на следующий экран"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                        {
-                            "type": "DSNScreen",
-                            "title": "Подтверждение перевода",
-                            "header": [
+                            "header": [{
+                                "type": "CoreNavBar",
+                                "title": "CoreAgreement",
+                                "events": [{
+                                    "cmd": "EXIT"
+                                }]
+                            }],
+                            "widgets": [
+                            ],
+                            "footer": [{
+                                "type": "CoreAgreement",
+                                "title": "Правила",
+                                "description": "pdf, md и требуется просмотр всех документов",
+                                "properties": {},
+                                "fields": [{
+                                    "id": "agreement",
+                                    "value": "false",
+                                    "type": "checkbox",
+                                    "referenceId": "agreement",
+                                    "title": "Я соглашаюсь с <a>Правилами акции</a>",
+                                    "validators": [{
+                                        "type": "required",
+                                        "value": "true",
+                                        "message": "Вы не согласились с правилами"
+                                    }]
+                                }]
+                            },
                                 {
+                                    "type": "CoreButtons",
+                                    "events": [{
+                                        "cmd": "next",
+                                        "title": "Перевести",
+                                        "name": "next",
+                                        "description": "Переход на следующий экран"
+                                    }]
+                                }]
+                        },
+                            {
+                                "type": "DSNScreen",
+                                "title": "Подтверждение перевода",
+                                "header": [{
                                     "type": "CoreNavBar",
                                     "title": "Примеры CoreDialog",
-                                    "events": [
-                                        {
-                                            "name": "next",
-                                            "type": "next",
-                                            "title": "Продолжить",
-                                            "cmd": "exit"
-                                        }
-                                    ]
-                                }
-                            ],
-                            "widgets": [
-                                {
+                                    "events": [{
+                                        "name": "next",
+                                        "type": "next",
+                                        "title": "Продолжить",
+                                        "cmd": "exit"
+                                    }]
+                                }],
+                                "widgets": [{
                                     "type": "CoreFieldSet",
                                     "description": "",
-                                    "fields": [
-                                        {
-                                            "id": "fieldSet:surname",
-                                            "type": "text",
-                                            "style": "hiddenIcon",
-                                            "readonly": true,
-                                            "format": "string",
-                                            "title": "Движок",
-                                            "value": "workflow 2.0 richAlert"
-                                        }
-                                    ]
+                                    "fields": [{
+                                        "id": "fieldSet:surname",
+                                        "type": "text",
+                                        "style": "hiddenIcon",
+                                        "readonly": true,
+                                        "format": "string",
+                                        "title": "Движок",
+                                        "value": "workflow 2.0 richAlert"
+                                    }]
                                 },
-                                {
-                                    "type": "CoreDialog",
-                                    "properties": {
-                                        "next": "accept"
-        
-                                    },
-                                    "events": [
-                                        {
+                                    {
+                                        "type": "CoreDialog",
+                                        "properties": {
+                                            "next": "accept"
+
+                                        },
+                                        "events": [{
                                             "name": "next",
                                             "uri": "nav:cancel",
                                             "title": "Подтверждаю",
                                             "description": ""
-                                        }
-                                    ],
-                                    "fields": [
-                                        {
+                                        }],
+                                        "fields": [{
                                             "id": "id:CoreDialog",
                                             "type": "text",
                                             "style": "",
                                             "title": "Заголовок",
                                             "description": "Описание"
-                                        }
-                                    ]
-                                }
-                            ],
-                            "footer": [{
-                            "type": "CoreButtons",
-                            "events": [{
-                                "name": "Main",
-                                "title": "Вернуться на главный",
-                                "uri": "app:mainScreen"
-                            }]
-                        }]
-                        }
-                    ],
-                    "references": {
-                        "agreement": {
-                          "properties": {
-                            "requireVisitAll": true
-                          },
-                          "items": [
-                            {
-                              "title": "Документ в формате PDF 1",
-                              "value": "agreement-pdf-1",
-                              "properties": {
-                                "format": "pdf",
-                                "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
-                              }
+                                        }]
+                                    }],
+                                "footer": [{
+                                    "type": "CoreButtons",
+                                    "events": [{
+                                        "name": "Main",
+                                        "title": "Вернуться на главный",
+                                        "uri": "app:mainScreen"
+                                    }]
+                                }]
+                            }],
+                        "references": {
+                            "agreement": {
+                                "properties": {
+                                    "requireVisitAll": true
+                                },
+                                "items": [{
+                                    "title": "Документ в формате PDF 1",
+                                    "value": "agreement-pdf-1",
+                                    "properties": {
+                                        "format": "pdf",
+                                        "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
+                                    }
+                                }]
                             }
-                          ]
                         }
-                      }
+                    }
                 }
-            },
-            "messages": [
-                {
-                    "type": "dialog",
-                    "code": "id:CoreDialog",
-                    "title":""
-                }
-            ]
+            }
         }
-        }
-      }
-  ]
+    }]
 }
