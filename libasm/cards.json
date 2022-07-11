@@ -135,7 +135,7 @@
                         "icon": {
                             "address": {
                                 "type": "local",
-                                "identificator": "bus"
+                                "identificator": "ds_ic_36_bus"
                             },
                             "size": {
                                 "width": "medium",
