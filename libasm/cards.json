@@ -1,200 +1,190 @@
 {
-  "auto_listening": true,
-  "type": "sdk_answer",
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [{
+        "card": {
+            "type": "list_card",
+            "cells": [{
+                "type": "left_right_cell_view",
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "card"
+                        },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "0x",
+                            "left": "4x"
+                        },
+                        "tint_color": "solid_brand"
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Как обменять на рубли",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "4x",
+                                "bottom": "",
+                                "left": "4x",
+                                "right": "8x"
+                            }
+                        },
+                        "subtitle": {
+                            "text": "Если на балансе ≥ 2 бонусов",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "",
+                                "bottom": "4x",
+                                "left": "4x",
+                                "right": "8x"
+                            }
+                        }
+                    }
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
+                "right": {
+                    "type": "disclosure_right_view",
+                    "margins": {
+                        "right": "5x"
+                    }
                 },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
+                "divider": {
+                    "style": "default",
+                    "size": "d5"
                 },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как обменять на рубли",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "4x",
-                    "bottom": "",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Если на балансе ≥ 2 бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "",
-                    "bottom": "4x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
+                "actions": [{
+                    "type": "text",
+                    "text": "Как обменять на рубли"
+                }]
             },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как обменять на рубли"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "card"
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "card"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "4x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "На мили Аэрофлота",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "4x",
+                                    "bottom": "",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "Если на балансе ≥ 650 бонусов",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "top": "",
+                                    "bottom": "4x",
+                                    "left": "4x",
+                                    "right": "8x"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "actions": [{
+                        "type": "text",
+                        "text": "На мили Аэрофлота"
+                    }]
                 },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "На мили Аэрофлота",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "4x",
-                    "bottom": "",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Если на балансе ≥ 650 бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "",
-                    "bottom": "4x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "На мили Аэрофлота"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "На баллы РЖД",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Если на балансе ≥ 1 бонуса",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "bottom": "2x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "На баллы РЖД"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ],
-  "CSI_content": "1"
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "bus"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "0x",
+                                "left": "4x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center",
+                        "texts": {
+                            "title": {
+                                "text": "На баллы РЖД",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "4x",
+                                    "right": "8x",
+                                    "top": "2x"
+                                }
+                            },
+                            "subtitle": {
+                                "text": "Если на балансе ≥ 1 бонуса",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 0,
+                                "margins": {
+                                    "left": "4x",
+                                    "right": "8x",
+                                    "bottom": "2x"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
+                    },
+                    "actions": [{
+                        "type": "text",
+                        "text": "На баллы РЖД"
+                    }]
+                }]
+        }
+    }],
+    "CSI_content": "1"
 }
