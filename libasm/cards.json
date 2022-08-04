@@ -1,156 +1,117 @@
 {
-  "auto_listening": true,
-  "type": "sdk_answer",
-  "items": [
-    {
-      "card": {
-          "event_to_actions": {
-              "next": {
-                  "actions": [
-                      {
-                          "type": "text",
-                          "text": "Перевести",
-                          "should_send_to_backend": true
-                      }
-                  ]
-              }
-          },
-          "type": "workflow",
-          "payload": {
-              "success": true,
-              "body": {
-                  "result": "SUCCESS",
-                  "pid": "40fb88f5-7e15-11e9-bde0-2f990274dd54",
-                  "flow": "Payments",
-                  "state": "state2",
-                  "output": {
-                      "screens": [
-                          {
-                              "title": "CoreAgreement",
-                              "header": [
-                                  {
-                                      "type": "CoreNavBar",
-                                      "title": "CoreAgreement",
-                                      "events": [
-                                          {
-                                              "cmd": "EXIT"
-                                          }
-                                      ]
-                                  }
-                              ],
-                              "widgets": [
-                                {
-                                  "type": "CoreCell",
-                                  "properties": {
-                                      "style": "designSystemStyle",
-                                      "icon": "card",
-                                      "caption": "Подробнее",
-                                      "divider": "long",
-                                      "disclosure": true,
-                                      "disclosureText": "Текст у шеврона"
-                                  },
-                                  "fields": [
-                                      {
-                                          "id": "CoreCell:1",
-                                          "type": "text",
-                                          "title": "До 5 премиальных карт",
-                                          "description": "Для всего остального есть мастеркард"
-                                      }
-                                  ],
-                                  "events": [
-                                      {
-                                          "cmd": "EVENT",
-                                          "name": "edit"
-                                      }
-                                  ]
-                              },
-                                  {
-                                      "type": "CoreCollapse",
-                                      "fields": [
-                                          {
-                                              "id": "fieldSet:switch",
-                                              "type": "checkbox",
-                                              "title": "О курсах перевода",
-                                              "value": "false",
-                                              "style": "info"
-                                          }
-                                      ]
-                                  },
-                                  {
-                                      "type": "CoreFormattedText",
-                                      "visible": {
-                                          "id": "fieldSet:switch",
-                                          "regexp": "true"
-                                      },
-                                      "fields": [
-                                          {
-                                              "id": "text",
-                                              "type": "text",
-                                              "readonly": true,
-                                              "value": "Курс перевода зависит от вашего уровня в СберСпасибо: чем выше уровень, тем выгоднее курс\n\nБольшое Спасибо: 1 Б = 0,8 Б"
-                                          }
-                                      ]
-                                  }
-                              ],
-                              "footer": [
-                                  {
-                                      "type": "CoreAgreement",
-                                      "title": "Правила",
-                                      "description": "pdf, md и требуется просмотр всех документов",
-                                      "properties": {},
-                                      "fields": [
-                                          {
-                                              "id": "agreement",
-                                              "value": "false",
-                                              "type": "checkbox",
-                                              "referenceId": "agreement",
-                                              "title": "Я соглашаюсь с <a>Правилами акции</a>",
-                                              "validators": [
-                                                  {
-                                                      "type": "required",
-                                                      "value": "true",
-                                                      "message": "Вы не согласились с правилами"
-                                                  }
-                                              ]
-                                          }
-                                      ]
-                                  },
-                                  {
-                                      "type": "CoreButtons",
-                                      "events": [
-                                          {
-                                              "cmd": "next",
-                                              "title": "Перевести",
-                                              "name": "next",
-                                              "description": "Переход на следующий экран"
-                                          }
-                                      ]
-                                  }
-                              ]
-                          }
-                      ],
-                      "references": {
-                          "agreement": {
-                              "properties": {
-                                  "requireVisitAll": true
-                              },
-                              "items": [
-                                  {
-                                      "title": "Документ в формате PDF 1",
-                                      "value": "agreement-pdf-1",
-                                      "properties": {
-                                          "format": "pdf",
-                                          "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
-                                      }
-                                  }
-                              ]
-                          }
-                      }
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "details_cell_view",
+              "paddings": {
+                "top": "8x",
+                "bottom": "1x",
+                "left": "4x"
+              },
+              "details": [
+                {
+                  "type": "detail_right_view",
+                  "info_and_icon": {
+                    "info": {
+                      "text": "1 234",
+                      "typeface": "headline1",
+                      "text_color": "default",
+                      "max_lines": 1
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "color_spasibo"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "margins": {
+                        "right": "6x",
+                        "left": "4x",
+                        "top": "8x"
+                      },
+                      "tint_color": "solid_brand"
+                    }
                   }
-              }
-          }
+                }
+              ]
+            },
+            {
+                "type": "details_cell_view",
+                "paddings": {
+                  "bottom": "1x",
+                  "left": "4x"
+                },
+                "details": [
+                  {
+                    "type": "detail_right_view",
+                    "info_and_icon": {
+                      "info": {
+                        "text": "Единый бонусный счет для всех ваших карт",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 1
+                      }
+                    }
+                  }
+                ]
+              },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "1x",
+                "bottom": "4x",
+                "left": "4x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "subtitle": {
+                    "text": "Ваш уровень до 9 сентября",
+                    "typeface": "footnote1",
+                    "text_color": "secondary"
+                  },
+                  "title": {
+                    "text": "Маленькое Спасибо",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "sberbankonline://loyalty/level?internal_source=audiohelper501"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "bubble": {
+          "text": [
+            "Бонусы хранятся на едином счёте, к нему подключены все ваши карты"
+          ],
+          "markdown": false
+        }
       }
+    ],
+    "CSI_content": "1"
   }
-  ],
-  "CSI_content": "1"
-}
