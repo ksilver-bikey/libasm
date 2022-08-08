@@ -7,20 +7,18 @@
             "cells": [{
                 "type": "details_cell_view",
                 "paddings": {
-                    "top": "8x",
-
-                    "left": "8x"
+                    "top": "4x",
+                    "left": "4x"
                 },
                 "details": [{
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "2 234",
+                            "text": "3 234",
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1,
                             "margins": {
-                                "right": "6x",
                                 "left": "4x"
                             }
                         },
@@ -36,7 +34,7 @@
                             "margins": {
                                 "right": "6x",
                                 "left": "4x",
-                                "bottom": "2x"
+                                "bottom": "3x"
                             },
                             "tint_color": "solid_brand"
                         },
@@ -48,7 +46,7 @@
                     "type": "details_cell_view",
                     "paddings": {
                         "bottom": "1x",
-                        "left": "8x"
+                        "left": "4x"
                     },
                     "details": [{
                         "type": "detail_right_view",
