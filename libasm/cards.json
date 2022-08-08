@@ -9,7 +9,7 @@
                 "paddings": {
                     "top": "4x",
                     "left": "4x",
- "bottom": "0x"
+                    "bottom": "0x"
                 },
                 "details": [{
                     "type": "detail_right_view",
@@ -71,7 +71,7 @@
                 {
                     "type": "left_right_cell_view",
                     "paddings": {
-                        "top": "1x",
+                        "top": "4x",
                         "bottom": "4x",
                         "left": "8x"
                     },
