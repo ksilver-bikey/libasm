@@ -8,16 +8,21 @@
                 "type": "details_cell_view",
                 "paddings": {
                     "top": "8x",
+
                     "left": "8x"
                 },
                 "details": [{
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "1 234",
+                            "text": "2 234",
                             "typeface": "headline1",
                             "text_color": "default",
-                            "max_lines": 1
+                            "max_lines": 1,
+"margins": {
+                                "right": "6x",
+                                "left": "4x"
+                            },
                         },
                         "icon": {
                             "address": {
@@ -30,7 +35,8 @@
                             },
                             "margins": {
                                 "right": "6x",
-                                "left": "4x"
+                                "left": "4x",
+                                "bottom": "2x"
                             },
                             "tint_color": "solid_brand"
                         },
