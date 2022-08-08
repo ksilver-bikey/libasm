@@ -11,7 +11,7 @@
               "paddings": {
                 "top": "8x",
                 "bottom": "1x",
-                "left": "4x"
+                "left": "8x"
               },
               "details": [
                 {
@@ -37,7 +37,8 @@
                         "left": "4x"
                       },
                       "tint_color": "solid_brand"
-                    }
+                    },
+                    "icon_vertical_gravity": "center"
                   }
                 }
               ]
@@ -46,7 +47,7 @@
                 "type": "details_cell_view",
                 "paddings": {
                   "bottom": "1x",
-                  "left": "4x"
+                  "left": "8x"
                 },
                 "details": [
                   {
@@ -54,7 +55,7 @@
                     "info_and_icon": {
                       "info": {
                         "text": "Единый бонусный счет для всех ваших карт",
-                        "typeface": "body1",
+                        "typeface": "footnote1",
                         "text_color": "secondary",
                         "max_lines": 1
                       }
