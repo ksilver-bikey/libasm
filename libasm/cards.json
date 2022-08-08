@@ -19,10 +19,10 @@
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1,
-"margins": {
+                            "margins": {
                                 "right": "6x",
                                 "left": "4x"
-                            },
+                            }
                         },
                         "icon": {
                             "address": {
@@ -58,10 +58,10 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "max_lines": 1,
-"margins": {
-                                "right": "6x",
-                                "left": "4x"
-                            }
+                                "margins": {
+                                    "right": "6x",
+                                    "left": "4x"
+                                }
                             }
                         }
                     }]
