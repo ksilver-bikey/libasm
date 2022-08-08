@@ -55,7 +55,7 @@
                         "type": "detail_right_view",
                         "info_and_icon": {
                             "info": {
-                                "text": "Единый бонусный счет для всех ваших карт",
+                                "text": "Один бонусный счет для всех ваших карт",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "max_lines": 1,
