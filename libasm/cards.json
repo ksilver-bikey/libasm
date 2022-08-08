@@ -8,18 +8,20 @@
                 "type": "details_cell_view",
                 "paddings": {
                     "top": "4x",
-                    "left": "4x"
+                    "left": "4x",
+ "bottom": "0x"
                 },
                 "details": [{
                     "type": "detail_right_view",
                     "info_and_icon": {
                         "info": {
-                            "text": "3 234",
+                            "text": "4 234",
                             "typeface": "headline1",
                             "text_color": "default",
                             "max_lines": 1,
                             "margins": {
-                                "left": "4x"
+                                "left": "4x",
+                                "bottom": "0x"
                             }
                         },
                         "icon": {
@@ -45,6 +47,7 @@
                 {
                     "type": "details_cell_view",
                     "paddings": {
+                        "top": "0x",
                         "bottom": "1x",
                         "left": "4x"
                     },
@@ -57,6 +60,7 @@
                                 "text_color": "secondary",
                                 "max_lines": 1,
                                 "margins": {
+                                    "top": "0x",
                                     "right": "6x",
                                     "left": "4x"
                                 }
