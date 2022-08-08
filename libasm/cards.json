@@ -34,8 +34,7 @@
                       },
                       "margins": {
                         "right": "6x",
-                        "left": "4x",
-                        "top": "8x"
+                        "left": "4x"
                       },
                       "tint_color": "solid_brand"
                     }
@@ -56,7 +55,7 @@
                       "info": {
                         "text": "Единый бонусный счет для всех ваших карт",
                         "typeface": "body1",
-                        "text_color": "default",
+                        "text_color": "secondary",
                         "max_lines": 1
                       }
                     }
