@@ -1,117 +1,108 @@
 {
     "auto_listening": true,
     "type": "sdk_answer",
-    "items": [
-      {
+    "items": [{
         "card": {
-          "type": "list_card",
-          "cells": [
-            {
-              "type": "details_cell_view",
-              "paddings": {
-                "top": "8x",
-                "bottom": "1x",
-                "left": "8x"
-              },
-              "details": [
-                {
-                  "type": "detail_right_view",
-                  "info_and_icon": {
-                    "info": {
-                      "text": "1 234",
-                      "typeface": "headline1",
-                      "text_color": "default",
-                      "max_lines": 1
-                    },
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "color_spasibo"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "margins": {
-                        "right": "6x",
-                        "left": "4x"
-                      },
-                      "tint_color": "solid_brand"
-                    },
-                    "icon_vertical_gravity": "center"
-                  }
-                }
-              ]
-            },
-            {
+            "type": "list_card",
+            "cells": [{
                 "type": "details_cell_view",
                 "paddings": {
-                  "bottom": "1x",
-                  "left": "8x"
+                    "top": "8x",
+ 
+                    "left": "8x"
                 },
-                "details": [
-                  {
+                "details": [{
                     "type": "detail_right_view",
                     "info_and_icon": {
-                      "info": {
-                        "text": "Единый бонусный счет для всех ваших карт",
-                        "typeface": "footnote1",
-                        "text_color": "secondary",
-                        "max_lines": 1
-                      }
+                        "info": {
+                            "text": "1 234",
+                            "typeface": "headline1",
+                            "text_color": "default",
+                            "max_lines": 1
+                        },
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "color_spasibo"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "right": "6x",
+                                "left": "4x", 
+                                "bottom": "2x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "icon_vertical_gravity": "center"
                     }
-                  }
-                ]
-              },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "1x",
-                "bottom": "4x",
-                "left": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "subtitle": {
-                    "text": "Ваш уровень до 9 сентября",
-                    "typeface": "footnote1",
-                    "text_color": "secondary"
-                  },
-                  "title": {
-                    "text": "Маленькое Спасибо",
-                    "typeface": "title1",
-                    "text_color": "default",
-                    "margins": {
-                      "top": "1x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "actions": [
+                }]
+            },
                 {
-                  "type": "deep_link",
-                  "deep_link": "sberbankonline://loyalty/level?internal_source=audiohelper501"
-                }
-              ]
+                    "type": "details_cell_view",
+                    "paddings": {
+                        "bottom": "1x",
+                        "left": "8x"
+                    },
+                    "details": [{
+                        "type": "detail_right_view",
+                        "info_and_icon": {
+                            "info": {
+                                "text": "Единый бонусный счет для всех ваших карт",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 1
+                            }
+                        }
+                    }]
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "1x",
+                        "bottom": "4x",
+                        "left": "8x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "texts": {
+                            "subtitle": {
+                                "text": "Ваш уровень до 9 сентября",
+                                "typeface": "footnote1",
+                                "text_color": "secondary"
+                            },
+                            "title": {
+                                "text": "Маленькое Спасибо",
+                                "typeface": "title1",
+                                "text_color": "default",
+                                "margins": {
+                                    "top": "1x"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "right": "5x"
+                        }
+                    },
+                    "actions": [{
+                        "type": "deep_link",
+                        "deep_link": "sberbankonline://loyalty/level?internal_source=audiohelper501"
+                    }]
+                }]
+        }
+    },
+        {
+            "bubble": {
+                "text": [
+                    "Бонусы хранятся на едином счёте, к нему подключены все ваши карты"
+                ],
+                "markdown": false
             }
-          ]
-        }
-      },
-      {
-        "bubble": {
-          "text": [
-            "Бонусы хранятся на едином счёте, к нему подключены все ваши карты"
-          ],
-          "markdown": false
-        }
-      }
-    ],
+        }],
     "CSI_content": "1"
-  }
+}
