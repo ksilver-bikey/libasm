@@ -8,7 +8,6 @@
                 "type": "details_cell_view",
                 "paddings": {
                     "top": "8x",
- 
                     "left": "8x"
                 },
                 "details": [{
@@ -31,8 +30,7 @@
                             },
                             "margins": {
                                 "right": "6x",
-                                "left": "4x", 
-                                "bottom": "2x"
+                                "left": "4x"
                             },
                             "tint_color": "solid_brand"
                         },
@@ -53,7 +51,11 @@
                                 "text": "Единый бонусный счет для всех ваших карт",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
-                                "max_lines": 1
+                                "max_lines": 1,
+"margins": {
+                                "right": "6x",
+                                "left": "4x"
+                            }
                             }
                         }
                     }]
