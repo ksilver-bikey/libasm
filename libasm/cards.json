@@ -7,7 +7,7 @@
             "cells": [{
                 "type": "details_cell_view",
                 "paddings": {
-                    "top": "4x",
+                    "top": "6x",
                     "left": "4x",
                     "bottom": "0x"
                 },
@@ -71,8 +71,8 @@
                 {
                     "type": "left_right_cell_view",
                     "paddings": {
-                        "top": "4x",
-                        "bottom": "4x",
+                        "top": "6x",
+                        "bottom": "6x",
                         "left": "8x"
                     },
                     "left": {
