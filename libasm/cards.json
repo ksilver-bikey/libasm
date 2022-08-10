@@ -1,118 +1,483 @@
 {
     "auto_listening": true,
     "type": "sdk_answer",
-    "items": [{
+    "items": [
+      {
         "card": {
-            "type": "list_card",
-            "cells": [{
-                "type": "details_cell_view",
-                "paddings": {
-                    "top": "6x",
-                    "left": "4x",
-                    "bottom": "0x"
-                },
-                "details": [{
-                    "type": "detail_right_view",
-                    "info_and_icon": {
-                        "info": {
-                            "text": "4 234",
-                            "typeface": "headline1",
-                            "text_color": "default",
-                            "max_lines": 1,
-                            "margins": {
-                                "left": "4x",
-                                "bottom": "0x"
-                            }
-                        },
-                        "icon": {
-                            "address": {
-                                "type": "local",
-                                "identificator": "color_spasibo"
-                            },
-                            "size": {
-                                "width": "medium",
-                                "height": "medium"
-                            },
-                            "margins": {
-                                "right": "6x",
-                                "left": "4x",
-                                "bottom": "3x"
-                            },
-                            "tint_color": "solid_brand"
-                        },
-                        "icon_vertical_gravity": "center"
+          "type": "list_card",
+          "cells": [
+            {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "bell"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "bell",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
                     }
-                }]
-            },
-                {
-                    "type": "details_cell_view",
-                    "paddings": {
-                        "top": "0x",
-                        "bottom": "1x",
-                        "left": "4x"
-                    },
-                    "details": [{
-                        "type": "detail_right_view",
-                        "info_and_icon": {
-                            "info": {
-                                "text": "Один бонусный счет для всех ваших карт",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 1,
-                                "margins": {
-                                    "top": "0x",
-                                    "right": "6x",
-                                    "left": "4x"
-                                }
-                            }
-                        }
-                    }]
+                  }
                 },
-                {
-                    "type": "left_right_cell_view",
-                    "paddings": {
-                        "top": "6x",
-                        "bottom": "6x",
-                        "left": "8x"
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "star_light"
                     },
-                    "left": {
-                        "type": "simple_left_view",
-                        "texts": {
-                            "subtitle": {
-                                "text": "Ваш уровень до 9 сентября",
-                                "typeface": "footnote1",
-                                "text_color": "secondary"
-                            },
-                            "title": {
-                                "text": "Маленькое Спасибо",
-                                "typeface": "title1",
-                                "text_color": "default",
-                                "margins": {
-                                    "top": "1x"
-                                }
-                            }
-                        }
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
                     },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "right": "5x"
-                        }
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
                     },
-                    "actions": [{
-                        "type": "deep_link",
-                        "deep_link": "sberbankonline://loyalty/level?internal_source=audiohelper501"
-                    }]
-                }]
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "star_light",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "basket"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "basket",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "apple_wallet"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "apple_wallet",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "arrows_forward_back"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "arrows_forward_back",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "arrow_right_trace_line"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "arrow_right_trace_line",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "falling_coin"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "falling_coin",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "arrows_forward_back"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "arrows_forward_back",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "recommend"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "recommend",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              },
+              {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "icon": {
+                    "address": {
+                      "type": "local",
+                      "identificator": "round_speech_bubble_question"
+                    },
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "margins": {
+                      "top": "5x",
+                      "right": "6x",
+                      "bottom": "5x",
+                      "left": "8x"
+                    },
+                    "tint_color": "solid_brand"
+                  },
+                  "title": {
+                    "text": "round_speech_bubble_question",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 1,
+                    "margins": {
+                      "top": "9x",
+                      "bottom": "9x"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "top": "8x",
+                    "right": "4x",
+                    "bottom": "8x"
+                  }
+                },
+                "actions": [
+                  {
+                    "type": "deep_link",
+                    "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/level?internal_source=audiohelper706{% else %}android-app://ru.sberbankmobile/loyalty/level?internal_source=audiohelper706{% endif %}"
+                  }
+                ]
+              }
+          ]
         }
-    },
-        {
-            "bubble": {
-                "text": [
-                    "Бонусы хранятся на едином счёте, к нему подключены все ваши карты"
-                ],
-                "markdown": false
-            }
-        }],
-    "CSI_content": "1"
-}
+      }
+    ]
+  }
