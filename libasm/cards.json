@@ -46,20 +46,19 @@
                 },
                 "actions": [{
                     "type": "server_action",
-                    "message_name": "SERVER_ACTION",
-                    "app_info": {
-                        "systemName": "p2p"
-                    },
+                    "message_name": "POLICY_RUN_APP",
                     "server_action":
                     {
-                        "type": "policy_run_app",
-                        "project_system_name": "p2p",
-                        "intent": "p2p",
-                        "parameters": {
-                            "amount": "{{ None }}"
+                        "action_id": "run_app",
+                        "app_info": {
+                            "systemName": "metal_exchange"
+                        },
+                        "parameters":
+                        {
+                            "request": "rate",
+                            "metal": "xag"
                         }
                     }
-                }]
             },
 
                 {
