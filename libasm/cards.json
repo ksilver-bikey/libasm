@@ -26,7 +26,7 @@
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "bell1",
+                        "text": "bel2l1",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -50,12 +50,10 @@
                     "server_action": {
                         "action_id": "run_app",
                         "app_info": {
-                            "projectId": "banking_general_info",
-                            "applicationId": "9df93093-8deb-420b-aab7-96aa813f7945",
-                            "appversionId": "5ac8dec4-c31b-43d7-910c-ac17beb4234d"
+                            "projectId": "A0501.How_to_check_your_SPASIBO_bonus_balance"
                         },
                         "parameters": {
-                            "intent": "p2p"
+                            "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance"
                         }
                     }
                 }]
