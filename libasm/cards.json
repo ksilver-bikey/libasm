@@ -1,71 +1,64 @@
 {
     "auto_listening": true,
     "type": "sdk_answer",
-    "items": [
-      {
+    "items": [{
         "card": {
-          "type": "list_card",
-          "cells": [
-            {
+            "type": "list_card",
+            "cells": [{
                 "type": "left_right_cell_view",
                 "left": {
-                  "type": "simple_left_view",
-                  "icon": {
-                    "address": {
-                      "type": "local",
-                      "identificator": "bell"
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "bell"
+                        },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "top": "5x",
+                            "right": "6x",
+                            "bottom": "5x",
+                            "left": "8x"
+                        },
+                        "tint_color": "solid_brand"
                     },
-                    "size": {
-                      "width": "medium",
-                      "height": "medium"
-                    },
-                    "margins": {
-                      "top": "5x",
-                      "right": "6x",
-                      "bottom": "5x",
-                      "left": "8x"
-                    },
-                    "tint_color": "solid_brand"
-                  },
-                  "title": {
-                    "text": "bell",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 1,
-                    "margins": {
-                      "top": "9x",
-                      "bottom": "9x"
+                    "title": {
+                        "text": "bell",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 1,
+                        "margins": {
+                            "top": "9x",
+                            "bottom": "9x"
+                        }
                     }
-                  }
                 },
                 "right": {
-                  "type": "disclosure_right_view",
-                  "margins": {
-                    "top": "8x",
-                    "right": "4x",
-                    "bottom": "8x"
-                  }
+                    "type": "disclosure_right_view",
+                    "margins": {
+                        "top": "8x",
+                        "right": "4x",
+                        "bottom": "8x"
+                    }
                 },
-                "actions": [
-                  {
+                "actions": [{
                     "type": "server_action",
                     "message_name": "SERVER_ACTION",
                     "app_info": {
                         "systemName": "Levels"
                     },
                     "server_action": {
-"action_id": "policy_run_app",
-                          "parameters": {
-                            "project_system_name": "How_to_give_bonuses",
-                            "intent": "A07.09706.How_to_give_bonuses"
-                          }
+                        "action_id": "policy_run_app",
+                        "parameters": {
+                            "project_system_name": "Deposit_selection",
+                            "intent": "A05.01551.Deposit_selection"
+                        }
                     }
-                  }
-                ]
-              }
-     
-          ]
+                }]
+            }]
         }
-      }
-    ]
-  }
+    }]
+}
