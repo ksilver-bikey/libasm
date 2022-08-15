@@ -4,7 +4,8 @@
     "items": [{
         "card": {
             "type": "list_card",
-            "cells": [{
+            "cells": [
+                {
                 "type": "left_right_cell_view",
                 "left": {
                     "type": "simple_left_view",
@@ -44,81 +45,30 @@
                         "bottom": "8x"
                     }
                 },
-                "actions": [{
-                    "type": "server_action",
-                    "message_name": "POLICY_RUN_APP",
-                    "server_action":
-                    {
-                        "action_id": "run_app",
-                        "app_info": {
-                            "systemName": "metal_exchange"
-                        },
-                        "parameters":
-                        {
-                            "request": "rate",
-                            "metal": "xag"
-                        }
-                    }
-                }]},
-
-                    {
-                        "type": "left_right_cell_view",
-                        "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                                "address": {
-                                    "type": "local",
-                                    "identificator": "bell"
-                                },
-                                "size": {
-                                    "width": "medium",
-                                    "height": "medium"
-                                },
-                                "margins": {
-                                    "top": "5x",
-                                    "right": "6x",
-                                    "bottom": "5x",
-                                    "left": "8x"
-                                },
-                                "tint_color": "solid_brand"
+                "actions": 
+[
+                            {
+                                "text": "Курс платины",
+                                "type": "text",
+                                "should_send_to_backend": false
                             },
-                            "title": {
-                                "text": "bell",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "max_lines": 1,
-                                "margins": {
-                                    "top": "9x",
-                                    "bottom": "9x"
+                            {
+                                "type": "server_action",
+                                "message_name": "RUN_APP",
+                                "server_action":
+                                {
+                                    "action_id": "run_app",
+                                    "parameters":
+                                    {
+                                        "request": "rate",
+                                        "metal": "xpt"
+                                    }
                                 }
                             }
-                        },
-                        "right": {
-                            "type": "disclosure_right_view",
-                            "margins": {
-                                "top": "8x",
-                                "right": "4x",
-                                "bottom": "8x"
-                            }
-                        },
-                        "actions": [{
-                            "type": "server_action",
-                            "message_name": "SERVER_ACTION",
-                            "app_info": {
-                                "systemName": "p2p"
-                            },
-                            "server_action":
-                            {
-                                "type": "policy_run_app",
-                                "parameters": {
-                                    "project_system_name": "p2p",
-                                    "intent": "p2p",
-                                    "parameters": {
-                                        "amount": "{{ None }}"
-                                    }}
-                            }
-                        }]
-                    }]
-            }
-            }]
-    }
+                        ]
+                    
+                }
+                ]
+        }
+    }]
+}
