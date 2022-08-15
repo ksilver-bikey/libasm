@@ -4,8 +4,7 @@
     "items": [{
         "card": {
             "type": "list_card",
-            "cells": [
-                {
+            "cells": [{
                 "type": "left_right_cell_view",
                 "left": {
                     "type": "simple_left_view",
@@ -45,30 +44,25 @@
                         "bottom": "8x"
                     }
                 },
-                "actions": 
-[
-                            {
-                                "text": "Курс платины",
-                                "type": "text",
-                                "should_send_to_backend": false
-                            },
-                            {
-                                "type": "server_action",
-                                "message_name": "RUN_APP",
-                                "server_action":
-                                {
-                                    "action_id": "run_app",
-                                    "parameters":
-                                    {
-                                        "request": "rate",
-                                        "metal": "xpt"
-                                    }
-                                }
+                "actions":[
+                          {
+                            "type": "server_action",
+                            "message_name": "RUN_APP",
+                            "server_action": {
+                              "action_id": "run_app",
+                              "app_info": {
+                                "projectId": "banking_general_info",
+                                "applicationId": "9df93093-8deb-420b-aab7-96aa813f7945",
+                                "appversionId": "5ac8dec4-c31b-43d7-910c-ac17beb4234d"
+                              },
+                              "parameters": {
+                                "intent": "A07.09713.Levels"
+                              }
                             }
+                          }
                         ]
-                    
-                }
-                ]
+
+            }]
         }
     }]
 }
