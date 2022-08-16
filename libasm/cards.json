@@ -26,7 +26,7 @@
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "b6",
+                        "text": "ккк6",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -44,19 +44,21 @@
                         "bottom": "8x"
                     }
                 },
-                "actions":[{
-                    "type": "server_action",
-                    "message_name": "RUN_APP",
-                    "server_action": {
-                        "action_id": "run_app",
-                        "app_info": {
-                            "projectId": "How_to_give_bonuses"
-                        },
-                        "parameters": {
-                            "intent": "A07.09706.How_to_give_bonuses"
-                        }
-                    }
-                }]
+                "actions":[
+{
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "banking_general_info"
+                  },
+                  "parameters": {
+                    "intent": "A17.01650.Disable_subscriptions"
+                  }
+                }
+              }
+                ]
 
             }]
         }
