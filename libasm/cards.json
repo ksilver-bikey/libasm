@@ -26,7 +26,7 @@
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "bel2l1",
+                        "text": "bell56",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -50,10 +50,10 @@
                     "server_action": {
                         "action_id": "run_app",
                         "app_info": {
-                            "projectId": "A0501.How_to_check_your_SPASIBO_bonus_balance"
+                            "projectId": "A07.09706.How_to_give_bonuses"
                         },
                         "parameters": {
-                            "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance"
+                            "intent": "A07.09706.How_to_give_bonuses"
                         }
                     }
                 }]
