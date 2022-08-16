@@ -88,7 +88,7 @@
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "ккк6шг",
+                        "text": "кк111к6шг",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -113,10 +113,14 @@
                             "server_action": {
                               "action_id": "run_app",
                               "app_info": {
+                                  "systemName":
+"How_to_give_bonuses",
                                 "projectId": "How_to_give_bonuses"
                               },
                               "parameters": {
-                                "intent": "Sbercard"
+                            "project_system_name": "How_to_give_bonuses",
+                            "intent": "A07.09706.How_to_give_bonuses"
+                     
                               }
                             }
                           }
