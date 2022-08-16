@@ -26,7 +26,7 @@
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "bell56",
+                        "text": "b6",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -50,7 +50,7 @@
                     "server_action": {
                         "action_id": "run_app",
                         "app_info": {
-                            "projectId": "A07.09706.How_to_give_bonuses"
+                            "projectId": "How_to_give_bonuses"
                         },
                         "parameters": {
                             "intent": "A07.09706.How_to_give_bonuses"
