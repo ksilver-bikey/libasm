@@ -1,136 +1,196 @@
 {
-    "auto_listening": true,
-    "type": "sdk_answer",
-    "items": [{
-        "card": {
-            "type": "list_card",
-            "cells": [
-                {
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "icon": {
-                        "address": {
-                            "type": "local",
-                            "identificator": "bell"
-                        },
-                        "size": {
-                            "width": "medium",
-                            "height": "medium"
-                        },
-                        "margins": {
-                            "top": "5x",
-                            "right": "6x",
-                            "bottom": "5x",
-                            "left": "8x"
-                        },
-                        "tint_color": "solid_brand"
-                    },
-                    "title": {
-                        "text": "ккк6шг",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 1,
-                        "margins": {
-                            "top": "9x",
-                            "bottom": "9x"
-                        }
+  "type":"sdk_answer",
+  "items":[
+     {
+        "card":{
+           "event_to_actions":{
+              "change_user":{
+                 "actions":[
+                    {
+                       "type":"text",
+                       "text":"Изменить получателя",
+                       "should_send_to_backend":true
                     }
-                },
-                "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x"
+                 ]
+              },
+              "change_count":{
+                 "actions":[
+                    {
+                       "type":"text",
+                       "text":"Изменить количество баллов",
+                       "should_send_to_backend":true
                     }
-                },
-                "actions":[
-                          {
-                            "type": "server_action",
-                            "message_name": "RUN_APP",
-                            "server_action": {
-                              "action_id": "run_app",
-                              "app_info": {
-                                "projectId": "banking_general_info",
-                                "applicationId": "9df93093-8deb-420b-aab7-96aa813f7945",
-                                "appversionId": "5ac8dec4-c31b-43d7-910c-ac17beb4234d"
-                              },
-                              "parameters": {
-                                "intent": "A00.00002.Test_scenario"
-                              }
-                            }
-                          }
-                        
-          
-                ]
-
-            },
- {
-                "type": "left_right_cell_view",
-                "left": {
-                    "type": "simple_left_view",
-                    "icon": {
-                        "address": {
-                            "type": "local",
-                            "identificator": "bell"
-                        },
-                        "size": {
-                            "width": "medium",
-                            "height": "medium"
-                        },
-                        "margins": {
-                            "top": "5x",
-                            "right": "6x",
-                            "bottom": "5x",
-                            "left": "8x"
-                        },
-                        "tint_color": "solid_brand"
-                    },
-                    "title": {
-                        "text": "5601",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 1,
-                        "margins": {
-                            "top": "9x",
-                            "bottom": "9x"
-                        }
+                 ]
+              },
+              "confirm":{
+                 "actions":[
+                    {
+                       "type":"text",
+                       "text":"Подтверждаю",
+                       "should_send_to_backend":true
                     }
-                },
-                "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x"
+                 ]
+              }
+           },
+           "type":"workflow",
+           "payload":{
+              "success":true,
+              "body":{
+                 "result":"SUCCESS",
+                 "pid":"80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                 "flow":"DemoCoreMoney",
+                 "state":"state0",
+                 "output":{
+                    "screens":[
+                       {
+                          "title":"CoreFieldSet: text",
+                          "widgets":[
+                             {
+                                "type":"CoreTitle",
+                                "fields":[
+                                   {
+                                      "id":"id:CoreTitle",
+                                      "type":"text",
+                                      "style":"Стиль",
+                                      "title":"Перевод бонусов",
+                                      "description":"Ваш баланс 3000 Б"
+                                   }
+                                ]
+                             },
+                             {
+                                "type":"CoreCell",
+                                "properties":{
+                                   "disclosure":true,
+                                   "icon":"document",
+                                   "devider":"bold"
+                                },
+                                "events":[
+                                   {
+                                      "cmd":"change_user",
+                                      "name":"change_user"
+                                   }
+                                ],
+                                "fields":[
+                                   {
+                                      "id":"FIO",
+                                      "value":"UP_TO_3_GOLD_CARDS",
+                                      "title":"Николай Второй",
+                                      "type":"text",
+                                      "description":"+7 (903) 712-25-12"
+                                   }
+                                ]
+                             },
+                             {
+                                "type":"CoreCell",
+                                "properties":{
+                                   "disclosure":true,
+                                   "icon":"document",
+                                   "devider":"bold"
+                                },
+                                "events":[
+                                   {
+                                      "cmd":"change_count",
+                                      "name":"change_count"
+                                   }
+                                ],
+                                "fields":[
+                                   {
+                                      "id":"FIO",
+                                      "value":"UP_TO_3_GOLD_CARDS",
+                                      "title":"100 бонусов",
+                                      "type":"text",
+                                      "description":"Спишется"
+                                   }
+                                ]
+                             },
+                             {
+                                "type":"CoreCell",
+                                "readonly":true,
+                                "properties":{
+                                   "disclosure":false,
+                                   "icon":"document",
+                                   "devider":"bold",
+                                   "caption":"По курсу 1 = 0.9"
+                                },
+                                "fields":[
+                                   {
+                                      "id":"FIO",
+                                      "value":"UP_TO_3_GOLD_CARDS",
+                                      "title":"90 бонусов",
+                                      "readonly":true,
+                                      "type":"text",
+                                      "description":"Будет переведено"
+                                   }
+                                ]
+                             }
+                          ],
+                          "footer":[
+                             {
+                                "type":"CoreAgreement",
+                                "title":"Документы",
+                                "description":"pdf, md и требуется просмотр всех документов",
+                                "properties":{
+                                   "isCheckboxHidden":true
+                                },
+                                "fields":[
+                                   {
+                                      "id":"agreement",
+                                      "value":"false",
+                                      "type":"checkbox",
+                                      "referenceId":"agreement",
+                                      "title":"Я согласен с <a>условиями предоставления услуги</a>",
+                                      "validators":[
+                                         {
+                                            "type":"required",
+                                            "value":"true",
+                                            "message":"Вы не согласились с лицензионным соглашением"
+                                         }
+                                      ]
+                                   }
+                                ]
+                             },
+                             {
+                                "type":"CoreButtons",
+                                "events":[
+                                   {
+                                      "cmd":"confirm",
+                                      "name":"confirm",
+                                      "title": "Подтвердить"
+                                   }
+                                ]
+                             }
+                          ]
+                       }
+                    ],
+                    "references":{
+                       "agreement":{
+                          "properties":{
+                             "requireVisitAll":true
+                          },
+                          "items":[
+                             {
+                                "title":"Документ в формате PDF 1",
+                                "value":"agreement-pdf-1",
+                                "properties":{
+                                   "format":"pdf",
+                                   "src":"http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+                                }
+                             },
+                             {
+                                "title":"Документ в формате PDF 2",
+                                "value":"agreement-pdf-2",
+                                "properties":{
+                                   "format":"pdf",
+                                   "src":"http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
+                                }
+                             }
+                          ]
+                       }
                     }
-                },
-                "actions":[{
-  "type": "server_action",
-  "message_name": "RUN_APP",
-  "server_action": {
-    "action_id": "run_app",
-    "app_info": {
-      "systemName": "How_to_check_your_SPASIBO_bonus_balance", 
-      "projectId": "4128b9d4-7027-4ce6-b183-324eac91a041", 
-      "applicationId": "71a1adf2-ebf8-43c9-9ab2-0d42187dc5fd", 
-      "appversionId": "2d1f5df8-f558-4f46-b9c4-e1668fd30a34"
-    },
-   "projectName": "How_to_check_your_SPASIBO_bonus_balance",
-    "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance",
-    "parameters": {
-      "projectName": "How_to_check_your_SPASIBO_bonus_balance",
-      "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance"
-    }
-  }
-}
-          
-                ]
-
-            }
-         
-            ]
+                 }
+              }
+           }
         }
-    }]
+     }
+  ]
 }
