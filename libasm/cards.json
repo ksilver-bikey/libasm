@@ -88,7 +88,7 @@
                         "tint_color": "solid_brand"
                     },
                     "title": {
-                        "text": "501",
+                        "text": "5601",
                         "typeface": "body1",
                         "text_color": "default",
                         "max_lines": 1,
@@ -112,20 +112,16 @@
   "server_action": {
     "action_id": "run_app",
     "app_info": {
-      "systemName": "How_to_check_your_SPASIBO_bonus_balance", "projectId": "4128b9d4-7027-4ce6-b183-324eac91a041", "applicationId": "71a1adf2-ebf8-43c9-9ab2-0d42187dc5fd", "appversionId": "2d1f5df8-f558-4f46-b9c4-e1668fd30a34"
+      "systemName": "How_to_check_your_SPASIBO_bonus_balance", 
+      "projectId": "4128b9d4-7027-4ce6-b183-324eac91a041", 
+      "applicationId": "71a1adf2-ebf8-43c9-9ab2-0d42187dc5fd", 
+      "appversionId": "2d1f5df8-f558-4f46-b9c4-e1668fd30a34"
     },
    "projectName": "How_to_check_your_SPASIBO_bonus_balance",
-      "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance",
+    "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance",
     "parameters": {
       "projectName": "How_to_check_your_SPASIBO_bonus_balance",
-      "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance",
-      "server_action": {
-        "action_id": "run_app",
-        "parameters": {
-          "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance",
-          "original_text": "from_708"
-        }
-      }
+      "intent": "A0501.How_to_check_your_SPASIBO_bonus_balance"
     }
   }
 }
