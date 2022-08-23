@@ -122,7 +122,34 @@
                                       "description":"Будет переведено"
                                    }
                                 ]
-                             }
+                             },
+                             {
+                              "type": "CoreCollapse",
+                              "fields": [
+                                  {
+                                      "id": "fieldSet:switch",
+                                      "type": "checkbox",
+                                      "title": "О курсах перевода",
+                                      "value": "false",
+                                      "style": "info"
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "CoreFormattedText",
+                              "visible": {
+                                  "id": "fieldSet:switch",
+                                  "regexp": "true"
+                              },
+                              "fields": [
+                                  {
+                                      "id": "text",
+                                      "type": "text",
+                                      "readonly": true,
+                                      "value": "##### Курс перевода зависит от вашего уровня в СберСпасибо: чем выше уровень, тем выгоднее курс\n\nСпасибо: перевод бонусов недоступен\nБольшое Спасибо: 1 Б = 0,8 Б\nОгромное Спасибо: 1 Б =  0,9 Б\nБольше, чем Спасибо: 1 Б = 0,95 Б"
+                                  }
+                              ]
+                          }
                           ],
                           "footer":[
                              {
