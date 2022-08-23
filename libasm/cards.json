@@ -152,40 +152,39 @@
                           }
                           ],
                           "footer":[
-                             {
-                                "type":"CoreAgreement",
-                                "title":"Документы",
-                                "description":"pdf, md и требуется просмотр всех документов",
-                                "properties":{
-                                   "isCheckboxHidden":true
-                                },
-                                "fields":[
-                                   {
-                                      "id":"agreement",
-                                      "value":"false",
-                                      "type":"checkbox",
-                                      "referenceId":"agreement",
-                                      "title":"Я согласен с <a>условиями предоставления услуги</a>",
-                                      "validators":[
-                                         {
-                                            "type":"required",
-                                            "value":"true",
-                                            "message":"Вы не согласились с лицензионным соглашением"
-                                         }
+                           {
+                              "type": "CoreAgreement",
+                              "title": "Правила",
+                              "description": "pdf, md и требуется просмотр всех документов",
+                              "properties": {},
+                              "fields": [
+                                  {
+                                      "id": "agreement",
+                                      "value": "false",
+                                      "type": "checkbox",
+                                      "referenceId": "agreement",
+                                      "title": "Я соглашаюсь с <a>Правилами акции</a>",
+                                      "validators": [
+                                          {
+                                              "type": "required",
+                                              "value": "true",
+                                              "message": "Вы не согласились с правилами"
+                                          }
                                       ]
-                                   }
-                                ]
-                             },
-                             {
-                                "type":"CoreButtons",
-                                "events":[
-                                   {
-                                      "cmd":"confirm",
-                                      "name":"confirm",
-                                      "title": "Подтвердить"
-                                   }
-                                ]
-                             }
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "CoreButtons",
+                              "events": [
+                                  {
+                                      "cmd": "next",
+                                      "title": "Перевести",
+                                      "name": "next",
+                                      "description": "Переход на следующий экран"
+                                  }
+                              ]
+                          }
                           ]
                        }
                     ],
@@ -195,22 +194,14 @@
                              "requireVisitAll":true
                           },
                           "items":[
-                             {
-                                "title":"Документ в формате PDF 1",
-                                "value":"agreement-pdf-1",
-                                "properties":{
-                                   "format":"pdf",
-                                   "src":"http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
-                                }
-                             },
-                             {
-                                "title":"Документ в формате PDF 2",
-                                "value":"agreement-pdf-2",
-                                "properties":{
-                                   "format":"pdf",
-                                   "src":"http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"
-                                }
-                             }
+                           {
+                              "title": "Документ в формате PDF 1",
+                              "value": "agreement-pdf-1",
+                              "properties": {
+                                  "format": "pdf",
+                                  "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
+                              }
+                          }
                           ]
                        }
                     }
