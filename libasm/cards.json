@@ -146,7 +146,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "basket"
+                  "identificator": "ds_ic_24_cart"
                 },
                 "size": {
                   "width": "medium",
