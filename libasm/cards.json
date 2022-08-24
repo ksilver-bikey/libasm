@@ -175,7 +175,7 @@
          "card": {
            "type": "list_card",
            "cells": [
-             [
+             
                {
                  "type": "left_right_cell_view",
                  "divider": {
@@ -206,7 +206,7 @@
                    ]
                  }
                }
-             ],
+             ,
              {
                "type": "left_right_cell_view",
                "divider": {
@@ -345,7 +345,7 @@
          "card": {
            "type": "list_card",
            "cells": [
-             [
+             
                {
                  "type": "left_right_cell_view",
                  "divider": {
@@ -373,7 +373,7 @@
                        "type": "deep_link",
                        "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
                      }
-                   ],
+                   ,
                    "icon": {
                      "address": {
                        "type": "local",
@@ -541,7 +541,7 @@
          "card": {
            "type": "list_card",
            "cells": [
-             [
+             
                {
                  "type": "left_right_cell_view",
                  "divider": {
@@ -587,7 +587,7 @@
                    }
                  }
                }
-             ],
+             ,
              {
                "type": "left_right_cell_view",
                "divider": {
