@@ -7,7 +7,6 @@
          "card": {
            "type": "list_card",
            "cells": [
-             [
                {
                  "type": "left_right_cell_view",
                  "divider": {
@@ -38,7 +37,6 @@
                    ]
                  }
                }
-             ],
              {
                "type": "left_right_cell_view",
                "divider": {
