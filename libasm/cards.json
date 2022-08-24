@@ -18,7 +18,7 @@
                  "type": "detail_right_view",
                  "info_and_icon": {
                    "info": {
-                     "text": "1 234",
+                     "text": "1 2345",
                      "typeface": "headline1",
                      "text_color": "default",
                      "max_lines": 1,
@@ -38,8 +38,7 @@
                      },
                      "margins": {
                        "right": "6x",
-                       "left": "4x",
-                       "bottom": "3x"
+                       "left": "2x"
                      },
                      "tint_color": "solid_brand"
                    },
@@ -52,7 +51,7 @@
              "type": "details_cell_view",
              "paddings": {
                "top": "0x",
-               "bottom": "1x",
+               "bottom": "6x",
                "left": "4x"
              },
              "details": [
