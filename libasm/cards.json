@@ -1,214 +1,81 @@
 {
-  "type":"sdk_answer",
-  "items":[
+   "auto_listening": true,
+   "type": "sdk_answer",
+   "items": [
      {
-        "card":{
-           "event_to_actions":{
-              "change_user":{
-                 "actions":[
-                    {
-                       "type":"text",
-                       "text":"Изменить получателя",
-                       "should_send_to_backend":true
-                    }
-                 ]
-              },
-              "change_count":{
-                 "actions":[
-                    {
-                       "type":"text",
-                       "text":"Изменить количество баллов",
-                       "should_send_to_backend":true
-                    }
-                 ]
-              },
-              "confirm":{
-                 "actions":[
-                    {
-                       "type":"text",
-                       "text":"Подтверждаю",
-                       "should_send_to_backend":true
-                    }
-                 ]
-              }
-           },
-           "type":"workflow",
-           "payload":{
-              "success":true,
-              "body":{
-                 "result":"SUCCESS",
-                 "pid":"80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-                 "flow":"DemoCoreMoney",
-                 "state":"state0",
-                 "output":{
-                    "screens":[
-                       {
-                          "title":"CoreFieldSet: text",
-                          "widgets":[
-                             {
-                                "type":"CoreTitle",
-                                "fields":[
-                                   {
-                                      "id":"id:CoreTitle",
-                                      "type":"text",
-                                      "style":"Стиль",
-                                      "title":"Перевод бонусов",
-                                      "description":"Ваш баланс 3000 Б"
-                                   }
-                                ]
-                             },
-                             {
-                                "type":"CoreCell",
-                                "properties":{
-                                   "disclosure":true,
-                                   "icon":"document",
-                                   "devider":"bold"
-                                },
-                                "events":[
-                                   {
-                                      "cmd":"change_user",
-                                      "name":"change_user"
-                                   }
-                                ],
-                                "fields":[
-                                   {
-                                      "id":"FIO",
-                                      "value":"UP_TO_3_GOLD_CARDS",
-                                      "title":"Николай Второй",
-                                      "type":"text",
-                                      "description":"+7 (903) 712-25-12"
-                                   }
-                                ]
-                             },
-                             {
-                                "type":"CoreCell",
-                                "properties":{
-                                   "disclosure":true,
-                                   "icon":"document",
-                                   "devider":"bold"
-                                },
-                                "events":[
-                                   {
-                                      "cmd":"change_count",
-                                      "name":"change_count"
-                                   }
-                                ],
-                                "fields":[
-                                   {
-                                      "id":"FIO",
-                                      "value":"UP_TO_3_GOLD_CARDS",
-                                      "title":"100 бонусов",
-                                      "type":"text",
-                                      "description":"Спишется"
-                                   }
-                                ]
-                             },
-                             {
-                                "type":"CoreCell",
-                                "readonly":true,
-                                "properties":{
-                                   "disclosure":false,
-                                   "icon":"document",
-                                   "devider":"bold",
-                                   "caption":"По курсу 1 = 0.9"
-                                },
-                                "fields":[
-                                   {
-                                      "id":"FIO",
-                                      "value":"UP_TO_3_GOLD_CARDS",
-                                      "title":"90 бонусов",
-                                      "readonly":true,
-                                      "type":"text",
-                                      "description":"Будет переведено"
-                                   }
-                                ]
-                             },
-                             {
-                              "type": "CoreCollapse",
-                              "fields": [
-                                  {
-                                      "id": "fieldSet:switch",
-                                      "type": "checkbox",
-                                      "title": "О курсах перевода",
-                                      "value": "false",
-                                      "style": "info"
-                                  }
-                              ]
-                          },
-                          {
-                              "type": "CoreFormattedText",
-                              "visible": {
-                                  "id": "fieldSet:switch",
-                                  "regexp": "true"
-                              },
-                              "fields": [
-                                  {
-                                      "id": "text",
-                                      "type": "text",
-                                      "readonly": true,
-                                      "value": "##### Курс перевода зависит от вашего уровня в СберСпасибо: чем выше уровень, тем выгоднее курс\n\nСпасибо: перевод бонусов недоступен\nБольшое Спасибо: 1 Б = 0,8 Б\nОгромное Спасибо: 1 Б =  0,9 Б\nБольше, чем Спасибо: 1 Б = 0,95 Б"
-                                  }
-                              ]
-                          }
-                          ],
-                          "footer":[
-                           {
-                              "type": "CoreAgreement",
-                              "title": "Правила",
-                              "description": "pdf, md и требуется просмотр всех документов",
-                              "properties": {},
-                              "fields": [
-                                  {
-                                      "id": "agreement",
-                                      "value": "false",
-                                      "type": "checkbox",
-                                      "referenceId": "agreement",
-                                      "title": "Я соглашаюсь с <a>Правилами акции</a>",
-                                      "validators": [
-                                          {
-                                              "type": "required",
-                                              "value": "true",
-                                              "message": "Вы не согласились с правилами"
-                                          }
-                                      ]
-                                  }
-                              ]
-                          },
-                          {
-                              "type": "CoreButtons",
-                              "events": [
-                                  {
-                                      "cmd": "next",
-                                      "title": "Перевести",
-                                      "name": "next",
-                                      "description": "Переход на следующий экран"
-                                  }
-                              ]
-                          }
-                          ]
-                       }
-                    ],
-                    "references":{
-                       "agreement":{
-                          "properties":{
-                             "requireVisitAll":true
-                          },
-                          "items":[
-                           {
-                              "title": "Документ в формате PDF 1",
-                              "value": "agreement-pdf-1",
-                              "properties": {
-                                  "format": "pdf",
-                                  "src": "https://spasibosberbank.ru/upload/iblock/1bd/pravila_perevoda_24.01.2022.pdf"
-                              }
-                          }
-                          ]
-                       }
-                    }
+       "card": {
+         "type": "list_card",
+         "cells": [
+           {
+             "type": "details_cell_view",
+             "paddings": {
+               "top": "6x",
+               "left": "4x",
+               "bottom": "0x"
+             },
+             "details": [
+               {
+                 "type": "detail_right_view",
+                 "info_and_icon": {
+                   "info": {
+                     "text": "1 234",
+                     "typeface": "headline1",
+                     "text_color": "default",
+                     "max_lines": 1,
+                     "margins": {
+                       "left": "4x",
+                       "bottom": "0x"
+                     }
+                   },
+                   "icon": {
+                     "address": {
+                       "type": "local",
+                       "identificator": "color_spasibo"
+                     },
+                     "size": {
+                       "width": "medium",
+                       "height": "medium"
+                     },
+                     "margins": {
+                       "right": "6x",
+                       "left": "4x",
+                       "bottom": "3x"
+                     },
+                     "tint_color": "solid_brand"
+                   },
+                   "icon_vertical_gravity": "center"
                  }
-              }
+               }
+             ]
+           },
+           {
+             "type": "details_cell_view",
+             "paddings": {
+               "top": "0x",
+               "bottom": "1x",
+               "left": "4x"
+             },
+             "details": [
+               {
+                 "type": "detail_right_view",
+                 "info_and_icon": {
+                   "info": {
+                     "text": "Один бонусный счёт для всех ваших карт",
+                     "typeface": "footnote1",
+                     "text_color": "secondary",
+                     "max_lines": 1,
+                     "margins": {
+                       "top": "0x",
+                       "right": "6x",
+                       "left": "4x"
+                     }
+                   }
+                 }
+               }
+             ]
            }
-        }
+         ]
+       }
      }
   ]
 }
