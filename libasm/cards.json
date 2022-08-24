@@ -17,7 +17,7 @@
                  "icon_vertical_gravity": "center",
                  "texts": {
                    "title": {
-                     "text": "Изменения в СберСпасибо",
+                     "text": "Изменения в СберСпасибо1",
                      "typeface": "body1",
                      "text_color": "default",
                      "max_lines": 0,
@@ -257,7 +257,7 @@
                    "icon_vertical_gravity": "center",
                    "texts": {
                      "title": {
-                       "text": "Подключиться",
+                       "text": "Подключиться2",
                        "typeface": "body1",
                        "text_color": "default",
                        "max_lines": 0,
@@ -427,7 +427,7 @@
                    "icon_vertical_gravity": "center",
                    "texts": {
                      "title": {
-                       "text": "Подключиться",
+                       "text": "Подключиться3",
                        "typeface": "body1",
                        "text_color": "default",
                        "max_lines": 0,
@@ -597,7 +597,7 @@
                    "icon_vertical_gravity": "center",
                    "texts": {
                      "title": {
-                       "text": "Посмотреть баланс бонусов",
+                       "text": "Посмотреть баланс бонусов4",
                        "typeface": "body1",
                        "text_color": "default",
                        "max_lines": 0,
@@ -793,7 +793,7 @@
                    "icon_vertical_gravity": "center",
                    "texts": {
                      "title": {
-                       "text": "Посмотреть баланс бонусов",
+                       "text": "Посмотреть баланс бонусов5",
                        "typeface": "body1",
                        "text_color": "default",
                        "max_lines": 0,
