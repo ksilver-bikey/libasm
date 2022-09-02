@@ -7,7 +7,7 @@
                             "type": "list_card",
                             "cells": [
                               {
-                                "type": "ButtonCellView",
+                                "type": "button_cell_view",
                                 "content": {
                                   "text": "Подключиться",
                                   "actions": [
