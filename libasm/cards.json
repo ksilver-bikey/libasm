@@ -4,11 +4,11 @@
     "items": [
       {
         "card": {
-          "type": "nested_content_gallery",
+          "type": "gallery_card",
           "items":[
             {
-              "type": "image_text_item",
-              "texts": {  
+              "type": "media_gallery_item",
+              "top_text": {  
                 "title": {
                   "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
                   "typeface": "body1",
@@ -22,41 +22,7 @@
                   }
                 }
                },
-              "actions": {
-                "$ref": "../../Actions/actions.json"
-              },
-              "width": {
-                "type": "columns",
-                "value": 3.5
-            }
-            },
-            {
-              "type": "image_text_item",
-              "texts": {  
-                "title": {
-                  "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "8x",
-                    "left": "8x",
-                    "right": "8x"
-                  }
-                }
-               },
-              "actions": {
-                "$ref": "../../Actions/actions.json"
-              },
-              "width": {
-                "type": "columns",
-                "value": 3.5
-            }
-            },
-            {
-              "type": "image_text_item",
-              "texts": {  
+               "bottom_text": {  
                 "title": {
                   "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
                   "typeface": "body1",
