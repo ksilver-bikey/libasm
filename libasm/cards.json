@@ -1,195 +1,85 @@
 {
-   "auto_listening": true,
-   "type": "sdk_answer",
-   "items": [  {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [
+      {
+        "card": {
+          "type": "nested_content_gallery",
+          "items":[
+            {
+              "type": "image_text_item",
+              "texts": {  
                 "title": {
-                  "text": "Узнать о программе",
+                  "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
+                    "top": "8x",
+                    "bottom": "8x",
+                    "left": "8x",
+                    "right": "8x"
                   }
                 }
+               },
+              "actions": {
+                "$ref": "../../Actions/actions.json"
               },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Узнать о программе"
-                }
-              ],
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
+              "width": {
+                "type": "columns",
+                "value": 3.5
             }
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
             },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
+            {
+              "type": "image_text_item",
+              "texts": {  
                 "title": {
-                  "text": "Как начисляются бонусы",
+                  "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
+                    "top": "8x",
+                    "bottom": "8x",
+                    "left": "8x",
+                    "right": "8x"
                   }
                 }
+               },
+              "actions": {
+                "$ref": "../../Actions/actions.json"
               },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как начисляются бонусы"
-                }
-              ],
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "apple_wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
+              "width": {
+                "type": "columns",
+                "value": 3.5
             }
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
             },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
+            {
+              "type": "image_text_item",
+              "texts": {  
                 "title": {
-                  "text": "Как их использовать",
+                  "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
+                    "top": "8x",
+                    "bottom": "8x",
+                    "left": "8x",
+                    "right": "8x"
                   }
                 }
+               },
+              "actions": {
+                "$ref": "../../Actions/actions.json"
               },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как их использовать"
-                }
-              ],
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "ds_ic_24_cart"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
+              "width": {
+                "type": "columns",
+                "value": 3.5
             }
-          },
-          {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Подключиться",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper501{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper501{% endif %}"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
-              }
-            },
-            "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
             }
-          }
-        ]
+          ]
+        }
       }
-    }
-
-  ]
-}
+    ]
+  }
