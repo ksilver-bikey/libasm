@@ -60,7 +60,7 @@
                       "type": "CoreCell",
                       "properties": {
                         "disclosure": true,
-                        "icon": "document",
+                        "icon": "handset",
                         "devider": "bold"
                       },
                       "events": [
@@ -83,7 +83,7 @@
                       "type": "CoreCell",
                       "properties": {
                         "disclosure": true,
-                        "icon": "document",
+                        "icon": "total",
                         "devider": "bold"
                       },
                       "events": [
@@ -107,7 +107,7 @@
                       "readonly": true,
                       "properties": {
                         "disclosure": false,
-                        "icon": "document",
+                        "icon": "wallet",
                         "devider": "bold",
                         "caption": "По курсу 1 = 0.95"
                       },
@@ -130,7 +130,7 @@
                           "type": "checkbox",
                           "title": "О курсах перевода",
                           "value": "False",
-                          "style": "info"
+                          "style": "True"
                         }
                       ]
                     },
