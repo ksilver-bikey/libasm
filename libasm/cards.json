@@ -11,10 +11,10 @@
               "content": {
                 "style": "secondary",
                 "text": "Выбрать",
-                "actions": {
+                "actions": [{
                   "type":"text",
                   "text": "Выбрать категорию"
-                }
+                }]
               }
             },
             "right": {
@@ -22,10 +22,10 @@
               "content": {
                 "style": "secondary",
                 "text": "Инфо",
-                "actions": {
+                "actions": [{
                   "type":"text",
                   "text": "Информация по категории"
-                }
+                }]
               }
             }
           }
