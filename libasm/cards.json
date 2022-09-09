@@ -7,25 +7,67 @@
           {
             "type": "left_right_cell_view",
             "left": {
-              "type": "plasma_button_cell_view",
-              "content": {
-                "style": "secondary",
-                "text": "Выбрать",
-                "actions": [{
-                  "type":"text",
-                  "text": "Выбрать категорию"
-                }]
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "top": "5x",
+                  "right": "6x",
+                  "bottom": "5x",
+                  "left": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "title": {
+                "text": "Подключить",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 1,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
               }
             },
-            "right": {
-              "type": "plasma_button_cell_view",
-              "content": {
-                "style": "secondary",
-                "text": "Инфо",
-                "actions": [{
-                  "type":"text",
-                  "text": "Информация по категории"
-                }]
+            "right":    {
+              "type": "detail_right_view",
+              "info_and_icon": {
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "5x",
+                    "left": "8x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "info": {
+                  "text": "Info",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "8x",
+                    "bottom": "8x",
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                }
               }
             }
           }
