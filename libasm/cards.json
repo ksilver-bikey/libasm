@@ -39,8 +39,20 @@
                 "margins": {
                   "top": "9x",
                   "bottom": "9x"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Подключить1"
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Подключить2"
                 }
-              }
+              ]
             },
             "right":    {
               "type": "detail_right_view",
