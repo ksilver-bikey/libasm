@@ -11,7 +11,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "color_spasibo"
+                  "identificator": "document_checkmark"
                 },
                 "size": {
                   "width": "medium",
@@ -19,11 +19,17 @@
                 },
                 "margins": {
                   "top": "5x",
-                  "right": "6x",
+                  "right": "4x",
                   "bottom": "5x",
                   "left": "8x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_brand",
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "Подключить"
+                  }
+                ]
               },
               "title": {
                 "text": "Подключить",
@@ -42,7 +48,7 @@
                 "icon": {
                   "address": {
                     "type": "local",
-                    "identificator": "color_spasibo"
+                    "identificator": "info"
                   },
                   "size": {
                     "width": "medium",
@@ -54,18 +60,24 @@
                     "bottom": "5x",
                     "left": "8x"
                   },
-                  "tint_color": "solid_brand"
+                  "tint_color": "solid_brand",
+                  "actions": [
+                    {
+                      "type": "text",
+                      "text": "Информация"
+                    }
+                  ]
                 },
                 "info": {
-                  "text": "Info",
+                  "text": "Информация",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "top": "8x",
-                    "bottom": "8x",
-                    "left": "8x",
-                    "right": "8x"
+                    "top": "5x",
+                    "right": "8x",
+                    "bottom": "5x",
+                    "left": "4x"
                   }
                 }
               }
