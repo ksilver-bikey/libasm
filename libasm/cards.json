@@ -2,105 +2,150 @@
   "items": [
     {
       "card": {
-        "type": "list_card",
-        "cells": [
+        "type": "gallery_card",
+        "items": [
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "document_checkmark"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "top": "5x",
-                  "right": "4x",
-                  "bottom": "5x",
-                  "left": "8x"
-                },
-                "tint_color": "solid_brand",
-                "actions": [
-                  {
-                    "type": "text",
-                    "text": "Подключить"
-                  }
-                ]
-              },
-              "title": {
-                "text": "Названи категории",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "9x",
-                  "bottom": "9x"
-                }
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 2.42
               }
             },
-            "right":    {
-              "type": "detail_right_view",
-              "info_and_icon": {
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "info"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "top": "5x",
-                    "right": "6x",
-                    "bottom": "5x",
-                    "left": "8x"
-                  },
-                  "tint_color": "solid_brand",
-                  "actions": [
-                    {
-                      "type": "text",
-                      "text": "Информация"
-                    }
-                  ]
-                }
+            "margins": {
+              "top": "4x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "top_text": {
+              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "8x",
+                "bottom": "8x",
+                "left": "8x",
+                "right": "8x"
               }
             }
           },
           {
-            "type": "button_cell_view",
-            "content": {
-              "text": "Подключить",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Подключить"
-                }
-              ],
-              "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 2.42
               }
             },
-            "paddings": {
-              "left": "4x",
+            "margins": {
               "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
+              "left": "6x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "top_text": {
+              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "8x",
+                "bottom": "8x",
+                "left": "8x",
+                "right": "8x"
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 2.42
+              }
+            },
+            "margins": {
+              "top": "4x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "top_text": {
+              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "8x",
+                "bottom": "8x",
+                "left": "8x",
+                "right": "8x"
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 2.42
+              }
+            },
+            "margins": {
+              "top": "4x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "top_text": {
+              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "8x",
+                "bottom": "8x",
+                "left": "8x",
+                "right": "8x"
+              }
+            }
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
+              "size": {
+                "width": "medium",
+                "aspect_ratio": 2.42
+              }
+            },
+            "margins": {
+              "top": "4x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "top_text": {
+              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "8x",
+                "bottom": "8x",
+                "left": "8x",
+                "right": "8x"
+              }
             }
           }
         ]
       }
     }
-  ],
-  "CSI_content": "1"
+  ]
 }
