@@ -9,8 +9,8 @@
             "image": {
               "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
               "size": {
-                "width": "medium",
-                "aspect_ratio": 2.42
+                "width": "xsmall",
+                "aspect_ratio": 1
               }
             },
             "margins": {
@@ -20,7 +20,47 @@
               "bottom": "5x"
             },
             "top_text": {
-              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "text": "Заправки",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "top": "8x",
+                "bottom": "8x",
+                "left": "8x",
+                "right": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Заправки"
+              }
+            ]
+          },
+          {
+            "type": "media_gallery_item",
+            "image": {
+              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
+              "size": {
+                "width": "xsmall",
+                "aspect_ratio": 1
+              }
+            },
+            "margins": {
+              "top": "4x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Супермаркеты"
+              }
+            ],
+            "top_text": {
+              "text": "Супермаркеты",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 0,
@@ -37,8 +77,8 @@
             "image": {
               "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
               "size": {
-                "width": "medium",
-                "aspect_ratio": 2.42
+                "width": "xsmall",
+                "aspect_ratio": 1
               }
             },
             "margins": {
@@ -47,92 +87,14 @@
               "right": "6x",
               "bottom": "5x"
             },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Такси"
+              }
+            ],
             "top_text": {
-              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "8x",
-                "bottom": "8x",
-                "left": "8x",
-                "right": "8x"
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 2.42
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "top_text": {
-              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "8x",
-                "bottom": "8x",
-                "left": "8x",
-                "right": "8x"
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 2.42
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "top_text": {
-              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "8x",
-                "bottom": "8x",
-                "left": "8x",
-                "right": "8x"
-              }
-            }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 2.42
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "top_text": {
-              "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20",
+              "text": "Такси",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 0,
@@ -144,6 +106,7 @@
               }
             }
           }
+
         ]
       }
     }
