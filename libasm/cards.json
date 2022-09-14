@@ -10,7 +10,7 @@
               "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
               "size": {
                 "width": "medium",
-                "aspect_ratio": 0.5
+                "aspect_ratio": 0.2
               }
             },
             "margins": {
@@ -20,7 +20,7 @@
               "bottom": "5x"
             },
             "top_text": {
-              "text": "Заправки",
+              "text": "Заправки1",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 0,
@@ -44,7 +44,7 @@
               "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
               "size": {
                 "width": "medium",
-                "aspect_ratio": 0.5
+                "aspect_ratio": 0.2
               }
             },
             "margins": {
@@ -78,7 +78,7 @@
               "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
               "size": {
                 "width": "medium",
-                "aspect_ratio": 0.5
+                "aspect_ratio": 0.2
               }
             },
             "margins": {
