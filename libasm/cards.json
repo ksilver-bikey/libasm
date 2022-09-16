@@ -1,114 +1,103 @@
 {
-  "items": [
-    {
-      "card": {
-        "type": "gallery_card",
-        "items": [
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 0.2
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "top_text": {
-              "text": "Заправки1",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "8x",
-                "bottom": "8x",
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "2 способа изменить номер телефона",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
                 "left": "8x",
+                "top": "4x",
                 "right": "8x"
               }
             },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Заправки"
-              }
-            ]
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 0.2
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "center",
+                "actions": [
+                  {
+                    "type": "deep-link",
+                    "deep-link": "https://sberbank.ru/v/r/?p=XSCL6"
+                  }
+                ],
+                "texts": {
+                  "title": {
+                    "text": "На сайте СберСпасибо ",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "top": "2x"
+                    }
+                  },
+                  "subtitle": {
+                    "text": "Профиль → Настройки → Контактный телефон",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "bottom": "2x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view"
               }
             },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Супермаркеты"
-              }
-            ],
-            "top_text": {
-              "text": "Супермаркеты",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "8x",
-                "bottom": "8x",
-                "left": "8x",
-                "right": "8x"
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "В приложении СберСпасибо",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "top": "2x"
+                    }
+                  },
+                  "subtitle": {
+                    "text": "Профиль в левом верхнем углу → Телефон",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "bottom": "2x"
+                    }
+                  }
+                }
               }
             }
-          },
-          {
-            "type": "media_gallery_item",
-            "image": {
-              "url": "https://static.trendme.net/pictures/items/tatoo-okviri_Okviri_full_2111_160854.png",
-              "size": {
-                "width": "medium",
-                "aspect_ratio": 0.2
-              }
-            },
-            "margins": {
-              "top": "4x",
-              "left": "6x",
-              "right": "6x",
-              "bottom": "5x"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Такси"
-              }
-            ],
-            "top_text": {
-              "text": "Такси",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "8x",
-                "bottom": "8x",
-                "left": "8x",
-                "right": "8x"
-              }
-            }
-          }
-
-        ]
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
