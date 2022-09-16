@@ -9,7 +9,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "2 способа изменить номер телефона",
+                "text": "2 способа изменить номер телефона1",
                 "typeface": "title1",
                 "text_color": "default",
                 "max_lines": 0,
@@ -18,7 +18,8 @@
               "paddings": {
                 "left": "8x",
                 "top": "4x",
-                "right": "8x"
+                "right": "8x",
+                "bottom": "8x"
               }
             },
             {
@@ -43,7 +44,7 @@
                     "text_color": "default",
                     "max_lines": 0,
                     "margins": {
-                      "left": "4x",
+                      "left": "8x",
                       "right": "8x",
                       "top": "2x"
                     }
@@ -54,15 +55,18 @@
                     "text_color": "secondary",
                     "max_lines": 0,
                     "margins": {
-                      "left": "4x",
+                      "left": "8x",
                       "right": "8x",
-                      "bottom": "2x"
+                      "bottom": "4x"
                     }
                   }
                 }
               },
               "right": {
-                "type": "disclosure_right_view"
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
               }
             },
             {
@@ -77,9 +81,9 @@
                     "text_color": "default",
                     "max_lines": 0,
                     "margins": {
-                      "left": "4x",
+                      "left": "8x",
                       "right": "8x",
-                      "top": "2x"
+                      "top": "4x"
                     }
                   },
                   "subtitle": {
@@ -88,9 +92,9 @@
                     "text_color": "secondary",
                     "max_lines": 0,
                     "margins": {
-                      "left": "4x",
+                      "left": "8x",
                       "right": "8x",
-                      "bottom": "2x"
+                      "bottom": "8x"
                     }
                   }
                 }
