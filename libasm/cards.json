@@ -9,7 +9,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "2 способа изменить номер телефона1",
+                "text": "2 способа Подтверж\fдение номер телефона1",
                 "typeface": "title1",
                 "text_color": "default",
                 "max_lines": 0,
@@ -33,8 +33,8 @@
                 "icon_vertical_gravity": "center",
                 "actions": [
                   {
-                    "type": "deep-link",
-                    "deep-link": "https://sberbank.ru/v/r/?p=XSCL6"
+                    "type": "text",
+                    "text": "Подтверж\fдение"
                   }
                 ],
                 "texts": {
