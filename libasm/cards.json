@@ -8,7 +8,8 @@
           "background_image": {
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png",
-            "scale_mode": "scale_aspect_fit"
+            "scale_mode": "scale_aspect_fit",
+            "size": "match_parent"
           },
           "cells": [
             {
@@ -230,11 +231,10 @@
         "card": {
           "type": "list_card",
           "background_image": {
-            "scale_mode": "top",
+            "scale_mode": "bottom",
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-            "width": {"type": "match_parent",
-                "value": 500
+            "width": {"type": "match_parent"
             }
           },
           "cells": [
@@ -244,7 +244,7 @@
                 "type": "simple_left_view",
                 "texts": {
                   "title": {
-                    "text": "3Пе4ревод не выполнен",
+                    "text": "3Пе46евод не выполнен",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
