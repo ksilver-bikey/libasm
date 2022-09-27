@@ -233,7 +233,9 @@
             "scale_mode": "scale_aspect_fill",
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-            "width": {"type": "match_parent"}
+            "width": {"type": "columns",
+                "value": 4
+            }
           },
           "cells": [
             {
@@ -242,7 +244,7 @@
                 "type": "simple_left_view",
                 "texts": {
                   "title": {
-                    "text": "1Перевод не выполнен",
+                    "text": "21Перевод не выполнен",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
