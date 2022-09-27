@@ -5,6 +5,7 @@
       {
         "card": {
           "type": "list_card",
+"background_color": "transparent_tertiary",
           "background_image": {
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png",
@@ -118,6 +119,7 @@
       {
         "card": {
           "type": "list_card",
+"background_color": "transparent_secondary",
           "background_image": {
             "scale_mode": "top",
             "type": "url",
@@ -231,7 +233,7 @@
         "card": {
           "type": "list_card",
           "background_image": {
-              
+          "background_color": "transparent_primary",
           "scale_mode": "scale_aspect_fill",
             "size": {"type": "match_parent"},
             "type": "url",
