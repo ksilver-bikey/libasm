@@ -5,53 +5,85 @@
       {
         "card": {
           "type": "list_card",
+          "background_image": {
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png",
+            "scale_mode": "scale_aspect_fill"
+          },
           "cells": [
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "2 способа Подтверж\fдение номер телефона1",
-                "typeface": "title1",
-                "text_color": "default",
-                "max_lines": 0,
-                "alignment": "left"
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "4x",
-                "right": "8x",
-                "bottom": "8x"
-              }
-            },
-            {
               "type": "left_right_cell_view",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
               "left": {
                 "type": "simple_left_view",
-                "icon_vertical_gravity": "center",
-                "actions": [
-                  {
-                    "type": "text",
-                    "text": "Подтверж\fдение"
-                  }
-                ],
                 "texts": {
                   "title": {
-                    "text": "На сайте СберСпасибо ",
-                    "typeface": "body1",
+                    "text": "Перевод выполняется",
+                    "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
                     "margins": {
                       "left": "8x",
                       "right": "8x",
-                      "top": "2x"
+                      "top": "8x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "bottom": "4x"
+                  },
+                  "tint_color": "solid_white"
+                },
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "99",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "2x",
+                      "right": "8x",
+                      "bottom": "4x",
+                      "top": "4x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "8910",
+                    "typeface": "footnote",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "8x",
+                      "right": "8x",
+                      "top": "4x"
                     }
                   },
                   "subtitle": {
-                    "text": "Профиль → Настройки → Контактный телефон",
-                    "typeface": "footnote1",
+                    "text": "",
+                    "typeface": "footnote",
                     "text_color": "secondary",
                     "max_lines": 0,
                     "margins": {
@@ -61,11 +93,87 @@
                     }
                   }
                 }
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "Списано 17",
+                "typeface": "footnote",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
               },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "5x",
+                "top": "4x"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "background_image": {
+            "scale_mode": "top",
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "Перевод не выполнен",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "8x",
+                      "right": "8x",
+                      "top": "8x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "bottom": "4x"
+                  },
+                  "tint_color": "solid_white"
+                },
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "{{ variables.amount }}",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "2x",
+                      "right": "8x",
+                      "bottom": "4x",
+                      "top": "4x"
+                    }
+                  }
                 }
               }
             },
@@ -73,12 +181,11 @@
               "type": "left_right_cell_view",
               "left": {
                 "type": "simple_left_view",
-                "icon_vertical_gravity": "center",
                 "texts": {
                   "title": {
-                    "text": "В приложении СберСпасибо",
-                    "typeface": "body1",
-                    "text_color": "default",
+                    "text": "8900",
+                    "typeface": "footnote",
+                    "text_color": "secondary",
                     "max_lines": 0,
                     "margins": {
                       "left": "8x",
@@ -87,17 +194,145 @@
                     }
                   },
                   "subtitle": {
-                    "text": "Профиль в левом верхнем углу → Телефон",
-                    "typeface": "footnote1",
+                    "text": "",
+                    "typeface": "footnote",
                     "text_color": "secondary",
                     "max_lines": 0,
                     "margins": {
                       "left": "8x",
                       "right": "8x",
-                      "bottom": "8x"
+                      "bottom": "4x"
                     }
                   }
                 }
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "{{ variables.final_answer.text }}",
+                "typeface": "footnote",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "5x",
+                "top": "4x"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "background_image": {
+            "scale_mode": "top",
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "Перевод не выполнен",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "8x",
+                      "right": "8x",
+                      "top": "8x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "color_spasibo"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "bottom": "4x"
+                  },
+                  "tint_color": "solid_white"
+                },
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "566",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "2x",
+                      "right": "8x",
+                      "bottom": "4x",
+                      "top": "4x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "8900",
+                    "typeface": "footnote",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "8x",
+                      "right": "8x",
+                      "top": "4x"
+                    }
+                  },
+                  "subtitle": {
+                    "text": "",
+                    "typeface": "footnote",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "8x",
+                      "right": "8x",
+                      "bottom": "4x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "{{ variables.final_answer.card }}",
+                "typeface": "footnote",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "5x",
+                "top": "4x"
               }
             }
           ]
