@@ -233,7 +233,7 @@
             "scale_mode": "scale_aspect_fill",
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-            "size": "match_parent"
+            "width": {"type": "match_parent"}
           },
           "cells": [
             {
