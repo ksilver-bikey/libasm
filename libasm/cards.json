@@ -8,7 +8,7 @@
           "background_image": {
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png",
-            "scale_mode": "scale_aspect_fill"
+            "scale_mode": "scale_aspect_fit"
           },
           "cells": [
             {
@@ -17,7 +17,7 @@
                 "type": "simple_left_view",
                 "texts": {
                   "title": {
-                    "text": "Перевод выполняется",
+                    "text": "Пе1ревод выполняется",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
