@@ -231,7 +231,8 @@
         "card": {
           "type": "list_card",
           "background_image": {
-           
+              
+          "scale_mode": "scale_aspect_fit"
             "size": {"type": "match_parent"},
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
@@ -245,7 +246,7 @@
                 "type": "simple_left_view",
                 "texts": {
                   "title": {
-                    "text": "3Пе4677ев8од не выполнен",
+                    "text": "3Пе4од не выполнен",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
