@@ -232,7 +232,7 @@
           "type": "list_card",
           "background_image": {
               
-          "scale_mode": "scale_aspect_fit",
+          "scale_mode": "scale_aspect_fill",
             "size": {"type": "match_parent"},
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
