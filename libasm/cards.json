@@ -6,6 +6,12 @@
         "card": {
           "type": "list_card",
 "background_color": "transparent_tertiary",
+          "background_image": {
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png",
+            "scale_mode": "scale_aspect_fit",
+            "size": "match_parent"
+          },
           "cells": [
             {
               "type": "left_right_cell_view",
