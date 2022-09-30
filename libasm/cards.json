@@ -19,7 +19,7 @@
         {
           "type": "text_cell_view",
           "content": {
-            "text": "Вопросы обо всем",
+            "text": "3Вопросы обо всем",
             "typeface": "footnote1",
             "text_color": "default"
           },
@@ -165,9 +165,8 @@
       {
         "card": {
           "type": "list_card",
-"background_color": "transparent_secondary",
           "background_image": {
-            "scale_mode": "top",
+           
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
           },
@@ -279,13 +278,10 @@
         "card": {
           "type": "list_card",
           "background_image": {
-          "background_color": "transparent_primary",
-          "scale_mode": "scale_aspect_fill",
-            "size": {"type": "match_parent"},
+          
             "type": "url",
             "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-            "width": {"type": "match_parent"
-            }
+            
           },
           "cells": [
 
