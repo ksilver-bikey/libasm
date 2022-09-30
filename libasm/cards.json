@@ -2,6 +2,54 @@
     "auto_listening": true,
     "type": "sdk_answer",
     "items": [
+{
+    "card": {
+      "type": "list_card",
+      "can_be_disabled": true,
+      "paddings": {
+        "bottom": "16x",
+        "top": "8x",
+        "left": "8x",
+        "right": "8x"
+      },
+      "background_image": {
+        "type": "url",
+        "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg",
+        "hash": "B09D4A7192D10861DB363232FC45F689"
+      },
+      "cells": [
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Вопросы обо всем",
+            "typeface": "footnote1",
+            "text_color": "default"
+          },
+          "paddings": {
+            "bottom": "16x"
+          }
+        },
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Мурчат ли крокодильчики?",
+            "typeface": "body1",
+            "text_color": "default",
+            "actions": [
+              {
+                "type": "text",
+                "text": "Конечно!"
+              }
+            ]
+          },
+          "paddings": {
+            "bottom": "16x"
+          }
+        }
+      ]
+    }
+  }
+
       {
         "card": {
           "type": "list_card",
