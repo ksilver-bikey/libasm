@@ -1,373 +1,112 @@
 {
-    "auto_listening": true,
-    "type": "sdk_answer",
-    "items": [
-{
-    "card": {
-      "type": "list_card",
-      "can_be_disabled": true,
-      "paddings": {
-        "bottom": "16x",
-        "top": "8x",
-        "left": "8x",
-        "right": "8x"
-      },
-      "background_image": {
-        "type": "url",
-        "url": "https://pbs.twimg.com/media/EPY7-8VX4AAPYe3.jpg"  },
-      "cells": [
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "3Вопросы обо всем",
-            "typeface": "footnote1",
-            "text_color": "default"
-          },
-          "paddings": {
-            "bottom": "16x"
+  "card": {
+    "type": "list_card",
+    "background_image": {
+      "scale_mode": "scale_aspect_fill",
+      "type": "url",
+      "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
+    },
+    "cells": [
+      {
+        "type": "left_right_cell_view",
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Перевод выполняется",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "left": "8x",
+                "right": "8x",
+                "top": "8x"
+              }
+            }
           }
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "left": {
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "color_spasibo"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "left": "8x",
+              "bottom": "4x"
+            },
+            "tint_color": "solid_white"
+          },
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "{{ variables.amount * variables.spasiboClientInfo.conversionRate | int }}",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 0,
+              "margins": {
+                "left": "2x",
+                "right": "8x",
+                "bottom": "4x",
+                "top": "4x"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "{% if not variables.ab_name %}{{ variables.phone }}{% else %}{{ variables.ab_name }}{% endif %}",
+              "typeface": "footnote",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "margins": {
+                "left": "8x",
+                "right": "8x",
+                "top": "4x"
+              }
+            },
+            "subtitle": {
+              "text": "{% if not variables.ab_name %}{% else %}{{ variables.phone }}{% endif %}",
+              "typeface": "footnote",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "margins": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "4x"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Списано {{ variables.amount }}",
+          "typeface": "footnote",
+          "text_color": "default",
+          "max_lines": 0,
+          "alignment": "left"
         },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "Мурчат ли крокодильчики?",
-            "typeface": "body1",
-            "text_color": "default",
-            "actions": [
-              {
-                "type": "text",
-                "text": "Конечно!"
-              }
-            ]
-          },
-          "paddings": {
-            "bottom": "16x"
-          }
-        }
-      ]
-    }
-  },
-
-      {
-        "card": {
-          "type": "list_card",
-"background_color": "transparent_tertiary",
-          "background_image": {
-            "type": "url",
-            "url": "https://sun9-26.userapi.com/impf/X3TPAgbhGe6HkVfc3XGh1lnFi3LLJ7esbIRp_g/Ijzk_fF7lqw.jpg?size=1590x530&quality=95&crop=0,0,1500,5",
-            "scale_mode": "scale_aspect_fit",
-            "size": "match_parent"
-          },
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Пе1ревод выполняется",
-                    "typeface": "title1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "top": "8x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "color_spasibo"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "left": "8x",
-                    "bottom": "4x"
-                  },
-                  "tint_color": "solid_white"
-                },
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "99",
-                    "typeface": "headline1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "2x",
-                      "right": "8x",
-                      "bottom": "4x",
-                      "top": "4x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "8910",
-                    "typeface": "footnote",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "top": "4x"
-                    }
-                  },
-                  "subtitle": {
-                    "text": "",
-                    "typeface": "footnote",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "bottom": "4x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "Списано 17",
-                "typeface": "footnote",
-                "text_color": "default",
-                "max_lines": 0,
-                "alignment": "left"
-              },
-              "paddings": {
-                "left": "8x",
-                "right": "8x",
-                "bottom": "5x",
-                "top": "4x"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "card": {
-          "type": "list_card",
-          "background_image": {
-           
-            "type": "url",
-            "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
-          },
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Перевод не выполнен",
-                    "typeface": "title1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "top": "8x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "color_spasibo"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "left": "8x",
-                    "bottom": "4x"
-                  },
-                  "tint_color": "solid_white"
-                },
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "{{ variables.amount }}",
-                    "typeface": "headline1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "2x",
-                      "right": "8x",
-                      "bottom": "4x",
-                      "top": "4x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "8900",
-                    "typeface": "footnote",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "top": "4x"
-                    }
-                  },
-                  "subtitle": {
-                    "text": "",
-                    "typeface": "footnote",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "bottom": "4x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "{{ variables.final_answer.text }}",
-                "typeface": "footnote",
-                "text_color": "default",
-                "max_lines": 0,
-                "alignment": "left"
-              },
-              "paddings": {
-                "left": "8x",
-                "right": "8x",
-                "bottom": "5x",
-                "top": "4x"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "card": {
-          "type": "list_card",
-          "background_image": {
-          
-            "type": "url",
-            "url": "https://avatars.mds.yandex.net/i?id=6c95842f743c83d17c7e0de784cb31d7_l-5205265-images-thumbs&n=33&w=1728&h=1080&q=60"
-            
-          },
-          "cells": [
-
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "color_spasibo"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "left": "8x",
-                    "bottom": "4x"
-                  },
-                  "tint_color": "solid_white"
-                },
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "566",
-                    "typeface": "headline1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "2x",
-                      "right": "8x",
-                    
-                      "top": "4x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "8900",
-                    "typeface": "footnote",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "top": "4x"
-                    }
-                  },
-                  "subtitle": {
-                    "text": "",
-                    "typeface": "footnote",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "8x",
-                      "right": "8x",
-                      "bottom": "4x"
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "{{ variables.final_answer.card }}",
-                "typeface": "footnote",
-                "text_color": "default",
-                "max_lines": 0,
-                "alignment": "left"
-              },
-              "paddings": {
-                "left": "8x",
-                "right": "8x",
-                "bottom": "5x",
-                "top": "4x"
-              }
-            }
-          ]
+        "paddings": {
+          "left": "8x",
+          "right": "8x",
+          "bottom": "5x",
+          "top": "4x"
         }
       }
     ]
   }
+}
