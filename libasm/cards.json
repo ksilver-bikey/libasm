@@ -1,1 +1,213 @@
-{"card": {"cells": [{"left": {"texts": {"title": {"text": "Перевод выполняется", "typeface": "title1", "text_color": "default", "margins": {"bottom": "0x", "left": "8x", "right": "8x", "top": "8x"}, "max_lines": 0}}, "icon_vertical_gravity": "center", "type": "simple_left_view"}, "type": "left_right_cell_view"}, {"left": {"icon": {"address": {"identificator": "color_spasibo", "type": "local"}, "size": {"width": "medium", "height": "medium"}, "margins": {"bottom": "4x", "left": "8x", "right": "0x", "top": "0x"}, "tint_color": "solid_white"}, "texts": {"title": {"text": "0", "typeface": "headline1", "text_color": "default", "margins": {"bottom": "4x", "left": "2x", "right": "8x", "top": "4x"}, "max_lines": 0}}, "icon_vertical_gravity": "center", "type": "simple_left_view"}, "type": "left_right_cell_view"}, {"left": {"texts": {"title": {"text": "Еремей Большое Спасибо Рыбаков", "typeface": "footnote", "text_color": "secondary", "margins": {"bottom": "0x", "left": "8x", "right": "8x", "top": "4x"}, "max_lines": 0}, "subtitle": {"text": "+79999650472", "typeface": "footnote", "text_color": "secondary", "margins": {"bottom": "4x", "left": "8x", "right": "8x", "top": "0x"}, "max_lines": 0}}, "icon_vertical_gravity": "center", "type": "simple_left_view"}, "type": "left_right_cell_view"}, {"content": {"text": "Списано 1", "typeface": "footnote", "text_color": "default", "max_lines": 0}, "paddings": {"bottom": "5x", "left": "8x", "right": "8x", "top": "4x"}, "type": "text_cell_view"}], "background_image": {"url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png", "placeholder_color": "liquid_20", "scale_mode": "scale_aspect_fill"}, "background_color": "card_background", "can_be_disabled": false, "type": "list_card"}}
+{
+    "auto_listening": true,
+    "type": "sdk_answer",
+    "items": [
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "В {{ datetime_today().month | month_num_to_cases }}",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "top": "4x",
+                "right": "8x"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "1. Вы выбрали категории на {{ ((datetime_today().month + 1) if datetime_today().month < 12 else 1) | month_num_to_nom }}",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "top": "4x",
+                "right": "8x"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "От них зависит, сколько потратить в {{ datetime_today().month | month_num_to_cases }}",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "4x"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "1,8% Супермаркеты",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "top": "2x"
+                    }
+                  }
+                },
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "basket"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "tint_color": "solid_white",
+                  "margins": {
+                    "right": "0x",
+                    "left": "6x"
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "info_and_icon": {
+                  "info": {
+                    "text": "10 000 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  }
+                },
+                "margins": {
+                  "right": "5x"
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "10% АЗС",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "top": "2x"
+                    }
+                  }
+                },
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "basket"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "tint_color": "solid_white",
+                  "margins": {
+                    "right": "0x",
+                    "left": "6x"
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "info_and_icon": {
+                  "info": {
+                    "text": "15 000 ₽",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  }
+                },
+                "margins": {
+                  "right": "5x"
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "Итого нужно потратить",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "top": "2x"
+                    }
+                  },
+                  "subtitle": {
+                    "text": "в {{ datetime_today().month | month_num_to_cases }} на любые покупки₽",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "margins": {
+                      "left": "4x",
+                      "right": "8x",
+                      "top": "2x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "2. Весь месяц оплачивали покупки картами СберБанка и потратили нужную сумму",
+                "typeface": "body2",
+                "text_color": "default",
+                "max_lines": 0,
+                "alignment": "left"
+              },
+              "paddings": {
+                "left": "8x",
+                "right": "8x",
+                "bottom": "5x",
+                "top": "3x"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
