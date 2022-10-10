@@ -9,7 +9,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "В {{ datetime_today().month | month_num_to_cases }}",
+                "text": "В октябре",
                 "typeface": "title1",
                 "text_color": "default",
                 "max_lines": 0,
@@ -24,7 +24,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "1. Вы выбрали категории на {{ ((datetime_today().month + 1) if datetime_today().month < 12 else 1) | month_num_to_nom }}",
+                "text": "1. Вы выбрали категории на ноябрь",
                 "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 0,
@@ -39,7 +39,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "От них зависит, сколько потратить в {{ datetime_today().month | month_num_to_cases }}",
+                "text": "От них зависит, сколько потратить в октябре",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0,
@@ -177,7 +177,7 @@
                     }
                   },
                   "subtitle": {
-                    "text": "в {{ datetime_today().month | month_num_to_cases }} на любые покупки₽",
+                    "text": "в отябре на любые покупки₽",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 0,
