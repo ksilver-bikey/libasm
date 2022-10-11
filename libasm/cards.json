@@ -5,183 +5,62 @@
     {
       "card": {
         "type": "list_card",
+        "background_image": {
+          "scale_mode": "scale_aspect_fill",
+          "type": "url",
+          "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
+        },
         "cells": [
           {
             "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "left": {
               "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Узнать больше о категориях",
-                  "typeface": "body1",
+                  "text": "Перевод выполняется",
+                  "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "8x",
                     "right": "8x",
-                    "top": "2x"
+                    "top": "8x"
                   }
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Узнать больше о категориях"
-                }
-              ],
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_white",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
                 }
               }
             }
           },
           {
             "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как использовать бонусы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как использовать бонусы"
-                }
-              ],
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "basket"
+                  "identificator": "color_spasibo"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
-                "tint_color": "solid_white",
                 "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "left": {
+                  "left": "8x",
+                  "bottom": "4x"
+                },
+                "tint_color": "solid_white"
+              },
               "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Почему бонусы не начислены",
-                  "typeface": "body1",
+                  "text": "123",
+                  "typeface": "headline1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "2x",
                     "right": "8x",
-                    "top": "2x"
+                    "bottom": "4x",
+                    "top": "4x"
                   }
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Почему бонусы не начислены"
-                }
-              ],
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "arrows_forward_back"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_white",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как получать больше бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как получать больше бонусов"
-                }
-              ],
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "recommend"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_white",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
                 }
               }
             }
@@ -190,352 +69,274 @@
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Как перевести бонусы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Другому участнику программы",
-                  "typeface": "footnote1",
+                  "text": "FIO",
+                  "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "8x",
                     "right": "8x",
-                    "bottom": "2x"
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "112",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
                   }
                 }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Как перевести бонусы"
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано 11",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "background_image": {
+          "scale_mode": "scale_aspect_fill",
+          "type": "url",
+          "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод не выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
                 }
-              ],
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "arrow_right_trace_line"
+                  "identificator": "color_spasibo"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
-                "tint_color": "solid_white",
                 "margins": {
-                  "right": "0x",
-                  "left": "6x"
+                  "left": "8x",
+                  "bottom": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "123",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
                 }
               }
             }
-          }]
-      }
-    },
-
+          },
           {
-            "card": {
-              "type": "list_card",
-              "cells": [
-                {
-                  "type": "left_right_cell_view",
-                  "divider": {
-                    "style": "default",
-                    "size": "d5"
-                  },
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                      "title": {
-                        "text": "Как начисляются бонусы",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "top": "2x"
-                        }
-                      }
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Как начисляются бонусы"
-                      }
-                    ],
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "apple_wallet"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "tint_color": "solid_white",
-                      "margins": {
-                        "right": "0x",
-                        "left": "6x"
-                      }
-                    }
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "fio",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
                   }
                 },
-                {
-                  "type": "left_right_cell_view",
-                  "divider": {
-                    "style": "default",
-                    "size": "d5"
-                  },
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                      "title": {
-                        "text": "Как их использовать ",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "top": "2x"
-                        }
-                      }
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Как их использовать "
-                      }
-                    ],
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "basket"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "tint_color": "solid_white",
-                      "margins": {
-                        "right": "0x",
-                        "left": "6x"
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "left_right_cell_view",
-                  "divider": {
-                    "style": "default",
-                    "size": "d5"
-                  },
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                      "title": {
-                        "text": "Узнать больше о категориях",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "top": "2x"
-                        }
-                      }
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Узнать больше о категориях"
-                      }
-                    ],
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "star_light"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "tint_color": "solid_white",
-                      "margins": {
-                        "right": "0x",
-                        "left": "6x"
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "left_right_cell_view",
-                  "divider": {
-                    "style": "default",
-                    "size": "d5"
-                  },
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                      "title": {
-                        "text": "Почему бонусы не начислены",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "top": "2x"
-                        }
-                      },
-                      "subtitle": {
-                        "text": "",
-                        "typeface": "footnote1",
-                        "text_color": "secondary",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "bottom": "2x"
-                        }
-                      }
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Почему бонусы не начислены"
-                      }
-                    ],
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "arrows_forward_back"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "tint_color": "solid_white",
-                      "margins": {
-                        "right": "0x",
-                        "left": "6x"
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "left_right_cell_view",
-                  "divider": {
-                    "style": "default",
-                    "size": "d5"
-                  },
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                      "title": {
-                        "text": "Как получать больше бонусов",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "top": "2x"
-                        }
-                      }
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Как получать больше бонусов"
-                      }
-                    ],
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "recommend"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "tint_color": "solid_white",
-                      "margins": {
-                        "right": "0x",
-                        "left": "6x"
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "left_right_cell_view",
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon_vertical_gravity": "center",
-                    "texts": {
-                      "title": {
-                        "text": "Как перевести бонусы",
-                        "typeface": "body1",
-                        "text_color": "default",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "top": "2x"
-                        }
-                      },
-                      "subtitle": {
-                        "text": "Другому участнику программы",
-                        "typeface": "footnote1",
-                        "text_color": "secondary",
-                        "max_lines": 0,
-                        "margins": {
-                          "left": "4x",
-                          "right": "8x",
-                          "bottom": "2x"
-                        }
-                      }
-                    },
-                    "actions": [
-                      {
-                        "type": "text",
-                        "text": "Как перевести бонусы"
-                      }
-                    ],
-                    "icon": {
-                      "address": {
-                        "type": "local",
-                        "identificator": "arrow_right_trace_line"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "tint_color": "solid_white",
-                      "margins": {
-                        "right": "0x",
-                        "left": "6x"
-                      }
-                    }
+                "subtitle": {
+                  "text": "112",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
                   }
                 }
-              ]
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "11",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
             }
           }
-        
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "background_image": {
+          "scale_mode": "scale_aspect_fill",
+          "type": "url",
+          "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод не выполнен",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "111",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "fio",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "112",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "11",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    }
   ]
 }
