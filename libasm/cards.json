@@ -230,10 +230,10 @@
       "card": {
         "type": "list_card",
         "background_image": {
-          "scale_mode": "scale_aspect_fill",
+  
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-          "width": "match_parent"
+          "size": "match_parent"
         },
         "cells": [
           {
@@ -242,7 +242,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Перевод не выполнен",
+                  "text": "Перевод не выполне1н",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
