@@ -118,7 +118,7 @@
       "card": {
         "type": "list_card",
         "background_image": {
-          "scale_mode": "scale_aspect_fit",
+          "scale_mode": "scale_aspect_fill",
           "type": "url",
           "url": "https://raw.githubusercontent.com/ksilver-bikey/libasm/main/error.png"
         },
@@ -129,7 +129,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Перевод не выполне5н",
+                  "text": "Перевод не выпо8лне5н",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
