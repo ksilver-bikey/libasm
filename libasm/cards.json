@@ -120,7 +120,7 @@
         "background_image": {
           "scale_mode": "scale_aspect_fit",
           "type": "url",
-          "url": "https://github.com/ksilver-bikey/libasm/blob/main/error.jpg"
+          "url": "https://raw.githubusercontent.com/ksilver-bikey/libasm/main/error.png"
         },
         "cells": [
           {
