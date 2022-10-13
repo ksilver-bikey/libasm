@@ -118,9 +118,9 @@
       "card": {
         "type": "list_card",
         "background_image": {
-          "scale_mode": "scale_aspect_fill",
+          "scale_mode": "scale_aspect_fit",
           "type": "url",
-          "url": "https://disk.yandex.ru/i/V4W7PebGFS2wog"
+          "url": "https://github.com/ksilver-bikey/libasm/blob/main/error.png"
         },
         "cells": [
           {
