@@ -129,7 +129,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Перевод не выполнен",
+                  "text": "Перевод не выполне5н",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
