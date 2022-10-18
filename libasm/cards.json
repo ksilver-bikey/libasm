@@ -6,7 +6,7 @@
       "card": {
         "type": "list_card",
         "background_image": {
-          "scale_mode": "scale_aspect_fill",
+         
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
         },
