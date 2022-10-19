@@ -6,7 +6,6 @@
       "card": {
         "type": "list_card",
         "background_image": {
-        "scale_mode": "scale_aspect_fill",
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
         },
@@ -17,7 +16,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Пе1qqд выполняется",
+                  "text": "Выполняется Va",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -94,6 +93,22 @@
                 }
               }
             }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано 11",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
           }
         ]
       }
@@ -102,7 +117,6 @@
       "card": {
         "type": "list_card",
         "background_image": {
-"scale_mode": "scale_aspect_fit",
           "type": "url",
           "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
         },
@@ -113,7 +127,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Перевод не выпо8лне5н",
+                  "text": "Не выполнен Va",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -210,7 +224,6 @@
         ]
       }
     },
-
     {
       "card": {
         "type": "list_card",
@@ -225,7 +238,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Перевод выполняется",
+                  "text": "Выполняется Git",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -336,7 +349,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Перевод не выпо8лне5н",
+                  "text": "Не выполнен Git",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
