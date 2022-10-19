@@ -61,7 +61,7 @@
                     "top": "4x"
                   }
                 },
-                "subtitile": {
+                "subtitle": {
                   "text": "Сумма списания",
                   "typeface": "body1",
                   "text_color": "secondary",
