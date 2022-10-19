@@ -16,7 +16,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Выполняется Va",
+                  "text": "Перевод выполняется",
                   "typeface": "title1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -50,9 +50,21 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "123",
+                  "text": "125",
                   "typeface": "headline1",
                   "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                },
+                "subtitile": {
+                  "text": "Сумма списания",
+                  "typeface": "body1",
+                  "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
                     "left": "2x",
@@ -70,7 +82,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "FIO",
+                  "text": "Name Surname",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -81,7 +93,7 @@
                   }
                 },
                 "subtitle": {
-                  "text": "112",
+                  "text": "89105386791",
                   "typeface": "footnote",
                   "text_color": "secondary",
                   "max_lines": 0,
@@ -97,340 +109,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Списано 11",
-              "typeface": "footnote",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "5x",
-              "top": "4x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "background_image": {
-          "type": "url",
-          "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Не выполнен Va",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "left": "8x",
-                  "bottom": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "123",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "2x",
-                    "right": "8x",
-                    "bottom": "4x",
-                    "top": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "fio",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "4x"
-                  }
-                },
-                "subtitle": {
-                  "text": "112",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "11",
-              "typeface": "footnote",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "5x",
-              "top": "4x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "background_image": {
-          "type": "url",
-          "url": "https://raw.githubusercontent.com/ksilver-bikey/libasm/main/inprogress.png"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Выполняется Git",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "left": "8x",
-                  "bottom": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "123",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "2x",
-                    "right": "8x",
-                    "bottom": "4x",
-                    "top": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "FIO",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "4x"
-                  }
-                },
-                "subtitle": {
-                  "text": "112",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Списано 11",
-              "typeface": "footnote",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "5x",
-              "top": "4x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "background_image": {
-          "type": "url",
-          "url": "https://raw.githubusercontent.com/ksilver-bikey/libasm/main/error.png"
-        },
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Не выполнен Git",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "8x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "left": "8x",
-                  "bottom": "4x"
-                },
-                "tint_color": "solid_white"
-              },
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "123",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "2x",
-                    "right": "8x",
-                    "bottom": "4x",
-                    "top": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "fio",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "4x"
-                  }
-                },
-                "subtitle": {
-                  "text": "112",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "11",
+              "text": "Сумма перевода 95",
               "typeface": "footnote",
               "text_color": "default",
               "max_lines": 0,
