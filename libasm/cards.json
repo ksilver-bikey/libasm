@@ -118,7 +118,7 @@
         "type": "list_card",
         "background_image": {
           "type": "url",
-          "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
+          "url": "https://sberbank.ru/transfer_success.png"
         },
         "cells": [
           {
