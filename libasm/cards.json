@@ -5,96 +5,41 @@
     {
       "card": {
         "type": "list_card",
-        "background_image": {
-          "type": "url",
-          "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
-        },
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Перевод выполняется",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "8x"
-                  }
-                }
-              }
+            "type": "text_cell_view",
+            "content": {
+              "text": "Обменять бонусы на рубли",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "3x"
             }
           },
           {
             "type": "left_right_cell_view",
             "left": {
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "left": "8x",
-                  "bottom": "4x"
-                },
-                "tint_color": "solid_white"
-              },
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "125",
-                  "typeface": "headline1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "2x",
-                    "right": "8x",
-                    "bottom": "4x",
-                    "top": "4x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Сумма списания",
+                  "text": "Конвертировать в рубли\nна сайте СберСпасибох",
                   "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "2x",
-                    "right": "8x",
-                    "bottom": "4x",
-                    "top": "4x"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Name Surname",
-                  "typeface": "footnote",
-                  "text_color": "secondary",
+                  "text_color": "default",
                   "max_lines": 0,
                   "margins": {
                     "left": "8x",
-                    "right": "8x",
-                    "top": "4x"
+                    "right": "8x"
                   }
                 },
                 "subtitle": {
-                  "text": "89105386791",
-                  "typeface": "footnote",
+                  "text": "Лимит до <Лимит> в месяц,\nкурс 1 бонус = <Курс>",
+                  "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
@@ -104,22 +49,107 @@
                   }
                 }
               }
-            }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Конвертировать в рубли"
+              }
+            ]
           },
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Сумма перевода 95",
-              "typeface": "footnote",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Вернуть деньги за платёж\nв СберБанк Онлайн",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Лимит равен сумме платежа,\nкурс 1 бонус = <Курс>",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
             },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "5x",
-              "top": "4x"
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Конвертировать в рубли"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "info"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Бонусы спишут сразу, а деньги",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "зачислят за 1 рабочий день",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
             }
           }
         ]
