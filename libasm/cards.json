@@ -223,6 +223,118 @@
           }
         ]
       }
-    }
+    },
+
+    {
+      "card": {
+        "type": "list_card",
+        "background_image": {
+          "type": "url",
+          "url": "https://raw.githubusercontent.com/ksilver-bikey/libasm/main/inprogress.png"
+        },
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Перевод выполняется",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "8x",
+                  "bottom": "4x"
+                },
+                "tint_color": "solid_white"
+              },
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "123",
+                  "typeface": "headline1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x",
+                    "top": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "FIO",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "4x"
+                  }
+                },
+                "subtitle": {
+                  "text": "112",
+                  "typeface": "footnote",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списано 11",
+              "typeface": "footnote",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "5x",
+              "top": "4x"
+            }
+          }
+        ]
+      }
+    },
   ]
 }
