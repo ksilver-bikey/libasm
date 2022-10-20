@@ -1,4 +1,5 @@
 {
+  "auto_listening": true,
   "type": "sdk_answer",
   "items": [
     {
@@ -6,172 +7,166 @@
         "type": "list_card",
         "cells": [
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Выберите, что вы хотите изменить",
-              "typeface": "body2",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "5x",
-              "top": "3x"
-            }
-          },
-          {
             "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "user"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Получателя перевода",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "8x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
             "divider": {
               "style": "default",
               "size": "d5"
             },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Изменить имя"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "falling_coin"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Сумму списания",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "top": "8x",
-                    "bottom": "8x",
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Изменить сумму"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "counterclock_wise"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "4x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Оставить без изменений",
+                  "text": "Узнать о программе",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
                     "left": "4x",
                     "right": "8x",
-                    "top": "8x",
-                    "bottom": "8x"
+                    "top": "2x"
                   }
                 }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Узнать о программе"
+                }
+              ],
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
               }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
             },
-            "right": {
-              "type": "disclosure_right_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Как начисляются бонусы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Как начисляются бонусы"
+                }
+              ],
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Как их использовать",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                }
+              },
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Как их использовать"
+                }
+              ],
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Подключиться",
+              "typeface": "button1",
+              "style": "default",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Подключиться"
+                }
+              ],
               "margins": {
-                "right": "5x"
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
               }
             },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Ничего не менять"
-              }
-            ]
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
           }
         ]
       }
