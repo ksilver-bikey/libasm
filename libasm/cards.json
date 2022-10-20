@@ -1,5 +1,4 @@
 {
-  "auto_listening": true,
   "type": "sdk_answer",
   "items": [
     {
@@ -9,7 +8,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Обменять бонусы на рубли",
+              "text": "Выберите, что вы хотите изменить",
               "typeface": "body2",
               "text_color": "default",
               "max_lines": 0,
@@ -18,100 +17,9 @@
             "paddings": {
               "left": "8x",
               "right": "8x",
-              "bottom": "10x",
-              "top": "6x"
+              "bottom": "5x",
+              "top": "3x"
             }
-          },
-          {
-            "type": "left_right_cell_view",
-"divider": {
-                            "style": "default",
-                            "size": "d1"
-                          },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Конвертировать в рубли\nна сайте СберСпасибо",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Лимит до <Лимит> в месяц,\nкурс 1 бонус = <Курс>",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Конвертировать в рубли"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-"divider": {
-                            "style": "default",
-                            "size": "d1"
-                          },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Вернуть деньги за платёж\nв СберБанк Онлайн",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "top": "10x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Лимит равен сумме платежа,\nкурс 1 бонус = <Курс>",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "8x",
-                    "right": "8x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Конвертировать в рубли"
-              }
-            ]
           },
           {
             "type": "left_right_cell_view",
@@ -120,7 +28,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "info"
+                  "identificator": "user"
                 },
                 "size": {
                   "width": "medium",
@@ -135,31 +43,135 @@
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Бонусы спишут сразу, а деньги",
+                  "text": "Получателя перевода",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "top": "4x",
-                   
-                    "left": "4x",
-                    "right": "8x"
-                  }
-                },
-                "subtitle": {
-                  "text": "зачислят за 1 рабочий день",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                   
-                    "bottom": "4x",
+                    "top": "8x",
+                    "bottom": "8x",
                     "left": "4x",
                     "right": "8x"
                   }
                 }
               }
-            }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Изменить имя"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "falling_coin"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Сумму списания",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "8x",
+                    "bottom": "8x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Изменить сумму"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "counterclock_wise"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "0x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Оставить без изменений",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "8x",
+                    "bottom": "8x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Ничего не менять"
+              }
+            ]
           }
         ]
       }
