@@ -5,10 +5,6 @@
   {
     "card": {
       "type": "list_card",
-      "background_image": {
-        "type": "url",
-        "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
-      },
       "cells": [
         {
           "type": "left_right_cell_view",
@@ -109,11 +105,6 @@
   {
     "card": {
       "type": "list_card",
-      "background_image": {
-        "type": "url",
-        "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-        "hash": "881e8e4a3df5b0929c6ef373350c84c1"
-      },
       "cells": [
         {
           "type": "left_right_cell_view",
