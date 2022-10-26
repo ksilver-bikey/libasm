@@ -5,6 +5,10 @@
   {
     "card": {
       "type": "list_card",
+      "background_image": {
+        "type": "url",
+        "url": "https://va-res.online.sberbank.ru/VA/icons/inprogress.png"
+      },
       "cells": [
         {
           "type": "left_right_cell_view",
@@ -24,14 +28,7 @@
               }
             }
           }
-        }
-      ]
-    }
-  },
-  {
-    "card": {
-      "type": "list_card",
-      "cells": [
+        },
         {
           "type": "left_right_cell_view",
           "left": {
@@ -78,15 +75,7 @@
               }
             }
           }
-        }
-      ]
-    }
-  },
- {
-    "card": {
-      "type": "list_card",
-      "cells": [
-      
+        },
         {
           "type": "left_right_cell_view",
           "left": {
@@ -106,15 +95,7 @@
               }
             }
           }
-        }
-      ]
-    }
-  },
- {
-    "card": {
-      "type": "list_card",
-      "cells": [
-    
+        },
         {
           "type": "text_cell_view",
           "content": {
@@ -133,7 +114,109 @@
         }
       ]
     }
+  },
+  {
+    "card": {
+      "type": "list_card",
+      "background_image": {
+        "type": "url",
+        "hash": "881e8e4a3df5b0929c6ef373350c84c1",
+        "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
+      },
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "Перевод не выполнен",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x",
+                  "top": "8x"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "left": "8x",
+                "bottom": "4x"
+              },
+              "tint_color": "solid_white"
+            },
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "50",
+                "typeface": "headline1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "2x",
+                  "right": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "+79105376781",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x",
+                  "top": "4x"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "text_cell_view",
+          "content": {
+            "text": "Увы, произошла ошибка. Попробуйте позднее",
+            "typeface": "footnote1",
+            "text_color": "default",
+            "max_lines": 0,
+            "alignment": "left"
+          },
+          "paddings": {
+            "left": "8x",
+            "right": "8x",
+            "bottom": "5x",
+            "top": "4x"
+          }
+        }
+      ]
+    }
   }
+
 ],
   "CSI_content": "1"
 }
