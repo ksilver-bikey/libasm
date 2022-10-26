@@ -119,7 +119,7 @@
           "type": "text_cell_view",
           "content": {
             "text": "Сумма перевода 47",
-            "typeface": "footnote",
+            "typeface": "footnote1",
             "text_color": "default",
             "max_lines": 0,
             "alignment": "left"
