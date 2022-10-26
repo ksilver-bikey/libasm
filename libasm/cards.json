@@ -57,7 +57,7 @@
                 "margins": {
                   "left": "2x",
                   "right": "8x",
-                  "bottom": "4x",
+                  "bottom": "0x",
                   "top": "4x"
                 }
               },
@@ -70,7 +70,7 @@
                   "left": "2x",
                   "right": "8x",
                   "bottom": "4x",
-                  "top": "4x"
+                  "top": "0x"
                 }
               }
             }
