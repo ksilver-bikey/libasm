@@ -50,7 +50,7 @@
             "type": "simple_left_view",
             "texts": {
               "title": {
-                "text": "цифры",
+                "text": "50",
                 "typeface": "headline1",
                 "text_color": "default",
                 "max_lines": 0,
@@ -81,16 +81,25 @@
           "left": {
             "type": "simple_left_view",
             "texts": {
-              "type": "unified_template",
-              "template": "имя",
-              "loader": "json"
+              "title": {
+                "text": "+79105376781",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "4x",
+                  "right": "8x",
+                  "top": "2x",
+                  "bottom": "2x"
+                }
+              }
             }
           }
         },
         {
           "type": "text_cell_view",
           "content": {
-            "text": "Сумма перевода сумма",
+            "text": "Сумма перевода 47",
             "typeface": "footnote",
             "text_color": "default",
             "max_lines": 0,
@@ -111,8 +120,8 @@
       "type": "list_card",
       "background_image": {
         "type": "url",
-        "url": "https://va-res.online.sberbank.ru/VA/icons/error.png",
-        "hash": "881e8e4a3df5b0929c6ef373350c84c1"
+        "hash": "881e8e4a3df5b0929c6ef373350c84c1",
+        "url": "https://va-res.online.sberbank.ru/VA/icons/error.png"
       },
       "cells": [
         {
@@ -135,9 +144,63 @@
           }
         },
         {
+          "type": "left_right_cell_view",
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "left": "8x",
+                "bottom": "4x"
+              },
+              "tint_color": "solid_white"
+            },
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "50",
+                "typeface": "headline1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "2x",
+                  "right": "8x",
+                  "bottom": "4x",
+                  "top": "4x"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "+79105376781",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x",
+                  "top": "4x"
+                }
+              }
+            }
+          }
+        },
+        {
           "type": "text_cell_view",
           "content": {
-            "text": "aaaaaaaa",
+            "text": "Увы, произошла ошибка. Попробуйте позднее",
             "typeface": "footnote",
             "text_color": "default",
             "max_lines": 0,
