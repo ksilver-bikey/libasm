@@ -13,7 +13,7 @@
                 "type": "simple_left_view",
                 "texts": {
                   "title": {
-                    "text": "На декабрь",
+                    "text": "На декабрь!",
                     "typeface": "title1",
                     "text_color": "default",
                     "max_lines": 0,
