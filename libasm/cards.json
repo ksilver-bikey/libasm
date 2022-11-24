@@ -1922,6 +1922,957 @@
           }
         ]
       }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Категории ноября",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "24% Транспорт",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_bus_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Транспорт"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "3,6% Электроника и бытовая техника",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_electronik_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Электроника и бытовая техника"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Детство",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "5 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_kids_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Детство"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Кино и театр",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "4 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_cinima_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Кино и театр"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Одежда и обувь",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "5 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_clothes_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Одежда и обувь"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "10% Салоны красоты",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "11 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_scissors_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Салоны красоты"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Спорт и фитнес",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "7 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_fitness_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Спорт и фитнес"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "3,6% Товары для дома",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_home_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Товары для дома"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Здоровье",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "20 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_healt_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Здоровье"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Развлечения",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "20 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_enertain_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Развлечения"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Кафе и рестораны",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_rest_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Кафе и рестораны"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "12% Такси и каршеринг",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_taksikarshar_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Такси и каршеринг"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "1,8% Супермаркеты",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_supermarket_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Супермаркеты"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Косметика",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_parfum_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Косметика"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Образование",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_educ_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Образование"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "6% Зоотовары",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_zoo_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Зоотовары"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "12% АЗС",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "2x",
+                    "right": "8x"
+                  }
+                },
+                "subtitle": {
+                  "text": "10 000 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "2x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_transport_fill.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                },
+                "placeholder": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_star_light.png"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "АЗС"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "9 649 ₽ из 10 000 ₽ осталось потратить в ноябре, чтобы активировать их в декабре",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Продлить на декабрь",
+              "typeface": "button1",
+              "style": "default",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Продлить на декабрь"
+                }
+              ]
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "4x",
+              "right": "4x",
+              "bottom": "4x"
+            }
+          }
+        ]
+      }
     }
   ]
 }
