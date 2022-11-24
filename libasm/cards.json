@@ -2858,6 +2858,8 @@
 "margins": {
                     "top": "4x",
                     "bottom": "4x"
+    
+},
               "typeface": "button1",
               "style": "default",
               "actions": [
