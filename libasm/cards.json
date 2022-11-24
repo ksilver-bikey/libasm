@@ -2855,6 +2855,9 @@
             "type": "button_cell_view",
             "content": {
               "text": "Продлить на декабрь",
+"margins": {
+                    "top": "4x",
+                    "bottom": "4x"
               "typeface": "button1",
               "style": "default",
               "actions": [
