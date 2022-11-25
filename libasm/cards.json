@@ -3,11 +3,7 @@
   "type": "sdk_answer",
   "CSI_content": "1",
   "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
+  {
             "card": {
               "type": "list_card",
               "cells": [
@@ -370,6 +366,11 @@
               ]
             }
           },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+        
           {
             "type": "left_right_cell_view",
             "left": {
