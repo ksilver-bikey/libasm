@@ -13,7 +13,7 @@
             "actions": [
               {
                 "type": "text",
-                "deep_link": "Выбрать категории"
+                "text": "Выбрать категории"
               }
             ],
             "margins": {
