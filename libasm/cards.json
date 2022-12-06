@@ -16,6 +16,10 @@
         "cells": [
           {
             "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
             "left": {
               "type": "simple_left_view",
               "icon": {
@@ -28,23 +32,167 @@
                   "height": "medium"
                 },
                 "margins": {
-                  "right": "3x",
-                  "left": "6x"
+                  "right": "7x",
+                  "left": "7x"
                 },
                 "tint_color": "solid_brand"
               },
-              "title": {
-                "text": "Перейти на сайт СберСпасибо",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "4x",
-                  "left": "2x",
-                  "right": "8x",
-                  "bottom": "4x"
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Подключиться",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "4x",
+                    "bottom": "6x",
+                    "left": "4x",
+                    "right": "8x"
+                  }
                 }
               }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "{{ variables.deep_link_url }}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Бонусы не начисляют, если",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "4x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Прошло меньше 5 рабочих дней",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "С момента покупки",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "clock"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Сумма покупки меньше 100 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "В категории Транспорт бонусы начисляют на любую сумму, а в остальных — за каждые 100 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "falling_coin"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
             },
             "right": {
               "type": "disclosure_right_view",
@@ -54,12 +202,703 @@
                 "bottom": "8x"
               }
             },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Нет активных категорий",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Посмотреть в личном кабинете СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "http://sberbank.com/v/r/?p=vt1H3"
+                "deep_link": "http://sberbank.com/v/r/?p=6Xt91"
               }
             ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Магазин не относится к категории СберСпасибо",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Подробнее на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "arrows_forward_back"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "http://sberbank.com/v/r/?p=R57RF"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Не выполнены условия партнёра",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Посмотреть список партнёров",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "document_magnifying_glass"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "{{ variables.deep_link_url }}"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Есть ограничения по видам карт",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Посмотреть список карт",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "card"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Посмотреть список карт"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Платёж в списке исключений",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Посмотреть список",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "document_checkmark"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Посмотреть список исключений"
+              }
+            ]
+          },
+          {
+            "card": {
+              "type": "list_card",
+              "cells": [
+                {
+                  "type": "text_cell_view",
+                  "content": {
+                    "text": "Карты, по которым не начисляют бонусы",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "left"
+                  },
+                  "paddings": {
+                    "left": "8x",
+                    "top": "4x",
+                    "right": "8x"
+                  }
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "divider": {
+                    "style": "default",
+                    "size": "d5"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                      "title": {
+                        "text": "Дебетовые Digital и Моментум",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                          "left": "4x",
+                          "right": "8x",
+                          "top": "2x",
+                          "bottom": "2x"
+                        }
+                      }
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "card_on_card"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "tint_color": "solid_brand",
+                      "margins": {
+                        "right": "0x",
+                        "left": "6x"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "divider": {
+                    "style": "default",
+                    "size": "d5"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                      "title": {
+                        "text": "СберКарта Тревел",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                          "left": "4x",
+                          "right": "8x",
+                          "top": "2x",
+                          "bottom": "2x"
+                        }
+                      }
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "card"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "tint_color": "solid_brand",
+                      "margins": {
+                        "right": "0x",
+                        "left": "6x"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "divider": {
+                    "style": "default",
+                    "size": "d5"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                      "title": {
+                        "text": "СберКарта Mastercard, выпущенная до 22.09.2019",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                          "left": "4x",
+                          "right": "8x",
+                          "top": "2x",
+                          "bottom": "2x"
+                        }
+                      }
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "card"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "tint_color": "solid_brand",
+                      "margins": {
+                        "right": "0x",
+                        "left": "6x"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "divider": {
+                    "style": "default",
+                    "size": "d5"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                      "title": {
+                        "text": "Visa «Аэрофлот»",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                          "left": "4x",
+                          "right": "8x",
+                          "top": "2x",
+                          "bottom": "2x"
+                        }
+                      }
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "card"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "tint_color": "solid_brand",
+                      "margins": {
+                        "right": "0x",
+                        "left": "6x"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                      "title": {
+                        "text": "Корпоративные",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 0,
+                        "margins": {
+                          "left": "4x",
+                          "right": "8x",
+                          "top": "2x",
+                          "bottom": "2x"
+                        }
+                      }
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "local",
+                        "identificator": "card"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "tint_color": "solid_brand",
+                      "margins": {
+                        "right": "0x",
+                        "left": "6x"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Бонусы не начисляют",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "4x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "За переводы на другие счета и карты",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "arrows_forward_back"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Снятие наличных с карты",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "atm_banknote"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Оплату сотовой связи и коммунальных платежей",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "mobile_plus"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Покупку страховки",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "2x",
+                    "bottom": "2x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "card"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            }
           }
         ]
       }
@@ -72,100 +911,47 @@
             "type": "left_right_cell_view",
             "left": {
               "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Посмотреть весь список",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "9x",
+                    "bottom": "9x"
+                  }
+                }
+              },
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "color_spasibo"
+                  "identificator": "globe"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
+                "tint_color": "solid_brand",
                 "margins": {
-                  "right": "3x",
+                  "right": "0x",
                   "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "title": {
-                "text": "Перейти на сайт СберСпасибо",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "4x",
-                  "left": "2x",
-                  "right": "8x",
-                  "bottom": "4x"
                 }
               }
             },
             "right": {
               "type": "disclosure_right_view",
               "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
+                "right": "4x"
               }
             },
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "http://sberbank.com/v/r/?p=vt1H3"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "3x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "title": {
-                "text": "Посмотреть блог",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "top": "4x",
-                  "left": "2x",
-                  "right": "8x",
-                  "bottom": "4x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "{{ variables.deep_link }}"
+                "deep_link": "http://sberbank.com/v/r/?p=V63PS"
               }
             ]
           }
