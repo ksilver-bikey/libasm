@@ -3,9 +3,66 @@
   "type": "sdk_answer",
   "items": [
     {
+      "bubble": {
+        "text": [
+          "На некоторых картах СберБанка есть категории с повышенными бонусами. А ещё их можно подключать в программе лояльности на уровне Огромное Спасибо или выше"
+        ],
+        "markdown": false
+      }
+    },
+    {
       "card": {
         "type": "list_card",
         "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x",
+                  "left": "4x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "title": {
+                "text": "Посмотреть блог",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "top": "9x",
+                  "bottom": "9x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "{{ variables.deep_link }}"
+              }
+            ]
+          },
           {
             "type": "left_right_cell_view",
             "paddings": {
