@@ -47,8 +47,8 @@
                     "text_color": "default",
                     "max_lines": 0,
                     "margins": {
-                      "left": "4x",
-                      "right": "8x",
+                      "left": "0x",
+                  
                       "top": "2x"
                     }
                   }
@@ -65,7 +65,7 @@
                   "tint_color": "solid_brand",
                   "margins": {
                     "right": "0x",
-                    "left": "6x"
+                    "left": "8x"
                   }
                 }
               }
