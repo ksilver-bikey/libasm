@@ -29,13 +29,14 @@
                 "style": "default",
                 "size": "d5"
               },
+              "paddings": {
+                "left": "4x",
+                "right": "4x",
+                "top": "4x",
+                "bottom": "4x"
+              },
               "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "top": "8x",
-                  "right": "4x",
-                  "bottom": "8x"
-                }
+                "type": "disclosure_right_view"
               },
               "left": {
                 "type": "simple_left_view",
@@ -45,12 +46,7 @@
                     "text": "Посмотреть баланс бонусов",
                     "typeface": "body1",
                     "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                  
-                      "top": "2x"
-                    }
+                    "max_lines": 0
                   }
                 },
                 "icon": {
@@ -63,10 +59,10 @@
                     "height": "medium"
                   },
                   "tint_color": "solid_brand",
-                  "margins": {
-                    "right": "0x",
-                    "left": "8x"
-                  }
+"margins": {
+                  "right": "4x"
+                 
+                }
                 }
               }
             },
