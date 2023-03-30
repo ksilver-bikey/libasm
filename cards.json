@@ -54,8 +54,7 @@
                     },
                     "margins": {
                       "right": "6x",
-                      "bottom": "4x",
-                      "left": "4x"
+                      "left": "2x"
                     },
                     "tint_color": "solid_brand"
                   }
