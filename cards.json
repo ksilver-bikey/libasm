@@ -258,7 +258,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -323,7 +323,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -388,7 +388,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -453,7 +453,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -514,7 +514,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -586,7 +586,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -651,7 +651,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -716,7 +716,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -781,7 +781,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -842,7 +842,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -885,7 +885,8 @@
           }
         ]
       }
-    },{
+    },
+    {
       "card": {
         "type": "list_card",
         "cells": [
@@ -913,7 +914,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "2x"
                   }
@@ -988,7 +989,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1053,7 +1054,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1118,7 +1119,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1179,7 +1180,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1223,6 +1224,7 @@
         ]
       }
     },
+
     {
       "card": {
         "type": "list_card",
@@ -1251,7 +1253,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "2x"
                   }
@@ -1326,7 +1328,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1395,7 +1397,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1456,7 +1458,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1499,7 +1501,8 @@
           }
         ]
       }
-    }, {
+    },
+    {
       "card": {
         "type": "list_card",
         "cells": [
@@ -1530,7 +1533,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
@@ -1584,7 +1587,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
+                    "left": "7x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
