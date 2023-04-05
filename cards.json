@@ -1,231 +1,699 @@
 {
   "auto_listening": true,
   "type": "sdk_answer",
-  "pronounceText": [
-    "Количество бонусов и ваш уровень в программе уже на экране. Кстати, бонусы копятся на бонусный счёт — единый для всех ваших карт"
-  ],
   "items": [
     {
       "card": {
         "type": "list_card",
+        "can_be_disabled": true,
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Узнать о программе",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "info"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Узнать о программе",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "About_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как начисляются бонусы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "paper_tray"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как начисляются бонусы",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_bonuses_are_awarded"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как их использовать",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "basket"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как их использовать",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "button_cell_view",
+            "type": "text_cell_view",
             "content": {
-              "text": "Подключиться",
-              "typeface": "button1",
-              "style": "default",
-              "type": "accept",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper640{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper640{% endif %}"
-                }
-              ],
+              "text": "Где будете покупать",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left",
               "margins": {
-                "left": "10x",
-                "top": "5x",
-                "right": "10x",
-                "bottom": "5x"
+                "left": "4x"
               }
             },
             "paddings": {
-              "left": "4x",
-              "top": "4x",
-              "right": "4x",
-              "bottom": "4x"
+              "left": "6x",
+              "right": "0x",
+              "bottom": "1x",
+              "top": "6x"
             }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "АЗС",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "АЗС"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Авто",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Авто"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Аптеки и оптика",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Аптеки и оптика"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Без карты СберБанка",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Без карты СберБанка"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Детские товары",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Детские товары"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Дом и ремонт",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Дом и ремонт"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Здоровье",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Здоровье"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Зоотовары и услуги",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Зоотовары и услуги"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Рестораны и кафе",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Рестораны и кафе"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "list"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_white"
+              },
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Посмотреть весь список",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Посмотреть весь список"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "can_be_disabled": false,
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Спорт",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left",
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "paddings": {
+              "left": "6x",
+              "right": "0x",
+              "bottom": "1x",
+              "top": "6x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Накопить бонусы",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "alignment": "left",
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "paddings": {
+              "left": "6x",
+              "bottom": "4x",
+              "top": "4x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "3% Xcom",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_xcom_shop_logo_1118.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Xcom"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 10% Экстрим Маркет",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_extrememarket_logo_0119.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Экстрим Маркет"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "6x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 10% ВелоШоп",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_veloshop_logo.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "ВелоШоп"
+              }
+            ]
           }
         ]
       }
@@ -236,893 +704,29 @@
         "cells": [
           {
             "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
+            "paddings": {
+              "bottom": "6x",
+              "left": "8x",
+              "right": "8x",
+              "top": "6x"
             },
             "left": {
               "type": "simple_left_view",
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Изменения в СберСпасибо",
+                  "text": "Посмотреть всех партнёров",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "bell"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Изменения в СберСпасибо",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "About_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Выбрать категории",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Выбрать категории",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "SberSpasibo_bonus_categories"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Посмотреть баланс бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Посмотреть баланс бонусов",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как их использовать",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "basket"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как их использовать",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как они начисляются",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "apple_wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как они начисляются",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_bonuses_are_awarded"
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Выбрать категории",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Выбрать категории",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "SberSpasibo_bonus_categories"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Посмотреть баланс бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Посмотреть баланс бонусов",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как их использовать",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "basket"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как их использовать",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как они начисляются",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "apple_wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как они начисляются",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_bonuses_are_awarded"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Почему бонусы не начислены",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "arrows_forward_back"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Почему бонусы не начислены",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "No_credits_received_spasibo"
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как перевести бонусы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
+                  "max_lines": 0
                 },
                 "subtitle": {
-                  "text": "Другому участнику программы",
+                  "text": "На сайте СберСпасибо",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 0,
                   "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "bottom": "2x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "arrow_right_trace_line"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как перевести бонусы",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_give_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как обменять на рубли",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "falling_coin"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как обменять на рубли",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_exchange_bonuses_SberSpasibo"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Почему бонусы не начислены",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "arrows_forward_back"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Почему бонусы не начислены",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "No_credits_received_spasibo"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как получать больше бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
+                    "top": "1x"
                   }
                 }
               },
@@ -1137,483 +741,22 @@
                 },
                 "tint_color": "solid_brand",
                 "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как получать больше бонусов",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_get_more_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Чему равен 1 бонус",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Чему равен 1 бонус",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_is_one_bonus_equal_to"
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как перевести бонусы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "2x"
-                  }
-                },
-                "subtitle": {
-                  "text": "Другому участнику программы",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "4x",
-                    "right": "8x",
-                    "bottom": "2x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "arrow_right_trace_line"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как перевести бонусы",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_give_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как обменять на рубли",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "falling_coin"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как обменять на рубли",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_exchange_bonuses_SberSpasibo"
-                  },
-                  "parameters": {
-                    "intent": "A07.09643.How_to_exchange_bonuses_SberSpasibo",
-                    "original_text": "На рубли"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как получать больше бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как получать больше бонусов",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_get_more_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Чему равен 1 бонус",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Чему равен 1 бонус",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_is_one_bonus_equal_to"
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Перейти в раздел",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
+                  "right": "8x"
                 }
               }
             },
             "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
+              "type": "disclosure_right_view"
             },
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper640{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper640{% endif %}"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Перейти на сайт",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "http://sberbank.com/v/r/?p=k7R56"
+                "deep_link": "https://s.sber.ru/42g53"
               }
             ]
           }
         ]
       }
     }
-
-  ],
-  "CSI_content": "1"
+  ]
 }
