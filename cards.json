@@ -3,6 +3,14 @@
   "type": "sdk_answer",
   "items": [
     {
+      "bubble": {
+        "text": [
+          "tttttttttttttttttttttttttttrtr"
+          ]
+      },
+      "markdown": false
+    },
+    {
       "card": {
         "type": "list_card",
         "can_be_disabled": true,
