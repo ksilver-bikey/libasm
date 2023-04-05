@@ -24,7 +24,7 @@
               "max_lines": 0,
               "alignment": "left",
               "margins": {
-                "left": "3x"
+                "left": "4x"
               }
             },
             "paddings": {
@@ -38,7 +38,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "2x",
-              "left": "7x",
+              "left": "8x",
               "right": "0x",
               "top": "2x"
             },
@@ -53,7 +53,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "2x"
+                    "left": "0x"
                   }
                 }
               }
