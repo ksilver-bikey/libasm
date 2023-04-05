@@ -3,22 +3,14 @@
   "type": "sdk_answer",
   "items": [
     {
-      "bubble": {
-        "text": [
-          "tttttttttttttttttttttttttttrtr"
-          ]
-      },
-      "markdown": false
-    },
-    {
       "card": {
         "type": "list_card",
-        "can_be_disabled": true,
+        "can_be_disabled": false,
         "cells": [
           {
             "type": "text_cell_view",
             "content": {
-              "text": "П4М3де будете покупать",
+              "text": "Спорт",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0,
@@ -35,6 +27,24 @@
             }
           },
           {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списать бонусы",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "alignment": "left",
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "paddings": {
+              "left": "6x",
+              "bottom": "4x",
+              "top": "4x"
+            }
+          },
+          {
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "2x",
@@ -46,7 +56,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "АЗС",
+                  "text": "До 99% СберМегаМаркет",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -56,394 +66,13 @@
                     "left": "0x"
                   }
                 }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "АЗС"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Авто",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Авто"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Аптеки и оптика",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Аптеки и оптика"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Без карты СберБанка",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Без карты СберБанка"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Детские товары",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Детские товары"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Дом и ремонт",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Дом и ремонт"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Здоровье",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Здоровье"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Зоотовары и услуги",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Зоотовары и услуги"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Рестораны и кафе",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "3x"
-                  }
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Рестораны и кафе"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "2x",
-              "left": "6x",
-              "right": "0x",
-              "top": "2x"
-            },
-            "left": {
-              "type": "simple_left_view",
+              },
+              "icon_vertical_gravity": "center",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "list"
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_sbermegamarket.png",
+                  "placeholder": "star_light"
                 },
                 "size": {
                   "width": "medium",
@@ -452,18 +81,127 @@
                 "margins": {
                   "right": "2x"
                 },
-                "tint_color": "solid_white"
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "СберМегаМаркет"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "8x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 99% Экстрим Маркет",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                }
               },
               "icon_vertical_gravity": "center",
-              "title": {
-                "text": "Посмотреть весь список",
-                "typeface": "body1",
-                "text_color": "default",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_extrememarket_logo_0119.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
                 "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Экстрим Маркет"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "2x",
+              "left": "8x",
+              "right": "0x",
+              "top": "2x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 99% ВелоШоп",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
                 }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_veloshop_logo.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
               }
             },
             "right": {
@@ -478,7 +216,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Посмотреть весь список"
+                "text": "ВелоШоп"
               }
             ]
           }
