@@ -38,7 +38,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "2x",
-              "left": "6x",
+              "left": "8x",
               "right": "0x",
               "top": "2x"
             },
@@ -46,14 +46,14 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "АЗС",
+                  "text": "ГАЗС",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "3x"
+                    "left": "0x"
                   }
                 }
               }
