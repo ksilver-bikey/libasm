@@ -48,7 +48,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -65,6 +65,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -119,7 +124,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -136,6 +141,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -190,7 +200,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -207,6 +217,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -261,7 +276,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -278,6 +293,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -332,7 +352,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -349,6 +369,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -392,7 +417,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -409,6 +434,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -452,7 +482,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -469,6 +499,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -512,7 +547,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -529,6 +564,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -583,7 +623,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "bottom": "4x",
-              "left": "8x",
+              "left": "6x",
               "right": "0x",
               "top": "4x"
             },
@@ -600,6 +640,11 @@
                     "top": "2x",
                     "left": "0x"
                   }
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
