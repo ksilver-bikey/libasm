@@ -56,14 +56,14 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 10% АШАН",
+                  "text": "До 10% АШАНq",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 },
                 "subtitle": {
@@ -74,7 +74,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "1x",
-                    "left": "3x"
+                    "left": "6x"
                   }
                 }
               },
