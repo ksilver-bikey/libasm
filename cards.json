@@ -56,7 +56,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 10% АШАНq",
+                  "text": "До 10% АШАН",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -73,9 +73,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
+                    "top": "1x"
+                  },
+                  "left": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -134,7 +134,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 },
                 "subtitle": {
@@ -144,9 +144,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x",
-                    "left": "3x"
-                  }
+                    "top": "1x"
+                  },
+                  "left": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -205,7 +205,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 },
                 "subtitle": {
@@ -215,9 +215,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x",
-                    "left": "3x"
-                  }
+                    "top": "1x"
+                  },
+                  "left": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -276,7 +276,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 },
                 "subtitle": {
@@ -286,9 +286,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x",
-                    "left": "3x"
-                  }
+                    "top": "1x"
+                  },
+                  "left": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -347,7 +347,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 }
               },
@@ -407,7 +407,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 }
               },
@@ -467,7 +467,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 }
               },
@@ -527,7 +527,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 },
                 "subtitle": {
@@ -537,9 +537,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x",
-                    "left": "3x"
-                  }
+                    "top": "1x"
+                  },
+                  "left": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -598,7 +598,7 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "7x"
+                    "left": "6x"
                   }
                 },
                 "subtitle": {
@@ -608,9 +608,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x",
-                    "left": "3x"
-                  }
+                    "top": "1x"
+                  },
+                  "left": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
