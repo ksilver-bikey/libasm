@@ -56,20 +56,15 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Д1о 10% АШАН6",
+                  "text": "До 10% АШАН",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "7x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -139,13 +134,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -215,13 +205,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -291,13 +276,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -367,13 +347,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -432,13 +407,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -497,13 +467,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 }
               },
               "icon_vertical_gravity": "center",
@@ -562,13 +527,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
@@ -638,13 +598,8 @@
                   "margins": {
                     "bottom": "0x",
                     "top": "2x",
-                    "left": "0x"
+                    "left": "7x"
                   }
-                },
-                "margins": {
-                  "bottom": "0x",
-                  "top": "2x",
-                  "left": "3x"
                 },
                 "subtitle": {
                   "text": "За заказ через СберМаркет",
