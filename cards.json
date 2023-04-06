@@ -5,43 +5,36 @@
     {
       "card": {
         "type": "list_card",
-        "can_be_disabled": false,
+        "can_be_disabled": true,
         "cells": [
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Супермаркеты1",
+              "text": "Экосистема Сбера",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0,
-              "alignment": "left",
-              "margins": {
-                "left": "4x"
-              }
+              "alignment": "left"
             },
             "paddings": {
-              "left": "4x",
-              "right": "0x",
-              "bottom": "1x",
+              "left": "7x",
+              "right": "8x",
               "top": "6x"
             }
           },
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Списать бонусы",
+              "text": "Можно списать и накопить бонусы",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 0,
-              "alignment": "left",
-              "margins": {
-                "left": "4x"
-              }
+              "alignment": "left"
             },
             "paddings": {
-              "left": "4x",
-              "bottom": "4x",
-              "top": "4x"
+              "bottom": "6x",
+              "left": "7x",
+              "right": "8x"
             }
           },
           {
@@ -56,7 +49,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 10% АШАН",
+                  "text": "Rambler&Co",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -65,24 +58,13 @@
                     "top": "2x",
                     "left": "6x"
                   }
-                },
-                "subtitle": {
-                  "text": "За заказ через СберМаркет",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
                 }
               },
               "icon_vertical_gravity": "center",
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_ash_sm.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_logo_omny_rambler.png",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -111,7 +93,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "АШАН"
+                "text": "Rambler&Co"
               }
             ]
           },
@@ -127,280 +109,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 10% Магнит",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "6x"
-                  }
-                },
-                "subtitle": {
-                  "text": "За заказ через СберМаркет",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_mag_sm.png",
-                  "placeholder": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "2x"
-                },
-                "tint_color": "solid_brand"
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Магнит"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "4x",
-              "left": "6x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "До 10% ОКЕЙ",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "6x"
-                  }
-                },
-                "subtitle": {
-                  "text": "За заказ через СберМаркет",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_ok_sm.png",
-                  "placeholder": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "2x"
-                },
-                "tint_color": "solid_brand"
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "ОКЕЙ"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "4x",
-              "left": "6x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "До 10% Selgros Cash&Carry",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "6x"
-                  }
-                },
-                "subtitle": {
-                  "text": "За заказ через СберМаркет",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_sel_sm.png",
-                  "placeholder": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "2x"
-                },
-                "tint_color": "solid_brand"
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Selgros Cash&Carry"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "4x",
-              "left": "6x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "До 50% Tasty Coffee",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "2x",
-                    "left": "6x"
-                  }
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_tastycoffee_logo_0919.png",
-                  "placeholder": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "2x"
-                },
-                "tint_color": "solid_brand"
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "bottom": "6x",
-                "left": "0x",
-                "right": "4x",
-                "top": "6x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Tasty Coffee"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "bottom": "4x",
-              "left": "6x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "До 99% СберМаркет",
+                  "text": "СберМаркет",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -460,7 +169,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 99% СберМегаМаркет",
+                  "text": "СберМегаМаркет",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -520,7 +229,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 99% METRO",
+                  "text": "ЕАПТЕКА",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -529,24 +238,13 @@
                     "top": "2x",
                     "left": "6x"
                   }
-                },
-                "subtitle": {
-                  "text": "За заказ через СберМаркет",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
                 }
               },
               "icon_vertical_gravity": "center",
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_metro_sm.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_Group-1252.png",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -575,7 +273,7 @@
             "actions": [
               {
                 "type": "text",
-                "text": "METRO"
+                "text": "ЕАПТЕКА"
               }
             ]
           },
@@ -591,7 +289,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "До 99% ВкусВилл",
+                  "text": "СберДиск",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -600,24 +298,13 @@
                     "top": "2x",
                     "left": "6x"
                   }
-                },
-                "subtitle": {
-                  "text": "За заказ через СберМаркет",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0,
-                  "margins": {
-                    "bottom": "0x",
-                    "top": "1x",
-                    "left": "6x"
-                  }
                 }
               },
               "icon_vertical_gravity": "center",
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_logo_omny_vkusvill-_1_.png",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_SberDisk.png",
                   "placeholder": "star_light"
                 },
                 "size": {
@@ -639,16 +326,192 @@
                 "top": "6x"
               }
             },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
             "actions": [
               {
                 "type": "text",
-                "text": "ВкусВилл"
+                "text": "СберДиск"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "6x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Okko",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "6x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_logo_okko_1219.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Okko"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "6x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "SberDevices",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "6x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_logo_sberdevices.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "SberDevices"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "6x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "list"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_white"
+              },
+              "icon_vertical_gravity": "center",
+              "title": {
+                "text": "Все партнёры экосистемы",
+                "typeface": "body1",
+                "text_color": "default",
+                "margins": {
+                  "bottom": "0x",
+                  "top": "2x",
+                  "left": "3x"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Все партнёры экосистемы"
               }
             ]
           }
         ]
       },
-      "_disc": "partners"
+      "_disc": "eco"
     }
   ]
 }
