@@ -1,1 +1,654 @@
-{"auto_listening": true, "type": "sdk_answer", "items": [{"card": {"type": "list_card", "can_be_disabled": true, "cells": [{"type": "text_cell_view", "content": {"text": "Где будете покупать", "typeface": "title1", "text_color": "default", "max_lines": 0, "alignment": "left", "margins": {"left": "4x"}}, "paddings": {"left": "4x", "right": "0x", "bottom": "1x", "top": "6x"}}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "АЗС", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "АЗС"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Авто", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Авто"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Аптеки и оптика", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Аптеки и оптика"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Без карты СберБанка", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Без карты СберБанка"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Детские товары", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Детские товары"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Дом и ремонт", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Дом и ремонт"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Здоровье", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Здоровье"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Зоотовары и услуги", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Зоотовары и услуги"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "8x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "texts": {"title": {"text": "Рестораны и кафе", "typeface": "body1", "text_color": "default", "max_lines": 0, "margins": {"bottom": "0x", "top": "2x", "left": "0x"}}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "divider": {"style": "default", "size": "d3"}, "actions": [{"type": "text", "text": "Рестораны и кафе"}]}, {"type": "left_right_cell_view", "paddings": {"bottom": "2x", "left": "6x", "right": "0x", "top": "2x"}, "left": {"type": "simple_left_view", "icon": {"address": {"type": "local", "identificator": "list"}, "size": {"width": "medium", "height": "medium"}, "margins": {"right": "2x"}, "tint_color": "solid_white"}, "icon_vertical_gravity": "center", "title": {"text": "Посмотреть весь список", "typeface": "body1", "text_color": "default", "margins": {"bottom": "0x", "top": "2x", "left": "3x"}}}, "right": {"type": "disclosure_right_view", "margins": {"bottom": "6x", "left": "0x", "right": "4x", "top": "6x"}}, "actions": [{"type": "text", "text": "Посмотреть весь список"}]}]}, "_disc": "segments"}], "ir_hints": [{"text": "авто", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "азс", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "аптеки и оптика", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "такси и аренда авто", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "развлечения", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "кафе и рестораны", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "часы и ювелирные украшения", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "электроника и бытовая техника", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "бытовые услуги", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "детские товары", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "дом и ремонт", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "недвижимость", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "косметика", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "зоотовары и услуги", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "здоровье", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "связь и интернет", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "книги и канцтовары", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "кино и театр", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "красота", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "путешествия", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "образование", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "лотереи", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "одежда и обувь", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": " красота", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "цветы и подарки", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "супермаркеты", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "прочее", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "самокат", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "спорт", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "страхование", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "товарные акции", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "экосистема сбера", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "585*ЗОЛОТОЙ", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "AllTime", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "AMF.RU - международная сеть доставки цветов", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "NEW BALANCE", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Бургер Кинг", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Pierre Cardin", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "CODE4GAME", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Cuva", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Delivery Club", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "DomSaun.ru", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Entero", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "gardengear.ru", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Garlyn", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "HOLODILNIK.RU", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "INTERMODA", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "kari", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "METRO", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "MR. Skovorodkin", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Okko", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Pegas Touristik", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Rambler&Co", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "RAVENOL", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Rondell", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "SberDevices", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "SberPlay", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Selgros Cash&Carry", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "SIMTRAVEL", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "SOKOLOV", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "World of Tanks", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Tasty Coffee", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "TENCAR", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "TEZ TOUR", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Travelata", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "VITEK", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "World of Warships", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Xcom", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "АЗС «Газпромнефть»", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "АШАН", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Бронницкий ювелир", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ВелоШоп", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ВкусВилл", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ВкусНаДом", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Высоковы 585", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Дантинорм Бэби", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Деловая среда", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Дом свечей", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ДомКлик", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ЕАПТЕКА", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Здоровые люди", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ЗдравСити", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Золотое кольцо Карелии", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Искусница", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ЛитРес", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ЛЭТУАЛЬ", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Магнит", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "МАТРАС-КРОВАТЬ.РУ", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Мегафон", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Мой автопрокат", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Мос-Тур", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "ОКЕЙ", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Оциллококцинум", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Плати частями", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Посуда-Центр", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Республика", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Русский АвтоМотоКлуб", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Самокат", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "СберДиск", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "СберМаркет", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "СберМегаМаркет", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "СберПраво", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "СберУслуги", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Связной", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Ситидрайв", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Среди цветов", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Столото", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Технопарк", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Чкаловские дачи", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}, {"text": "Экстрим Маркет", "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"}]}
+{
+  "auto_listening": true,
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "can_be_disabled": false,
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Супермаркеты",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "left",
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "right": "0x",
+              "bottom": "1x",
+              "top": "6x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Списать бонусы",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0,
+              "alignment": "left",
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "bottom": "4x",
+              "top": "4x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 10% АШАН",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                },
+                "subtitle": {
+                  "text": "За заказ через СберМаркет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "1x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_ash_sm.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "АШАН"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 10% Магнит",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                },
+                "subtitle": {
+                  "text": "За заказ через СберМаркет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "1x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_mag_sm.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Магнит"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 10% ОКЕЙ",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                },
+                "subtitle": {
+                  "text": "За заказ через СберМаркет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "1x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_ok_sm.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "ОКЕЙ"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 10% Selgros Cash&Carry",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                },
+                "subtitle": {
+                  "text": "За заказ через СберМаркет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "1x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_sel_sm.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Selgros Cash&Carry"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 50% Tasty Coffee",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_tastycoffee_logo_0919.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Tasty Coffee"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 99% СберМаркет",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_sbermarket_logo2.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "СберМаркет"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 99% СберМегаМаркет",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_sbermegamarket.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "СберМегаМаркет"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 99% METRO",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                },
+                "subtitle": {
+                  "text": "За заказ через СберМаркет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "1x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_metro_sm.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "METRO"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "bottom": "4x",
+              "left": "8x",
+              "right": "0x",
+              "top": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "До 99% ВкусВилл",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "2x",
+                    "left": "0x"
+                  }
+                },
+                "subtitle": {
+                  "text": "За заказ через СберМаркет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "bottom": "0x",
+                    "top": "1x",
+                    "left": "3x"
+                  }
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/partner/ds_ic_36_logo_omny_vkusvill-_1_.png",
+                  "placeholder": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "2x"
+                },
+                "tint_color": "solid_brand"
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "4x",
+                "top": "6x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "ВкусВилл"
+              }
+            ]
+          }
+        ]
+      },
+      "_disc": "partners"
+    }
+  ]
+}
