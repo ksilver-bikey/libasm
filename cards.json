@@ -10,7 +10,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Супермаркеты",
+              "text": "Супермаркеты1",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0,
@@ -73,9 +73,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x"
-                  },
-                  "left": "6x"
+                    "top": "1x",
+                    "left": "6x"
+                  }
                 }
               },
               "icon_vertical_gravity": "center",
@@ -144,9 +144,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x"
-                  },
-                  "left": "6x"
+                    "top": "1x",
+                    "left": "6x"
+                  }
                 }
               },
               "icon_vertical_gravity": "center",
@@ -215,9 +215,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x"
-                  },
-                  "left": "6x"
+                    "top": "1x",
+                    "left": "6x"
+                  }
                 }
               },
               "icon_vertical_gravity": "center",
@@ -286,9 +286,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x"
-                  },
-                  "left": "6x"
+                    "top": "1x",
+                    "left": "6x"
+                  }
                 }
               },
               "icon_vertical_gravity": "center",
@@ -537,9 +537,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x"
-                  },
-                  "left": "6x"
+                    "top": "1x",
+                    "left": "6x"
+                  }
                 }
               },
               "icon_vertical_gravity": "center",
@@ -608,9 +608,9 @@
                   "max_lines": 0,
                   "margins": {
                     "bottom": "0x",
-                    "top": "1x"
-                  },
-                  "left": "6x"
+                    "top": "1x",
+                    "left": "6x"
+                  }
                 }
               },
               "icon_vertical_gravity": "center",
