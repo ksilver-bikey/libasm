@@ -7,334 +7,6 @@
         "type": "list_card",
         "cells": [
           {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Выбрать категории",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "star_light"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Выбрать категории",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "SberSpasibo_bonus_categories"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Посмотреть баланс бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Посмотреть баланс бонусов",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как их использовать",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "basket"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как их использовать",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Как они начисляются",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "apple_wallet"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как они начисляются",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "How_bonuses_are_awarded"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Почему бонусы не начислены",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "arrows_forward_back"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Почему бонусы не начислены",
-                "should_send_to_backend": false
-              },
-              {
-                "type": "server_action",
-                "message_name": "RUN_APP",
-                "server_action": {
-                  "action_id": "run_app",
-                  "app_info": {
-                    "systemName": "No_credits_received_spasibo"
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
             "type": "text_cell_view",
             "content": {
               "text": "Бонусы можно",
@@ -350,6 +22,381 @@
               "top": "6x"
             }
           },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Перевести другому участнику",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "user_on_user"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Перевести бонусы другому участнику"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Обменять на рубли",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "falling_coin"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Обменять бонусы на рубли"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "На скидку у партнёров",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "percent"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Бонусы на скидку у партнёров"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "На скидочный купон",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "boarding_pass"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Бонусы на скидочный купон"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "На мили Аэрофлота",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "plane"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Бонусы на мили Аэрофлота"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "На баллы РЖД",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_bus.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Бонусы на баллы РЖД"
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "На скидку при покупке ж/д или авиабилета",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "atm_banknote"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "На скидку при покупке ж/д или авиабилета"
+              }
+            ]
+          },
+
           {
             "type": "left_right_cell_view",
             "paddings": {
