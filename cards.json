@@ -7,22 +7,6 @@
         "type": "list_card",
         "cells": [
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Бонусы можно",
-              "typeface": "title1",
-              "text_color": "default",
-              "max_lines": 0,
-              "alignment": "left"
-            },
-            "paddings": {
-              "bottom": "6x",
-              "left": "7x",
-              "right": "8x",
-              "top": "6x"
-            }
-          },
-          {
             "type": "left_right_cell_view",
             "divider": {
               "style": "default",
@@ -41,7 +25,7 @@
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Перевести другому участнику",
+                  "text": "Посмотреть баланс бонусов",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -56,7 +40,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "user_on_user"
+                  "identificator": "color_spasibo"
                 },
                 "size": {
                   "width": "medium",
@@ -72,7 +56,18 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Перевести бонусы другому участнику"
+                "text": "Посмотреть баланс бонусов",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
+                  }
+                }
               }
             ]
           },
@@ -95,7 +90,7 @@
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Обменять на рубли",
+                  "text": "Как они начисляются",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -110,7 +105,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "falling_coin"
+                  "identificator": "apple_wallet"
                 },
                 "size": {
                   "width": "medium",
@@ -126,7 +121,18 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Обменять бонусы на рубли"
+                "text": "Как они начисляются",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_bonuses_are_awarded"
+                  }
+                }
               }
             ]
           },
@@ -149,7 +155,7 @@
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "На скидку у партнёров",
+                  "text": "Куда их потратить",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -164,7 +170,7 @@
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "percent"
+                  "identificator": "basket"
                 },
                 "size": {
                   "width": "medium",
@@ -180,7 +186,18 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Бонусы на скидку у партнёров"
+                "text": "Куда потратить бонусы",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
+                  }
+                }
               }
             ]
           },
@@ -201,24 +218,35 @@
             "left": {
               "type": "simple_left_view",
               "icon_vertical_gravity": "center",
-              "texts": {
+
+                 "texts": {
                 "title": {
-                  "text": "На скидочный купон",
+                  "text": "Как перевести бонусы",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
                     "left": "7x",
                     "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
+                    "top": "2x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Другому участнику программы",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "bottom": "2x"
                   }
                 }
               },
               "icon": {
                 "address": {
                   "type": "local",
-                  "identificator": "boarding_pass"
+                  "identificator": "arrow_right_trace_line"
                 },
                 "size": {
                   "width": "medium",
@@ -234,70 +262,23 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Бонусы на скидочный купон"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "На мили Аэрофлота",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
+                "text": "Как перевести бонусы другому участнику программы",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_to_give_bonuses"
                   }
                 }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "plane"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Бонусы на мили Аэрофлота"
               }
             ]
           },
           {
             "type": "left_right_cell_view",
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "right": {
               "type": "disclosure_right_view",
               "margins": {
@@ -311,7 +292,7 @@
               "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "На баллы РЖД",
+                  "text": "Запусти квиз про бонусы",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0,
@@ -326,7 +307,7 @@
               "icon": {
                 "address": {
                   "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_bus.png"
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/loyality_skills/ds_ic_36_head_question.png"
                 },
                 "size": {
                   "width": "medium",
@@ -342,62 +323,36 @@
             "actions": [
               {
                 "type": "text",
-                "text": "Бонусы на баллы РЖД"
-              }
-            ]
-          },
-          {
-            "type": "left_right_cell_view",
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "На скидку при покупке ж/д или авиабилета",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
+                "text": "Запусти квиз про бонусы",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "Quiz_spasibo"
                   }
                 }
-              },
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "atm_banknote"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "tint_color": "solid_brand",
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                }
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "На скидку при покупке ж/д или авиабилета"
               }
             ]
           }
         ]
       }
     }
-  ]
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": [
+          "Посмотреть ещё варианты"
+        ],
+        "action": {
+          "type": "text",
+          "text": "Посмотреть ещё варианты"
+        }
+      }
+    ]
+  }
 }
