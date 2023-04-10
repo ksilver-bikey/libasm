@@ -7,6 +7,334 @@
         "type": "list_card",
         "cells": [
           {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Выбрать категории",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "star_light"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Выбрать категории",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "SberSpasibo_bonus_categories"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Посмотреть баланс бонусов",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "color_spasibo"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Посмотреть баланс бонусов",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_to_check_your_SPASIBO_bonus_balance"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Как их использовать",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "basket"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Как их использовать",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "What_can_I_do_with_SPASIBO_bonuses"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Как они начисляются",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "apple_wallet"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Как они начисляются",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_bonuses_are_awarded"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Почему бонусы не начислены",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "7x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "arrows_forward_back"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "tint_color": "solid_brand",
+                "margins": {
+                  "right": "0x",
+                  "left": "6x"
+                }
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Почему бонусы не начислены",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "No_credits_received_spasibo"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
             "type": "text_cell_view",
             "content": {
               "text": "Бонусы можно",
@@ -352,5 +680,10 @@
         ]
       }
     }
-  ]
+  ],
+  "ir_hints": {
+    "type": "unified_template",
+    "template": "{{ generate_hints() | tojson }}",
+    "loader": "json"
+  }
 }
