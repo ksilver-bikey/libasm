@@ -127,6 +127,45 @@
                 "deep_link": "http://sberbank.ru/v/r/?p=k7R56"
               }
             ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Без иконки",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "12x",
+                    "right": "8x",
+                    "top": "4x",
+                    "bottom": "4x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "http://sberbank.ru/v/r/?p=k7R56"
+              }
+            ]
           }
         ]
       }
