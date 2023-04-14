@@ -3,6 +3,14 @@
   "type": "sdk_answer",
   "items": [
     {
+      "bubble": {
+        "text": [
+          "Это супер текст"
+        ],
+        "markdown": false
+      }
+    },
+    {
       "card": {
         "type": "list_card",
         "cells": [
@@ -21,7 +29,7 @@
                 },
                 "margins": {
                   "right": "0x",
-                  "left": "6x"
+                  "left": "0x"
                 },
                 "tint_color": "solid_brand"
               },
