@@ -140,7 +140,7 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "12x",
+                    "left": "0x",
                     "right": "8x",
                     "top": "4x",
                     "bottom": "4x"
