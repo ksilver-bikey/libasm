@@ -18,9 +18,9 @@
             "type": "left_right_cell_view",
             "paddings": {
                 "left": "6x",
-                "top": "8x",
+                "top": "0x",
                 "right": "6x",
-                "bottom": "8x"
+                "bottom": "0x"
             },
             "left": {
               "type": "simple_left_view",
@@ -47,10 +47,10 @@
                   "text_color": "default",
                   "max_lines": 0,
                   "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x",
+                    "bottom": "0x"
                   }
                 }
               }
@@ -58,9 +58,9 @@
             "right": {
               "type": "disclosure_right_view",
               "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
+                "top": "0x",
+                "right": "0x",
+                "bottom": "0x"
               }
             },
             "divider": {
