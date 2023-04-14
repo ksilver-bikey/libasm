@@ -16,6 +16,12 @@
         "cells": [
           {
             "type": "left_right_cell_view",
+            "paddings": {
+                "left": "6x",
+                "top": "8x",
+                "right": "6x",
+                "bottom": "8x"
+            },
             "left": {
               "type": "simple_left_view",
               "icon": {
@@ -110,6 +116,10 @@
                 "right": "4x",
                 "bottom": "8x"
               }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
             },
             "actions": [
               {
