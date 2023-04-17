@@ -65,7 +65,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d4"
             },
             "actions": [
               {
@@ -158,7 +158,7 @@
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d3"
             },
             "actions": [
               {
