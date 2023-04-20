@@ -2,173 +2,432 @@
   "auto_listening": true,
   "type": "sdk_answer",
   "items": [
-    {
-      "bubble": {
-        "text": [
-          "Это супер текст"
-        ],
-        "markdown": false
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-                "left": "6x",
-                "top": "0x",
-                "right": "6x",
-                "bottom": "0x"
-            },
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "local",
-                  "identificator": "color_spasibo"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "0x"
-                },
-                "tint_color": "solid_brand"
+  {
+    "card": {
+      "cells": [
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
               },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Перейти в раздел",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "0x",
-                    "bottom": "0x"
-                  }
-                }
+              "subtitle": {
+                "text": "D1",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
               }
             },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "0x",
-                "right": "0x",
-                "bottom": "0x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d4"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://loyalty/main?internal_source=audiohelper640{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile/loyalty?internal_source=audiohelper640{% endif %}"
-              }
-            ]
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
           },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://va-res.online.sberbank.ru/VA/icons/loyality_skills/ds_ic_36_globe.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "right": "0x",
-                  "left": "6x"
-                },
-                "tint_color": "solid_brand"
+          "divider": {
+            "style": "default",
+            "size": "d1"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
               },
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Перейти на сайт или приложение",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "7x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
+              "subtitle": {
+                "text": "D2",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
               }
             },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "http://sberbank.ru/v/r/?p=k7R56"
-              }
-            ]
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
           },
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon_vertical_gravity": "center",
-              "texts": {
-                "title": {
-                  "text": "Без иконки",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0,
-                  "margins": {
-                    "left": "0x",
-                    "right": "8x",
-                    "top": "4x",
-                    "bottom": "4x"
-                  }
-                }
+          "divider": {
+            "style": "default",
+            "size": "d2"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D3",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
               }
             },
-            "right": {
-              "type": "disclosure_right_view",
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d3"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D4",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d4"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D5",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d5"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D6",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d6"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
               "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер с иконкой",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D1",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
               }
             },
-            "divider": {
-              "style": "default",
-              "size": "d3"
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d1"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
             },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "http://sberbank.ru/v/r/?p=k7R56"
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер с иконкой",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D2",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
               }
-            ]
-          }
-        ]
-      }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d2"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер с иконкой",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D3",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d3"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер с иконкой",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D4",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d4"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер с иконкой",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D5",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d5"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер с иконкой",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "D6",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d6"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Карточки с отсутоп 4 снизу, паддинг 4",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "type": "left_right_cell_view"
+        }
+      ],
+      "paddings": {
+        "bottom": "4x",
+        "left": "8x",
+        "right": "8x",
+        "top": "4x"
+      },
+      "background_color": "card_background",
+      "can_be_disabled": false,
+      "type": "list_card"
     }
-  ]
+  },
+  {
+    "bubble": {
+      "text": "Начало левого отступа",
+      "markdown": false,
+      "expand_policy": "auto_expand"
+    }
+  }
+]
 }
