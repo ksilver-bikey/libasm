@@ -41,35 +41,6 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "0x"
-                },
-                "subtitle": {
-                  "text": "D2",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d2"
-            },
-            "type": "left_right_cell_view"
-          }
-        },
-        {
-          "left": {
-            "texts": {
-              "title": {
-                "text": "Тестируем дивайдер",
-                "typeface": "title1",
-                "text_color": "default",
                 "max_lines": 0
               },
               "subtitle": {
