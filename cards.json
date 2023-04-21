@@ -177,7 +177,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D2",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -221,7 +221,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D2",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -256,7 +256,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D2",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -306,7 +306,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D2",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -335,7 +335,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D3",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -379,7 +379,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D3",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -414,7 +414,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D3",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -464,7 +464,7 @@
                 }
               },
               "subtitle": {
-                "text": "D1",
+                "text": "D3",
                 "typeface": "footnote1",
                 "text_color": "secondary",
                 "max_lines": 0
@@ -476,6 +476,164 @@
           "divider": {
             "style": "default",
             "size": "d3"
+          },
+          "type": "left_right_cell_view"
+        },
+                {
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D3",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d4"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D3",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d4"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "0x"
+            }
+          },
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D3",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d4"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "0x"
+            }
+          },
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D3",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d4"
           },
           "type": "left_right_cell_view"
         }
