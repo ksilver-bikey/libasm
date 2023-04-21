@@ -12,7 +12,11 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
-                "max_lines": 0
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
               },
               "subtitle": {
                 "text": "D1",
@@ -37,23 +41,27 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
-                "max_lines": 0
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                },
+                "subtitle": {
+                  "text": "D2",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0
+                }
               },
-              "subtitle": {
-                "text": "D2",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0
-              }
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
-          },
-          "divider": {
-            "style": "default",
-            "size": "d2"
-          },
-          "type": "left_right_cell_view"
+            "divider": {
+              "style": "default",
+              "size": "d2"
+            },
+            "type": "left_right_cell_view"
+          }
         },
         {
           "left": {
@@ -68,7 +76,11 @@
                 "text": "D3",
                 "typeface": "footnote1",
                 "text_color": "secondary",
-                "max_lines": 0
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
               }
             },
             "icon_vertical_gravity": "center",
@@ -87,7 +99,11 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
-                "max_lines": 0
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
               },
               "subtitle": {
                 "text": "D4",
@@ -112,7 +128,11 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
-                "max_lines": 0
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
               },
               "subtitle": {
                 "text": "D5",
@@ -137,7 +157,11 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
-                "max_lines": 0
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
               },
               "subtitle": {
                 "text": "D6",
@@ -367,7 +391,7 @@
                 "height": "large"
               },
               "margins": {
-                "right": "0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
@@ -413,7 +437,7 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
@@ -459,7 +483,7 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
@@ -505,7 +529,7 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
@@ -551,7 +575,7 @@
                 "height": "medium"
               },
               "margins": {
-                "right": 0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
@@ -597,7 +621,7 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
@@ -643,7 +667,7 @@
                 "height": "medium"
               },
               "margins": {
-                "right": "0x",
+                "right": "7x",
                 "left": "0x"
               },
               "tint_color": "solid_brand"
