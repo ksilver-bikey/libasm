@@ -3,13 +3,6 @@
   "type": "sdk_answer",
   "items": [
   {
-    "bubble": {
-      "text": "Начало левого отступа",
-      "markdown": false,
-      "expand_policy": "auto_expand"
-    }
-  },
-  {
     "card": {
       "cells": [
         {
@@ -19,7 +12,140 @@
                 "text": "Тестируем дивайдер",
                 "typeface": "title1",
                 "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D1",
+                "typeface": "footnote1",
+                "text_color": "secondary",
                 "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d1"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D1",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d1"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "left": {
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
+              },
+              "subtitle": {
+                "text": "D1",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0
+              }
+            },
+            "icon_vertical_gravity": "center",
+            "type": "simple_left_view"
+          },
+          "divider": {
+            "style": "default",
+            "size": "d1"
+          },
+          "type": "left_right_cell_view"
+        },
+        {
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "right": "5x"
+            }
+          },
+          "left": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "color_spasibo"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "7x",
+                "left": "0x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "texts": {
+              "title": {
+                "text": "Тестируем дивайдер",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "right": "4x",
+                  "left": "0x"
+                }
               },
               "subtitle": {
                 "text": "D1",
@@ -48,7 +174,13 @@
       "can_be_disabled": false,
       "type": "list_card"
     }
+  },
+  {
+    "bubble": {
+      "text": "Начало левого отступа",
+      "markdown": false,
+      "expand_policy": "auto_expand"
+    }
   }
-
 ]
 }
