@@ -2,147 +2,265 @@
   "auto_listening": true,
   "type": "sdk_answer",
   "items": [
-  {
-    "card": {
-      "cells": [
-        {
-          "left": {
-            "texts": {
-              "title": {
-                "text": "Тестируем дивайдер",
-                "typeface": "title1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "4x"
-                }
-              },
-              "subtitle": {
-                "text": "D4",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "4x"
-                }
-              }
-            },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
-          },
-          "divider": {
-            "style": "default",
-            "size": "d4"
-          },
-          "type": "left_right_cell_view"
-        },
-        {
-          "left": {
-            "icon": {
-              "address": {
-                "type": "local",
-                "identificator": "color_spasibo"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "right": {
               "margins": {
-                "right": "7x",
-                "left": "0x"
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
               },
-              "tint_color": "solid_brand"
+              "type": "disclosure_right_view"
             },
-            "texts": {
-              "title": {
-                "text": "Тестируем дивайдер",
-                "typeface": "title1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "4x"
-                }
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "Как начисляются бонусы",
+                "should_send_to_backend": false,
+                "type": "text"
               },
-              "subtitle": {
-                "text": "D4",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "4x"
-                }
+              {
+                "server_action": {
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "How_bonuses_are_awarded"
+                    },
+                    "parameters": {
+                      "intent": "A07.09709.How_bonuses_are_awarded"
+                    }
+                  }
+                },
+                "message_name": "SERVER_ACTION",
+                "mode": "foreground",
+                "type": "server_action"
               }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "apple_wallet",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Как начисляются бонусы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "title": null,
+              "type": "simple_left_view"
             },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
-          },
-          "divider": {
-            "style": "default",
-            "size": "d4"
-          },
-          "type": "left_right_cell_view"
-        },
-        {
-          "right": {
-            "type": "disclosure_right_view",
-            "margins": {
-              "right": "0x"
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
             }
           },
-          "left": {
-            "texts": {
-              "title": {
-                "text": "Тестируем дивайдер",
-                "typeface": "title1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "4x"
-                }
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
               },
-              "subtitle": {
-                "text": "D4",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
-                  "right": "4x",
-                  "left": "4x"
-                }
-              }
+              "type": "disclosure_right_view"
             },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "Почему они не начислились ",
+                "should_send_to_backend": false,
+                "type": "text"
+              },
+              {
+                "server_action": {
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "No_credits_received_spasibo"
+                    },
+                    "parameters": {
+                      "intent": "A0523.No_credits_received_spasibo"
+                    }
+                  }
+                },
+                "message_name": "SERVER_ACTION",
+                "mode": "foreground",
+                "type": "server_action"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "apple_wallet",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Почему они не начислились ",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "title": null,
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
           },
-          "divider": {
-            "style": "default",
-            "size": "d4"
-          },
-          "type": "left_right_cell_view"
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": null,
+            "actions": [
+              {
+                "text": "Срок зачисления бонусов",
+                "should_send_to_backend": false,
+                "type": "text"
+              },
+              {
+                "server_action": {
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "Routing_by_timing"
+                    },
+                    "parameters": {
+                      "intent": "A07.09714.Routing_by_timing"
+                    }
+                  }
+                },
+                "message_name": "SERVER_ACTION",
+                "mode": "foreground",
+                "type": "server_action"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "apple_wallet",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Срок зачисления бонусов",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "title": null,
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          }
+        ],
+        "can_be_disabled": false,
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x"
         }
-      ],
-      "paddings": {
-        "bottom": "4x",
-        "left": "8x",
-        "right": "8x",
-        "top": "4x"
-      },
-      "background_color": "card_background",
-      "can_be_disabled": false,
-      "type": "list_card"
+      }
     }
-  },
-  {
-    "bubble": {
-      "text": "Начало левого отступа",
-      "markdown": false,
-      "expand_policy": "auto_expand"
-    }
-  }
 ]
 }
