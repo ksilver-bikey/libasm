@@ -7,76 +7,28 @@
         "type": "list_card",
         "cells": [
           {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "actions": [
-              {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
-              }
-            ],
+            "right": null,
+            "divider": null,
+            "actions": null,
+            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": {
-                "address": {
-                  "identificator": "apple_wallet",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "7x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
+              "icon": null,
               "texts": {
                 "title": {
-                  "text": "без дивайдера и лог айди",
-                  "typeface": "body1",
+                  "text": "На сайте СберСпасибо бонусы можно",
+                  "typeface": "title1",
                   "text_color": "default",
-                  "margins": null,
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
                   "max_lines": 0,
                   "actions": null
                 },
-                "subtitle": {
-                  "text": "без дивайдера и лог айди",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
+                "subtitle": null,
                 "caption": null,
                 "margins": null
               },
@@ -100,35 +52,22 @@
               },
               "type": "disclosure_right_view"
             },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
             "actions": [
               {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
+                "deep_link": "https://s.sber.ru/S7glk",
+                "type": "deep_link"
               }
             ],
+            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "apple_wallet",
+                  "identificator": "user_on_user",
                   "type": "local"
                 },
                 "size": {
@@ -146,7 +85,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "без дивайдера и лог айди",
+                  "text": "Перевести другому участнику",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": null,
@@ -158,7 +97,328 @@
                 "margins": null
               },
               "icon_vertical_gravity": "center",
-              "title": null,
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "deep_link": "https://s.sber.ru/S7glk",
+                "type": "deep_link"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "falling_coin",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Обменять на рубли",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "deep_link": "https://s.sber.ru/L1jS2",
+                "type": "deep_link"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "percent",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "На скидку у партнёров",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "deep_link": "https://s.sber.ru/n1Xsx",
+                "type": "deep_link"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "boarding_pass",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "На скидочный купон",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "deep_link": "https://s.sber.ru/S7glk",
+                "type": "deep_link"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "plane",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "На мили Аэрофлота",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "deep_link": "https://s.sber.ru/S7glk",
+                "type": "deep_link"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "url": "https://va-res.online.sberbank.ru/VA/icons/ds_ic_36_bus.png",
+                  "hash": null,
+                  "placeholder": null,
+                  "type": "url"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "На баллы РЖД",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
               "type": "simple_left_view"
             },
             "paddings": {
@@ -181,26 +441,8 @@
             "divider": null,
             "actions": [
               {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
+                "deep_link": "https://s.sber.ru/S7glk",
+                "type": "deep_link"
               }
             ],
             "log_id": null,
@@ -208,7 +450,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "apple_wallet",
+                  "identificator": "atm_banknote",
                   "type": "local"
                 },
                 "size": {
@@ -226,7 +468,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "без внешнего лефт.тайтла",
+                  "text": "На скидку при покупке ж/д или авиабилета",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": null,
@@ -238,317 +480,6 @@
                 "margins": null
               },
               "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "divider": null,
-            "actions": [
-              {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
-              }
-            ],
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "apple_wallet",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "7x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "без subtitle caption margins",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "title": null,
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "divider": null,
-            "actions": [
-              {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
-              }
-            ],
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "apple_wallet",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "7x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "Срок зачисления бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": null,
-                "caption": null,
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              "title": null,
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "actions": [
-              {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
-              }
-            ],
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "apple_wallet",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "7x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "без margins и тайтл.actions",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": null,
-                "caption": null,
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              "title": null,
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "actions": [
-              {
-                "text": "Срок зачисления бонусов",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
-              }
-            ],
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "apple_wallet",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "7x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "без дивайдера и лог айди",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": null,
-                "caption": null,
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              "title": null,
               "type": "simple_left_view"
             },
             "paddings": {
