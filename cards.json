@@ -16,13 +16,9 @@
               },
               "type": "disclosure_right_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "actions": [
               {
-                "text": "Как начисляются бонусы",
+                "text": "Срок зачисления бонусов",
                 "should_send_to_backend": false,
                 "type": "text"
               },
@@ -32,10 +28,10 @@
                   "server_action": {
                     "action_id": "run_app",
                     "app_info": {
-                      "systemName": "How_bonuses_are_awarded"
+                      "systemName": "Routing_by_timing"
                     },
                     "parameters": {
-                      "intent": "A07.09709.How_bonuses_are_awarded"
+                      "intent": "A07.09714.Routing_by_timing"
                     }
                   }
                 },
@@ -44,7 +40,6 @@
                 "type": "server_action"
               }
             ],
-            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
               "icon": {
@@ -67,7 +62,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Как начисляются бонусы",
+                  "text": "без дивайдера и лог айди",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": null,
@@ -99,13 +94,10 @@
               },
               "type": "disclosure_right_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
+            "divider": null,
             "actions": [
               {
-                "text": "Почему они не начислились ",
+                "text": "Срок зачисления бонусов",
                 "should_send_to_backend": false,
                 "type": "text"
               },
@@ -115,10 +107,10 @@
                   "server_action": {
                     "action_id": "run_app",
                     "app_info": {
-                      "systemName": "No_credits_received_spasibo"
+                      "systemName": "Routing_by_timing"
                     },
                     "parameters": {
-                      "intent": "A0523.No_credits_received_spasibo"
+                      "intent": "A07.09714.Routing_by_timing"
                     }
                   }
                 },
@@ -150,7 +142,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Почему они не начислились ",
+                  "text": "без внешнего лефт.тайтла",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": null,
@@ -160,6 +152,82 @@
                 "subtitle": null,
                 "caption": null,
                 "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": null,
+            "actions": [
+              {
+                "text": "Срок зачисления бонусов",
+                "should_send_to_backend": false,
+                "type": "text"
+              },
+              {
+                "server_action": {
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "Routing_by_timing"
+                    },
+                    "parameters": {
+                      "intent": "A07.09714.Routing_by_timing"
+                    }
+                  }
+                },
+                "message_name": "SERVER_ACTION",
+                "mode": "foreground",
+                "type": "server_action"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "apple_wallet",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "без subtitle caption margins",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                }
               },
               "icon_vertical_gravity": "center",
               "title": null,
@@ -251,95 +319,6 @@
               "right": "0x",
               "top": "4x"
             }
-          }
-        ],
-        "can_be_disabled": false,
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x"
-        }
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "text": "Как начисляются бонусы",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "How_bonuses_are_awarded"
-                    },
-                    "parameters": {
-                      "intent": "A07.09709.How_bonuses_are_awarded"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
-              }
-            ],
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "apple_wallet",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "7x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Как начисляются бонусы",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
           },
           {
             "right": {
@@ -351,13 +330,9 @@
               },
               "type": "disclosure_right_view"
             },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
             "actions": [
               {
-                "text": "Почему они не начислились ",
+                "text": "Срок зачисления бонусов",
                 "should_send_to_backend": false,
                 "type": "text"
               },
@@ -367,10 +342,10 @@
                   "server_action": {
                     "action_id": "run_app",
                     "app_info": {
-                      "systemName": "No_credits_received_spasibo"
+                      "systemName": "Routing_by_timing"
                     },
                     "parameters": {
-                      "intent": "A0523.No_credits_received_spasibo"
+                      "intent": "A07.09714.Routing_by_timing"
                     }
                   }
                 },
@@ -396,17 +371,22 @@
                   "right": "7x",
                   "top": "2x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_brand",
+                "actions": null
               },
               "texts": {
                 "title": {
-                  "text": "Почему они не начислились ",
+                  "text": "без margins и тайтл.actions",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 0
-                }
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
               },
               "icon_vertical_gravity": "center",
+              "title": null,
               "type": "simple_left_view"
             },
             "paddings": {
@@ -467,17 +447,24 @@
                   "right": "7x",
                   "top": "2x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_brand",
+                "actions": null
               },
               "texts": {
                 "title": {
-                  "text": "Срок зачисления бонусов",
+                  "text": "без дивайдера и лог айди",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 0
-                }
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
               },
               "icon_vertical_gravity": "center",
+              "title": null,
               "type": "simple_left_view"
             },
             "paddings": {
