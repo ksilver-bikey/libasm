@@ -21,10 +21,10 @@
                   "typeface": "title1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "2x",
+                    "bottom": "7x",
                     "left": "7x",
                     "right": "9x",
-                    "top": "2x"
+                    "top": "7x"
                   },
                   "max_lines": 0,
                   "actions": null
@@ -98,6 +98,96 @@
                   "max_lines": 0,
                   "actions": null
                 },
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": null,
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": null,
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": null,
+              "texts": {
+                "title": {
+                  "text": "Прошло меньше 5 рабочих дней",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "7x",
+                    "right": "9x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "с момента покупки",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "7x",
+                    "right": "9x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": null,
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": null,
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": null,
+              "texts": {
+                "title": {
+                  "text": "Прошло меньше 5 рабочих дней",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "7x",
+                    "left": "7x",
+                    "right": "9x",
+                    "top": "7x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
                 "caption": null,
                 "margins": null
               },
