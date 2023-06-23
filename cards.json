@@ -23,7 +23,7 @@
                   "margins": {
                     "bottom": "2x",
                     "left": "7x",
-                    "right": "12x",
+                    "right": "7x",
                     "top": "2x"
                   },
                   "max_lines": 0,
@@ -79,7 +79,7 @@
                   "margins": {
                     "bottom": "0x",
                     "left": "0x",
-                    "right": "12x",
+                    "right": "7x",
                     "top": "2x"
                   },
                   "max_lines": 0,
@@ -92,7 +92,7 @@
                   "margins": {
                     "bottom": "2x",
                     "left": "0x",
-                    "right": "12x",
+                    "right": "7x",
                     "top": "0x"
                   },
                   "max_lines": 0,
@@ -147,7 +147,7 @@
                   "margins": {
                     "bottom": "0x",
                     "left": "0x",
-                    "right": "12x",
+                    "right": "7x",
                     "top": "2x"
                   },
                   "max_lines": 0,
@@ -226,23 +226,10 @@
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "0x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": {
-                  "text": "Проверьте срок, минимальную сумму покупки и другие условия",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
                     "bottom": "2x",
                     "left": "0x",
                     "right": "0x",
-                    "top": "0x"
+                    "top": "2x"
                   },
                   "max_lines": 0,
                   "actions": null
