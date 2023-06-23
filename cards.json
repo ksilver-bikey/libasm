@@ -1,6 +1,7 @@
 {
   "auto_listening": true,
   "type": "sdk_answer",
+  "CSI_content": 1,
   "items": [
     {
       "card": {
@@ -15,52 +16,15 @@
             "left": {
               "icon": null,
               "texts": {
-                
-                "subtitle": {
-                  "text": "Ваш уровень до 9 сентября",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "0x"
-                  },
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "caption": null,
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": null,
-              "texts": {
                 "title": {
-                  "text": "Спасибо",
+                  "text": "Бонусы не начисляют, если",
                   "typeface": "title1",
                   "text_color": "default",
                   "margins": {
-                    "bottom": "0x",
+                    "bottom": "2x",
                     "left": "7x",
-                    "right": "0x",
-                    "top": "0x"
+                    "right": "12x",
+                    "top": "2x"
                   },
                   "max_lines": 0,
                   "actions": null
@@ -70,7 +34,6 @@
                 "margins": null
               },
               "icon_vertical_gravity": "center",
-              
               "type": "simple_left_view"
             },
             "paddings": {
@@ -82,67 +45,17 @@
           },
           {
             "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": null,
-              "texts": {
-                
-                "subtitle": {
-                  "text": "Вам начисляется",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": {
-                    "bottom": "0x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "0x"
-                  },
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "caption": null,
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
             "divider": {
               "style": "default",
-              "size": "d3"
+              "size": "d5"
             },
-            "actions": [
-              {
-                "deep_link": "https://s.sber.ru/fRvVn",
-                "type": "deep_link"
-              }
-            ],
+            "actions": null,
             "log_id": null,
             "type": "left_right_cell_view",
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "star_light",
+                  "identificator": "clock",
                   "type": "local"
                 },
                 "size": {
@@ -160,18 +73,28 @@
               },
               "texts": {
                 "title": {
-                  "text": "До 30% бонусами за покупки у партнёров",
+                  "text": "Прошло меньше 5 рабочих дней",
                   "typeface": "body1",
                   "text_color": "default",
-                  "margins": null,
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "12x",
+                    "top": "2x"
+                  },
                   "max_lines": 0,
                   "actions": null
                 },
                 "subtitle": {
-                  "text": "Посмотреть список на сайте СберСпасибо",
+                  "text": "с момента покупки",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "margins": null,
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "0x",
+                    "right": "12x",
+                    "top": "0x"
+                  },
                   "max_lines": 0,
                   "actions": null
                 },
@@ -179,7 +102,6 @@
                 "margins": null
               },
               "icon_vertical_gravity": "center",
-              
               "type": "simple_left_view"
             },
             "paddings": {
@@ -191,22 +113,54 @@
           },
           {
             "right": null,
-            "divider": null,
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
             "actions": null,
             "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": null,
+              "icon": {
+                "address": {
+                  "identificator": "falling_coin",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
               "texts": {
-                
+                "title": {
+                  "text": "Сумма покупки меньше 100 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "12x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
                 "subtitle": {
-                  "text": "Для всех ваших дебетовых и кредитных карт бонусный счёт единый",
+                  "text": "Бонусы начисляют за каждые 100 ₽ в чеке",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": {
-                    "bottom": "0x",
-                    "left": "7x",
-                    "right": "0x",
+                    "bottom": "2x",
+                    "left": "0x",
+                    "right": "7x",
                     "top": "0x"
                   },
                   "max_lines": 0,
@@ -216,7 +170,6 @@
                 "margins": null
               },
               "icon_vertical_gravity": "center",
-              
               "type": "simple_left_view"
             },
             "paddings": {
@@ -225,21 +178,7 @@
               "right": "0x",
               "top": "4x"
             }
-          }
-        ],
-        "can_be_disabled": false,
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x"
-        }
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
+          },
           {
             "right": {
               "margins": {
@@ -256,26 +195,8 @@
             },
             "actions": [
               {
-                "text": "Когда придут бонусы",
-                "should_send_to_backend": false,
-                "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "Routing_by_timing"
-                    },
-                    "parameters": {
-                      "intent": "A07.09714.Routing_by_timing"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
+                "deep_link": "sbolonline://loyalty/main/partners?internal_source=audiohelper523",
+                "type": "deep_link"
               }
             ],
             "log_id": null,
@@ -283,7 +204,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "color_spasibo",
+                  "identificator": "document_magnifying_glass",
                   "type": "local"
                 },
                 "size": {
@@ -301,14 +222,31 @@
               },
               "texts": {
                 "title": {
-                  "text": "Когда придут бонусы",
+                  "text": "Не выполнены условия акции партнёра",
                   "typeface": "body1",
                   "text_color": "default",
-                  "margins": null,
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
                   "max_lines": 0,
                   "actions": null
                 },
-                "subtitle": null,
+                "subtitle": {
+                  "text": "Проверьте срок, минимальную сумму покупки и другие условия",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
                 "caption": null,
                 "margins": null
               },
@@ -332,29 +270,15 @@
               },
               "type": "disclosure_right_view"
             },
-            "divider": null,
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
             "actions": [
               {
-                "text": "Куда их потратить",
-                "should_send_to_backend": false,
+                "text": "Есть ограничения по видам карт",
+                "should_send_to_backend": null,
                 "type": "text"
-              },
-              {
-                "server_action": {
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                    },
-                    "parameters": {
-                      "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses"
-                    }
-                  }
-                },
-                "message_name": "SERVER_ACTION",
-                "mode": "foreground",
-                "type": "server_action"
               }
             ],
             "log_id": null,
@@ -380,14 +304,110 @@
               },
               "texts": {
                 "title": {
-                  "text": "Куда их потратить",
+                  "text": "Есть ограничения по видам карт",
                   "typeface": "body1",
                   "text_color": "default",
-                  "margins": null,
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
                   "max_lines": 0,
                   "actions": null
                 },
-                "subtitle": null,
+                "subtitle": {
+                  "text": "Посмотреть список карт",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": null,
+            "actions": [
+              {
+                "text": "Платёж в списке исключений",
+                "should_send_to_backend": null,
+                "type": "text"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "document_checkmark",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "7x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Платёж в списке исключений",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "Посмотреть список",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
                 "caption": null,
                 "margins": null
               },
@@ -411,5 +431,5 @@
         }
       }
     }
-]
+  ]
 }
