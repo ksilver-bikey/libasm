@@ -28,7 +28,7 @@
                 "caption": null,
                 "margins": {
                   "bottom": "6x",
-                  "left": "7x",
+                  "left": "8x",
                   "right": "9x",
                   "top": "6x"
                 }
@@ -74,7 +74,7 @@
                 "caption": null,
                 "margins": {
                   "bottom": "2x",
-                  "left": "7x",
+                  "left": "8x",
                   "right": "9x",
                   "top": "2x"
                 }
@@ -113,7 +113,7 @@
                 "caption": null,
                 "margins": {
                   "bottom": "6x",
-                  "left": "7x",
+                  "left": "8x",
                   "right": "9x",
                   "top": "6x"
                 }
