@@ -17,7 +17,7 @@
               "icon": null,
               "texts": {
                 "title": {
-                  "text": "1Бонусы не начисляют, если",
+                  "text": "Бонусы не начисляют, если",
                   "typeface": "title1",
                   "text_color": "default",
                   "margins": null,
@@ -47,30 +47,13 @@
             "right": null,
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d3"
             },
             "actions": null,
             "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": {
-                "address": {
-                  "identificator": "clock",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
+              "icon": null,
               "texts": {
                 "title": {
                   "text": "Прошло меньше 5 рабочих дней",
@@ -110,30 +93,13 @@
             "right": null,
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d3"
             },
             "actions": null,
             "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": {
-                "address": {
-                  "identificator": "falling_coin",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
+              "icon": null,
               "texts": {
                 "title": {
                   "text": "Сумма покупки меньше 100 ₽",
@@ -143,20 +109,13 @@
                   "max_lines": 0,
                   "actions": null
                 },
-                "subtitle": {
-                  "text": "Бонусы начисляют за каждые 100 ₽ в чеке",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
+                "subtitle": null,
                 "caption": null,
                 "margins": {
-                  "bottom": "2x",
+                  "bottom": "6x",
                   "left": "7x",
                   "right": "9x",
-                  "top": "2x"
+                  "top": "6x"
                 }
               },
               "icon_vertical_gravity": "center",
