@@ -1,112 +1,368 @@
 {
   "auto_listening": true,
   "type": "sdk_answer",
+  "CSI_content": 1,
   "items": [
     {
       "card": {
         "type": "list_card",
-        "paddings": {
-          "bottom": "4x",
-          "top": "4x"
-        },
-        "can_be_disabled": true,
         "cells": [
           {
+            "right": null,
+            "divider": null,
+            "actions": null,
+            "log_id": null,
             "type": "left_right_cell_view",
+            "left": {
+              "icon": null,
+              "texts": {
+                "title": {
+                  "text": "Бонусы не начисляют, если",
+                  "typeface": "title1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": {
+                  "bottom": "6x",
+                  "left": "8x",
+                  "right": "9x",
+                  "top": "6x"
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
             "paddings": {
-              "top": "4x",
-              "bottom": "4x"
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": null,
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": null,
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": null,
+              "texts": {
+                "title": {
+                  "text": "Прошло меньше 5 рабочих дней",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "с момента покупки",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": {
+                  "bottom": "2x",
+                  "left": "8x",
+                  "right": "9x",
+                  "top": "2x"
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": null,
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "actions": null,
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": null,
+              "texts": {
+                "title": {
+                  "text": "Сумма покупки меньше 100 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": {
+                  "bottom": "6x",
+                  "left": "8x",
+                  "right": "9x",
+                  "top": "6x"
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
             },
             "divider": {
               "style": "default",
-              "size": "d4"
+              "size": "d5"
             },
+            "actions": [
+              {
+                "deep_link": "sbolonline://loyalty/main/partners?internal_source=audiohelper523",
+                "type": "deep_link"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
             "left": {
-              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "basket"
+                  "identificator": "document_magnifying_glass",
+                  "type": "local"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "right": "7x",
-                  "left": "7x"
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_brand",
+                "actions": null
               },
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Как использовать бонусы",
+                  "text": "Не выполнены условия акции партнёра",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "Проверьте срок, минимальную сумму покупки и другие условия",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
                 }
-              }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "right": "5x"
-              }
-            },
-            "actions": [
-              {
-                "type": "text",
-                "text": "Как использовать бонусы"
-              }
-            ]
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
           },
           {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "4x",
-              "bottom": "4x"
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
             },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "Есть ограничения по видам карт",
+                "should_send_to_backend": null,
+                "type": "text"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
             "left": {
-              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "type": "local",
-                  "identificator": "document"
+                  "identificator": "card",
+                  "type": "local"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "right": "7x",
-                  "left": "7x"
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
                 },
-                "tint_color": "solid_brand"
+                "tint_color": "solid_brand",
+                "actions": null
               },
-              "icon_vertical_gravity": "center",
               "texts": {
                 "title": {
-                  "text": "Посмотреть историю бонусов",
-                  "max_lines": 0,
+                  "text": "8Есть ограничения по видам карт",
                   "typeface": "body1",
-                  "text_color": "default"
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "Посмотреть список карт",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": {
+                  "bottom": "2x",
+                  "left": "8x",
+                  "right": "0x",
+                  "top": "2x"
                 }
-              }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
             "right": {
-              "type": "disclosure_right_view",
               "margins": {
-                "right": "5x"
-              }
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
             },
+            "divider": null,
             "actions": [
               {
-                "type": "text",
-                "text": "Посмотреть историю бонусов"
+                "text": "Платёж в списке исключений",
+                "should_send_to_backend": null,
+                "type": "text"
               }
-            ]
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "document_checkmark",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Платёж в списке исключений",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "Посмотреть список",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": null,
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
           }
-        ]
+        ],
+        "can_be_disabled": false,
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x"
+        }
       }
     }
   ]
