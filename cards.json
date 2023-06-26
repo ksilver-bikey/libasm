@@ -1,172 +1,112 @@
 {
   "auto_listening": true,
   "type": "sdk_answer",
-  "CSI_content": 1,
   "items": [
     {
       "card": {
         "type": "list_card",
+        "paddings": {
+          "bottom": "4x",
+          "top": "4x"
+        },
+        "can_be_disabled": true,
         "cells": [
           {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
             },
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d4"
             },
-            "actions": [
-              {
-                "deep_link": "sbolonline://loyalty/main/partners?internal_source=audiohelper523",
-                "type": "deep_link"
-              }
-            ],
-            "log_id": null,
-            "type": "left_right_cell_view",
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "identificator": "document_magnifying_glass",
-                  "type": "local"
+                  "type": "local",
+                  "identificator": "basket"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "2x",
-                  "left": "0x",
-                  "right": "0x",
-                  "top": "2x"
+                  "right": "7x",
+                  "left": "7x"
                 },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "Не выполнены условия акции партнёра",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": {
-                  "text": "Проверьте срок, минимальную сумму покупки и другие условия",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "caption": null,
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                }
+                "tint_color": "solid_brand"
               },
               "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "texts": {
+                "title": {
+                  "text": "Как использовать бонусы",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              }
             },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Как использовать бонусы"
+              }
+            ]
           },
           {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "actions": [
-              {
-                "deep_link": "sbolonline://loyalty/main/partners?internal_source=audiohelper523",
-                "type": "deep_link"
-              }
-            ],
-            "log_id": null,
             "type": "left_right_cell_view",
+            "paddings": {
+              "top": "4x",
+              "bottom": "4x"
+            },
             "left": {
+              "type": "simple_left_view",
               "icon": {
                 "address": {
-                  "identificator": "document_magnifying_glass",
-                  "type": "local"
+                  "type": "local",
+                  "identificator": "document"
                 },
                 "size": {
                   "width": "medium",
                   "height": "medium"
                 },
                 "margins": {
-                  "bottom": "2x",
-                  "left": "10x",
-                  "right": "0x",
-                  "top": "2x"
+                  "right": "7x",
+                  "left": "7x"
                 },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "Не выполнены условия акции партнёра",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": {
-                  "text": "Проверьте срок, минимальную сумму покупки и другие условия",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "caption": null,
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                }
+                "tint_color": "solid_brand"
               },
               "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
+              "texts": {
+                "title": {
+                  "text": "Посмотреть историю бонусов",
+                  "max_lines": 0,
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              }
             },
-            "paddings": {
-              "bottom": "4x",
-              "left": "2x",
-              "right": "0x",
-              "top": "4x"
-            }
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "right": "5x"
+              }
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Посмотреть историю бонусов"
+              }
+            ]
           }
-        ],
-        "can_be_disabled": false,
-        "paddings": {
-          "top": "4x",
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x"
-        }
+        ]
       }
     }
   ]
