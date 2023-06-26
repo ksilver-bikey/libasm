@@ -360,7 +360,7 @@
         "paddings": {
           "top": "4x",
           "bottom": "4x",
-          "left": "0x",
+          "left": "8x",
           "right": "0x"
         }
       }
