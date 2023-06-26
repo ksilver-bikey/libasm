@@ -8,127 +8,6 @@
         "type": "list_card",
         "cells": [
           {
-            "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": null,
-              "texts": {
-                "title": {
-                  "text": "Бонусы не начисляют, если",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": null,
-                "caption": null,
-                "margins": {
-                  "bottom": "6x",
-                  "left": "8x",
-                  "right": "9x",
-                  "top": "6x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": null,
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": null,
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": null,
-              "texts": {
-                "title": {
-                  "text": "Прошло меньше 5 рабочих дней",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": {
-                  "text": "с момента покупки",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "caption": null,
-                "margins": {
-                  "bottom": "2x",
-                  "left": "8x",
-                  "right": "9x",
-                  "top": "2x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": null,
-            "divider": {
-              "style": "default",
-              "size": "d3"
-            },
-            "actions": null,
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": null,
-              "texts": {
-                "title": {
-                  "text": "Сумма покупки меньше 100 ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": null,
-                "caption": null,
-                "margins": {
-                  "bottom": "6x",
-                  "left": "8x",
-                  "right": "9x",
-                  "top": "6x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
             "right": {
               "margins": {
                 "bottom": "2x",
@@ -162,7 +41,7 @@
                 },
                 "margins": {
                   "bottom": "2x",
-                  "left": "7x",
+                  "left": "0x",
                   "right": "0x",
                   "top": "2x"
                 },
@@ -220,9 +99,8 @@
             },
             "actions": [
               {
-                "text": "Есть ограничения по видам карт",
-                "should_send_to_backend": null,
-                "type": "text"
+                "deep_link": "sbolonline://loyalty/main/partners?internal_source=audiohelper523",
+                "type": "deep_link"
               }
             ],
             "log_id": null,
@@ -230,7 +108,7 @@
             "left": {
               "icon": {
                 "address": {
-                  "identificator": "card",
+                  "identificator": "document_magnifying_glass",
                   "type": "local"
                 },
                 "size": {
@@ -239,7 +117,7 @@
                 },
                 "margins": {
                   "bottom": "2x",
-                  "left": "7x",
+                  "left": "10x",
                   "right": "0x",
                   "top": "2x"
                 },
@@ -248,7 +126,7 @@
               },
               "texts": {
                 "title": {
-                  "text": "Есть ограничения по видам карт",
+                  "text": "Не выполнены условия акции партнёра",
                   "typeface": "body1",
                   "text_color": "default",
                   "margins": null,
@@ -256,7 +134,7 @@
                   "actions": null
                 },
                 "subtitle": {
-                  "text": "Посмотреть список карт",
+                  "text": "Проверьте срок, минимальную сумму покупки и другие условия",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "margins": null,
@@ -276,81 +154,7 @@
             },
             "paddings": {
               "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            }
-          },
-          {
-            "right": {
-              "margins": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "5x",
-                "top": "2x"
-              },
-              "type": "disclosure_right_view"
-            },
-            "divider": null,
-            "actions": [
-              {
-                "text": "Платёж в списке исключений",
-                "should_send_to_backend": null,
-                "type": "text"
-              }
-            ],
-            "log_id": null,
-            "type": "left_right_cell_view",
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "document_checkmark",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand",
-                "actions": null
-              },
-              "texts": {
-                "title": {
-                  "text": "Платёж в списке исключений",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "subtitle": {
-                  "text": "Посмотреть список",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
-                },
-                "caption": null,
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
+              "left": "2x",
               "right": "0x",
               "top": "4x"
             }
@@ -360,7 +164,7 @@
         "paddings": {
           "top": "4x",
           "bottom": "4x",
-          "left": "8x",
+          "left": "0x",
           "right": "0x"
         }
       }
