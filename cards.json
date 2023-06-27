@@ -3,176 +3,38 @@
   "type": "sdk_answer",
   "CSI_content": 1,
   "items": [
+[
     {
       "card": {
+        "type": "list_card",
         "cells": [
           {
-            "left": {
-              "texts": {
-                "title": {
-                  "text": "Сроки возврата бонусов",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "за покупку на СберМегаМаркете",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                },
-                "margins": {
-                  "bottom": "6x",
-                  "left": "8x",
-                  "right": "9x",
-                  "top": "6x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "color_spasibo",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "До 3 рабочих дней",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "Если вы отказались от товара в момент получения или отменили ещё не полученный заказ",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "9x",
-                  "top": "2x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
+            "right": null,
             "divider": {
               "style": "default",
-              "size": "d5"
+              "size": "d3"
             },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
+            "actions": null,
+            "log_id": null,
+            "type": "left_right_cell_view",
             "left": {
-              "icon": {
-                "address": {
-                  "identificator": "color_spasibo",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand"
-              },
+              "icon": null,
               "texts": {
                 "title": {
-                  "text": "До 30 календарных дней",
+                  "text": "Историю списаний и начислений бонусов можно посмотреть на сайте в личном кабинете СберСпасибо\n\nГлавный экран → История операций",
                   "typeface": "body1",
                   "text_color": "default",
-                  "max_lines": 0
+                  "margins": {
+                    "bottom": "6x",
+                    "left": "8x",
+                    "right": "9x",
+                    "top": "6x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
                 },
-                "subtitle": {
-                  "text": "Если вернули полученный товар и есть положительное решение по возврату покупки",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "9x",
-                  "top": "2x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "type": "left_right_cell_view"
-          }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x",
-          "top": "4x"
-        },
-        "background_color": "card_background",
-        "can_be_disabled": false,
-        "type": "list_card"
-      }
-    },
-    {
-      "card": {
-        "cells": [
-          {
-            "left": {
-              "texts": {
-                "title": {
-                  "text": "Сроки возврата бонусов",
-                  "typeface": "title1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "за покупку на СберМегаМаркете",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                },
+                "subtitle": null,
+                "caption": null,
                 "margins": null
               },
               "icon_vertical_gravity": "center",
@@ -183,154 +45,9 @@
               "left": "0x",
               "right": "0x",
               "top": "4x"
-            },
-            "type": "left_right_cell_view"
+            }
           },
           {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "color_spasibo",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "До 3 рабочих дней",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "Если вы отказались от товара в момент получения или отменили ещё не полученный заказ",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                },
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d5"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "type": "left_right_cell_view"
-          },
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "color_spasibo",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "До 30 календарных дней",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "subtitle": {
-                  "text": "Если вернули полученный товар и есть положительное решение по возврату покупки",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                },
-                "margins": null
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
-            "paddings": {
-              "bottom": "4x",
-              "left": "0x",
-              "right": "0x",
-              "top": "4x"
-            },
-            "type": "left_right_cell_view"
-          }
-        ],
-        "paddings": {
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x",
-          "top": "4x"
-        },
-        "background_color": "card_background",
-        "can_be_disabled": false,
-        "type": "list_card"
-      }
-    },
-    {
-      "card": {
-        "cells": [
-          {
-            "left": {
-              "icon": {
-                "address": {
-                  "identificator": "color_spasibo",
-                  "type": "local"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                },
-                "tint_color": "solid_brand"
-              },
-              "texts": {
-                "title": {
-                  "text": "Где найти историю бонусов",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 0
-                },
-                "margins": {
-                  "bottom": "2x",
-                  "left": "7x",
-                  "right": "0x",
-                  "top": "2x"
-                }
-              },
-              "icon_vertical_gravity": "center",
-              "type": "simple_left_view"
-            },
             "right": {
               "margins": {
                 "bottom": "2x",
@@ -340,157 +57,347 @@
               },
               "type": "disclosure_right_view"
             },
+            "divider": null,
             "actions": [
               {
-                "text": "Где найти историю бонусов",
-                "type": "text"
+                "deep_link": "https://s.sber.ru/6qrPB",
+                "type": "deep_link"
               }
             ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "clock",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Посмотреть историю бонусов",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": {
+                  "text": "на сайте СберСпасибо",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
             "paddings": {
               "bottom": "4x",
               "left": "0x",
               "right": "0x",
               "top": "4x"
-            },
-            "type": "left_right_cell_view"
+            }
           }
         ],
+        "can_be_disabled": false,
         "paddings": {
+          "top": "4x",
           "bottom": "4x",
           "left": "0x",
-          "right": "0x",
-          "top": "4x"
-        },
-        "background_color": "card_background",
-        "can_be_disabled": false,
-        "type": "list_card"
+          "right": "0x"
+        }
       }
     },
-{
-    "card": {
-      "type": "list_card",
-      "cells": [
-        {
-          "right": null,
-          "divider": {
-            "style": "default",
-            "size": "d3"
-          },
-          "actions": null,
-          "log_id": null,
-          "type": "left_right_cell_view",
-          "left": {
-            "icon": null,
-            "texts": {
-              "title": {
-                "text": "Историю списаний и начислений бонусов можно посмотреть на сайте в личном кабинете СберСпасибо\n\nГлавный экран → История операций",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": null,
-                "max_lines": 0,
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "Как начисляются бонусы",
+                "should_send_to_backend": false,
+                "type": "text"
+              },
+              {
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "How_bonuses_are_awarded"
+                  },
+                  "parameters": {
+                    "intent": "A07.09709.How_bonuses_are_awarded"
+                  }
+                },
+                "message_name": "RUN_APP",
+                "mode": "foreground",
+                "type": "server_action"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "apple_wallet",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
                 "actions": null
               },
-              "subtitle": null,
-              "caption": null,
-              "margins": {
-                "bottom": "6x",
-                "left": "8x",
-                "right": "9x",
-                "top": "6x"
-              }
+              "texts": {
+                "title": {
+                  "text": "Как начисляются бонусы",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
             },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
-          },
-          "paddings": {
-            "bottom": "4x",
-            "left": "0x",
-            "right": "0x",
-            "top": "4x"
-          }
-        },
-        {
-          "right": {
-            "margins": {
-              "bottom": "2x",
+            "paddings": {
+              "bottom": "4x",
               "left": "0x",
-              "right": "5x",
-              "top": "2x"
-            },
-            "type": "disclosure_right_view"
-          },
-          "divider": null,
-          "actions": [
-            {
-              "deep_link": "https://s.sber.ru/6qrPB",
-              "type": "deep_link"
+              "right": "0x",
+              "top": "4x"
             }
-          ],
-          "log_id": null,
-          "type": "left_right_cell_view",
-          "left": {
-            "icon": {
-              "address": {
-                "identificator": "clock",
-                "type": "local"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "bottom": "2x",
-                "left": "7x",
-                "right": "0x",
-                "top": "2x"
-              },
-              "tint_color": "solid_brand",
-              "actions": null
-            },
-            "texts": {
-              "title": {
-                "text": "Посмотреть историю бонусов",
-                "typeface": "body1",
-                "text_color": "default",
-                "margins": null,
-                "max_lines": 0,
-                "actions": null
-              },
-              "subtitle": {
-                "text": "на сайте СберСпасибо",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "margins": null,
-                "max_lines": 0,
-                "actions": null
-              },
-              "caption": null,
-              "margins": {
-                "bottom": "2x",
-                "left": "7x",
-                "right": "0x",
-                "top": "2x"
-              }
-            },
-            "icon_vertical_gravity": "center",
-            "type": "simple_left_view"
           },
-          "paddings": {
-            "bottom": "4x",
-            "left": "0x",
-            "right": "0x",
-            "top": "4x"
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "text": "Почему они не начислились",
+                "should_send_to_backend": false,
+                "type": "text"
+              },
+              {
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "No_credits_received_spasibo"
+                  },
+                  "parameters": {
+                    "intent": "A0523.No_credits_received_spasibo"
+                  }
+                },
+                "message_name": "RUN_APP",
+                "mode": "foreground",
+                "type": "server_action"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "arrows_forward_back",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Почему они не начислились ",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
+          },
+          {
+            "right": {
+              "margins": {
+                "bottom": "2x",
+                "left": "0x",
+                "right": "5x",
+                "top": "2x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "divider": null,
+            "actions": [
+              {
+                "text": "Срок зачисления бонусов",
+                "should_send_to_backend": false,
+                "type": "text"
+              },
+              {
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "Routing_by_timing"
+                  },
+                  "parameters": {
+                    "intent": "A07.09714.Routing_by_timing"
+                  }
+                },
+                "message_name": "RUN_APP",
+                "mode": "foreground",
+                "type": "server_action"
+              }
+            ],
+            "log_id": null,
+            "type": "left_right_cell_view",
+            "left": {
+              "icon": {
+                "address": {
+                  "identificator": "arrows_forward_back",
+                  "type": "local"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "bottom": "2x",
+                  "left": "7x",
+                  "right": "0x",
+                  "top": "2x"
+                },
+                "tint_color": "solid_brand",
+                "actions": null
+              },
+              "texts": {
+                "title": {
+                  "text": "Срок зачисления бонусов",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "max_lines": 0,
+                  "actions": null
+                },
+                "subtitle": null,
+                "caption": null,
+                "margins": null
+              },
+              "icon_vertical_gravity": "center",
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "4x",
+              "left": "0x",
+              "right": "0x",
+              "top": "4x"
+            }
           }
+        ],
+        "can_be_disabled": false,
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
+          "left": "0x",
+          "right": "0x"
         }
-      ],
-      "can_be_disabled": false,
-      "paddings": {
-        "top": "4x",
-        "bottom": "4x",
-        "left": "0x",
-        "right": "0x"
       }
     }
-  }
+  ]
   ]
 }
