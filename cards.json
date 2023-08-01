@@ -2,11 +2,49 @@
   "type": "sdk_answer",
   "items": [
     {
-      "bubble": {
-        "text": [
-          "2"
-        ]
-      }
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+        "flow": "DemoCoreMoney",
+        "state": "state0",
+        "output": {
+            "screens": [{
+                "title": "CoreFieldSet: chechbox",
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "CoreFieldSet: chechbox",
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [{
+                    "type": "CoreFieldSet",
+                    
+                    "fields": [{
+                        "id": "fieldSet:switch",
+                        "type": "checkbox",
+                        "format": "checkbox",
+                        "readonly": false,
+                        "description": "Description",
+                        "title": "checkbox"
+                    }
+                  ]
+                }]
+            }]
+        }
     }
+}
+
+              }
+            
+          }
+        
+      
+    
   ]
 }
