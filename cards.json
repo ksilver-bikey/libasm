@@ -1,7 +1,5 @@
 {
-  "auto_listening": true,
   "type": "sdk_answer",
-  "CSI_content": 1,
   "items": [
     {
       "card": {
