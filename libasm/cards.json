@@ -1,31 +1,20 @@
 {
-  "auto_listening": true,
   "type": "sdk_answer",
-  "CSI_content": 1,
   "items": [
     {
       "card": {
         "type": "list_card",
         "cells": [
           {
-            "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": null,
               "texts": {
-                "title": null,
                 "subtitle": {
                   "text": "Ваш уровень до 9 сентября",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "8x",
@@ -44,24 +33,15 @@
             }
           },
           {
-            "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": null,
               "texts": {
                 "title": {
                   "text": "Огромное Спасибо",
                   "typeface": "title1",
                   "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "subtitle": null,
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "8x",
@@ -80,24 +60,15 @@
             }
           },
           {
-            "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": null,
               "texts": {
-                "title": null,
                 "subtitle": {
                   "text": "Вам начисляются бонусы",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "8x",
@@ -148,12 +119,8 @@
                   "text": "0,5% за покупки от 100 ₽",
                   "typeface": "body1",
                   "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "subtitle": null,
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "7x",
@@ -207,7 +174,6 @@
                 "type": "server_action"
               }
             ],
-            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
               "icon": {
@@ -225,27 +191,22 @@
                   "right": "0x",
                   "top": "2x"
                 },
-                "tint_color": "solid_brand",
-                "actions": null
+                "tint_color": "solid_brand"
               },
               "texts": {
                 "title": {
                   "text": "До 30% за покупки у партнёров",
                   "typeface": "body1",
-                  "text_color": "default",
-                  "margins": null,
                   "max_lines": 0,
-                  "actions": null
+                  "text_color": "default"
+               
                 },
                 "subtitle": {
                   "text": "Посмотреть список на сайте СберСпасибо",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "7x",
@@ -317,20 +278,15 @@
                   "right": "0x",
                   "top": "2x"
                 },
-                "tint_color": "solid_brand",
-                "actions": null
+                "tint_color": "solid_brand"
               },
               "texts": {
                 "title": {
                   "text": "Дополнительные бонусы в категориях покупок",
                   "typeface": "body1",
                   "text_color": "default",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "subtitle": null,
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "7x",
@@ -349,24 +305,15 @@
             }
           },
           {
-            "right": null,
-            "divider": null,
-            "actions": null,
-            "log_id": null,
             "type": "left_right_cell_view",
             "left": {
-              "icon": null,
               "texts": {
-                "title": null,
                 "subtitle": {
                   "text": "Для всех ваших дебетовых и кредитных карт бонусный счёт единый",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "margins": null,
-                  "max_lines": 0,
-                  "actions": null
+                  "max_lines": 0
                 },
-                "caption": null,
                 "margins": {
                   "bottom": "2x",
                   "left": "8x",
