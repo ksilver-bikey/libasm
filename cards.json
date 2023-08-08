@@ -76,7 +76,7 @@
                     "bottom": "2x",
                     "left": "8x",
                     "right": "9x",
-                    "top": "0x"
+                    "top": "2x"
                   }
                 },
                 "icon_vertical_gravity": "center",
@@ -284,7 +284,7 @@
                     "bottom": "2x",
                     "left": "8x",
                     "right": "9x",
-                    "top": "0x"
+                    "top": "2x"
                   }
                 },
                 "icon_vertical_gravity": "center",
@@ -541,7 +541,7 @@
                     "bottom": "2x",
                     "left": "8x",
                     "right": "9x",
-                    "top": "0x"
+                    "top": "2x"
                   }
                 },
                 "icon_vertical_gravity": "center",
