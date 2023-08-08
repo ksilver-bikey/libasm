@@ -12,7 +12,7 @@
               "left": {
                 "texts": {
                   "subtitle": {
-                    "text": "Ваш уровень до 9 с1ентября",
+                    "text": "Ваш уровень до 9 сентября2",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "max_lines": 0
@@ -83,10 +83,10 @@
                 "type": "simple_left_view"
               },
               "paddings": {
-                "bottom": "4x",
+                "bottom": "0x",
                 "left": "0x",
                 "right": "0x",
-                "top": "4x"
+                "top": "0x"
               }
             },
             {
@@ -291,10 +291,10 @@
                 "type": "simple_left_view"
               },
               "paddings": {
-                "bottom": "4x",
+                "bottom": "0x",
                 "left": "0x",
                 "right": "0x",
-                "top": "4x"
+                "top": "0x"
               }
             },
             {
@@ -548,10 +548,10 @@
                 "type": "simple_left_view"
               },
               "paddings": {
-                "bottom": "4x",
+                "bottom": "0x",
                 "left": "0x",
                 "right": "0x",
-                "top": "4x"
+                "top": "0x"
               }
             },
             {
