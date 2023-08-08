@@ -17,7 +17,7 @@
                 "icon": null,
                 "texts": {
                   "title": {
-                    "text": "Заголовок без Разделителя",
+                    "text": "Заголовок",
                     "typeface": "title1",
                     "text_color": "default",
                     "margins": null,
@@ -42,7 +42,21 @@
                 "right": "0x",
                 "top": "4x"
               }
-            },
+            }
+          ],
+          "can_be_disabled": false,
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "0x",
+            "right": "0x"
+          }
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
             {
               "content": {
                 "url": "https://va-res.online.sberbank.ru/VA/icons/quiz/ds_ic_startquiz.png",
@@ -56,98 +70,62 @@
               },
               "paddings": null,
               "type": "image_cell_view"
-            },
+            }
+          ],
+          "can_be_disabled": false,
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "0x",
+            "right": "0x"
+          }
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
             {
-              "right": {
-                "margins": {
-                  "bottom": "2x",
-                  "left": "0x",
-                  "right": "5x",
-                  "top": "2x"
-                },
-                "type": "disclosure_right_view"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "text": "Текст для отправки",
-                  "should_send_to_backend": false,
-                  "type": "text"
-                },
-                {
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "fin_advisor"
-                    },
-                    "parameters": {
-                      "intent": "pfm_total_finance"
-                    }
-                  },
-                  "message_name": "RUN_APP",
-                  "mode": "foreground",
-                  "type": "server_action"
-                }
-              ],
-              "log_id": null,
-              "type": "left_right_cell_view",
-              "left": {
-                "icon": {
-                  "address": {
-                    "identificator": "user_on_user",
-                    "type": "local"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "tint_color": "solid_brand",
-                  "actions": null
-                },
-                "texts": {
-                  "title": {
-                    "text": "Обычная ячейка c раделителем с иконкой",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "margins": null,
-                    "max_lines": 0,
-                    "actions": null
-                  },
-                  "subtitle": {
-                    "text": "Server Action ",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "margins": null,
-                    "max_lines": 0,
-                    "actions": null
-                  },
-                  "caption": null,
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "2x"
+              "type": "button_cell_view",
+              "content": {
+                "text": "Зеленая кнопка",
+                "actions": [
+                  {
+                    "deep_link": "sberbankonline://loyalty/main?internal_source=audiohelper501",
+                    "type": "deep_link"
                   }
-                },
-                "icon_vertical_gravity": "center",
-                "type": "simple_left_view"
+                ],
+                "typeface": null,
+                "style": "default",
+                "type": "accept",
+                "margins": {
+                  "bottom": "5x",
+                  "left": "10x",
+                  "right": "10x",
+                  "top": "5x"
+                }
               },
               "paddings": {
                 "bottom": "4x",
-                "left": "0x",
-                "right": "0x",
+                "left": "7x",
+                "right": "7x",
                 "top": "4x"
               }
-            },
+            }
+          ],
+          "can_be_disabled": false,
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "0x",
+            "right": "0x"
+          }
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
             {
               "right": {
                 "margins": {
@@ -160,7 +138,7 @@
               },
               "divider": {
                 "style": "default",
-                "size": "d5"
+                "size": "d3"
               },
               "actions": [
                 {
@@ -172,27 +150,10 @@
               "log_id": null,
               "type": "left_right_cell_view",
               "left": {
-                "icon": {
-                  "address": {
-                    "identificator": "user_on_user",
-                    "type": "local"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "tint_color": "solid_brand",
-                  "actions": null
-                },
+                "icon": null,
                 "texts": {
                   "title": {
-                    "text": "Обычная ячейка c раделителем с иконкой",
+                    "text": "Карточка без иконки",
                     "typeface": "body1",
                     "text_color": "default",
                     "margins": null,
@@ -200,7 +161,7 @@
                     "actions": null
                   },
                   "subtitle": {
-                    "text": "Action Текст",
+                    "text": "subtitle карточки",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "margins": null,
@@ -210,7 +171,7 @@
                   "caption": null,
                   "margins": {
                     "bottom": "2x",
-                    "left": "7x",
+                    "left": "8x",
                     "right": "0x",
                     "top": "2x"
                   }
@@ -265,7 +226,7 @@
                 },
                 "texts": {
                   "title": {
-                    "text": "Обычная ячейка без раделителя с иконкой и вообще здесь очень длинооооооооооеееееее название",
+                    "text": "Карточка с иконки",
                     "typeface": "body1",
                     "text_color": "default",
                     "margins": null,
@@ -273,7 +234,94 @@
                     "actions": null
                   },
                   "subtitle": {
-                    "text": "Deep link ",
+                    "text": "subtitle карточки",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": null,
+                    "max_lines": 0,
+                    "actions": null
+                  },
+                  "caption": null,
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "2x"
+                  }
+                },
+                "icon_vertical_gravity": "center",
+                "type": "simple_left_view"
+              },
+              "paddings": {
+                "bottom": "4x",
+                "left": "0x",
+                "right": "0x",
+                "top": "4x"
+              }
+            }
+          ],
+          "can_be_disabled": false,
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "0x",
+            "right": "0x"
+          }
+        }
+      },
+      {
+        "card": {
+          "type": "list_card",
+          "cells": [
+            {
+              "right": {
+                "margins": {
+                  "bottom": "2x",
+                  "left": "0x",
+                  "right": "5x",
+                  "top": "2x"
+                },
+                "type": "disclosure_right_view"
+              },
+              "divider": null,
+              "actions": [
+                {
+                  "deep_link": "sberbankonline://loyalty/main?internal_source=audiohelper501",
+                  "type": "deep_link"
+                }
+              ],
+              "log_id": null,
+              "type": "left_right_cell_view",
+              "left": {
+                "icon": {
+                  "address": {
+                    "identificator": "user_on_user",
+                    "type": "local"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "7x",
+                    "right": "0x",
+                    "top": "2x"
+                  },
+                  "tint_color": "solid_brand",
+                  "actions": null
+                },
+                "texts": {
+                  "title": {
+                    "text": "Карточка с иконки",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "margins": null,
+                    "max_lines": 0,
+                    "actions": null
+                  },
+                  "subtitle": {
+                    "text": "subtitle карточки",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "margins": null,
@@ -299,29 +347,59 @@
               }
             },
             {
-              "type": "button_cell_view",
-              "content": {
-                "text": "Deeplink на баланс",
-                "actions": [
-                  {
-                    "deep_link": "sberbankonline://loyalty/main?internal_source=audiohelper501",
-                    "type": "deep_link"
-                  }
-                ],
-                "typeface": null,
-                "style": "default",
-                "type": "accept",
+              "right": {
                 "margins": {
-                  "bottom": "5x",
-                  "left": "10x",
-                  "right": "10x",
-                  "top": "5x"
+                  "bottom": "2x",
+                  "left": "0x",
+                  "right": "5x",
+                  "top": "2x"
+                },
+                "type": "disclosure_right_view"
+              },
+              "divider": null,
+              "actions": [
+                {
+                  "text": "Баланс бонусов",
+                  "should_send_to_backend": null,
+                  "type": "text"
                 }
+              ],
+              "log_id": null,
+              "type": "left_right_cell_view",
+              "left": {
+                "icon": null,
+                "texts": {
+                  "title": {
+                    "text": "Карточка без иконки",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "margins": null,
+                    "max_lines": 0,
+                    "actions": null
+                  },
+                  "subtitle": {
+                    "text": "subtitle карточки",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": null,
+                    "max_lines": 0,
+                    "actions": null
+                  },
+                  "caption": null,
+                  "margins": {
+                    "bottom": "2x",
+                    "left": "8x",
+                    "right": "0x",
+                    "top": "2x"
+                  }
+                },
+                "icon_vertical_gravity": "center",
+                "type": "simple_left_view"
               },
               "paddings": {
                 "bottom": "4x",
-                "left": "7x",
-                "right": "7x",
+                "left": "0x",
+                "right": "0x",
                 "top": "4x"
               }
             }
