@@ -5,209 +5,122 @@
     "items": [
       {
         "card": {
-          "type": "list_card",
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "texts": {
-                  "subtitle": {
-                    "text": "Ваш уровень до 9 сентября",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                  },
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "8x",
-                    "right": "9x",
-                    "top": "6x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "type": "simple_left_view"
-              },
-              "paddings": {
-                "bottom": "2x",
-                "left": "0x",
-                "right": "0x",
-                "top": "0x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "texts": {
-                  "title": {
-                    "text": "Спасибо",
-                    "typeface": "title1",
-                    "text_color": "default",
-                    "max_lines": 0
-                  },
-                  "subtitle": null,
-                  "margins": {
-                    "bottom": "4x",
-                    "left": "8x",
-                    "right": "9x",
-                    "top": "2x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "type": "simple_left_view"
-              },
-              "paddings": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "2x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "texts": {
-                  "subtitle": {
-                    "text": "Вам начисляется",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                  },
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "8x",
-                    "right": "9x",
-                    "top": "2x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "type": "simple_left_view"
-              },
-              "paddings": {
-                "bottom": "0x",
-                "left": "0x",
-                "right": "0x",
-                "top": "0x"
-              }
-            },
-            {
-              "right": {
-                "margins": {
-                  "bottom": "2x",
-                  "left": "0x",
-                  "right": "5x",
-                  "top": "2x"
-                },
-                "type": "disclosure_right_view"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d3"
-              },
+          "type": "workflow",
+          "cells": [],
+          "event_to_actions": {
+            "confirm": {
               "actions": [
                 {
-                  "text": "До 30% бонусами за покупки у партнёров",
-                  "should_send_to_backend": false,
-                  "type": "text"
-                },
-                {
+                  "type": "server_action",
+                  "message_name": "SERVER_ACTION",
                   "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "What_can_I_do_with_SPASIBO_bonuses"
-                    },
+                    "type": "server_action_run_last_scenario",
+                    "action_id": "server_action_run_last_scenario",
                     "parameters": {
-                      "intent": "A0505.What_can_I_do_with_SPASIBO_bonuses",
-                      "original_text": "Экосистема"
+                      "value": "Accept_agreement"
                     }
-                  },
-                  "message_name": "RUN_APP",
-                  "mode": "foreground",
-                  "type": "server_action"
+                  }
                 }
-              ],
-              "type": "left_right_cell_view",
-              "left": {
-                "icon": {
-                  "address": {
-                    "identificator": "star_light",
-                    "type": "local"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "2x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "texts": {
-                  "title": {
-                    "text": "До 30% бонусами за покупки у партнёров",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 0
-                  },
-                  "subtitle": {
-                    "text": "Посмотреть список на сайте СберСпасибо",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                  },
-                  "margins": {
-                    "bottom": "2x",
-                    "left": "7x",
-                    "right": "0x",
-                    "top": "2x"
+              ]
+            }
+          },
+          "payload": {
+            "success": true,
+            "body": {
+              "result": "SUCCESS",
+              "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+              "flow": "DemoCoreMoney",
+              "state": "state0",
+              "output": {
+                "screens": [
+                  {
+                    "title": "CoreFieldSet: text",
+                    "widgets": [
+                      {
+                        "type": "CoreTitle",
+                        "fields": [
+                          {
+                            "id": "id:CoreTitle",
+                            "type": "text",
+                            "style": "Стиль",
+                            "title": "Выбрано на ноябрь",
+                            "description": "После подтверждения добавить или изменить категории нельзя"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "CoreCell",
+                        "properties": {
+                          "disclosure": false,
+                          "icon": "ic_36_car",
+                          "divider": "none"
+                        },
+                        "fields": [
+                          {
+                            "id": "FIO",
+                            "value": "UP_TO_3_GOLD_CARDS",
+                            "title": "12% АЗС",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ],
+                    "footer": [
+                      {
+                        "type": "CoreAgreement",
+                        "title": "Правила",
+                        "description": "pdf, md и требуется просмотр всех документов",
+                        "properties": {},
+                        "fields": [
+                          {
+                            "id": "agreement",
+                            "value": "false",
+                            "type": "checkbox",
+                            "referenceId": "agreement",
+                            "title": "Я соглашаюсь <a>с Правилами акции</a>",
+                            "validators": [
+                              {
+                                "type": "required",
+                                "value": "true",
+                                "message": "Вы не согласились с правилами"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "CoreButtons",
+                        "events": [
+                          {
+                            "cmd": "confirm",
+                            "title": "Подтвердить",
+                            "name": "confirm",
+                            "description": "Переход на следующий экран"
+                          }
+                        ]
+                      }
+                    ]
                   }
-                },
-                "icon_vertical_gravity": "center",
-                "type": "simple_left_view"
-              },
-              "paddings": {
-                "bottom": "4x",
-                "left": "0x",
-                "right": "0x",
-                "top": "4x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "texts": {
-                  "subtitle": {
-                    "text": "Для всех ваших дебетовых и кредитных карт бонусный счёт единый",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                  },
-                  "margins": {
-                    "bottom": "6x",
-                    "left": "8x",
-                    "right": "9x",
-                    "top": "6x"
+                ],
+                "references": {
+                  "agreement": {
+                    "properties": {
+                      "requireVisitAll": true
+                    },
+                    "items": [
+                      {
+                        "title": "Документ в формате PDF 1",
+                        "value": "agreement-pdf-1",
+                        "properties": {
+                          "format": "pdf",
+                          "src": "https://spasibosberbank.ru/upload/uf/c5d/pravila_perevoda_28.11.2023.pdf"
+                        }
+                      }
+                    ]
                   }
-                },
-                "icon_vertical_gravity": "center",
-                "type": "simple_left_view"
-              },
-              "paddings": {
-                "bottom": "4x",
-                "left": "0x",
-                "right": "0x",
-                "top": "4x"
+                }
               }
             }
-          ],
-          "can_be_disabled": false,
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "0x",
-            "right": "0x"
           }
         }
       }
